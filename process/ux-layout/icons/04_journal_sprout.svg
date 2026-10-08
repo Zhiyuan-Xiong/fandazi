@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="388" height="261" viewBox="0 0 388 261" fill="none">
+  <title>记录页与嫩芽</title>
+  <desc>依据参考图片重绘的可编辑矢量图标，保留绿色记录页、圆角短线、嫩芽与提示线。画板背景透明，未嵌入位图。</desc>
+  <g id="document">
+    <path id="document-outline" d="M151 26H258C281 26 299 44 299 67V126L282 138V67C282 54 271 43 258 43H151C137 43 126 54 126 68V175C126 189 137 200 151 200H208L216 213L213 217H151C128 217 109 198 109 175V68C109 44 128 26 151 26Z" fill="#667561"/>
+    <g id="document-lines" fill="#6D7E66">
+      <rect x="153" y="81" width="87" height="20" rx="10"/>
+      <rect x="153" y="125" width="61" height="20" rx="10"/>
+    </g>
+  </g>
+  <g id="sprout">
+    <path id="sprout-outline" d="M284 177C274 158 247 149 233 163C218 179 230 210 271 213V227C271 234 276 237 284 237C293 237 299 233 299 226V212C332 210 352 191 356 163C361 140 342 134 323 142C304 149 290 161 284 177Z" fill="#F1F2DA" stroke="#43563F" stroke-width="16.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g id="accent-rays" stroke="#7D8F74" stroke-width="23" stroke-linecap="round">
+    <path id="upper-ray" d="M65 43L78 66"/>
+    <path id="lower-ray" d="M32 97L56 108"/>
+  </g>
+</svg>

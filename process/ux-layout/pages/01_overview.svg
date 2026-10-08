@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+<title>饭搭子 · 项目概览</title><desc>1920 × 1080 UX 作品集框架；12 栏，栏宽 118，栏距 24，左右边距 120，上下边距 80。文字可编辑；所有视觉素材均为矢量占位框。参考浅暖背景、圆形节点与轻量连线。内容依据用户提供文案及现有原型；设计假设和原型范围在对应模块注明。</desc>
+<g id="p01-canvas-background-001" data-name="canvas-background">
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#F4F6EF"/>
+</g>
+<g id="p01-project-introduction-five-columns-002" data-name="project-introduction-five-columns">
+<text id="p01-section-label-003" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="120" y="92.6">UX / PRODUCT DESIGN</tspan>
+</text>
+<text id="p01-page-title-004" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="56" font-weight="700" fill="#1F1F1F" xml:space="preserve">
+<tspan x="120" y="189.4">饭搭子</tspan>
+</text>
+<text id="p01-project-subtitle-005" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="30" font-weight="500" fill="#1F1F1F" xml:space="preserve">
+<tspan x="120" y="249">食宠陪伴式饮食健康 APP</tspan>
+</text>
+<text id="p01-introduction-one-006" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="120" y="307.3">饭搭子是一款面向年轻用户的轻量饮食健康应用。</tspan>
+<tspan x="120" y="334.3">用户通过拍照记录日常餐食，系统自动识别食物与营养信息。</tspan>
+</text>
+<text id="p01-introduction-two-007" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="120" y="412.3">这些数据进一步转化为虚拟食宠的精力、饱腹、消化与生活状态，让抽象数据获得直观</tspan>
+<tspan x="120" y="439.3">反馈。</tspan>
+</text>
+<text id="p01-introduction-three-008" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="120" y="488.3">餐食照片变成食物贴纸，在手账中积累饮食记忆；记录进一步支持下一餐建议，再与好</tspan>
+<tspan x="120" y="515.3">友 / 情侣共同照顾，让健康行为持续发生。</tspan>
+</text>
+<rect x="120" y="558" width="78" height="32" rx="16" fill="#E7EEDF"/>
+<text id="p01-tag-009" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="131" y="578.48">拍照识别</tspan>
+</text>
+<rect x="208" y="558" width="78" height="32" rx="16" fill="#E7EEDF"/>
+<text id="p01-tag-010" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="219" y="578.48">营养反馈</tspan>
+</text>
+<rect x="296" y="558" width="78" height="32" rx="16" fill="#E7EEDF"/>
+<text id="p01-tag-011" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="307" y="578.48">食宠陪伴</tspan>
+</text>
+<rect x="384" y="558" width="78" height="32" rx="16" fill="#E7EEDF"/>
+<text id="p01-tag-012" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="395" y="578.48">食物贴纸</tspan>
+</text>
+<rect x="472" y="558" width="78" height="32" rx="16" fill="#E7EEDF"/>
+<text id="p01-tag-013" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="483" y="578.48">饮食推荐</tspan>
+</text>
+<rect x="560" y="558" width="78" height="32" rx="16" fill="#E7EEDF"/>
+<text id="p01-tag-014" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="571" y="578.48">共同养成</tspan>
+</text>
+<line x1="120" y1="624" x2="806" y2="624" stroke="#E5E5E5" stroke-width="1"/>
+<text id="p01-role-heading-015" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="20" font-weight="500" fill="#1F1F1F" xml:space="preserve">
+<tspan x="120" y="672">项目角色</tspan>
+</text>
+<text id="p01-role-detail-016" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="304" y="671.3">独立 UX / 产品设计</tspan>
+</text>
+<text id="p01-scope-heading-017" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="20" font-weight="500" fill="#1F1F1F" xml:space="preserve">
+<tspan x="120" y="736">项目内容</tspan>
+</text>
+<text id="p01-scope-detail-018" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="304" y="735.3">用户研究 / 产品策略 / 交互设计</tspan>
+<tspan x="304" y="762.3">视觉设计 / 原型开发</tspan>
+</text>
+<text id="p01-tools-heading-019" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="20" font-weight="500" fill="#1F1F1F" xml:space="preserve">
+<tspan x="120" y="824">设计工具</tspan>
+</text>
+<text id="p01-tools-detail-020" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="304" y="823.3">Figma / Godot / Blender</tspan>
+</text>
+<rect x="120" y="877" width="686" height="76" rx="24" fill="#E7EEDF"/>
+<text id="p01-cover-takeaway-021" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="144" y="923.6">让一顿饭，成为记忆与下一次行动的起点。</tspan>
+</text>
+</g>
+<g id="p01-visual-showcase-seven-columns-022" data-name="visual-showcase-seven-columns">
+<rect x="830" y="80" width="970" height="887" rx="28" fill="#FAFBF8" stroke="#E5E5E5" stroke-width="1"/>
+<circle cx="1308" cy="456" r="328" fill="#E7EEDF"/>
+<text id="p01-showcase-label-023" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="860" y="119.6">界面 · 食宠 · 家园</tspan>
+</text>
+<text id="p01-page-index-024" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="1727" y="119.6">01 / 08</tspan>
+</text>
+<g id="p01-placeholder-拍照识别-UI-025" data-name="placeholder-拍照识别-UI">
+<rect x="874" y="269" width="222" height="432" rx="24" fill="#E4E7E0" stroke="#BDBDBD" stroke-width="1" stroke-dasharray="6 6"/>
+<rect x="957" y="283" width="56" height="6" rx="3" fill="#BDBDBD"/>
+<line x1="945.04" y1="683" x2="1024.96" y2="683" stroke="#BDBDBD" stroke-width="3"/>
+<text id="p01-placeholder-label-026" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="18" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="937.5" y="478.22">拍照识别 UI</tspan>
+</text>
+<text id="p01-placeholder-note-027" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#666666" xml:space="preserve">
+<tspan x="946" y="504.6">辅助手机界面</tspan>
+</text>
+</g>
+<g id="p01-placeholder-主界面-UI-028" data-name="placeholder-主界面-UI">
+<rect x="1134" y="178" width="306" height="572" rx="24" fill="#E4E7E0" stroke="#BDBDBD" stroke-width="1" stroke-dasharray="6 6"/>
+<rect x="1259" y="192" width="56" height="6" rx="3" fill="#BDBDBD"/>
+<line x1="1231.92" y1="732" x2="1342.08" y2="732" stroke="#BDBDBD" stroke-width="3"/>
+<text id="p01-placeholder-label-029" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="18" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="1248.5" y="457.22">主界面 UI</tspan>
+</text>
+<text id="p01-placeholder-note-030" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#666666" xml:space="preserve">
+<tspan x="1219" y="483.6">主手机界面 · 食宠主页</tspan>
+</text>
+</g>
+<g id="p01-placeholder-饮食日记-UI-031" data-name="placeholder-饮食日记-UI">
+<rect x="1480" y="269" width="222" height="432" rx="24" fill="#E4E7E0" stroke="#BDBDBD" stroke-width="1" stroke-dasharray="6 6"/>
+<rect x="1563" y="283" width="56" height="6" rx="3" fill="#BDBDBD"/>
+<line x1="1551.04" y1="683" x2="1630.96" y2="683" stroke="#BDBDBD" stroke-width="3"/>
+<text id="p01-placeholder-label-032" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="18" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="1543.5" y="478.22">饮食日记 UI</tspan>
+</text>
+<text id="p01-placeholder-note-033" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#666666" xml:space="preserve">
+<tspan x="1516.5" y="504.6">贴纸手账 · 辅助手机界面</tspan>
+</text>
+</g>
+<g id="p01-placeholder-食宠角色-034" data-name="placeholder-食宠角色">
+<rect x="866" y="782" width="210" height="153" rx="20" fill="#E4E7E0" stroke="#BDBDBD" stroke-width="1" stroke-dasharray="6 6"/>
+<text id="p01-placeholder-label-035" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="18" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="935" y="851.72">食宠角色</tspan>
+</text>
+<text id="p01-placeholder-note-036" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#666666" xml:space="preserve">
+<tspan x="932" y="878.1">水獭角色占位</tspan>
+</text>
+</g>
+<g id="p01-placeholder-餐食照片-037" data-name="placeholder-餐食照片">
+<rect x="1100" y="782" width="210" height="153" rx="20" fill="#E4E7E0" stroke="#BDBDBD" stroke-width="1" stroke-dasharray="6 6"/>
+<text id="p01-placeholder-label-038" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="18" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="1169" y="851.72">餐食照片</tspan>
+</text>
+<text id="p01-placeholder-note-039" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#666666" xml:space="preserve">
+<tspan x="1146.5" y="878.1">拍摄的真实餐食占位</tspan>
+</text>
+</g>
+<g id="p01-placeholder-食物贴纸-040" data-name="placeholder-食物贴纸">
+<rect x="1334" y="782" width="210" height="153" rx="20" fill="#E4E7E0" stroke="#BDBDBD" stroke-width="1" stroke-dasharray="6 6"/>
+<text id="p01-placeholder-label-041" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="18" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="1403" y="851.72">食物贴纸</tspan>
+</text>
+<text id="p01-placeholder-note-042" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#666666" xml:space="preserve">
+<tspan x="1380.5" y="878.1">照片转化的贴纸占位</tspan>
+</text>
+</g>
+<g id="p01-placeholder-家园元素-043" data-name="placeholder-家园元素">
+<rect x="1568" y="782" width="196" height="153" rx="20" fill="#E4E7E0" stroke="#BDBDBD" stroke-width="1" stroke-dasharray="6 6"/>
+<text id="p01-placeholder-label-044" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="18" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="1630" y="851.72">家园元素</tspan>
+</text>
+<text id="p01-placeholder-note-045" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#666666" xml:space="preserve">
+<tspan x="1603" y="878.1">食物 / 家具 / 手账元素</tspan>
+</text>
+</g>
+<line x1="1316" y1="858" x2="1328" y2="858" stroke="#6E8B74" stroke-width="1.5"/>
+<polygon points="1328,858 1321,854.15 1321,861.85" fill="#6E8B74"/>
+</g>
+<g id="p01-page-footer-046" data-name="page-footer">
+<text id="p01-footer-label-047" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="120" y="996.7">饭搭子  /  UX CASE STUDY</tspan>
+</text>
+<text id="p01-footer-section-048" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#666666" xml:space="preserve">
+<tspan x="1748" y="996.7">项目概览</tspan>
+</text>
+</g>
+</svg>

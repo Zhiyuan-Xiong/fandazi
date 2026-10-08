@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+<title>饭搭子 · 核心洞察与设计策略</title><desc>1920 × 1080 UX 作品集框架；12 栏，栏宽 118，栏距 24，左右边距 120，上下边距 80。文字可编辑；所有视觉素材均为矢量占位框。参考浅暖背景、圆形节点与轻量连线。内容依据用户提供文案及现有原型；设计假设和原型范围在对应模块注明。</desc>
+<g id="p04-canvas-background-001" data-name="canvas-background">
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#F4F6EF"/>
+</g>
+<g id="p04-page-header-002" data-name="page-header">
+<text id="p04-section-label-003" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="120" y="92.6">STRATEGY / 六个连续的设计转变</tspan>
+</text>
+<text id="p04-page-index-004" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="1757" y="92.6">04 / 08</tspan>
+</text>
+<text id="p04-page-title-005" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#1F1F1F" xml:space="preserve">
+<tspan x="120" y="159.2">从“记录饮食”，到“照顾饭搭子”</tspan>
+</text>
+<text id="p04-page-subtitle-006" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#666666" xml:space="preserve">
+<tspan x="120" y="196.3">增加两条体验价值：照片变成贴纸手账，过去的记录帮助下一餐选择。</tspan>
+</text>
+</g>
+<g id="p04-strategy-1-007" data-name="strategy-1">
+<rect x="120" y="222" width="544" height="282" rx="24" fill="#FAFBF8" stroke="#E5E5E5" stroke-width="1"/>
+<circle cx="161" cy="265" r="19" fill="#E7EEDF"/>
+<text id="p04-strategy-index-008" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="153" y="268.6">01</tspan>
+</text>
+<text id="p04-strategy-heading-009" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#1F1F1F" xml:space="preserve">
+<tspan x="196" y="272.6">从手动输入 → 拍照确认</tspan>
+</text>
+<text id="p04-strategy-label-010" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="144" y="312.6">记录门槛</tspan>
+</text>
+<text id="p04-strategy-body-011" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="144" y="347.3">饭搭子通过拍照完成基础食物识别，用户只需要进行简单确认与修</tspan>
+<tspan x="144" y="371.3">改。</tspan>
+</text>
+<text id="p04-strategy-takeaway-012" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="144" y="457.6">降低记录成本，让记录更容易融入真实生活。</tspan>
+</text>
+</g>
+<g id="p04-strategy-2-013" data-name="strategy-2">
+<rect x="688" y="222" width="544" height="282" rx="24" fill="#FAFBF8" stroke="#E5E5E5" stroke-width="1"/>
+<circle cx="729" cy="265" r="19" fill="#E7EEDF"/>
+<text id="p04-strategy-index-014" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="721" y="268.6">02</tspan>
+</text>
+<text id="p04-strategy-heading-015" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#1F1F1F" xml:space="preserve">
+<tspan x="764" y="272.6">从营养数字 → 食宠状态</tspan>
+</text>
+<text id="p04-strategy-label-016" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="712" y="312.6">感知方式</tspan>
+</text>
+<text id="p04-strategy-body-017" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="712" y="347.3">热量、脂肪、膳食纤维和咖啡因会进一步影响食宠的精力、饱腹、</tspan>
+<tspan x="712" y="371.3">消化、睡眠与活动状态。</tspan>
+</text>
+<text id="p04-strategy-takeaway-018" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="712" y="457.6">把抽象营养数据转化为更容易被理解和感受到</tspan>
+<tspan x="712" y="485.6">的反馈。</tspan>
+</text>
+</g>
+<g id="p04-strategy-3-019" data-name="strategy-3">
+<rect x="1256" y="222" width="544" height="282" rx="24" fill="#FAFBF8" stroke="#E5E5E5" stroke-width="1"/>
+<circle cx="1297" cy="265" r="19" fill="#E7EEDF"/>
+<text id="p04-strategy-index-020" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1289" y="268.6">03</tspan>
+</text>
+<text id="p04-strategy-heading-021" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#1F1F1F" xml:space="preserve">
+<tspan x="1332" y="272.6">从完成任务 → 照顾关系</tspan>
+</text>
+<text id="p04-strategy-label-022" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="1280" y="312.6">即时回应</tspan>
+</text>
+<text id="p04-strategy-body-023" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="1280" y="347.3">用户不再只是完成一次饮食打卡，而是在通过现实中的每一顿饭持</tspan>
+<tspan x="1280" y="371.3">续照顾一个会产生反馈的数字伙伴。</tspan>
+</text>
+<text id="p04-strategy-takeaway-024" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1280" y="457.6">让重复性的健康行为获得即时情绪价值。</tspan>
+</text>
+</g>
+<g id="p04-strategy-4-025" data-name="strategy-4">
+<rect x="120" y="522" width="544" height="282" rx="24" fill="#FAFBF8" stroke="#E5E5E5" stroke-width="1"/>
+<circle cx="161" cy="565" r="19" fill="#E7EEDF"/>
+<text id="p04-strategy-index-026" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="153" y="568.6">04</tspan>
+</text>
+<text id="p04-strategy-heading-027" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#1F1F1F" xml:space="preserve">
+<tspan x="196" y="572.6">从个人坚持 → 共同养成</tspan>
+</text>
+<text id="p04-strategy-label-028" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="144" y="612.6">关系动力</tspan>
+</text>
+<text id="p04-strategy-body-029" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="144" y="647.3">结合前期真实测试结果，饭搭子把关系动力转化为好友 / 情侣共同</tspan>
+<tspan x="144" y="671.3">养宠、共同记录、共同布置空间和共同积累连续状态。</tspan>
+</text>
+<text id="p04-strategy-takeaway-030" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="144" y="757.6">将个人健康行为转化为双方共同维护的日常关</tspan>
+<tspan x="144" y="785.6">系体验。</tspan>
+</text>
+</g>
+<g id="p04-strategy-5-031" data-name="strategy-5">
+<rect x="688" y="522" width="544" height="282" rx="24" fill="#FAFBF8" stroke="#E5E5E5" stroke-width="1"/>
+<circle cx="729" cy="565" r="19" fill="#E7EEDF"/>
+<text id="p04-strategy-index-032" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="721" y="568.6">05</tspan>
+</text>
+<text id="p04-strategy-heading-033" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#1F1F1F" xml:space="preserve">
+<tspan x="764" y="572.6">从餐食照片 → 贴纸手账</tspan>
+</text>
+<text id="p04-strategy-label-034" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="712" y="612.6">灵感 01 / 留存价值</tspan>
+</text>
+<text id="p04-strategy-body-035" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="712" y="647.3">借鉴手账的收藏与回看体验，把拍摄的食物变成贴纸，与餐次、备</tspan>
+<tspan x="712" y="671.3">注和感受共同留存在饮食日记中。</tspan>
+</text>
+<text id="p04-strategy-takeaway-036" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="712" y="757.6">让记录成为愿意收藏与回看的生活记忆。</tspan>
+</text>
+</g>
+<g id="p04-strategy-6-037" data-name="strategy-6">
+<rect x="1256" y="522" width="544" height="282" rx="24" fill="#FAFBF8" stroke="#E5E5E5" stroke-width="1"/>
+<circle cx="1297" cy="565" r="19" fill="#E7EEDF"/>
+<text id="p04-strategy-index-038" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1289" y="568.6">06</tspan>
+</text>
+<text id="p04-strategy-heading-039" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#1F1F1F" xml:space="preserve">
+<tspan x="1332" y="572.6">从过去记录 → 下一餐建议</tspan>
+</text>
+<text id="p04-strategy-label-040" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="1280" y="612.6">灵感 02 / 行动价值</tspan>
+</text>
+<text id="p04-strategy-body-041" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="1280" y="647.3">借鉴计划工具的下一步提示，将已确认餐食、饮食偏好与近期记录</tspan>
+<tspan x="1280" y="671.3">转为候选食谱，说明依据并允许替换或加入计划。</tspan>
+</text>
+<text id="p04-strategy-takeaway-042" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1280" y="757.6">让记录继续帮助用户决定下一餐吃什么。</tspan>
+</text>
+</g>
+<g id="p04-core-competitiveness-043" data-name="core-competitiveness">
+<rect x="120" y="827" width="1680" height="147" rx="24" fill="#E7EEDF"/>
+<text id="p04-core-heading-044" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="22" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="144" y="858.8">核心竞争力</tspan>
+</text>
+<text id="p04-core-detail-045" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#435A49" xml:space="preserve">
+<tspan x="144" y="886.3">从这一餐的轻量记录，到贴纸记忆与下一餐选择，六个能力形成连续反馈：</tspan>
+</text>
+<g id="p04-six-capability-linear-flow-046" data-name="six-capability-linear-flow">
+<rect x="144" y="903" width="253.667" height="32" rx="16" fill="#FAFBF8"/>
+<text id="p04-linear-flow-node-047" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="236.833" y="924.44">轻量记录</tspan>
+</text>
+<line x1="400.667" y1="919" x2="416.667" y2="919" stroke="#6E8B74" stroke-width="1.5"/>
+<polygon points="416.667,919 409.667,915.15 409.667,922.85" fill="#6E8B74"/>
+<rect x="419.667" y="903" width="253.667" height="32" rx="16" fill="#FAFBF8"/>
+<text id="p04-linear-flow-node-048" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="512.5" y="924.44">营养转译</tspan>
+</text>
+<line x1="676.333" y1="919" x2="692.333" y2="919" stroke="#6E8B74" stroke-width="1.5"/>
+<polygon points="692.333,919 685.333,915.15 685.333,922.85" fill="#6E8B74"/>
+<rect x="695.333" y="903" width="253.667" height="32" rx="16" fill="#FAFBF8"/>
+<text id="p04-linear-flow-node-049" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="788.167" y="924.44">食宠反馈</tspan>
+</text>
+<line x1="952" y1="919" x2="968" y2="919" stroke="#6E8B74" stroke-width="1.5"/>
+<polygon points="968,919 961,915.15 961,922.85" fill="#6E8B74"/>
+<rect x="971" y="903" width="253.667" height="32" rx="16" fill="#FAFBF8"/>
+<text id="p04-linear-flow-node-050" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1063.83" y="924.44">贴纸手账</tspan>
+</text>
+<line x1="1227.67" y1="919" x2="1243.67" y2="919" stroke="#6E8B74" stroke-width="1.5"/>
+<polygon points="1243.67,919 1236.67,915.15 1236.67,922.85" fill="#6E8B74"/>
+<rect x="1246.67" y="903" width="253.667" height="32" rx="16" fill="#FAFBF8"/>
+<text id="p04-linear-flow-node-051" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1339.5" y="924.44">饮食建议</tspan>
+</text>
+<line x1="1503.33" y1="919" x2="1519.33" y2="919" stroke="#6E8B74" stroke-width="1.5"/>
+<polygon points="1519.33,919 1512.33,915.15 1512.33,922.85" fill="#6E8B74"/>
+<rect x="1522.33" y="903" width="253.667" height="32" rx="16" fill="#FAFBF8"/>
+<text id="p04-linear-flow-node-052" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1615.17" y="924.44">共同养成</tspan>
+</text>
+</g>
+<text id="p04-core-takeaway-053" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="144" y="966.6">健康数据不再只是被记录，而是变成一个值得被持续照顾的对象。</tspan>
+</text>
+</g>
+<g id="p04-page-footer-054" data-name="page-footer">
+<text id="p04-footer-label-055" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="120" y="996.7">饭搭子  /  UX CASE STUDY</tspan>
+</text>
+<text id="p04-footer-section-056" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#666666" xml:space="preserve">
+<tspan x="1683" y="996.7">核心洞察与设计策略</tspan>
+</text>
+</g>
+</svg>

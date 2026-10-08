@@ -1,0 +1,410 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+<title>饭搭子 · 竞品分析</title><desc>1920 × 1080 UX 作品集框架；12 栏，栏宽 118，栏距 24，左右边距 120，上下边距 80。文字可编辑；所有视觉素材均为矢量占位框。参考浅暖背景、圆形节点与轻量连线。内容依据用户提供文案及现有原型；设计假设和原型范围在对应模块注明。</desc>
+<g id="p03-canvas-background-001" data-name="canvas-background">
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#F4F6EF"/>
+</g>
+<g id="p03-page-header-002" data-name="page-header">
+<text id="p03-section-label-003" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="120" y="92.6">BENCHMARK / 国外 3 款 · 国内 3 款</tspan>
+</text>
+<text id="p03-page-index-004" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="1757" y="92.6">03 / 08</tspan>
+</text>
+<text id="p03-page-title-005" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#1F1F1F" xml:space="preserve">
+<tspan x="120" y="159.2">当“拍照识别”逐渐成为基础能力，下一步还能设计什么？</tspan>
+</text>
+<text id="p03-page-subtitle-006" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#666666" xml:space="preserve">
+<tspan x="120" y="196.3">拍照识别、营养分析和轻量记录正在成为饮食健康产品的基础能力。竞品分析的重点，是比较拍照之后用户究竟获得了什么。</tspan>
+</text>
+</g>
+<g id="p03-competitor-1-007" data-name="competitor-1">
+<rect x="120" y="222" width="544" height="278" rx="24" fill="#FAFBF8" stroke="#E5E5E5" stroke-width="1"/>
+<text id="p03-product-name-008" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="23" font-weight="500" fill="#1F1F1F" xml:space="preserve">
+<tspan x="140" y="258.7">MyFitnessPal</tspan>
+</text>
+<rect x="549" y="239" width="71" height="26" rx="13" fill="#E7EEDF"/>
+<text id="p03-tag-009" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="559" y="256.16">国外 / 01</tspan>
+</text>
+<text id="p03-positioning-010" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="140" y="288.3">综合型营养追踪与体重管理平台</tspan>
+</text>
+<rect x="140" y="301" width="89" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-011" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="151" y="316.16">AI 餐食扫描</tspan>
+</text>
+<rect x="235" y="301" width="87" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-012" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="246" y="316.16">食物数据库</tspan>
+</text>
+<rect x="328" y="301" width="74" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-013" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="339" y="316.16">热量记录</tspan>
+</text>
+<rect x="408" y="301" width="100" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-014" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="419" y="316.16">宏量营养分析</tspan>
+</text>
+<rect x="514" y="301" width="74" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-015" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="525" y="316.16">目标管理</tspan>
+</text>
+<g id="p03-placeholder-Meal-Scan-截图-016" data-name="placeholder-Meal-Scan-截图">
+<rect x="140" y="359" width="116" height="121" rx="20" fill="#E4E7E0" stroke="#BDBDBD" stroke-width="1" stroke-dasharray="6 6"/>
+<text id="p03-placeholder-label-017" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="155.5" y="413.98">Meal Scan 截</tspan>
+<tspan x="191" y="433.98">图</tspan>
+</text>
+</g>
+<text id="p03-advantage-018" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="272" y="374.3">优势｜拥有成熟的食物数据库与目标体系，拍</tspan>
+<tspan x="272" y="395.3">照、搜索、条码等多种方式共同降低记录成本。</tspan>
+</text>
+<text id="p03-gap-019" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="272" y="445.3">缺口｜记录后的反馈主要集中在热量、营养和目</tspan>
+<tspan x="272" y="466.3">标进度，较难形成即时、具象的状态感知。</tspan>
+</text>
+</g>
+<g id="p03-competitor-2-020" data-name="competitor-2">
+<rect x="688" y="222" width="544" height="278" rx="24" fill="#FAFBF8" stroke="#E5E5E5" stroke-width="1"/>
+<text id="p03-product-name-021" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="23" font-weight="500" fill="#1F1F1F" xml:space="preserve">
+<tspan x="708" y="258.7">Foodvisor</tspan>
+</text>
+<rect x="1117" y="239" width="71" height="26" rx="13" fill="#E7EEDF"/>
+<text id="p03-tag-022" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1127" y="256.16">国外 / 02</tspan>
+</text>
+<text id="p03-positioning-023" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="708" y="288.3">AI 驱动的轻量营养记录与饮食管理工具</tspan>
+</text>
+<rect x="708" y="301" width="89" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-024" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="719" y="316.16">AI 食物识别</tspan>
+</text>
+<rect x="803" y="301" width="74" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-025" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="814" y="316.16">热量分析</tspan>
+</text>
+<rect x="883" y="301" width="74" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-026" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="894" y="316.16">营养分析</tspan>
+</text>
+<rect x="963" y="301" width="61" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-027" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="974" y="316.16">条形码</tspan>
+</text>
+<rect x="1030" y="301" width="74" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-028" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1041" y="316.16">饮食建议</tspan>
+</text>
+<g id="p03-placeholder-Foodvisor-识别截图-029" data-name="placeholder-Foodvisor-识别截图">
+<rect x="708" y="359" width="116" height="121" rx="20" fill="#E4E7E0" stroke="#BDBDBD" stroke-width="1" stroke-dasharray="6 6"/>
+<text id="p03-placeholder-label-030" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="723" y="413.98">Foodvisor 识</tspan>
+<tspan x="745" y="433.98">别截图</tspan>
+</text>
+</g>
+<text id="p03-advantage-031" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="840" y="374.3">优势｜通过 AI 明显减少传统搜索和逐项输入的操</tspan>
+<tspan x="840" y="395.3">作步骤，使拍摄一顿饭快速转化成可记录的营养</tspan>
+<tspan x="840" y="416.3">信息。</tspan>
+</text>
+<text id="p03-gap-032" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="840" y="445.3">缺口｜AI 的主要价值仍集中在提高记录效率，识</tspan>
+<tspan x="840" y="466.3">别后的核心反馈依然是营养数据、目标与建议。</tspan>
+</text>
+</g>
+<g id="p03-competitor-3-033" data-name="competitor-3">
+<rect x="1256" y="222" width="544" height="278" rx="24" fill="#FAFBF8" stroke="#E5E5E5" stroke-width="1"/>
+<text id="p03-product-name-034" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="23" font-weight="500" fill="#1F1F1F" xml:space="preserve">
+<tspan x="1276" y="258.7">BiteSnap</tspan>
+</text>
+<rect x="1685" y="239" width="71" height="26" rx="13" fill="#E7EEDF"/>
+<text id="p03-tag-035" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1695" y="256.16">国外 / 03</tspan>
+</text>
+<text id="p03-positioning-036" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="1276" y="288.3">以照片为核心的轻量饮食记录与食物日记</tspan>
+</text>
+<rect x="1276" y="301" width="100" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-037" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1287" y="316.16">食物照片识别</tspan>
+</text>
+<rect x="1382" y="301" width="74" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-038" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1393" y="316.16">热量估算</tspan>
+</text>
+<rect x="1462" y="301" width="74" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-039" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1473" y="316.16">营养分析</tspan>
+</text>
+<rect x="1542" y="301" width="74" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-040" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1553" y="316.16">图片日记</tspan>
+</text>
+<rect x="1622" y="301" width="74" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-041" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1633" y="316.16">饮食历史</tspan>
+</text>
+<g id="p03-placeholder-BiteSnap-截图-042" data-name="placeholder-BiteSnap-截图">
+<rect x="1276" y="359" width="116" height="121" rx="20" fill="#E4E7E0" stroke="#BDBDBD" stroke-width="1" stroke-dasharray="6 6"/>
+<text id="p03-placeholder-label-043" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="1294.5" y="413.98">BiteSnap 截</tspan>
+<tspan x="1327" y="433.98">图</tspan>
+</text>
+</g>
+<text id="p03-advantage-044" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="1408" y="374.3">优势｜将照片本身作为主要记录媒介，相比纯数</tspan>
+<tspan x="1408" y="395.3">字记录更具有生活感。</tspan>
+</text>
+<text id="p03-gap-045" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="1408" y="445.3">缺口｜记录完成之后缺少明显的成长、情绪奖励</tspan>
+<tspan x="1408" y="466.3">或关系反馈。</tspan>
+</text>
+</g>
+<g id="p03-competitor-4-046" data-name="competitor-4">
+<rect x="120" y="524" width="544" height="278" rx="24" fill="#FAFBF8" stroke="#E5E5E5" stroke-width="1"/>
+<text id="p03-product-name-047" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="23" font-weight="500" fill="#1F1F1F" xml:space="preserve">
+<tspan x="140" y="560.7">薄荷健康</tspan>
+</text>
+<rect x="549" y="541" width="71" height="26" rx="13" fill="#E7EEDF"/>
+<text id="p03-tag-048" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="559" y="558.16">国内 / 04</tspan>
+</text>
+<text id="p03-positioning-049" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="140" y="590.3">面向国内用户的综合型饮食与健康管理平台</tspan>
+</text>
+<rect x="140" y="603" width="63" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-050" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="151" y="618.16">AI 相机</tspan>
+</text>
+<rect x="209" y="603" width="87" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-051" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="220" y="618.16">食物数据库</tspan>
+</text>
+<rect x="302" y="603" width="74" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-052" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="313" y="618.16">热量分析</tspan>
+</text>
+<rect x="382" y="603" width="74" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-053" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="393" y="618.16">营养分析</tspan>
+</text>
+<rect x="462" y="603" width="74" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-054" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="473" y="618.16">健康管理</tspan>
+</text>
+<g id="p03-placeholder-薄荷健康-AI-相机截图-055" data-name="placeholder-薄荷健康-AI-相机截图">
+<rect x="140" y="661" width="116" height="121" rx="20" fill="#E4E7E0" stroke="#BDBDBD" stroke-width="1" stroke-dasharray="6 6"/>
+<text id="p03-placeholder-label-056" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="153.5" y="715.98">薄荷健康 AI 相</tspan>
+<tspan x="177" y="735.98">机截图</tspan>
+</text>
+</g>
+<text id="p03-advantage-057" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="272" y="676.3">优势｜本土食物数据库积累丰富，对中式饮食场</tspan>
+<tspan x="272" y="697.3">景适配度较高。</tspan>
+</text>
+<text id="p03-gap-058" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="272" y="747.3">缺口｜整体体验仍然围绕记录、分析和控制展</tspan>
+<tspan x="272" y="768.3">开，长期使用容易产生工具感。</tspan>
+</text>
+</g>
+<g id="p03-competitor-5-059" data-name="competitor-5">
+<rect x="688" y="524" width="544" height="278" rx="24" fill="#FAFBF8" stroke="#E5E5E5" stroke-width="1"/>
+<text id="p03-product-name-060" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="23" font-weight="500" fill="#1F1F1F" xml:space="preserve">
+<tspan x="708" y="560.7">食卡卡</tspan>
+</text>
+<rect x="1117" y="541" width="71" height="26" rx="13" fill="#E7EEDF"/>
+<text id="p03-tag-061" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1127" y="558.16">国内 / 05</tspan>
+</text>
+<text id="p03-positioning-062" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="708" y="590.3">以 AI 饮食记录为入口的减脂与健康管理工具</tspan>
+</text>
+<rect x="708" y="603" width="74" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-063" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="719" y="618.16">拍照识别</tspan>
+</text>
+<rect x="788" y="603" width="87" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-064" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="799" y="618.16">卡路里分析</tspan>
+</text>
+<rect x="881" y="603" width="100" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-065" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="892" y="618.16">营养标签识别</tspan>
+</text>
+<rect x="987" y="603" width="89" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-066" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="998" y="618.16">AI 健康分析</tspan>
+</text>
+<rect x="1082" y="603" width="74" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-067" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1093" y="618.16">体重趋势</tspan>
+</text>
+<g id="p03-placeholder-食卡卡-截图-068" data-name="placeholder-食卡卡-截图">
+<rect x="708" y="661" width="116" height="121" rx="20" fill="#E4E7E0" stroke="#BDBDBD" stroke-width="1" stroke-dasharray="6 6"/>
+<text id="p03-placeholder-label-069" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="729.5" y="725.98">食卡卡 截图</tspan>
+</text>
+</g>
+<text id="p03-advantage-070" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="840" y="676.3">优势｜从记录延伸到营养分析、身体数据和饮食</tspan>
+<tspan x="840" y="697.3">方案，形成较完整的减脂管理闭环。</tspan>
+</text>
+<text id="p03-gap-071" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="840" y="747.3">缺口｜产品核心依然偏向热量控制、减脂效率和</tspan>
+<tspan x="840" y="768.3">身体指标，反馈更多是“管理型”。</tspan>
+</text>
+</g>
+<g id="p03-competitor-6-072" data-name="competitor-6">
+<rect x="1256" y="524" width="544" height="278" rx="24" fill="#FAFBF8" stroke="#E5E5E5" stroke-width="1"/>
+<text id="p03-product-name-073" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="23" font-weight="500" fill="#1F1F1F" xml:space="preserve">
+<tspan x="1276" y="560.7">卡迈健康</tspan>
+</text>
+<rect x="1685" y="541" width="71" height="26" rx="13" fill="#E7EEDF"/>
+<text id="p03-tag-074" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1695" y="558.16">国内 / 06</tspan>
+</text>
+<text id="p03-positioning-075" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="1276" y="590.3">AI 拍照营养识别与好友打卡结合的健康管理工具</tspan>
+</text>
+<rect x="1276" y="603" width="89" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-076" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1287" y="618.16">AI 食物识别</tspan>
+</text>
+<rect x="1371" y="603" width="113" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-077" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1382" y="618.16">热量与营养分析</tspan>
+</text>
+<rect x="1490" y="603" width="74" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-078" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1501" y="618.16">饮食记录</tspan>
+</text>
+<rect x="1570" y="603" width="74" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-079" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1581" y="618.16">趋势分析</tspan>
+</text>
+<rect x="1650" y="603" width="74" height="22" rx="11" fill="#EEF1EA"/>
+<text id="p03-tag-080" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1661" y="618.16">好友打卡</tspan>
+</text>
+<g id="p03-placeholder-卡迈健康-截图-081" data-name="placeholder-卡迈健康-截图">
+<rect x="1276" y="661" width="116" height="121" rx="20" fill="#E4E7E0" stroke="#BDBDBD" stroke-width="1" stroke-dasharray="6 6"/>
+<text id="p03-placeholder-label-082" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="1290.5" y="725.98">卡迈健康 截图</tspan>
+</text>
+</g>
+<text id="p03-advantage-083" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="1408" y="676.3">优势｜已经将轻量记录与好友共同坚持结合起</tspan>
+<tspan x="1408" y="697.3">来，证明社交关系能够成为健康记录持续动力的</tspan>
+<tspan x="1408" y="718.3">一部分。</tspan>
+</text>
+<text id="p03-gap-084" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#1F1F1F" xml:space="preserve">
+<tspan x="1408" y="747.3">缺口｜好友关系主要承担打卡和互相监督作用，</tspan>
+<tspan x="1408" y="768.3">缺少共同维护和持续成长的情感对象。</tspan>
+</text>
+</g>
+<g id="p03-design-opportunity-summary-085" data-name="design-opportunity-summary">
+<rect x="120" y="824" width="1680" height="150" rx="24" fill="#E7EEDF"/>
+<text id="p03-benchmark-summary-heading-086" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="20" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="144" y="858">竞品共同完成了什么？</tspan>
+</text>
+<g id="p03-competitor-common-flow-087" data-name="competitor-common-flow">
+<rect x="144" y="877" width="123" height="54" rx="20" fill="#FAFBF8"/>
+<text id="p03-linear-flow-node-088" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="188.5" y="909.44">拍照</tspan>
+</text>
+<line x1="270" y1="904" x2="280" y2="904" stroke="#6E8B74" stroke-width="1.5"/>
+<polygon points="280,904 273,900.15 273,907.85" fill="#6E8B74"/>
+<rect x="283" y="877" width="123" height="54" rx="20" fill="#FAFBF8"/>
+<text id="p03-linear-flow-node-089" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="310.5" y="909.44">识别食物</tspan>
+</text>
+<line x1="409" y1="904" x2="419" y2="904" stroke="#6E8B74" stroke-width="1.5"/>
+<polygon points="419,904 412,900.15 412,907.85" fill="#6E8B74"/>
+<rect x="422" y="877" width="123" height="54" rx="20" fill="#FAFBF8"/>
+<text id="p03-linear-flow-node-090" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="449.5" y="909.44">分析营养</tspan>
+</text>
+<line x1="548" y1="904" x2="558" y2="904" stroke="#6E8B74" stroke-width="1.5"/>
+<polygon points="558,904 551,900.15 551,907.85" fill="#6E8B74"/>
+<rect x="561" y="877" width="123" height="54" rx="20" fill="#FAFBF8"/>
+<text id="p03-linear-flow-node-091" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="588.5" y="909.44">记录数据</tspan>
+</text>
+</g>
+<text id="p03-opportunity-heading-092" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="20" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="720" y="858">饭搭子的设计机会｜贴纸手账与下一餐建议</tspan>
+</text>
+<g id="p03-expanded-design-opportunity-flow-093" data-name="expanded-design-opportunity-flow">
+<rect x="720" y="877" width="104.889" height="54" rx="20" fill="#FAFBF8"/>
+<text id="p03-linear-flow-node-094" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="755.444" y="909.44">拍照</tspan>
+</text>
+<line x1="827.889" y1="904" x2="835.889" y2="904" stroke="#6E8B74" stroke-width="1.5"/>
+<polygon points="835.889,904 828.889,900.15 828.889,907.85" fill="#6E8B74"/>
+<rect x="838.889" y="877" width="104.889" height="54" rx="20" fill="#FAFBF8"/>
+<text id="p03-linear-flow-node-095" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="857.333" y="909.44">识别食物</tspan>
+</text>
+<line x1="946.778" y1="904" x2="954.778" y2="904" stroke="#6E8B74" stroke-width="1.5"/>
+<polygon points="954.778,904 947.778,900.15 947.778,907.85" fill="#6E8B74"/>
+<rect x="957.778" y="877" width="104.889" height="54" rx="20" fill="#FAFBF8"/>
+<text id="p03-linear-flow-node-096" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="976.222" y="909.44">分析营养</tspan>
+</text>
+<line x1="1065.67" y1="904" x2="1073.67" y2="904" stroke="#6E8B74" stroke-width="1.5"/>
+<polygon points="1073.67,904 1066.67,900.15 1066.67,907.85" fill="#6E8B74"/>
+<rect x="1076.67" y="877" width="104.889" height="54" rx="20" fill="#FAFBF8"/>
+<text id="p03-linear-flow-node-097" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1112.11" y="898.94">转译</tspan>
+<tspan x="1095.11" y="919.94">食宠状态</tspan>
+</text>
+<line x1="1184.56" y1="904" x2="1192.56" y2="904" stroke="#6E8B74" stroke-width="1.5"/>
+<polygon points="1192.56,904 1185.56,900.15 1185.56,907.85" fill="#6E8B74"/>
+<rect x="1195.56" y="877" width="104.889" height="54" rx="20" fill="#FAFBF8"/>
+<text id="p03-linear-flow-node-098" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1231" y="898.94">产生</tspan>
+<tspan x="1214" y="919.94">即时反馈</tspan>
+</text>
+<line x1="1303.44" y1="904" x2="1311.44" y2="904" stroke="#6E8B74" stroke-width="1.5"/>
+<polygon points="1311.44,904 1304.44,900.15 1304.44,907.85" fill="#6E8B74"/>
+<rect x="1314.44" y="877" width="104.889" height="54" rx="20" fill="#FAFBF8"/>
+<text id="p03-linear-flow-node-099" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1349.89" y="898.94">积累</tspan>
+<tspan x="1332.89" y="919.94">饮食记忆</tspan>
+</text>
+<line x1="1422.33" y1="904" x2="1430.33" y2="904" stroke="#6E8B74" stroke-width="1.5"/>
+<polygon points="1430.33,904 1423.33,900.15 1423.33,907.85" fill="#6E8B74"/>
+<rect x="1433.33" y="877" width="104.889" height="54" rx="20" fill="#FAFBF8"/>
+<text id="p03-linear-flow-node-100" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1443.28" y="909.44">下一餐建议</tspan>
+</text>
+<line x1="1541.22" y1="904" x2="1549.22" y2="904" stroke="#6E8B74" stroke-width="1.5"/>
+<polygon points="1549.22,904 1542.22,900.15 1542.22,907.85" fill="#6E8B74"/>
+<rect x="1552.22" y="877" width="104.889" height="54" rx="20" fill="#FAFBF8"/>
+<text id="p03-linear-flow-node-101" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1587.67" y="898.94">进入</tspan>
+<tspan x="1570.67" y="919.94">共同养成</tspan>
+</text>
+<line x1="1660.11" y1="904" x2="1668.11" y2="904" stroke="#6E8B74" stroke-width="1.5"/>
+<polygon points="1668.11,904 1661.11,900.15 1661.11,907.85" fill="#6E8B74"/>
+<rect x="1671.11" y="877" width="104.889" height="54" rx="20" fill="#FAFBF8"/>
+<text id="p03-linear-flow-node-102" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="1689.56" y="909.44">再次记录</tspan>
+</text>
+</g>
+<text id="p03-opportunity-takeaway-103" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="24" font-weight="500" fill="#435A49" xml:space="preserve">
+<tspan x="144" y="964.6">当竞品不断优化“如何更快获得健康数据”时，饭搭子进一步关注：获得数据之后，如何让用户感知、关心并持续回应自己的健康行为。</tspan>
+</text>
+</g>
+<g id="p03-page-footer-104" data-name="page-footer">
+<text id="p03-footer-label-105" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="500" fill="#666666" xml:space="preserve">
+<tspan x="120" y="996.7">饭搭子  /  UX CASE STUDY</tspan>
+</text>
+<text id="p03-footer-section-106" font-family="Noto Sans SC, Microsoft YaHei, PingFang SC, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#666666" xml:space="preserve">
+<tspan x="1748" y="996.7">竞品分析</tspan>
+</text>
+</g>
+</svg>

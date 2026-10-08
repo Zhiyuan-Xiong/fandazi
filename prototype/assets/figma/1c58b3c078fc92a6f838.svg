@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="300" height="10" viewBox="0 0 300 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Progress meter" clip-path="url(#clip0_0_65)">
+<path id="Vector" d="M295 0H5C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10H295C297.761 10 300 7.76142 300 5C300 2.23858 297.761 0 295 0Z" fill="#E8EDDF"/>
+<path id="Vector_2" d="M205 0H5C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10H205C207.761 10 210 7.76142 210 5C210 2.23858 207.761 0 205 0Z" fill="#327158"/>
+</g>
+<defs>
+<clipPath id="clip0_0_65">
+<rect width="300" height="10" fill="white"/>
+</clipPath>
+</defs>
+</svg>

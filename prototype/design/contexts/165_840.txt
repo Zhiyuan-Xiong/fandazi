@@ -1,0 +1,63 @@
+const imgOtterEatPng = "https://www.figma.com/api/mcp/asset/a39ae2b9-c0da-40e1-8300-c21da011348e.png";
+const imgBrandSoftGlowAndLeaves = "https://www.figma.com/api/mcp/asset/545e86df-0989-41c0-88ca-5d45f29998db.svg";
+
+export default function Component01Splash() {
+  return (
+    <div className="bg-gradient-to-b content-stretch flex flex-col from-[#e9f0e5] items-start relative size-full to-[#fbf6e9]" data-node-id="165:840" data-name="01 — 启动 Splash">
+      <div className="[word-break:break-word] content-stretch flex font-['Noto_Sans_SC:Bold'] font-bold gap-[var(--fandazi-ui-gap,8px)] h-[48px] items-center justify-between overflow-clip pl-[28px] pr-[24px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 text-[color:var(--fandazi-ink,#293c33)] w-[393px]" data-node-id="165:841" data-name="Safe Area">
+        <p className="absolute leading-[20px] left-[24px] text-[13px] top-[14px] w-[50px]" data-node-id="165:842">
+          9:41
+        </p>
+        <p className="absolute leading-[18px] left-[332px] text-[12px] top-[14px] w-[38px] whitespace-pre-wrap" data-node-id="165:843">{`●  ▰`}</p>
+      </div>
+      <div className="h-[702px] overflow-x-clip overflow-y-auto relative shrink-0 w-[393px]" data-node-id="165:845" data-name="Content">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans_SC:Bold'] font-bold leading-[63px] left-[196.5px] text-[42px] text-[color:var(--fandazi-ink,#293c33)] text-center top-[55px] w-[345px]" data-node-id="165:847">
+          饭搭子
+        </p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] font-normal leading-[27px] left-[196.5px] text-[18px] text-[color:var(--fandazi-ink,#293c33)] text-center top-[552px] w-[345px]" data-node-id="165:848">
+          好好吃饭，好好生活。
+        </p>
+        <div className="absolute h-[360px] left-[24px] top-[164px] w-[345px]" data-node-id="167:2399" data-name="Brand / soft glow and leaves">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBrandSoftGlowAndLeaves} />
+        </div>
+        <div className="absolute content-stretch flex flex-col items-center justify-center left-[49px] size-[295px] top-[185px]" data-node-id="167:2405" data-name="品牌 / 全身水獭">
+          <div className="relative shrink-0 size-[274.886px]" data-node-id="I167:2405;98:1925" data-name="OTTER_Eat/PNG">
+            <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgOtterEatPng} />
+          </div>
+        </div>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] font-normal leading-[18px] left-[196.5px] text-[12px] text-[color:var(--fandazi-muted,#68796c)] text-center top-[615px] w-[345px]" data-node-id="167:2408">
+          FanDazi · A little care, every day.
+        </p>
+      </div>
+      <div className="content-stretch flex gap-[var(--fandazi-ui-gap,8px)] h-[68px] items-center justify-center overflow-clip px-[24px] py-[8px] relative shrink-0 w-[393px]" data-node-id="165:849" data-name="Actions">
+        <a className="content-stretch cursor-pointer drop-shadow-[0px_3px_4px_rgba(46,89,66,0.1)] flex h-[52px] items-center justify-center px-[16px] py-[14px] relative rounded-[var(--fandazi-ui-radius,26px)] shrink-0 w-[345px]" data-node-id="165:850" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, rgba(10, 41, 26, 0.06) 100%), linear-gradient(90deg, rgb(50, 113, 88) 0%, rgb(50, 113, 88) 100%)" }} data-name="Action / 进入饭搭子">
+          <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Noto_Sans_SC:Bold'] font-bold justify-center leading-[0] min-w-px relative text-[15px] text-center text-white" data-node-id="I165:850;165:1979">
+            <p className="leading-[23px]">进入饭搭子</p>
+          </div>
+        </a>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--fandazi-ui-gap,8px)] h-[34px] items-center justify-center overflow-clip relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[393px]" data-node-id="165:851" data-name="Home Indicator Area">
+        <div className="bg-[var(--fandazi-ink,#293c33)] h-[5px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[134px]" data-node-id="165:852" data-name="Home Indicator" />
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## OTTER_Eat
+**Node ID:** 98:1924
+
+角色外观以用户提供的标准设定图与 Otter State Set 为唯一依据。当前恢复原始 PNG；简化重绘矢量已停用，未宣称完成保真矢量化。
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

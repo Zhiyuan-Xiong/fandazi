@@ -1,0 +1,497 @@
+[gd_scene load_steps=18 format=3]
+
+[ext_resource type="Script" path="res://scripts/surface.gd" id="1"]
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSansSC-VF.ttf" id="2"]
+[ext_resource type="Texture2D" path="res://assets/figma/8257e775056010986eaa.png" id="3"]
+
+[sub_resource type="FontVariation" id="R1"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R2"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R3"]
+
+
+[sub_resource type="FontVariation" id="R4"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R5"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R6"]
+
+
+[sub_resource type="FontVariation" id="R7"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R8"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R9"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R10"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R11"]
+
+
+[sub_resource type="FontVariation" id="R12"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R13"]
+
+
+[sub_resource type="FontVariation" id="R14"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+[node name="Decor_今日家具奖励_199_2312" type="Panel"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "199:2312"
+metadata/figma_name = "Decor / 今日家具奖励"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1}
+clip_contents = true
+
+[node name="Safe_Area_200_2276" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 48
+metadata/figma_id = "200:2276"
+metadata/figma_name = "Safe Area"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="9_41_200_2277" type="Label" parent="Safe_Area_200_2276"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 14
+offset_right = 74
+offset_bottom = 34
+metadata/figma_id = "200:2277"
+metadata/figma_name = "9:41"
+metadata/figma_type = "TEXT"
+text = "9:41"
+theme_override_fonts/font = SubResource("R1")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Layer_200_2278" type="Label" parent="Safe_Area_200_2276"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 332
+offset_top = 14
+offset_right = 370
+offset_bottom = 32
+metadata/figma_id = "200:2278"
+metadata/figma_name = "● ▰"
+metadata/figma_type = "TEXT"
+text = "●  ▰"
+theme_override_fonts/font = SubResource("R2")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Header_200_2279" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 48
+offset_right = 393
+offset_bottom = 104
+metadata/figma_id = "200:2279"
+metadata/figma_name = "Header"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1}
+clip_contents = true
+
+[node name="Layer_200_2280" type="Panel" parent="Header_200_2279"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 8
+offset_right = 64
+offset_bottom = 48
+metadata/figma_id = "200:2280"
+metadata/figma_name = "‹"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.82, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Header_200_2279/Layer_200_2280"]
+layout_mode = 0
+offset_right = 40
+offset_bottom = 40
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R3")
+theme_override_styles/hover = SubResource("R3")
+theme_override_styles/pressed = SubResource("R3")
+theme_override_styles/focus = SubResource("R3")
+metadata/source_id = "200:2280"
+metadata/click_actions = [{"type": "BACK"}]
+
+[node name="调整份量_I200_2280_165_1984" type="Label" parent="Header_200_2279/Layer_200_2280"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 8.0
+offset_right = 24.0
+offset_bottom = 32.0
+metadata/figma_id = "I200:2280;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "‹"
+theme_override_fonts/font = SubResource("R4")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Page_title_200_2283" type="Label" parent="Header_200_2279"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 72
+offset_top = 14.5
+offset_right = 321
+offset_bottom = 41.5
+metadata/figma_id = "200:2283"
+metadata/figma_name = "Page title"
+metadata/figma_type = "TEXT"
+text = "今日家具奖励"
+theme_override_fonts/font = SubResource("R5")
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Layer_200_2284" type="Panel" parent="Header_200_2279"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 329
+offset_top = 8
+offset_right = 369
+offset_bottom = 48
+metadata/figma_id = "200:2284"
+metadata/figma_name = "⌂"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "CONDITIONAL", "conditionalBlocks": [{"actions": [{"type": "NODE", "destinationId": "165:1833", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}], "condition": {"value": {"expressionArguments": [{"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:196:845"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}, {"value": "伙伴之家", "type": "STRING", "resolvedType": "STRING"}], "expressionFunction": "EQUALS"}, "type": "EXPRESSION", "resolvedType": "BOOLEAN"}}, {"actions": [{"type": "NODE", "destinationId": "165:1083", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.82, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Header_200_2279/Layer_200_2284"]
+layout_mode = 0
+offset_right = 40
+offset_bottom = 40
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R6")
+theme_override_styles/hover = SubResource("R6")
+theme_override_styles/pressed = SubResource("R6")
+theme_override_styles/focus = SubResource("R6")
+metadata/source_id = "200:2284"
+metadata/click_actions = [{"type": "CONDITIONAL", "conditionalBlocks": [{"actions": [{"type": "NODE", "destinationId": "165:1833", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}], "condition": {"value": {"expressionArguments": [{"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:196:845"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}, {"value": "伙伴之家", "type": "STRING", "resolvedType": "STRING"}], "expressionFunction": "EQUALS"}, "type": "EXPRESSION", "resolvedType": "BOOLEAN"}}, {"actions": [{"type": "NODE", "destinationId": "165:1083", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]}]
+
+[node name="调整份量_I200_2284_165_1984" type="Label" parent="Header_200_2279/Layer_200_2284"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 8.0
+offset_right = 24.0
+offset_bottom = 32.0
+metadata/figma_id = "I200:2284;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "⌂"
+theme_override_fonts/font = SubResource("R7")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Content_200_2287" type="ScrollContainer" parent="."]
+layout_mode = 0
+mouse_filter = 1
+offset_left = 0
+offset_top = 104
+offset_right = 393
+offset_bottom = 754
+metadata/figma_id = "200:2287"
+metadata/figma_name = "Content"
+metadata/figma_type = "FRAME"
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+
+[node name="ScrollContent" type="Control" parent="Content_200_2287"]
+custom_minimum_size = Vector2(393, 650)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Heading_202_2340" type="Label" parent="Content_200_2287/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 8
+offset_right = 369
+offset_bottom = 44
+metadata/figma_id = "202:2340"
+metadata/figma_name = "Heading"
+metadata/figma_type = "TEXT"
+text = "今日的小确幸，到了！"
+theme_override_fonts/font = SubResource("R8")
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Reward_stage_202_2341" type="Panel" parent="Content_200_2287/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 56
+offset_right = 369
+offset_bottom = 358
+metadata/figma_id = "202:2341"
+metadata/figma_name = "Reward stage"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.08}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.12, "g": 0.28, "b": 0.2, "a": 0.035}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 24, "topLeftRadius": 24, "topRightRadius": 24, "bottomLeftRadius": 24, "bottomRightRadius": 24}
+clip_contents = true
+
+[node name="Artwork_paw-rug_202_2342" type="TextureRect" parent="Content_200_2287/ScrollContent/Reward_stage_202_2341"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 37.5
+offset_top = 31
+offset_right = 307.5
+offset_bottom = 271
+metadata/figma_id = "202:2342"
+metadata/figma_name = "Artwork / paw-rug"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Item_name_202_2343" type="Label" parent="Content_200_2287/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 370
+offset_right = 369
+offset_bottom = 403
+metadata/figma_id = "202:2343"
+metadata/figma_name = "Item name"
+metadata/figma_type = "TEXT"
+text = "小爪地毯"
+theme_override_fonts/font = SubResource("R9")
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Reward_detail_202_2344" type="Label" parent="Content_200_2287/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 415
+offset_right = 369
+offset_bottom = 457
+metadata/figma_id = "202:2344"
+metadata/figma_name = "Reward detail"
+metadata/figma_type = "TEXT"
+text = "累计打卡第 3 天 · 已放进家具库\n我的小窝、伙伴之家都可以使用。"
+theme_override_fonts/font = SubResource("R10")
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="已解锁_客厅系列_202_2345" type="Panel" parent="Content_200_2287/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 469
+offset_right = 369
+offset_bottom = 513
+metadata/figma_id = "202:2345"
+metadata/figma_name = "✓ 已解锁 · 客厅系列"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "199:2313", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.82, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_200_2287/ScrollContent/已解锁_客厅系列_202_2345"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R11")
+theme_override_styles/hover = SubResource("R11")
+theme_override_styles/pressed = SubResource("R11")
+theme_override_styles/focus = SubResource("R11")
+metadata/source_id = "202:2345"
+metadata/click_actions = [{"type": "NODE", "destinationId": "199:2313", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]
+
+[node name="调整份量_I202_2345_165_1984" type="Label" parent="Content_200_2287/ScrollContent/已解锁_客厅系列_202_2345"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 329.0
+offset_bottom = 34.0
+metadata/figma_id = "I202:2345;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "✓ 已解锁 · 客厅系列"
+theme_override_fonts/font = SubResource("R12")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Actions_200_2288" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 754
+offset_right = 393
+offset_bottom = 818
+metadata/figma_id = "200:2288"
+metadata/figma_name = "Actions"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1}
+clip_contents = true
+
+[node name="去我的小窝摆放_200_2289" type="Panel" parent="Actions_200_2288"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 8
+offset_right = 369
+offset_bottom = 56
+metadata/figma_id = "200:2289"
+metadata/figma_name = "去我的小窝摆放"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:201:8", "variableValue": {"value": "小爪地毯", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:9", "variableValue": {"value": 3, "type": "FLOAT", "resolvedType": "FLOAT"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:10", "variableValue": {"value": "paw-rug", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:11", "variableValue": {"value": "累计打卡 3 天解锁", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2291", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2292", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2293", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2294", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2295", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2296", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2297", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2298", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2299", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2300", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2301", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2302", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2303", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2304", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2305", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2306", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2307", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2308", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2309", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2310", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2311", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2312", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2313", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2314", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2315", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2316", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2317", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2318", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2319", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2320", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2321", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2322", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:11", "variableValue": {"value": "已拥有 · 可自由放置", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CONDITIONAL", "conditionalBlocks": [{"actions": [{"type": "NODE", "destinationId": "199:2315", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}], "condition": {"value": {"expressionArguments": [{"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:196:845"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}, {"value": "伙伴之家", "type": "STRING", "resolvedType": "STRING"}], "expressionFunction": "EQUALS"}, "type": "EXPRESSION", "resolvedType": "BOOLEAN"}}, {"actions": [{"type": "NODE", "destinationId": "165:1138", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.27451, "g": 0.478431, "b": 0.376471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.07}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.04, "g": 0.16, "b": 0.1, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 8, "boundVariables": {}, "color": {"r": 0.18, "g": 0.35, "b": 0.26, "a": 0.1}, "offset": {"x": 0, "y": 3}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Actions_200_2288/去我的小窝摆放_200_2289"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R13")
+theme_override_styles/hover = SubResource("R13")
+theme_override_styles/pressed = SubResource("R13")
+theme_override_styles/focus = SubResource("R13")
+metadata/source_id = "200:2289"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:201:8", "variableValue": {"value": "小爪地毯", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:9", "variableValue": {"value": 3, "type": "FLOAT", "resolvedType": "FLOAT"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:10", "variableValue": {"value": "paw-rug", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:11", "variableValue": {"value": "累计打卡 3 天解锁", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2291", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2292", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2293", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2294", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2295", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2296", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2297", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2298", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2299", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2300", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2301", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2302", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2303", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2304", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2305", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2306", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2307", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2308", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2309", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2310", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2311", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2312", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2313", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2314", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2315", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2316", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2317", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2318", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2319", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2320", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2321", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:2322", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:201:11", "variableValue": {"value": "已拥有 · 可自由放置", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CONDITIONAL", "conditionalBlocks": [{"actions": [{"type": "NODE", "destinationId": "199:2315", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}], "condition": {"value": {"expressionArguments": [{"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:196:845"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}, {"value": "伙伴之家", "type": "STRING", "resolvedType": "STRING"}], "expressionFunction": "EQUALS"}, "type": "EXPRESSION", "resolvedType": "BOOLEAN"}}, {"actions": [{"type": "NODE", "destinationId": "165:1138", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]}]
+
+[node name="确认这顿饭_I200_2289_165_1979" type="Label" parent="Actions_200_2288/去我的小窝摆放_200_2289"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 12.5
+offset_right = 329.0
+offset_bottom = 35.5
+metadata/figma_id = "I200:2289;165:1979"
+metadata/figma_name = "确认这顿饭"
+metadata/figma_type = "TEXT"
+text = "去房间摆放"
+theme_override_fonts/font = SubResource("R14")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(1, 0.996078, 0.976471, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Home_Indicator_Area_200_2292" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 818
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "200:2292"
+metadata/figma_name = "Home Indicator Area"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Home_Indicator_200_2293" type="Panel" parent="Home_Indicator_Area_200_2292"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 129.5
+offset_top = 14.5
+offset_right = 263.5
+offset_bottom = 19.5
+metadata/figma_id = "200:2293"
+metadata/figma_name = "Home Indicator"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.160784, "g": 0.235294, "b": 0.2}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true

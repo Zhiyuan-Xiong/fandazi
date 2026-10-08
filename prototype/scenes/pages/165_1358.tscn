@@ -1,0 +1,2669 @@
+[gd_scene load_steps=88 format=3]
+
+[ext_resource type="Script" path="res://scripts/surface.gd" id="1"]
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSansSC-VF.ttf" id="2"]
+
+[sub_resource type="FontVariation" id="R1"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R2"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R3"]
+
+
+[sub_resource type="FontVariation" id="R4"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R5"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R6"]
+
+
+[sub_resource type="FontVariation" id="R7"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R8"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R9"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R10"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R11"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R12"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R13"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R14"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R15"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R16"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R17"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R18"]
+
+
+[sub_resource type="FontVariation" id="R19"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R20"]
+
+
+[sub_resource type="FontVariation" id="R21"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R22"]
+
+
+[sub_resource type="FontVariation" id="R23"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R24"]
+
+
+[sub_resource type="FontVariation" id="R25"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R26"]
+
+
+[sub_resource type="FontVariation" id="R27"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R28"]
+
+
+[sub_resource type="FontVariation" id="R29"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R30"]
+
+
+[sub_resource type="FontVariation" id="R31"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R32"]
+
+
+[sub_resource type="FontVariation" id="R33"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R34"]
+
+
+[sub_resource type="FontVariation" id="R35"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R36"]
+
+
+[sub_resource type="FontVariation" id="R37"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R38"]
+
+
+[sub_resource type="FontVariation" id="R39"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R40"]
+
+
+[sub_resource type="FontVariation" id="R41"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R42"]
+
+
+[sub_resource type="FontVariation" id="R43"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R44"]
+
+
+[sub_resource type="FontVariation" id="R45"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R46"]
+
+
+[sub_resource type="FontVariation" id="R47"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R48"]
+
+
+[sub_resource type="FontVariation" id="R49"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R50"]
+
+
+[sub_resource type="FontVariation" id="R51"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R52"]
+
+
+[sub_resource type="FontVariation" id="R53"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R54"]
+
+
+[sub_resource type="FontVariation" id="R55"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R56"]
+
+
+[sub_resource type="FontVariation" id="R57"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R58"]
+
+
+[sub_resource type="FontVariation" id="R59"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R60"]
+
+
+[sub_resource type="FontVariation" id="R61"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R62"]
+
+
+[sub_resource type="FontVariation" id="R63"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R64"]
+
+
+[sub_resource type="FontVariation" id="R65"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R66"]
+
+
+[sub_resource type="FontVariation" id="R67"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R68"]
+
+
+[sub_resource type="FontVariation" id="R69"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R70"]
+
+
+[sub_resource type="FontVariation" id="R71"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R72"]
+
+
+[sub_resource type="FontVariation" id="R73"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R74"]
+
+
+[sub_resource type="FontVariation" id="R75"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R76"]
+
+
+[sub_resource type="FontVariation" id="R77"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R78"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R79"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R80"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R81"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R82"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R83"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R84"]
+
+
+[sub_resource type="FontVariation" id="R85"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+[node name="30_日历_Calendar_165_1358" type="Panel"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "165:1358"
+metadata/figma_name = "30 — 日历 Calendar"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 0.913725, "g": 0.941176, "b": 0.898039, "a": 1}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.984314, "g": 0.964706, "b": 0.913725, "a": 1}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1}
+clip_contents = true
+
+[node name="Safe_Area_165_1359" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 48
+metadata/figma_id = "165:1359"
+metadata/figma_name = "Safe Area"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="9_41_165_1360" type="Label" parent="Safe_Area_165_1359"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 14
+offset_right = 74
+offset_bottom = 34
+metadata/figma_id = "165:1360"
+metadata/figma_name = "9:41"
+metadata/figma_type = "TEXT"
+text = "9:41"
+theme_override_fonts/font = SubResource("R1")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Layer_165_1361" type="Label" parent="Safe_Area_165_1359"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 332
+offset_top = 14
+offset_right = 370
+offset_bottom = 32
+metadata/figma_id = "165:1361"
+metadata/figma_name = "● ▰"
+metadata/figma_type = "TEXT"
+text = "●  ▰"
+theme_override_fonts/font = SubResource("R2")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Top_Bar_165_1362" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 48
+offset_right = 393
+offset_bottom = 104
+metadata/figma_id = "165:1362"
+metadata/figma_name = "Top Bar"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="Back_I165_1362_28_79" type="Panel" parent="Top_Bar_165_1362"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 2
+offset_right = 60
+offset_bottom = 54
+metadata/figma_id = "I165:1362;28:79"
+metadata/figma_name = "Back"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Top_Bar_165_1362/Back_I165_1362_28_79"]
+layout_mode = 0
+offset_right = 44
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R3")
+theme_override_styles/hover = SubResource("R3")
+theme_override_styles/pressed = SubResource("R3")
+theme_override_styles/focus = SubResource("R3")
+metadata/source_id = "I165:1362;28:79"
+metadata/click_actions = [{"type": "BACK"}]
+
+[node name="Layer_I165_1362_28_79_165_1989" type="Label" parent="Top_Bar_165_1362/Back_I165_1362_28_79"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 6.0
+offset_top = 14.0
+offset_right = 38.0
+offset_bottom = 38.0
+metadata/figma_id = "I165:1362;28:79;165:1989"
+metadata/figma_name = "×"
+metadata/figma_type = "TEXT"
+text = "‹"
+theme_override_fonts/font = SubResource("R4")
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="页面标题_I165_1362_28_81" type="Label" parent="Top_Bar_165_1362"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 174.5
+offset_top = 14.5
+offset_right = 210.5
+offset_bottom = 41.5
+metadata/figma_id = "I165:1362;28:81"
+metadata/figma_name = "页面标题"
+metadata/figma_type = "TEXT"
+text = "日历"
+theme_override_fonts/font = SubResource("R5")
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Home_I165_1362_28_82" type="Panel" parent="Top_Bar_165_1362"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 325
+offset_top = 6
+offset_right = 377
+offset_bottom = 50
+metadata/figma_id = "I165:1362;28:82"
+metadata/figma_name = "Home"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:958", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Top_Bar_165_1362/Home_I165_1362_28_82"]
+layout_mode = 0
+offset_right = 52
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R6")
+theme_override_styles/hover = SubResource("R6")
+theme_override_styles/pressed = SubResource("R6")
+theme_override_styles/focus = SubResource("R6")
+metadata/source_id = "I165:1362;28:82"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:958", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]
+
+[node name="Layer_I165_1362_28_82_165_1989" type="Label" parent="Top_Bar_165_1362/Home_I165_1362_28_82"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 6.0
+offset_top = 10.0
+offset_right = 46.0
+offset_bottom = 34.0
+metadata/figma_id = "I165:1362;28:82;165:1989"
+metadata/figma_name = "×"
+metadata/figma_type = "TEXT"
+text = "首页"
+theme_override_fonts/font = SubResource("R7")
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Content_165_1363_Backdrop" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 104
+offset_right = 393
+offset_bottom = 750
+metadata/figma_id = "165:1363"
+metadata/figma_name = "Content"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1}
+
+[node name="Content_165_1363" type="ScrollContainer" parent="."]
+layout_mode = 0
+mouse_filter = 1
+offset_left = 0
+offset_top = 104
+offset_right = 393
+offset_bottom = 750
+metadata/figma_id = "165:1363"
+metadata/figma_name = "Content"
+metadata/figma_type = "FRAME"
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+
+[node name="ScrollContent" type="Control" parent="Content_165_1363"]
+custom_minimum_size = Vector2(393, 646)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="翻翻之前的日子_165_1364" type="Label" parent="Content_165_1363/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 16
+offset_right = 369
+offset_bottom = 48
+metadata/figma_id = "165:1364"
+metadata/figma_name = "翻翻之前的日子"
+metadata/figma_type = "TEXT"
+text = "翻翻之前的日子"
+theme_override_fonts/font = SubResource("R8")
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="2026_年_9_月_圆点表示当天有记录_165_1365" type="Label" parent="Content_165_1363/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 60
+offset_right = 369
+offset_bottom = 78
+metadata/figma_id = "165:1365"
+metadata/figma_name = "2026 年 9 月 · 圆点表示当天有记录"
+metadata/figma_type = "TEXT"
+text = "2026 年 9 月 · 圆点表示当天有记录"
+theme_override_fonts/font = SubResource("R9")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="日历行_0_165_1366" type="Panel" parent="Content_165_1363/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 90
+offset_right = 369
+offset_bottom = 134
+metadata/figma_id = "165:1366"
+metadata/figma_name = "日历行 0"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="日期_一_165_1367" type="Panel" parent="Content_165_1363/ScrollContent/日历行_0_165_1366"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 42
+offset_bottom = 44
+metadata/figma_id = "165:1367"
+metadata/figma_name = "日期 一"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="一_165_1368" type="Label" parent="Content_165_1363/ScrollContent/日历行_0_165_1366/日期_一_165_1367"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1368"
+metadata/figma_name = "一"
+metadata/figma_type = "TEXT"
+text = "一"
+theme_override_fonts/font = SubResource("R10")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_二_165_1369" type="Panel" parent="Content_165_1363/ScrollContent/日历行_0_165_1366"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 48
+offset_top = 0
+offset_right = 90
+offset_bottom = 44
+metadata/figma_id = "165:1369"
+metadata/figma_name = "日期 二"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="二_165_1370" type="Label" parent="Content_165_1363/ScrollContent/日历行_0_165_1366/日期_二_165_1369"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1370"
+metadata/figma_name = "二"
+metadata/figma_type = "TEXT"
+text = "二"
+theme_override_fonts/font = SubResource("R11")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_三_165_1371" type="Panel" parent="Content_165_1363/ScrollContent/日历行_0_165_1366"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 96
+offset_top = 0
+offset_right = 138
+offset_bottom = 44
+metadata/figma_id = "165:1371"
+metadata/figma_name = "日期 三"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="三_165_1372" type="Label" parent="Content_165_1363/ScrollContent/日历行_0_165_1366/日期_三_165_1371"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1372"
+metadata/figma_name = "三"
+metadata/figma_type = "TEXT"
+text = "三"
+theme_override_fonts/font = SubResource("R12")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_四_165_1373" type="Panel" parent="Content_165_1363/ScrollContent/日历行_0_165_1366"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 144
+offset_top = 0
+offset_right = 186
+offset_bottom = 44
+metadata/figma_id = "165:1373"
+metadata/figma_name = "日期 四"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="四_165_1374" type="Label" parent="Content_165_1363/ScrollContent/日历行_0_165_1366/日期_四_165_1373"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1374"
+metadata/figma_name = "四"
+metadata/figma_type = "TEXT"
+text = "四"
+theme_override_fonts/font = SubResource("R13")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_五_165_1375" type="Panel" parent="Content_165_1363/ScrollContent/日历行_0_165_1366"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 192
+offset_top = 0
+offset_right = 234
+offset_bottom = 44
+metadata/figma_id = "165:1375"
+metadata/figma_name = "日期 五"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="五_165_1376" type="Label" parent="Content_165_1363/ScrollContent/日历行_0_165_1366/日期_五_165_1375"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1376"
+metadata/figma_name = "五"
+metadata/figma_type = "TEXT"
+text = "五"
+theme_override_fonts/font = SubResource("R14")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_六_165_1377" type="Panel" parent="Content_165_1363/ScrollContent/日历行_0_165_1366"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 240
+offset_top = 0
+offset_right = 282
+offset_bottom = 44
+metadata/figma_id = "165:1377"
+metadata/figma_name = "日期 六"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="六_165_1378" type="Label" parent="Content_165_1363/ScrollContent/日历行_0_165_1366/日期_六_165_1377"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1378"
+metadata/figma_name = "六"
+metadata/figma_type = "TEXT"
+text = "六"
+theme_override_fonts/font = SubResource("R15")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_日_165_1379" type="Panel" parent="Content_165_1363/ScrollContent/日历行_0_165_1366"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 288
+offset_top = 0
+offset_right = 330
+offset_bottom = 44
+metadata/figma_id = "165:1379"
+metadata/figma_name = "日期 日"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="日_165_1380" type="Label" parent="Content_165_1363/ScrollContent/日历行_0_165_1366/日期_日_165_1379"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1380"
+metadata/figma_name = "日"
+metadata/figma_type = "TEXT"
+text = "日"
+theme_override_fonts/font = SubResource("R16")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日历行_1_165_1381" type="Panel" parent="Content_165_1363/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 146
+offset_right = 369
+offset_bottom = 190
+metadata/figma_id = "165:1381"
+metadata/figma_name = "日历行 1"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="日期_165_1382" type="Panel" parent="Content_165_1363/ScrollContent/日历行_1_165_1381"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 42
+offset_bottom = 44
+metadata/figma_id = "165:1382"
+metadata/figma_name = "日期 "
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="Text_165_1383" type="Label" parent="Content_165_1363/ScrollContent/日历行_1_165_1381/日期_165_1382"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1383"
+metadata/figma_name = "Text"
+metadata/figma_type = "TEXT"
+text = ""
+theme_override_fonts/font = SubResource("R17")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_1_165_1384" type="Panel" parent="Content_165_1363/ScrollContent/日历行_1_165_1381"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 48
+offset_top = 0
+offset_right = 90
+offset_bottom = 44
+metadata/figma_id = "165:1384"
+metadata/figma_name = "日期 1"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 1 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_1_165_1381/日期_1_165_1384"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R18")
+theme_override_styles/hover = SubResource("R18")
+theme_override_styles/pressed = SubResource("R18")
+theme_override_styles/focus = SubResource("R18")
+metadata/source_id = "165:1384"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 1 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="1_165_1385" type="Label" parent="Content_165_1363/ScrollContent/日历行_1_165_1381/日期_1_165_1384"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1385"
+metadata/figma_name = "1"
+metadata/figma_type = "TEXT"
+text = "1"
+theme_override_fonts/font = SubResource("R19")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_2_165_1386" type="Panel" parent="Content_165_1363/ScrollContent/日历行_1_165_1381"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 96
+offset_top = 0
+offset_right = 138
+offset_bottom = 44
+metadata/figma_id = "165:1386"
+metadata/figma_name = "日期 2"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 2 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_1_165_1381/日期_2_165_1386"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R20")
+theme_override_styles/hover = SubResource("R20")
+theme_override_styles/pressed = SubResource("R20")
+theme_override_styles/focus = SubResource("R20")
+metadata/source_id = "165:1386"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 2 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="2_165_1387" type="Label" parent="Content_165_1363/ScrollContent/日历行_1_165_1381/日期_2_165_1386"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1387"
+metadata/figma_name = "2"
+metadata/figma_type = "TEXT"
+text = "2"
+theme_override_fonts/font = SubResource("R21")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_3_165_1388" type="Panel" parent="Content_165_1363/ScrollContent/日历行_1_165_1381"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 144
+offset_top = 0
+offset_right = 186
+offset_bottom = 44
+metadata/figma_id = "165:1388"
+metadata/figma_name = "日期 3"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 3 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_1_165_1381/日期_3_165_1388"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R22")
+theme_override_styles/hover = SubResource("R22")
+theme_override_styles/pressed = SubResource("R22")
+theme_override_styles/focus = SubResource("R22")
+metadata/source_id = "165:1388"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 3 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="3_165_1389" type="Label" parent="Content_165_1363/ScrollContent/日历行_1_165_1381/日期_3_165_1388"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1389"
+metadata/figma_name = "3"
+metadata/figma_type = "TEXT"
+text = "3"
+theme_override_fonts/font = SubResource("R23")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_4_165_1390" type="Panel" parent="Content_165_1363/ScrollContent/日历行_1_165_1381"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 192
+offset_top = 0
+offset_right = 234
+offset_bottom = 44
+metadata/figma_id = "165:1390"
+metadata/figma_name = "日期 4"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 4 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_1_165_1381/日期_4_165_1390"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R24")
+theme_override_styles/hover = SubResource("R24")
+theme_override_styles/pressed = SubResource("R24")
+theme_override_styles/focus = SubResource("R24")
+metadata/source_id = "165:1390"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 4 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="4_165_1391" type="Label" parent="Content_165_1363/ScrollContent/日历行_1_165_1381/日期_4_165_1390"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1391"
+metadata/figma_name = "4"
+metadata/figma_type = "TEXT"
+text = "4"
+theme_override_fonts/font = SubResource("R25")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_5_165_1392" type="Panel" parent="Content_165_1363/ScrollContent/日历行_1_165_1381"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 240
+offset_top = 0
+offset_right = 282
+offset_bottom = 44
+metadata/figma_id = "165:1392"
+metadata/figma_name = "日期 5"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 5 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_1_165_1381/日期_5_165_1392"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R26")
+theme_override_styles/hover = SubResource("R26")
+theme_override_styles/pressed = SubResource("R26")
+theme_override_styles/focus = SubResource("R26")
+metadata/source_id = "165:1392"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 5 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="5_165_1393" type="Label" parent="Content_165_1363/ScrollContent/日历行_1_165_1381/日期_5_165_1392"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1393"
+metadata/figma_name = "5"
+metadata/figma_type = "TEXT"
+text = "5"
+theme_override_fonts/font = SubResource("R27")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_6_165_1394" type="Panel" parent="Content_165_1363/ScrollContent/日历行_1_165_1381"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 288
+offset_top = 0
+offset_right = 330
+offset_bottom = 44
+metadata/figma_id = "165:1394"
+metadata/figma_name = "日期 6"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 6 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_1_165_1381/日期_6_165_1394"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R28")
+theme_override_styles/hover = SubResource("R28")
+theme_override_styles/pressed = SubResource("R28")
+theme_override_styles/focus = SubResource("R28")
+metadata/source_id = "165:1394"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 6 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="6_165_1395" type="Label" parent="Content_165_1363/ScrollContent/日历行_1_165_1381/日期_6_165_1394"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1395"
+metadata/figma_name = "6"
+metadata/figma_type = "TEXT"
+text = "6"
+theme_override_fonts/font = SubResource("R29")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日历行_2_165_1396" type="Panel" parent="Content_165_1363/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 202
+offset_right = 369
+offset_bottom = 246
+metadata/figma_id = "165:1396"
+metadata/figma_name = "日历行 2"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="日期_7_165_1397" type="Panel" parent="Content_165_1363/ScrollContent/日历行_2_165_1396"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 42
+offset_bottom = 44
+metadata/figma_id = "165:1397"
+metadata/figma_name = "日期 7 •"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 7 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "示例日记 · 用于体验历史记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_2_165_1396/日期_7_165_1397"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R30")
+theme_override_styles/hover = SubResource("R30")
+theme_override_styles/pressed = SubResource("R30")
+theme_override_styles/focus = SubResource("R30")
+metadata/source_id = "165:1397"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 7 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "示例日记 · 用于体验历史记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="7_165_1398" type="Label" parent="Content_165_1363/ScrollContent/日历行_2_165_1396/日期_7_165_1397"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1398"
+metadata/figma_name = "7 •"
+metadata/figma_type = "TEXT"
+text = "7 •"
+theme_override_fonts/font = SubResource("R31")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_8_165_1399" type="Panel" parent="Content_165_1363/ScrollContent/日历行_2_165_1396"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 48
+offset_top = 0
+offset_right = 90
+offset_bottom = 44
+metadata/figma_id = "165:1399"
+metadata/figma_name = "日期 8 •"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 8 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "示例日记 · 用于体验历史记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_2_165_1396/日期_8_165_1399"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R32")
+theme_override_styles/hover = SubResource("R32")
+theme_override_styles/pressed = SubResource("R32")
+theme_override_styles/focus = SubResource("R32")
+metadata/source_id = "165:1399"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 8 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "示例日记 · 用于体验历史记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="8_165_1400" type="Label" parent="Content_165_1363/ScrollContent/日历行_2_165_1396/日期_8_165_1399"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1400"
+metadata/figma_name = "8 •"
+metadata/figma_type = "TEXT"
+text = "8 •"
+theme_override_fonts/font = SubResource("R33")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_9_165_1401" type="Panel" parent="Content_165_1363/ScrollContent/日历行_2_165_1396"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 96
+offset_top = 0
+offset_right = 138
+offset_bottom = 44
+metadata/figma_id = "165:1401"
+metadata/figma_name = "日期 9 •"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 9 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "示例日记 · 用于体验历史记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_2_165_1396/日期_9_165_1401"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R34")
+theme_override_styles/hover = SubResource("R34")
+theme_override_styles/pressed = SubResource("R34")
+theme_override_styles/focus = SubResource("R34")
+metadata/source_id = "165:1401"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 9 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "示例日记 · 用于体验历史记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="9_165_1402" type="Label" parent="Content_165_1363/ScrollContent/日历行_2_165_1396/日期_9_165_1401"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1402"
+metadata/figma_name = "9 •"
+metadata/figma_type = "TEXT"
+text = "9 •"
+theme_override_fonts/font = SubResource("R35")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_10_165_1403" type="Panel" parent="Content_165_1363/ScrollContent/日历行_2_165_1396"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 144
+offset_top = 0
+offset_right = 186
+offset_bottom = 44
+metadata/figma_id = "165:1403"
+metadata/figma_name = "日期 10 •"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 10 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "示例日记 · 用于体验历史记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_2_165_1396/日期_10_165_1403"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R36")
+theme_override_styles/hover = SubResource("R36")
+theme_override_styles/pressed = SubResource("R36")
+theme_override_styles/focus = SubResource("R36")
+metadata/source_id = "165:1403"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 10 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "示例日记 · 用于体验历史记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="10_165_1404" type="Label" parent="Content_165_1363/ScrollContent/日历行_2_165_1396/日期_10_165_1403"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1404"
+metadata/figma_name = "10 •"
+metadata/figma_type = "TEXT"
+text = "10 •"
+theme_override_fonts/font = SubResource("R37")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_11_165_1405" type="Panel" parent="Content_165_1363/ScrollContent/日历行_2_165_1396"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 192
+offset_top = 0
+offset_right = 234
+offset_bottom = 44
+metadata/figma_id = "165:1405"
+metadata/figma_name = "日期 11 •"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 11 日 · 今天", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "示例日记 · 用于体验历史记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.788235, "g": 0.862745, "b": 0.764706}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_2_165_1396/日期_11_165_1405"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R38")
+theme_override_styles/hover = SubResource("R38")
+theme_override_styles/pressed = SubResource("R38")
+theme_override_styles/focus = SubResource("R38")
+metadata/source_id = "165:1405"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 11 日 · 今天", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "示例日记 · 用于体验历史记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="11_165_1406" type="Label" parent="Content_165_1363/ScrollContent/日历行_2_165_1396/日期_11_165_1405"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1406"
+metadata/figma_name = "11 •"
+metadata/figma_type = "TEXT"
+text = "11 •"
+theme_override_fonts/font = SubResource("R39")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_12_165_1407" type="Panel" parent="Content_165_1363/ScrollContent/日历行_2_165_1396"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 240
+offset_top = 0
+offset_right = 282
+offset_bottom = 44
+metadata/figma_id = "165:1407"
+metadata/figma_name = "日期 12"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 12 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_2_165_1396/日期_12_165_1407"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R40")
+theme_override_styles/hover = SubResource("R40")
+theme_override_styles/pressed = SubResource("R40")
+theme_override_styles/focus = SubResource("R40")
+metadata/source_id = "165:1407"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 12 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="12_165_1408" type="Label" parent="Content_165_1363/ScrollContent/日历行_2_165_1396/日期_12_165_1407"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1408"
+metadata/figma_name = "12"
+metadata/figma_type = "TEXT"
+text = "12"
+theme_override_fonts/font = SubResource("R41")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_13_165_1409" type="Panel" parent="Content_165_1363/ScrollContent/日历行_2_165_1396"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 288
+offset_top = 0
+offset_right = 330
+offset_bottom = 44
+metadata/figma_id = "165:1409"
+metadata/figma_name = "日期 13"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 13 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_2_165_1396/日期_13_165_1409"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R42")
+theme_override_styles/hover = SubResource("R42")
+theme_override_styles/pressed = SubResource("R42")
+theme_override_styles/focus = SubResource("R42")
+metadata/source_id = "165:1409"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 13 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="13_165_1410" type="Label" parent="Content_165_1363/ScrollContent/日历行_2_165_1396/日期_13_165_1409"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1410"
+metadata/figma_name = "13"
+metadata/figma_type = "TEXT"
+text = "13"
+theme_override_fonts/font = SubResource("R43")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日历行_3_165_1411" type="Panel" parent="Content_165_1363/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 258
+offset_right = 369
+offset_bottom = 302
+metadata/figma_id = "165:1411"
+metadata/figma_name = "日历行 3"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="日期_14_165_1412" type="Panel" parent="Content_165_1363/ScrollContent/日历行_3_165_1411"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 42
+offset_bottom = 44
+metadata/figma_id = "165:1412"
+metadata/figma_name = "日期 14"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 14 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_3_165_1411/日期_14_165_1412"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R44")
+theme_override_styles/hover = SubResource("R44")
+theme_override_styles/pressed = SubResource("R44")
+theme_override_styles/focus = SubResource("R44")
+metadata/source_id = "165:1412"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 14 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="14_165_1413" type="Label" parent="Content_165_1363/ScrollContent/日历行_3_165_1411/日期_14_165_1412"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1413"
+metadata/figma_name = "14"
+metadata/figma_type = "TEXT"
+text = "14"
+theme_override_fonts/font = SubResource("R45")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_15_165_1414" type="Panel" parent="Content_165_1363/ScrollContent/日历行_3_165_1411"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 48
+offset_top = 0
+offset_right = 90
+offset_bottom = 44
+metadata/figma_id = "165:1414"
+metadata/figma_name = "日期 15"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 15 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_3_165_1411/日期_15_165_1414"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R46")
+theme_override_styles/hover = SubResource("R46")
+theme_override_styles/pressed = SubResource("R46")
+theme_override_styles/focus = SubResource("R46")
+metadata/source_id = "165:1414"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 15 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="15_165_1415" type="Label" parent="Content_165_1363/ScrollContent/日历行_3_165_1411/日期_15_165_1414"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1415"
+metadata/figma_name = "15"
+metadata/figma_type = "TEXT"
+text = "15"
+theme_override_fonts/font = SubResource("R47")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_16_165_1416" type="Panel" parent="Content_165_1363/ScrollContent/日历行_3_165_1411"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 96
+offset_top = 0
+offset_right = 138
+offset_bottom = 44
+metadata/figma_id = "165:1416"
+metadata/figma_name = "日期 16"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 16 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_3_165_1411/日期_16_165_1416"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R48")
+theme_override_styles/hover = SubResource("R48")
+theme_override_styles/pressed = SubResource("R48")
+theme_override_styles/focus = SubResource("R48")
+metadata/source_id = "165:1416"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 16 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="16_165_1417" type="Label" parent="Content_165_1363/ScrollContent/日历行_3_165_1411/日期_16_165_1416"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1417"
+metadata/figma_name = "16"
+metadata/figma_type = "TEXT"
+text = "16"
+theme_override_fonts/font = SubResource("R49")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_17_165_1418" type="Panel" parent="Content_165_1363/ScrollContent/日历行_3_165_1411"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 144
+offset_top = 0
+offset_right = 186
+offset_bottom = 44
+metadata/figma_id = "165:1418"
+metadata/figma_name = "日期 17"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 17 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_3_165_1411/日期_17_165_1418"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R50")
+theme_override_styles/hover = SubResource("R50")
+theme_override_styles/pressed = SubResource("R50")
+theme_override_styles/focus = SubResource("R50")
+metadata/source_id = "165:1418"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 17 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="17_165_1419" type="Label" parent="Content_165_1363/ScrollContent/日历行_3_165_1411/日期_17_165_1418"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1419"
+metadata/figma_name = "17"
+metadata/figma_type = "TEXT"
+text = "17"
+theme_override_fonts/font = SubResource("R51")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_18_165_1420" type="Panel" parent="Content_165_1363/ScrollContent/日历行_3_165_1411"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 192
+offset_top = 0
+offset_right = 234
+offset_bottom = 44
+metadata/figma_id = "165:1420"
+metadata/figma_name = "日期 18"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 18 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_3_165_1411/日期_18_165_1420"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R52")
+theme_override_styles/hover = SubResource("R52")
+theme_override_styles/pressed = SubResource("R52")
+theme_override_styles/focus = SubResource("R52")
+metadata/source_id = "165:1420"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 18 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="18_165_1421" type="Label" parent="Content_165_1363/ScrollContent/日历行_3_165_1411/日期_18_165_1420"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1421"
+metadata/figma_name = "18"
+metadata/figma_type = "TEXT"
+text = "18"
+theme_override_fonts/font = SubResource("R53")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_19_165_1422" type="Panel" parent="Content_165_1363/ScrollContent/日历行_3_165_1411"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 240
+offset_top = 0
+offset_right = 282
+offset_bottom = 44
+metadata/figma_id = "165:1422"
+metadata/figma_name = "日期 19"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 19 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_3_165_1411/日期_19_165_1422"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R54")
+theme_override_styles/hover = SubResource("R54")
+theme_override_styles/pressed = SubResource("R54")
+theme_override_styles/focus = SubResource("R54")
+metadata/source_id = "165:1422"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 19 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="19_165_1423" type="Label" parent="Content_165_1363/ScrollContent/日历行_3_165_1411/日期_19_165_1422"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1423"
+metadata/figma_name = "19"
+metadata/figma_type = "TEXT"
+text = "19"
+theme_override_fonts/font = SubResource("R55")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_20_165_1424" type="Panel" parent="Content_165_1363/ScrollContent/日历行_3_165_1411"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 288
+offset_top = 0
+offset_right = 330
+offset_bottom = 44
+metadata/figma_id = "165:1424"
+metadata/figma_name = "日期 20"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 20 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_3_165_1411/日期_20_165_1424"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R56")
+theme_override_styles/hover = SubResource("R56")
+theme_override_styles/pressed = SubResource("R56")
+theme_override_styles/focus = SubResource("R56")
+metadata/source_id = "165:1424"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 20 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="20_165_1425" type="Label" parent="Content_165_1363/ScrollContent/日历行_3_165_1411/日期_20_165_1424"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1425"
+metadata/figma_name = "20"
+metadata/figma_type = "TEXT"
+text = "20"
+theme_override_fonts/font = SubResource("R57")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日历行_4_165_1426" type="Panel" parent="Content_165_1363/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 314
+offset_right = 369
+offset_bottom = 358
+metadata/figma_id = "165:1426"
+metadata/figma_name = "日历行 4"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="日期_21_165_1427" type="Panel" parent="Content_165_1363/ScrollContent/日历行_4_165_1426"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 42
+offset_bottom = 44
+metadata/figma_id = "165:1427"
+metadata/figma_name = "日期 21"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 21 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_4_165_1426/日期_21_165_1427"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R58")
+theme_override_styles/hover = SubResource("R58")
+theme_override_styles/pressed = SubResource("R58")
+theme_override_styles/focus = SubResource("R58")
+metadata/source_id = "165:1427"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 21 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="21_165_1428" type="Label" parent="Content_165_1363/ScrollContent/日历行_4_165_1426/日期_21_165_1427"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1428"
+metadata/figma_name = "21"
+metadata/figma_type = "TEXT"
+text = "21"
+theme_override_fonts/font = SubResource("R59")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_22_165_1429" type="Panel" parent="Content_165_1363/ScrollContent/日历行_4_165_1426"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 48
+offset_top = 0
+offset_right = 90
+offset_bottom = 44
+metadata/figma_id = "165:1429"
+metadata/figma_name = "日期 22"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 22 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_4_165_1426/日期_22_165_1429"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R60")
+theme_override_styles/hover = SubResource("R60")
+theme_override_styles/pressed = SubResource("R60")
+theme_override_styles/focus = SubResource("R60")
+metadata/source_id = "165:1429"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 22 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="22_165_1430" type="Label" parent="Content_165_1363/ScrollContent/日历行_4_165_1426/日期_22_165_1429"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1430"
+metadata/figma_name = "22"
+metadata/figma_type = "TEXT"
+text = "22"
+theme_override_fonts/font = SubResource("R61")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_23_165_1431" type="Panel" parent="Content_165_1363/ScrollContent/日历行_4_165_1426"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 96
+offset_top = 0
+offset_right = 138
+offset_bottom = 44
+metadata/figma_id = "165:1431"
+metadata/figma_name = "日期 23"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 23 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_4_165_1426/日期_23_165_1431"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R62")
+theme_override_styles/hover = SubResource("R62")
+theme_override_styles/pressed = SubResource("R62")
+theme_override_styles/focus = SubResource("R62")
+metadata/source_id = "165:1431"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 23 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="23_165_1432" type="Label" parent="Content_165_1363/ScrollContent/日历行_4_165_1426/日期_23_165_1431"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1432"
+metadata/figma_name = "23"
+metadata/figma_type = "TEXT"
+text = "23"
+theme_override_fonts/font = SubResource("R63")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_24_165_1433" type="Panel" parent="Content_165_1363/ScrollContent/日历行_4_165_1426"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 144
+offset_top = 0
+offset_right = 186
+offset_bottom = 44
+metadata/figma_id = "165:1433"
+metadata/figma_name = "日期 24"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 24 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_4_165_1426/日期_24_165_1433"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R64")
+theme_override_styles/hover = SubResource("R64")
+theme_override_styles/pressed = SubResource("R64")
+theme_override_styles/focus = SubResource("R64")
+metadata/source_id = "165:1433"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 24 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="24_165_1434" type="Label" parent="Content_165_1363/ScrollContent/日历行_4_165_1426/日期_24_165_1433"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1434"
+metadata/figma_name = "24"
+metadata/figma_type = "TEXT"
+text = "24"
+theme_override_fonts/font = SubResource("R65")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_25_165_1435" type="Panel" parent="Content_165_1363/ScrollContent/日历行_4_165_1426"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 192
+offset_top = 0
+offset_right = 234
+offset_bottom = 44
+metadata/figma_id = "165:1435"
+metadata/figma_name = "日期 25"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 25 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_4_165_1426/日期_25_165_1435"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R66")
+theme_override_styles/hover = SubResource("R66")
+theme_override_styles/pressed = SubResource("R66")
+theme_override_styles/focus = SubResource("R66")
+metadata/source_id = "165:1435"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 25 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="25_165_1436" type="Label" parent="Content_165_1363/ScrollContent/日历行_4_165_1426/日期_25_165_1435"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1436"
+metadata/figma_name = "25"
+metadata/figma_type = "TEXT"
+text = "25"
+theme_override_fonts/font = SubResource("R67")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_26_165_1437" type="Panel" parent="Content_165_1363/ScrollContent/日历行_4_165_1426"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 240
+offset_top = 0
+offset_right = 282
+offset_bottom = 44
+metadata/figma_id = "165:1437"
+metadata/figma_name = "日期 26"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 26 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_4_165_1426/日期_26_165_1437"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R68")
+theme_override_styles/hover = SubResource("R68")
+theme_override_styles/pressed = SubResource("R68")
+theme_override_styles/focus = SubResource("R68")
+metadata/source_id = "165:1437"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 26 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="26_165_1438" type="Label" parent="Content_165_1363/ScrollContent/日历行_4_165_1426/日期_26_165_1437"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1438"
+metadata/figma_name = "26"
+metadata/figma_type = "TEXT"
+text = "26"
+theme_override_fonts/font = SubResource("R69")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_27_165_1439" type="Panel" parent="Content_165_1363/ScrollContent/日历行_4_165_1426"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 288
+offset_top = 0
+offset_right = 330
+offset_bottom = 44
+metadata/figma_id = "165:1439"
+metadata/figma_name = "日期 27"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 27 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_4_165_1426/日期_27_165_1439"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R70")
+theme_override_styles/hover = SubResource("R70")
+theme_override_styles/pressed = SubResource("R70")
+theme_override_styles/focus = SubResource("R70")
+metadata/source_id = "165:1439"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 27 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="27_165_1440" type="Label" parent="Content_165_1363/ScrollContent/日历行_4_165_1426/日期_27_165_1439"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1440"
+metadata/figma_name = "27"
+metadata/figma_type = "TEXT"
+text = "27"
+theme_override_fonts/font = SubResource("R71")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日历行_5_165_1441" type="Panel" parent="Content_165_1363/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 370
+offset_right = 369
+offset_bottom = 414
+metadata/figma_id = "165:1441"
+metadata/figma_name = "日历行 5"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="日期_28_165_1442" type="Panel" parent="Content_165_1363/ScrollContent/日历行_5_165_1441"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 42
+offset_bottom = 44
+metadata/figma_id = "165:1442"
+metadata/figma_name = "日期 28"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 28 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_5_165_1441/日期_28_165_1442"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R72")
+theme_override_styles/hover = SubResource("R72")
+theme_override_styles/pressed = SubResource("R72")
+theme_override_styles/focus = SubResource("R72")
+metadata/source_id = "165:1442"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 28 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="28_165_1443" type="Label" parent="Content_165_1363/ScrollContent/日历行_5_165_1441/日期_28_165_1442"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1443"
+metadata/figma_name = "28"
+metadata/figma_type = "TEXT"
+text = "28"
+theme_override_fonts/font = SubResource("R73")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_29_165_1444" type="Panel" parent="Content_165_1363/ScrollContent/日历行_5_165_1441"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 48
+offset_top = 0
+offset_right = 90
+offset_bottom = 44
+metadata/figma_id = "165:1444"
+metadata/figma_name = "日期 29"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 29 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_5_165_1441/日期_29_165_1444"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R74")
+theme_override_styles/hover = SubResource("R74")
+theme_override_styles/pressed = SubResource("R74")
+theme_override_styles/focus = SubResource("R74")
+metadata/source_id = "165:1444"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 29 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="29_165_1445" type="Label" parent="Content_165_1363/ScrollContent/日历行_5_165_1441/日期_29_165_1444"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1445"
+metadata/figma_name = "29"
+metadata/figma_type = "TEXT"
+text = "29"
+theme_override_fonts/font = SubResource("R75")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_30_165_1446" type="Panel" parent="Content_165_1363/ScrollContent/日历行_5_165_1441"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 96
+offset_top = 0
+offset_right = 138
+offset_bottom = 44
+metadata/figma_id = "165:1446"
+metadata/figma_name = "日期 30"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 30 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1363/ScrollContent/日历行_5_165_1441/日期_30_165_1446"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R76")
+theme_override_styles/hover = SubResource("R76")
+theme_override_styles/pressed = SubResource("R76")
+theme_override_styles/focus = SubResource("R76")
+metadata/source_id = "165:1446"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 30 日", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "这一天暂无记录", "type": "STRING", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="30_165_1447" type="Label" parent="Content_165_1363/ScrollContent/日历行_5_165_1441/日期_30_165_1446"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1447"
+metadata/figma_name = "30"
+metadata/figma_type = "TEXT"
+text = "30"
+theme_override_fonts/font = SubResource("R77")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_165_1448" type="Panel" parent="Content_165_1363/ScrollContent/日历行_5_165_1441"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 144
+offset_top = 0
+offset_right = 186
+offset_bottom = 44
+metadata/figma_id = "165:1448"
+metadata/figma_name = "日期 "
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="Text_165_1449" type="Label" parent="Content_165_1363/ScrollContent/日历行_5_165_1441/日期_165_1448"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1449"
+metadata/figma_name = "Text"
+metadata/figma_type = "TEXT"
+text = ""
+theme_override_fonts/font = SubResource("R78")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_165_1450" type="Panel" parent="Content_165_1363/ScrollContent/日历行_5_165_1441"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 192
+offset_top = 0
+offset_right = 234
+offset_bottom = 44
+metadata/figma_id = "165:1450"
+metadata/figma_name = "日期 "
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="Text_165_1451" type="Label" parent="Content_165_1363/ScrollContent/日历行_5_165_1441/日期_165_1450"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1451"
+metadata/figma_name = "Text"
+metadata/figma_type = "TEXT"
+text = ""
+theme_override_fonts/font = SubResource("R79")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_165_1452" type="Panel" parent="Content_165_1363/ScrollContent/日历行_5_165_1441"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 240
+offset_top = 0
+offset_right = 282
+offset_bottom = 44
+metadata/figma_id = "165:1452"
+metadata/figma_name = "日期 "
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="Text_165_1453" type="Label" parent="Content_165_1363/ScrollContent/日历行_5_165_1441/日期_165_1452"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1453"
+metadata/figma_name = "Text"
+metadata/figma_type = "TEXT"
+text = ""
+theme_override_fonts/font = SubResource("R80")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="日期_165_1454" type="Panel" parent="Content_165_1363/ScrollContent/日历行_5_165_1441"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 288
+offset_top = 0
+offset_right = 330
+offset_bottom = 44
+metadata/figma_id = "165:1454"
+metadata/figma_name = "日期 "
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 22, "topLeftRadius": 22, "topRightRadius": 22, "bottomLeftRadius": 22, "bottomRightRadius": 22}
+clip_contents = true
+
+[node name="Text_165_1455" type="Label" parent="Content_165_1363/ScrollContent/日历行_5_165_1441/日期_165_1454"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 13
+offset_right = 38
+offset_bottom = 31
+metadata/figma_id = "165:1455"
+metadata/figma_name = "Text"
+metadata/figma_type = "TEXT"
+text = ""
+theme_override_fonts/font = SubResource("R81")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="有记录_就有生活的痕迹_165_1456" type="Panel" parent="Content_165_1363/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 426
+offset_right = 369
+offset_bottom = 516
+metadata/figma_id = "165:1456"
+metadata/figma_name = "有记录，就有生活的痕迹"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="有记录_就有生活的痕迹_165_1457" type="Label" parent="Content_165_1363/ScrollContent/有记录_就有生活的痕迹_165_1456"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 16
+offset_right = 329
+offset_bottom = 40
+metadata/figma_id = "165:1457"
+metadata/figma_name = "有记录，就有生活的痕迹"
+metadata/figma_type = "TEXT"
+text = "有记录，就有生活的痕迹"
+theme_override_fonts/font = SubResource("R82")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="9_月_7_11_日为示例记录_其他日期可开始记录_165_1458" type="Label" parent="Content_165_1363/ScrollContent/有记录_就有生活的痕迹_165_1456"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 48
+offset_right = 329
+offset_bottom = 66
+metadata/figma_id = "165:1458"
+metadata/figma_name = "9 月 7–11 日为示例记录；其他日期可开始记录。"
+metadata/figma_type = "TEXT"
+text = "9 月 7–11 日为示例记录；其他日期可开始记录。"
+theme_override_fonts/font = SubResource("R83")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Actions_165_1459" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 750
+offset_right = 393
+offset_bottom = 818
+metadata/figma_id = "165:1459"
+metadata/figma_name = "Actions"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1}
+clip_contents = true
+
+[node name="Action_回到今日日记_165_1460" type="Panel" parent="Actions_165_1459"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 8
+offset_right = 369
+offset_bottom = 60
+metadata/figma_id = "165:1460"
+metadata/figma_name = "Action / 回到今日日记"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.196078, "g": 0.443137, "b": 0.345098}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.07}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.04, "g": 0.16, "b": 0.1, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 8, "boundVariables": {}, "color": {"r": 0.18, "g": 0.35, "b": 0.26, "a": 0.1}, "offset": {"x": 0, "y": 3}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Actions_165_1459/Action_回到今日日记_165_1460"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R84")
+theme_override_styles/hover = SubResource("R84")
+theme_override_styles/pressed = SubResource("R84")
+theme_override_styles/focus = SubResource("R84")
+metadata/source_id = "165:1460"
+metadata/click_actions = [{"type": "BACK"}]
+
+[node name="确认这顿饭_I165_1460_165_1979" type="Label" parent="Actions_165_1459/Action_回到今日日记_165_1460"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 14.5
+offset_right = 329.0
+offset_bottom = 37.5
+metadata/figma_id = "I165:1460;165:1979"
+metadata/figma_name = "确认这顿饭"
+metadata/figma_type = "TEXT"
+text = "回到今日日记"
+theme_override_fonts/font = SubResource("R85")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Home_Indicator_Area_165_1461" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 818
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "165:1461"
+metadata/figma_name = "Home Indicator Area"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Home_Indicator_165_1462" type="Panel" parent="Home_Indicator_Area_165_1461"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 129.5
+offset_top = 14.5
+offset_right = 263.5
+offset_bottom = 19.5
+metadata/figma_id = "165:1462"
+metadata/figma_name = "Home Indicator"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.160784, "g": 0.235294, "b": 0.2}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true

@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="345" height="266" viewBox="0 0 345 266" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Shared / flat living space">
+<path id="Vector" d="M0 186C87 172 99 192 170 189C241 186 282 171 345 182V266H0V186Z" fill="#F2DDCD"/>
+<path id="Vector_2" d="M172 254C250.977 254 315 239.225 315 221C315 202.775 250.977 188 172 188C93.0233 188 29 202.775 29 221C29 239.225 93.0233 254 172 254Z" fill="#FFFBF5"/>
+<path id="Vector_3" d="M172 245C241.036 245 297 234.255 297 221C297 207.745 241.036 197 172 197C102.964 197 47 207.745 47 221C47 234.255 102.964 245 172 245Z" fill="#D6E5DE"/>
+<path id="Vector_4" d="M12 147V94C12 85.7783 15.2661 77.8933 21.0797 72.0797C26.8933 66.2661 34.7783 63 43 63C51.2217 63 59.1067 66.2661 64.9203 72.0797C70.7339 77.8933 74 85.7783 74 94V147H12Z" fill="#DCECDC" stroke="#FBF8EC" stroke-width="7"/>
+<g id="Vector_5">
+<path d="M43 65V146ZM12 113H74Z" fill="black"/>
+<path d="M43 65V146M12 113H74" stroke="#FBF8EC" stroke-width="5"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,7 @@
+.godot/
+build/
+__pycache__/
+*.pyc
+*.log
+.env*
+user_data/

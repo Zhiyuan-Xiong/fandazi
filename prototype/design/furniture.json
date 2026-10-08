@@ -1,0 +1,258 @@
+[
+  {
+    "id": "sage-armchair",
+    "name": "鼠尾草扶手椅",
+    "day": 1,
+    "category": "客厅",
+    "asset": "res://assets/figma/fef350ea159517e2803e.png",
+    "pose": "Default"
+  },
+  {
+    "id": "sage-sofa",
+    "name": "双人云朵沙发",
+    "day": 7,
+    "category": "客厅",
+    "asset": "res://assets/figma/698af6ab7aa77cd11bbe.png",
+    "pose": "Default"
+  },
+  {
+    "id": "paw-rug",
+    "name": "小爪地毯",
+    "day": 3,
+    "category": "客厅",
+    "asset": "res://assets/figma/ec3ffffaad4c5ae55a0c.png",
+    "pose": "LieDown"
+  },
+  {
+    "id": "coffee-table",
+    "name": "奶油小茶几",
+    "day": 2,
+    "category": "客厅",
+    "asset": "res://assets/figma/9594dd4293684b03c8bd.png",
+    "pose": ""
+  },
+  {
+    "id": "arch-bookcase",
+    "name": "拱形小书架",
+    "day": 14,
+    "category": "客厅",
+    "asset": "res://assets/figma/0183b74182555e52d291.png",
+    "pose": ""
+  },
+  {
+    "id": "low-cabinet",
+    "name": "双门收纳柜",
+    "day": 15,
+    "category": "客厅",
+    "asset": "res://assets/figma/1a5b668fb5b4c10295e7.png",
+    "pose": ""
+  },
+  {
+    "id": "peach-cushion",
+    "name": "桃桃花坐垫",
+    "day": 6,
+    "category": "休息",
+    "asset": "res://assets/figma/1f975f03df51ef227447.png",
+    "pose": "Default"
+  },
+  {
+    "id": "pet-bed",
+    "name": "绵绵小睡窝",
+    "day": 8,
+    "category": "休息",
+    "asset": "res://assets/figma/ba81ca6e1036c0446d5b.png",
+    "pose": "LieDown"
+  },
+  {
+    "id": "bedside-table",
+    "name": "晚安床头柜",
+    "day": 9,
+    "category": "休息",
+    "asset": "res://assets/figma/50d6b8af6371e52f38d7.png",
+    "pose": ""
+  },
+  {
+    "id": "blanket-basket",
+    "name": "暖暖毛毯篮",
+    "day": 10,
+    "category": "休息",
+    "asset": "res://assets/figma/1f7dd4a23da588461016.png",
+    "pose": "LieDown"
+  },
+  {
+    "id": "beanbag",
+    "name": "奶油懒人椅",
+    "day": 11,
+    "category": "休息",
+    "asset": "res://assets/figma/65e55b818e558cf6e18e.png",
+    "pose": "Default"
+  },
+  {
+    "id": "drawer-chest",
+    "name": "鼠尾草抽屉柜",
+    "day": 12,
+    "category": "休息",
+    "asset": "res://assets/figma/3b5eb62ff7d682da4915.png",
+    "pose": ""
+  },
+  {
+    "id": "standing-mirror",
+    "name": "拱门穿衣镜",
+    "day": 13,
+    "category": "休息",
+    "asset": "res://assets/figma/31c86f55fd9b86897606.png",
+    "pose": ""
+  },
+  {
+    "id": "cream-cushion",
+    "name": "奶油花坐垫",
+    "day": 16,
+    "category": "休息",
+    "asset": "res://assets/figma/59efa1e907ce2eed0d5b.png",
+    "pose": "Default"
+  },
+  {
+    "id": "dining-table",
+    "name": "小叶餐桌",
+    "day": 17,
+    "category": "餐厨",
+    "asset": "res://assets/figma/38b14719b5ddd2009122.png",
+    "pose": ""
+  },
+  {
+    "id": "dining-chair",
+    "name": "软垫餐椅",
+    "day": 18,
+    "category": "餐厨",
+    "asset": "res://assets/figma/e02948b9a7933faa430c.png",
+    "pose": "Default"
+  },
+  {
+    "id": "tea-cart",
+    "name": "午后茶推车",
+    "day": 19,
+    "category": "餐厨",
+    "asset": "res://assets/figma/11baa42152d10cc80d9b.png",
+    "pose": ""
+  },
+  {
+    "id": "kitchen-cabinet",
+    "name": "点心边柜",
+    "day": 20,
+    "category": "餐厨",
+    "asset": "res://assets/figma/72ac9ffc846423dda550.png",
+    "pose": ""
+  },
+  {
+    "id": "pantry-shelf",
+    "name": "美味储物架",
+    "day": 21,
+    "category": "餐厨",
+    "asset": "res://assets/figma/f7cf3a9b268bb6bb958c.png",
+    "pose": ""
+  },
+  {
+    "id": "fridge",
+    "name": "小叶冰箱",
+    "day": 28,
+    "category": "餐厨",
+    "asset": "res://assets/figma/6fdba8a51d4ad0343d40.png",
+    "pose": ""
+  },
+  {
+    "id": "round-tea-cart",
+    "name": "圆圆茶水车",
+    "day": 22,
+    "category": "餐厨",
+    "asset": "res://assets/figma/251f8505910bccf0b2db.png",
+    "pose": ""
+  },
+  {
+    "id": "snack-basket",
+    "name": "小鱼零食篮",
+    "day": 23,
+    "category": "餐厨",
+    "asset": "res://assets/figma/090e68682c84f155d819.png",
+    "pose": ""
+  },
+  {
+    "id": "trailing-plant",
+    "name": "垂叶小绿植",
+    "day": 4,
+    "category": "植物",
+    "asset": "res://assets/figma/4b9bfc404535565665b7.png",
+    "pose": ""
+  },
+  {
+    "id": "leaf-stool",
+    "name": "新芽盆栽",
+    "day": 27,
+    "category": "植物",
+    "asset": "res://assets/figma/baadd473a03f7883fa7a.png",
+    "pose": ""
+  },
+  {
+    "id": "floor-lamp",
+    "name": "暖光落地灯",
+    "day": 5,
+    "category": "灯饰",
+    "asset": "res://assets/figma/b3f5fba184b46df60e63.png",
+    "pose": ""
+  },
+  {
+    "id": "wall-lamp",
+    "name": "小月亮壁灯",
+    "day": 29,
+    "category": "灯饰",
+    "asset": "res://assets/figma/a2de7877700470cc600f.png",
+    "pose": ""
+  },
+  {
+    "id": "curtain-window",
+    "name": "微风绿窗帘",
+    "day": 24,
+    "category": "墙饰",
+    "asset": "res://assets/figma/90b9b78335855dd7a7cc.png",
+    "pose": ""
+  },
+  {
+    "id": "leaf-art",
+    "name": "小叶装饰画",
+    "day": 25,
+    "category": "墙饰",
+    "asset": "res://assets/figma/0b6420da3e1907d9ef09.png",
+    "pose": ""
+  },
+  {
+    "id": "wall-clock",
+    "name": "慢慢走时钟",
+    "day": 26,
+    "category": "墙饰",
+    "asset": "res://assets/figma/ca6988724f208cb2b9f5.png",
+    "pose": ""
+  },
+  {
+    "id": "wall-shelf",
+    "name": "书香壁架",
+    "day": 30,
+    "category": "墙饰",
+    "asset": "res://assets/figma/f32d4ea61b075d94615e.png",
+    "pose": ""
+  },
+  {
+    "id": "arched-door",
+    "name": "奶油拱门",
+    "day": 31,
+    "category": "墙饰",
+    "asset": "res://assets/figma/c8e0b0733edfc919c343.png",
+    "pose": ""
+  },
+  {
+    "id": "corner-module",
+    "name": "奶油墙角",
+    "day": 32,
+    "category": "墙饰",
+    "asset": "res://assets/figma/a859d482f38a738d69f1.png",
+    "pose": ""
+  }
+]

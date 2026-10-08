@@ -1,0 +1,18 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="345" height="360" viewBox="0 0 345 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Brand / soft glow and leaves" clip-path="url(#clip0_0_151)">
+<path id="Vector" d="M34 88C48 6 184 -10 268 45C352 100 371 208 311 286C251 364 37 359 12 254C-13 149 6 153 34 88Z" fill="url(#paint0_radial_0_151)"/>
+<path id="Vector_2" d="M58 59L64 71L77 75L64 80L58 93L53 80L40 75L53 71L58 59Z" fill="#FFFDF1"/>
+<path id="Vector_3" d="M282 216L286 227L298 232L286 236L282 248L277 236L266 232L277 227L282 216Z" fill="#FFFDF1"/>
+<path id="Vector_4" d="M266 59C267 35 289 32 295 43C301 54 290 63 266 59Z" fill="#8EAF78"/>
+<path id="Vector_5" d="M59 271C49 251 36 262 41 273L59 289L76 272C81 256 66 254 59 271Z" fill="#E7A78F"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_0_151" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(173.176 176.039) scale(172.81 163.29)">
+<stop stop-color="#F0D698"/>
+<stop offset="1" stop-color="#E5EDD9"/>
+</radialGradient>
+<clipPath id="clip0_0_151">
+<rect width="345" height="360" fill="white"/>
+</clipPath>
+</defs>
+</svg>

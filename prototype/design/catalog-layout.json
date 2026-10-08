@@ -1,0 +1,605 @@
+[
+  {
+    "id": "200:2305",
+    "name": "Content",
+    "layoutMode": "VERTICAL",
+    "layoutWrap": "NO_WRAP",
+    "itemSpacing": 12,
+    "counterAxisSpacing": 0,
+    "primaryAxisSizingMode": "FIXED",
+    "counterAxisSizingMode": "FIXED",
+    "paddingLeft": 24,
+    "paddingTop": 8,
+    "paddingRight": 24,
+    "paddingBottom": 16,
+    "overflowDirection": "VERTICAL",
+    "width": 393,
+    "height": 650,
+    "children": [
+      {
+        "id": "202:2388",
+        "name": "Heading",
+        "x": 24,
+        "y": 8,
+        "width": 345,
+        "height": 36,
+        "visible": true
+      },
+      {
+        "id": "202:2389",
+        "name": "Subheading",
+        "x": 24,
+        "y": 56,
+        "width": 345,
+        "height": 20,
+        "visible": true
+      },
+      {
+        "id": "202:2390",
+        "name": "Categories / Horizontal",
+        "x": 24,
+        "y": 88,
+        "width": 345,
+        "height": 44,
+        "visible": true
+      },
+      {
+        "id": "202:2391",
+        "name": "Catalog category lists",
+        "x": 24,
+        "y": 144,
+        "width": 345,
+        "height": 304,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "id": "202:2390",
+    "name": "Categories / Horizontal",
+    "layoutMode": "HORIZONTAL",
+    "layoutWrap": "NO_WRAP",
+    "itemSpacing": 8,
+    "counterAxisSpacing": 0,
+    "primaryAxisSizingMode": "FIXED",
+    "counterAxisSizingMode": "FIXED",
+    "paddingLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "overflowDirection": "HORIZONTAL",
+    "width": 345,
+    "height": 44,
+    "children": [
+      {
+        "id": "202:2392",
+        "name": "Category / 客厅",
+        "x": 0,
+        "y": 0,
+        "width": 68,
+        "height": 40,
+        "visible": true
+      },
+      {
+        "id": "202:2399",
+        "name": "Category / 休息",
+        "x": 76,
+        "y": 0,
+        "width": 68,
+        "height": 40,
+        "visible": true
+      },
+      {
+        "id": "202:2406",
+        "name": "Category / 餐厨",
+        "x": 152,
+        "y": 0,
+        "width": 68,
+        "height": 40,
+        "visible": true
+      },
+      {
+        "id": "202:2413",
+        "name": "Category / 植物",
+        "x": 228,
+        "y": 0,
+        "width": 68,
+        "height": 40,
+        "visible": true
+      },
+      {
+        "id": "202:2420",
+        "name": "Category / 灯饰",
+        "x": 304,
+        "y": 0,
+        "width": 68,
+        "height": 40,
+        "visible": true
+      },
+      {
+        "id": "202:2427",
+        "name": "Category / 墙饰",
+        "x": 380,
+        "y": 0,
+        "width": 68,
+        "height": 40,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "id": "202:2391",
+    "name": "Catalog category lists",
+    "layoutMode": "VERTICAL",
+    "layoutWrap": "NO_WRAP",
+    "itemSpacing": 8,
+    "counterAxisSpacing": 0,
+    "primaryAxisSizingMode": "AUTO",
+    "counterAxisSizingMode": "FIXED",
+    "paddingLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "overflowDirection": "NONE",
+    "width": 345,
+    "height": 304,
+    "children": [
+      {
+        "id": "202:2434",
+        "name": "Catalog / 客厅",
+        "x": 0,
+        "y": 0,
+        "width": 345,
+        "height": 304,
+        "visible": true
+      },
+      {
+        "id": "202:2435",
+        "name": "Catalog / 休息",
+        "x": 0,
+        "y": 154,
+        "width": 345,
+        "height": 146,
+        "visible": false
+      },
+      {
+        "id": "202:2436",
+        "name": "Catalog / 餐厨",
+        "x": 0,
+        "y": 154,
+        "width": 345,
+        "height": 146,
+        "visible": false
+      },
+      {
+        "id": "202:2437",
+        "name": "Catalog / 植物",
+        "x": 0,
+        "y": 154,
+        "width": 345,
+        "height": 146,
+        "visible": false
+      },
+      {
+        "id": "202:2438",
+        "name": "Catalog / 灯饰",
+        "x": 0,
+        "y": 154,
+        "width": 345,
+        "height": 146,
+        "visible": false
+      },
+      {
+        "id": "202:2439",
+        "name": "Catalog / 墙饰",
+        "x": 0,
+        "y": 154,
+        "width": 345,
+        "height": 146,
+        "visible": false
+      }
+    ]
+  },
+  {
+    "id": "202:2434",
+    "name": "Catalog / 客厅",
+    "layoutMode": "HORIZONTAL",
+    "layoutWrap": "WRAP",
+    "itemSpacing": 12,
+    "counterAxisSpacing": 12,
+    "primaryAxisSizingMode": "FIXED",
+    "counterAxisSizingMode": "AUTO",
+    "paddingLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "overflowDirection": "NONE",
+    "width": 345,
+    "height": 304,
+    "children": [
+      {
+        "id": "202:2440",
+        "name": "Furniture / sage-armchair",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2445",
+        "name": "Furniture / sage-sofa",
+        "x": 116,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2595",
+        "name": "Furniture switch / paw-rug",
+        "x": 232,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2450",
+        "name": "Furniture / coffee-table",
+        "x": 0,
+        "y": 158,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2470",
+        "name": "Furniture / arch-bookcase",
+        "x": 116,
+        "y": 158,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2505",
+        "name": "Furniture / low-cabinet",
+        "x": 232,
+        "y": 158,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "id": "202:2435",
+    "name": "Catalog / 休息",
+    "layoutMode": "HORIZONTAL",
+    "layoutWrap": "WRAP",
+    "itemSpacing": 12,
+    "counterAxisSpacing": 12,
+    "primaryAxisSizingMode": "FIXED",
+    "counterAxisSizingMode": "AUTO",
+    "paddingLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "overflowDirection": "NONE",
+    "width": 345,
+    "height": 146,
+    "children": [
+      {
+        "id": "202:2465",
+        "name": "Furniture / peach-cushion",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2475",
+        "name": "Furniture / pet-bed",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2480",
+        "name": "Furniture / bedside-table",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2485",
+        "name": "Furniture / blanket-basket",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2490",
+        "name": "Furniture / beanbag",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2495",
+        "name": "Furniture / drawer-chest",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2500",
+        "name": "Furniture / standing-mirror",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2510",
+        "name": "Furniture / cream-cushion",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "id": "202:2436",
+    "name": "Catalog / 餐厨",
+    "layoutMode": "HORIZONTAL",
+    "layoutWrap": "WRAP",
+    "itemSpacing": 12,
+    "counterAxisSpacing": 12,
+    "primaryAxisSizingMode": "FIXED",
+    "counterAxisSizingMode": "AUTO",
+    "paddingLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "overflowDirection": "NONE",
+    "width": 345,
+    "height": 146,
+    "children": [
+      {
+        "id": "202:2515",
+        "name": "Furniture / dining-table",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2520",
+        "name": "Furniture / dining-chair",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2525",
+        "name": "Furniture / tea-cart",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2530",
+        "name": "Furniture / kitchen-cabinet",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2535",
+        "name": "Furniture / pantry-shelf",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2540",
+        "name": "Furniture / fridge",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2545",
+        "name": "Furniture / round-tea-cart",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2550",
+        "name": "Furniture / snack-basket",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "id": "202:2437",
+    "name": "Catalog / 植物",
+    "layoutMode": "HORIZONTAL",
+    "layoutWrap": "WRAP",
+    "itemSpacing": 12,
+    "counterAxisSpacing": 12,
+    "primaryAxisSizingMode": "FIXED",
+    "counterAxisSizingMode": "AUTO",
+    "paddingLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "overflowDirection": "NONE",
+    "width": 345,
+    "height": 146,
+    "children": [
+      {
+        "id": "202:2455",
+        "name": "Furniture / trailing-plant",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2570",
+        "name": "Furniture / leaf-stool",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "id": "202:2438",
+    "name": "Catalog / 灯饰",
+    "layoutMode": "HORIZONTAL",
+    "layoutWrap": "WRAP",
+    "itemSpacing": 12,
+    "counterAxisSpacing": 12,
+    "primaryAxisSizingMode": "FIXED",
+    "counterAxisSizingMode": "AUTO",
+    "paddingLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "overflowDirection": "NONE",
+    "width": 345,
+    "height": 146,
+    "children": [
+      {
+        "id": "202:2460",
+        "name": "Furniture / floor-lamp",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2575",
+        "name": "Furniture / wall-lamp",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "id": "202:2439",
+    "name": "Catalog / 墙饰",
+    "layoutMode": "HORIZONTAL",
+    "layoutWrap": "WRAP",
+    "itemSpacing": 12,
+    "counterAxisSpacing": 12,
+    "primaryAxisSizingMode": "FIXED",
+    "counterAxisSizingMode": "AUTO",
+    "paddingLeft": 0,
+    "paddingTop": 0,
+    "paddingRight": 0,
+    "paddingBottom": 0,
+    "overflowDirection": "NONE",
+    "width": 345,
+    "height": 146,
+    "children": [
+      {
+        "id": "202:2555",
+        "name": "Furniture / curtain-window",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2560",
+        "name": "Furniture / leaf-art",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2565",
+        "name": "Furniture / wall-clock",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2580",
+        "name": "Furniture / wall-shelf",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2585",
+        "name": "Furniture / arched-door",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      },
+      {
+        "id": "202:2590",
+        "name": "Furniture / corner-module",
+        "x": 0,
+        "y": 0,
+        "width": 104,
+        "height": 146,
+        "visible": true
+      }
+    ]
+  }
+]

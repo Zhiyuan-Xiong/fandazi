@@ -1,0 +1,28 @@
+; FanDazi UX Demo — source: Figma 01_UI_Redesign / 165:838
+config_version=5
+
+[application]
+config/name="饭搭子 FanDazi · Figma UX Demo"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[display]
+window/size/viewport_width=393
+window/size/viewport_height=852
+window/size/window_width_override=393
+window/size/window_height_override=852
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+window/handheld/orientation=1
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+environment/defaults/default_clear_color=Color(0.9137255, 0.9411765, 0.8980392, 1)
+
+[input_devices]
+pointing/emulate_touch_from_mouse=false
+
+[debug]
+gdscript/warnings/untyped_declaration=0

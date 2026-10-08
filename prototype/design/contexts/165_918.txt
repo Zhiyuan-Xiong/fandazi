@@ -1,0 +1,104 @@
+export default function Component05() {
+  return (
+    <div className="bg-gradient-to-b content-stretch flex flex-col from-[#e9f0e5] items-start relative size-full to-[#fbf6e9]" data-node-id="165:918" data-name="05 — 健康信息初始化">
+      <div className="[word-break:break-word] content-stretch flex font-['Noto_Sans_SC:Bold'] font-bold gap-[var(--fandazi-ui-gap,8px)] h-[48px] items-center justify-between overflow-clip pl-[28px] pr-[24px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 text-[color:var(--fandazi-ink,#293c33)] w-[393px]" data-node-id="165:919" data-name="Safe Area">
+        <p className="absolute leading-[20px] left-[24px] text-[13px] top-[14px] w-[50px]" data-node-id="165:920">
+          9:41
+        </p>
+        <p className="absolute leading-[18px] left-[332px] text-[12px] top-[14px] w-[38px] whitespace-pre-wrap" data-node-id="165:921">{`●  ▰`}</p>
+      </div>
+      <div className="content-stretch flex gap-[var(--fandazi-ui-gap,8px)] h-[56px] items-center justify-between px-[var(--fandazi-ui-pad,16px)] py-[2px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[393px]" data-node-id="165:922" data-name="Top Bar">
+        <button className="content-stretch cursor-pointer flex h-[52px] items-center justify-center px-[6px] py-[8px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[44px]" data-node-id="I165:922;28:79" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(97, 133, 107, 0.06) 100%), linear-gradient(90deg, rgb(255, 254, 249) 0%, rgb(255, 254, 249) 100%)" }} data-name="Back">
+          <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Noto_Sans_SC:Bold'] font-bold justify-center leading-[0] min-w-px relative text-[20px] text-[color:var(--fandazi-ink,#293c33)] text-center" data-node-id="I165:922;28:79;165:1989">
+            <p className="leading-[24px]">‹</p>
+          </div>
+        </button>
+        <p className="[word-break:break-word] font-['Noto_Sans_SC:Medium'] font-medium leading-[27px] relative shrink-0 text-[18px] text-[color:var(--fandazi-ink,#293c33)] whitespace-nowrap" data-node-id="I165:922;28:81">
+          健康信息初始化
+        </p>
+        <a className="content-stretch cursor-pointer flex h-[44px] items-center justify-center px-[6px] py-[8px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[52px]" data-node-id="I165:922;28:82" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(97, 133, 107, 0.06) 100%), linear-gradient(90deg, rgb(255, 254, 249) 0%, rgb(255, 254, 249) 100%)" }} data-name="Home">
+          <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Noto_Sans_SC:Bold'] font-bold justify-center leading-[0] min-w-px relative text-[14px] text-[color:var(--fandazi-ink,#293c33)] text-center" data-node-id="I165:922;28:82;165:1989">
+            <p className="leading-[24px]">首页</p>
+          </div>
+        </a>
+      </div>
+      <div className="content-stretch flex flex-col gap-[12px] h-[646px] items-start overflow-x-clip overflow-y-auto px-[24px] py-[var(--fandazi-ui-pad,16px)] relative shrink-0 w-[393px]" data-node-id="165:923" data-name="Content">
+        <p className="[word-break:break-word] font-['Noto_Sans_SC:Bold'] font-bold leading-[32px] relative shrink-0 text-[24px] text-[color:var(--fandazi-ink,#293c33)] w-[345px]" data-node-id="165:924">
+          先认识一下你
+        </p>
+        <p className="[word-break:break-word] font-['Noto_Sans_SC:Regular'] font-normal leading-[18px] relative shrink-0 text-[12px] text-[color:var(--fandazi-muted,#68796c)] w-[345px]" data-node-id="165:925">
+          仅用于个性化参考，可跳过并稍后修改。
+        </p>
+        <button className="[word-break:break-word] bg-[var(--fandazi-paper,#fffef9)] content-stretch cursor-pointer flex flex-col gap-[var(--fandazi-ui-small,4px)] h-[62px] items-start px-[var(--fandazi-ui-pad,16px)] py-[8px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 text-left w-[345px]" data-node-id="165:926" data-name="Food Card">
+          <p className="font-['Noto_Sans_SC:Medium'] font-medium leading-[23px] relative shrink-0 text-[15px] text-[color:var(--fandazi-ink,#293c33)] w-full whitespace-pre-wrap" data-node-id="I165:926;165:1994">{`年龄  · 点按切换示例`}</p>
+          <p className="font-['Noto_Sans_SC:Regular'] font-normal leading-[18px] relative shrink-0 text-[12px] text-[color:var(--fandazi-muted,#68796c)] w-full" data-node-id="I165:926;165:1995">
+            24 岁
+          </p>
+        </button>
+        <button className="[word-break:break-word] bg-[var(--fandazi-paper,#fffef9)] content-stretch cursor-pointer flex flex-col gap-[var(--fandazi-ui-small,4px)] h-[62px] items-start px-[var(--fandazi-ui-pad,16px)] py-[8px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 text-left w-[345px]" data-node-id="165:927" data-name="Food Card">
+          <p className="font-['Noto_Sans_SC:Medium'] font-medium leading-[23px] relative shrink-0 text-[15px] text-[color:var(--fandazi-ink,#293c33)] w-full whitespace-pre-wrap" data-node-id="I165:927;165:1994">{`身高  · 点按切换示例`}</p>
+          <p className="font-['Noto_Sans_SC:Regular'] font-normal leading-[18px] relative shrink-0 text-[12px] text-[color:var(--fandazi-muted,#68796c)] w-full" data-node-id="I165:927;165:1995">
+            165 cm
+          </p>
+        </button>
+        <button className="[word-break:break-word] bg-[var(--fandazi-paper,#fffef9)] content-stretch cursor-pointer flex flex-col gap-[var(--fandazi-ui-small,4px)] h-[62px] items-start px-[var(--fandazi-ui-pad,16px)] py-[8px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 text-left w-[345px]" data-node-id="165:928" data-name="Food Card">
+          <p className="font-['Noto_Sans_SC:Medium'] font-medium leading-[23px] relative shrink-0 text-[15px] text-[color:var(--fandazi-ink,#293c33)] w-full whitespace-pre-wrap" data-node-id="I165:928;165:1994">{`体重  · 点按切换示例`}</p>
+          <p className="font-['Noto_Sans_SC:Regular'] font-normal leading-[18px] relative shrink-0 text-[12px] text-[color:var(--fandazi-muted,#68796c)] w-full" data-node-id="I165:928;165:1995">
+            55 kg
+          </p>
+        </button>
+        <button className="[word-break:break-word] bg-[var(--fandazi-paper,#fffef9)] content-stretch cursor-pointer flex flex-col gap-[var(--fandazi-ui-small,4px)] h-[62px] items-start px-[var(--fandazi-ui-pad,16px)] py-[8px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 text-left w-[345px]" data-node-id="165:929" data-name="Food Card">
+          <p className="font-['Noto_Sans_SC:Medium'] font-medium leading-[23px] relative shrink-0 text-[15px] text-[color:var(--fandazi-ink,#293c33)] w-full whitespace-pre-wrap" data-node-id="I165:929;165:1994">{`通常睡眠  · 点按切换示例`}</p>
+          <p className="font-['Noto_Sans_SC:Regular'] font-normal leading-[18px] relative shrink-0 text-[12px] text-[color:var(--fandazi-muted,#68796c)] w-full" data-node-id="I165:929;165:1995">
+            23:30
+          </p>
+        </button>
+        <button className="[word-break:break-word] bg-[var(--fandazi-paper,#fffef9)] content-stretch cursor-pointer flex flex-col gap-[var(--fandazi-ui-small,4px)] h-[62px] items-start px-[var(--fandazi-ui-pad,16px)] py-[8px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 text-left w-[345px]" data-node-id="165:930" data-name="Food Card">
+          <p className="font-['Noto_Sans_SC:Medium'] font-medium leading-[23px] relative shrink-0 text-[15px] text-[color:var(--fandazi-ink,#293c33)] w-full whitespace-pre-wrap" data-node-id="I165:930;165:1994">{`饮食习惯  · 点按切换示例`}</p>
+          <p className="font-['Noto_Sans_SC:Regular'] font-normal leading-[18px] relative shrink-0 text-[12px] text-[color:var(--fandazi-muted,#68796c)] w-full" data-node-id="I165:930;165:1995">
+            三餐为主
+          </p>
+        </button>
+        <button className="[word-break:break-word] bg-[var(--fandazi-paper,#fffef9)] content-stretch cursor-pointer flex flex-col gap-[var(--fandazi-ui-small,4px)] h-[62px] items-start px-[var(--fandazi-ui-pad,16px)] py-[8px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 text-left w-[345px]" data-node-id="165:931" data-name="Food Card">
+          <p className="font-['Noto_Sans_SC:Medium'] font-medium leading-[23px] relative shrink-0 text-[15px] text-[color:var(--fandazi-ink,#293c33)] w-full whitespace-pre-wrap" data-node-id="I165:931;165:1994">{`饮食目标  · 点按切换示例`}</p>
+          <p className="font-['Noto_Sans_SC:Regular'] font-normal leading-[18px] relative shrink-0 text-[12px] text-[color:var(--fandazi-muted,#68796c)] w-full" data-node-id="I165:931;165:1995">
+            更规律地吃饭
+          </p>
+        </button>
+        <button className="[word-break:break-word] bg-[var(--fandazi-paper,#fffef9)] content-stretch cursor-pointer flex flex-col gap-[var(--fandazi-ui-small,4px)] h-[62px] items-start px-[var(--fandazi-ui-pad,16px)] py-[8px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 text-left w-[345px]" data-node-id="165:932" data-name="Food Card">
+          <p className="font-['Noto_Sans_SC:Medium'] font-medium leading-[23px] relative shrink-0 text-[15px] text-[color:var(--fandazi-ink,#293c33)] w-full whitespace-pre-wrap" data-node-id="I165:932;165:1994">{`咖啡因敏感度  · 点按切换示例`}</p>
+          <p className="font-['Noto_Sans_SC:Regular'] font-normal leading-[18px] relative shrink-0 text-[12px] text-[color:var(--fandazi-muted,#68796c)] w-full" data-node-id="I165:932;165:1995">
+            一般
+          </p>
+        </button>
+        <a className="border border-[#dee8dc] border-solid content-stretch cursor-pointer flex h-[48px] items-center justify-center px-[16px] py-[12px] relative rounded-[var(--fandazi-ui-radius,18px)] shrink-0 w-[345px]" data-node-id="165:933" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(97, 133, 107, 0.06) 100%), linear-gradient(90deg, rgba(255, 255, 255, 0.84) 0%, rgba(255, 255, 255, 0.84) 100%)" }} data-name="Action / 暂时跳过">
+          <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Noto_Sans_SC:Medium'] font-medium justify-center leading-[0] min-w-px relative text-[16px] text-[color:var(--fandazi-ink,#293c33)] text-center" data-node-id="I165:933;165:1984">
+            <p className="leading-[24px]">暂时跳过</p>
+          </div>
+        </a>
+      </div>
+      <div className="content-stretch flex gap-[var(--fandazi-ui-gap,8px)] h-[68px] items-center justify-center overflow-clip px-[24px] py-[8px] relative shrink-0 w-[393px]" data-node-id="165:934" data-name="Actions">
+        <a className="content-stretch cursor-pointer drop-shadow-[0px_3px_4px_rgba(46,89,66,0.1)] flex h-[52px] items-center justify-center px-[16px] py-[14px] relative rounded-[var(--fandazi-ui-radius,26px)] shrink-0 w-[345px]" data-node-id="165:935" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, rgba(10, 41, 26, 0.06) 100%), linear-gradient(90deg, rgb(50, 113, 88) 0%, rgb(50, 113, 88) 100%)" }} data-name="Action / 保存并继续">
+          <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Noto_Sans_SC:Bold'] font-bold justify-center leading-[0] min-w-px relative text-[15px] text-center text-white" data-node-id="I165:935;165:1979">
+            <p className="leading-[23px]">保存并继续</p>
+          </div>
+        </a>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--fandazi-ui-gap,8px)] h-[34px] items-center justify-center overflow-clip relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[393px]" data-node-id="165:936" data-name="Home Indicator Area">
+        <div className="bg-[var(--fandazi-ink,#293c33)] h-[5px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[134px]" data-node-id="165:937" data-name="Home Indicator" />
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

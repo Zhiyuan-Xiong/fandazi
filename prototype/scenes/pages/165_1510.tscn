@@ -1,0 +1,1254 @@
+[gd_scene load_steps=45 format=3]
+
+[ext_resource type="Script" path="res://scripts/surface.gd" id="1"]
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSansSC-VF.ttf" id="2"]
+[ext_resource type="Texture2D" path="res://assets/figma/b16939a85ca8bce33249.png" id="3"]
+[ext_resource type="Script" path="res://scripts/otter_motion.gd" id="4"]
+[ext_resource type="Texture2D" path="res://assets/figma/a5dc2fe5e2d76663b21c.png" id="5"]
+[ext_resource type="Texture2D" path="res://assets/figma/94a61fbaa0bc324e0697.png" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/components/bottom_navigation.tscn" id="7"]
+
+[sub_resource type="FontVariation" id="R1"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R2"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R3"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R4"]
+
+
+[sub_resource type="FontVariation" id="R5"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R6"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R7"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R8"]
+
+
+[sub_resource type="FontVariation" id="R9"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R10"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R11"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R12"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R13"]
+
+
+[sub_resource type="FontVariation" id="R14"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R15"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R16"]
+
+
+[sub_resource type="FontVariation" id="R17"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R18"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R19"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R20"]
+
+
+[sub_resource type="FontVariation" id="R21"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R22"]
+
+
+[sub_resource type="FontVariation" id="R23"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R24"]
+
+
+[sub_resource type="FontVariation" id="R25"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R26"]
+
+
+[sub_resource type="FontVariation" id="R27"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R28"]
+
+
+[sub_resource type="FontVariation" id="R29"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R30"]
+
+
+[sub_resource type="FontVariation" id="R31"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R32"]
+
+
+[sub_resource type="FontVariation" id="R33"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R34"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R35"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R36"]
+
+
+[sub_resource type="FontVariation" id="R37"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+[node name="UI_今日计划_165_1510" type="Panel"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "165:1510"
+metadata/figma_name = "UI / 今日计划"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 0.913725, "g": 0.941176, "b": 0.898039, "a": 1}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.984314, "g": 0.964706, "b": 0.913725, "a": 1}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1}
+clip_contents = true
+
+[node name="Safe_Area_165_1511" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 48
+metadata/figma_id = "165:1511"
+metadata/figma_name = "Safe Area"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="9_41_165_1512" type="Label" parent="Safe_Area_165_1511"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 14
+offset_right = 74
+offset_bottom = 34
+metadata/figma_id = "165:1512"
+metadata/figma_name = "9:41"
+metadata/figma_type = "TEXT"
+text = "9:41"
+theme_override_fonts/font = SubResource("R1")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Layer_165_1513" type="Label" parent="Safe_Area_165_1511"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 332
+offset_top = 14
+offset_right = 370
+offset_bottom = 32
+metadata/figma_id = "165:1513"
+metadata/figma_name = "● ▰"
+metadata/figma_type = "TEXT"
+text = "●  ▰"
+theme_override_fonts/font = SubResource("R2")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Top_Bar_165_1514" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 48
+offset_right = 393
+offset_bottom = 104
+metadata/figma_id = "165:1514"
+metadata/figma_name = "Top Bar"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="页面标题_I165_1514_28_81" type="Label" parent="Top_Bar_165_1514"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 14.5
+offset_right = 106
+offset_bottom = 41.5
+metadata/figma_id = "I165:1514;28:81"
+metadata/figma_name = "页面标题"
+metadata/figma_type = "TEXT"
+text = "今天吃什么"
+theme_override_fonts/font = SubResource("R3")
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Home_I165_1514_28_82" type="Panel" parent="Top_Bar_165_1514"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 325
+offset_top = 6
+offset_right = 377
+offset_bottom = 50
+metadata/figma_id = "I165:1514;28:82"
+metadata/figma_name = "Home"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:2391", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Top_Bar_165_1514/Home_I165_1514_28_82"]
+layout_mode = 0
+offset_right = 52
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R4")
+theme_override_styles/hover = SubResource("R4")
+theme_override_styles/pressed = SubResource("R4")
+theme_override_styles/focus = SubResource("R4")
+metadata/source_id = "I165:1514;28:82"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:2391", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]
+
+[node name="Layer_I165_1514_28_82_165_1989" type="Label" parent="Top_Bar_165_1514/Home_I165_1514_28_82"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 6.0
+offset_top = 10.0
+offset_right = 46.0
+offset_bottom = 34.0
+metadata/figma_id = "I165:1514;28:82;165:1989"
+metadata/figma_name = "×"
+metadata/figma_type = "TEXT"
+text = "我"
+theme_override_fonts/font = SubResource("R5")
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Content_165_1515" type="ScrollContainer" parent="."]
+layout_mode = 0
+mouse_filter = 1
+offset_left = 0
+offset_top = 104
+offset_right = 393
+offset_bottom = 682
+metadata/figma_id = "165:1515"
+metadata/figma_name = "Content"
+metadata/figma_type = "FRAME"
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+
+[node name="ScrollContent" type="Control" parent="Content_165_1515"]
+custom_minimum_size = Vector2(393, 872)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Today_suggestion_165_1516" type="Panel" parent="Content_165_1515/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 0
+offset_right = 369
+offset_bottom = 68
+metadata/figma_id = "165:1516"
+metadata/figma_name = "Today suggestion"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.992157, "b": 0.972549}}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.737255, "g": 0.815686, "b": 0.694118}}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 0, "boundVariables": {}, "color": {"r": 0.443137, "g": 0.556863, "b": 0.486275, "a": 0.07}, "offset": {"x": 0, "y": 3}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = true
+
+[node name="今日建议_165_1517" type="Label" parent="Content_165_1515/ScrollContent/Today_suggestion_165_1516"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 10
+offset_right = 246
+offset_bottom = 34
+metadata/figma_id = "165:1517"
+metadata/figma_name = "今日建议"
+metadata/figma_type = "TEXT"
+metadata/bindings = {"characters": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:815"}}
+text = "今日建议"
+theme_override_fonts/font = SubResource("R6")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="晚饭可以再搭配一份喜欢的蔬菜_165_1518" type="Label" parent="Content_165_1515/ScrollContent/Today_suggestion_165_1516"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 38
+offset_right = 246
+offset_bottom = 58
+metadata/figma_id = "165:1518"
+metadata/figma_name = "晚饭可以再搭配一份喜欢的蔬菜。"
+metadata/figma_type = "TEXT"
+metadata/bindings = {"characters": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:816"}}
+text = "晚饭可以再搭配一份喜欢的蔬菜。"
+theme_override_fonts/font = SubResource("R7")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="OTTER_FaceHappy_165_1519" type="Panel" parent="Content_165_1515/ScrollContent/Today_suggestion_165_1516"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 279
+offset_top = 11
+offset_right = 330
+offset_bottom = 62
+metadata/figma_id = "165:1519"
+metadata/figma_name = "OTTER_FaceHappy"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.363636}
+clip_contents = false
+
+[node name="OTTER_FaceHappy_PNG_I165_1519_98_1940" type="TextureRect" parent="Content_165_1515/ScrollContent/Today_suggestion_165_1516/OTTER_FaceHappy_165_1519"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = -4.32
+offset_top = -4.32
+offset_right = 55.32
+offset_bottom = 55.32
+metadata/figma_id = "I165:1519;98:1940"
+metadata/figma_name = "OTTER_FaceHappy/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("3")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "FaceHappy"
+stretch_mode = 5
+
+[node name="Quick_meals_and_delivery_165_1521" type="Panel" parent="Content_165_1515/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 88
+offset_right = 369
+offset_bottom = 358
+metadata/figma_id = "165:1521"
+metadata/figma_name = "Quick meals and delivery"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Plan_featured_recipe_165_1526" type="Panel" parent="Content_165_1515/ScrollContent/Quick_meals_and_delivery_165_1521"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 345
+offset_bottom = 250
+metadata/figma_id = "165:1526"
+metadata/figma_name = "Plan / featured recipe"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:813", "variableValue": {"value": "10分钟番茄鸡蛋面", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:814", "variableValue": {"value": "面条 + 鸡蛋 + 番茄 + 一把青菜\n步骤：煮面、炒蛋、加入番茄和青菜。", "type": "STRING", "resolvedType": "STRING"}}, {"type": "NODE", "destinationId": "165:1574", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false, "resetScrollPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.937255, "g": 0.827451, "b": 0.556863}}], "strokeWeight": 1, "topLeftRadius": 32, "topRightRadius": 80, "bottomLeftRadius": 32, "bottomRightRadius": 32}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1515/ScrollContent/Quick_meals_and_delivery_165_1521/Plan_featured_recipe_165_1526"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 250
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R8")
+theme_override_styles/hover = SubResource("R8")
+theme_override_styles/pressed = SubResource("R8")
+theme_override_styles/focus = SubResource("R8")
+metadata/source_id = "165:1526"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:813", "variableValue": {"value": "10分钟番茄鸡蛋面", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:814", "variableValue": {"value": "面条 + 鸡蛋 + 番茄 + 一把青菜\n步骤：煮面、炒蛋、加入番茄和青菜。", "type": "STRING", "resolvedType": "STRING"}}, {"type": "NODE", "destinationId": "165:1574", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false, "resetScrollPosition": false}]
+
+[node name="今日推荐_10_MIN_165_1527" type="Label" parent="Content_165_1515/ScrollContent/Quick_meals_and_delivery_165_1521/Plan_featured_recipe_165_1526"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 20
+offset_top = 20
+offset_right = 190
+offset_bottom = 38
+metadata/figma_id = "165:1527"
+metadata/figma_name = "今日推荐 · 10 MIN"
+metadata/figma_type = "TEXT"
+text = "今日推荐 · 10 MIN"
+theme_override_fonts/font = SubResource("R9")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.27451, 0.478431, 0.376471, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="番茄鸡蛋面_165_1528" type="Label" parent="Content_165_1515/ScrollContent/Quick_meals_and_delivery_165_1521/Plan_featured_recipe_165_1526"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 20
+offset_top = 54
+offset_right = 280
+offset_bottom = 95
+metadata/figma_id = "165:1528"
+metadata/figma_name = "番茄鸡蛋面"
+metadata/figma_type = "TEXT"
+text = "番茄鸡蛋面"
+theme_override_fonts/font = SubResource("R10")
+theme_override_font_sizes/font_size = 27
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="热乎一餐_也是照顾自己_165_1529" type="Label" parent="Content_165_1515/ScrollContent/Quick_meals_and_delivery_165_1521/Plan_featured_recipe_165_1526"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 20
+offset_top = 100
+offset_right = 180
+offset_bottom = 142
+metadata/figma_id = "165:1529"
+metadata/figma_name = "热乎一餐， 也是照顾自己。"
+metadata/figma_type = "TEXT"
+text = "热乎一餐，\n也是照顾自己。"
+theme_override_fonts/font = SubResource("R11")
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="FOOD_Noodles_165_1530" type="Panel" parent="Content_165_1515/ScrollContent/Quick_meals_and_delivery_165_1521/Plan_featured_recipe_165_1526"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 155
+offset_top = 69
+offset_right = 342
+offset_bottom = 256
+metadata/figma_id = "165:1530"
+metadata/figma_name = "FOOD_Noodles"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1.0625}
+clip_contents = false
+
+[node name="FOOD_Noodles_PNG_I165_1530_98_2027" type="TextureRect" parent="Content_165_1515/ScrollContent/Quick_meals_and_delivery_165_1521/Plan_featured_recipe_165_1526/FOOD_Noodles_165_1530"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 6.38
+offset_top = 6.38
+offset_right = 180.63
+offset_bottom = 180.63
+metadata/figma_id = "I165:1530;98:2027"
+metadata/figma_name = "FOOD_Noodles/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("5")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="看看做法_165_1531" type="Label" parent="Content_165_1515/ScrollContent/Quick_meals_and_delivery_165_1521/Plan_featured_recipe_165_1526"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 20
+offset_top = 201
+offset_right = 170
+offset_bottom = 222
+metadata/figma_id = "165:1531"
+metadata/figma_name = "看看做法 ↗"
+metadata/figma_type = "TEXT"
+text = "看看做法  ↗"
+theme_override_fonts/font = SubResource("R12")
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Dinner_and_breakfast_165_1538" type="Panel" parent="Content_165_1515/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 199
+offset_top = 378
+offset_right = 369
+offset_bottom = 558
+metadata/figma_id = "165:1538"
+metadata/figma_name = "Dinner and breakfast"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="晚餐推荐_165_1539" type="Panel" parent="Content_165_1515/ScrollContent/Dinner_and_breakfast_165_1538"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 170
+offset_bottom = 82
+metadata/figma_id = "165:1539"
+metadata/figma_name = "晚餐推荐"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:813", "variableValue": {"value": "豆腐杂蔬饭", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:814", "variableValue": {"value": "米饭 + 豆腐 + 时令蔬菜\n步骤：煮饭、煎豆腐、快炒蔬菜。", "type": "STRING", "resolvedType": "STRING"}}, {"type": "NODE", "destinationId": "165:1574", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false, "resetScrollPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.956863, "g": 0.929412, "b": 0.854902}}], "strokeWeight": 1, "cornerRadius": 23, "topLeftRadius": 23, "topRightRadius": 23, "bottomLeftRadius": 23, "bottomRightRadius": 23, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 12, "boundVariables": {}, "color": {"r": 0.443137, "g": 0.556863, "b": 0.486275, "a": 0.035}, "offset": {"x": 0, "y": 4}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1515/ScrollContent/Dinner_and_breakfast_165_1538/晚餐推荐_165_1539"]
+layout_mode = 0
+offset_right = 170
+offset_bottom = 82
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R13")
+theme_override_styles/hover = SubResource("R13")
+theme_override_styles/pressed = SubResource("R13")
+theme_override_styles/focus = SubResource("R13")
+metadata/source_id = "165:1539"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:813", "variableValue": {"value": "豆腐杂蔬饭", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:814", "variableValue": {"value": "米饭 + 豆腐 + 时令蔬菜\n步骤：煮饭、煎豆腐、快炒蔬菜。", "type": "STRING", "resolvedType": "STRING"}}, {"type": "NODE", "destinationId": "165:1574", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false, "resetScrollPosition": false}]
+
+[node name="10_分钟快手餐_I165_1539_165_2001" type="Label" parent="Content_165_1515/ScrollContent/Dinner_and_breakfast_165_1538/晚餐推荐_165_1539"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 13
+offset_top = 22
+offset_right = 157
+offset_bottom = 45
+metadata/figma_id = "I165:1539;165:2001"
+metadata/figma_name = "10 分钟快手餐"
+metadata/figma_type = "TEXT"
+text = "晚餐推荐"
+theme_override_fonts/font = SubResource("R14")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="番茄鸡蛋面_I165_1539_165_2002" type="Label" parent="Content_165_1515/ScrollContent/Dinner_and_breakfast_165_1538/晚餐推荐_165_1539"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 13
+offset_top = 49
+offset_right = 157
+offset_bottom = 67
+metadata/figma_id = "I165:1539;165:2002"
+metadata/figma_name = "番茄鸡蛋面 ›"
+metadata/figma_type = "TEXT"
+text = "豆腐杂蔬饭"
+theme_override_fonts/font = SubResource("R15")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="早餐推荐_165_1540" type="Panel" parent="Content_165_1515/ScrollContent/Dinner_and_breakfast_165_1538"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 94
+offset_right = 170
+offset_bottom = 176
+metadata/figma_id = "165:1540"
+metadata/figma_name = "早餐推荐"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:813", "variableValue": {"value": "燕麦酸奶水果碗", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:814", "variableValue": {"value": "燕麦 + 无糖酸奶 + 当季水果\n步骤：组合食材，按饱腹感调整份量。", "type": "STRING", "resolvedType": "STRING"}}, {"type": "NODE", "destinationId": "165:1574", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false, "resetScrollPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.898039, "g": 0.933333, "b": 0.921569}}], "strokeWeight": 1, "cornerRadius": 23, "topLeftRadius": 23, "topRightRadius": 23, "bottomLeftRadius": 23, "bottomRightRadius": 23, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 12, "boundVariables": {}, "color": {"r": 0.443137, "g": 0.556863, "b": 0.486275, "a": 0.035}, "offset": {"x": 0, "y": 4}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1515/ScrollContent/Dinner_and_breakfast_165_1538/早餐推荐_165_1540"]
+layout_mode = 0
+offset_right = 170
+offset_bottom = 82
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R16")
+theme_override_styles/hover = SubResource("R16")
+theme_override_styles/pressed = SubResource("R16")
+theme_override_styles/focus = SubResource("R16")
+metadata/source_id = "165:1540"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:813", "variableValue": {"value": "燕麦酸奶水果碗", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:814", "variableValue": {"value": "燕麦 + 无糖酸奶 + 当季水果\n步骤：组合食材，按饱腹感调整份量。", "type": "STRING", "resolvedType": "STRING"}}, {"type": "NODE", "destinationId": "165:1574", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false, "resetScrollPosition": false}]
+
+[node name="10_分钟快手餐_I165_1540_165_2001" type="Label" parent="Content_165_1515/ScrollContent/Dinner_and_breakfast_165_1538/早餐推荐_165_1540"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 13
+offset_top = 22
+offset_right = 157
+offset_bottom = 45
+metadata/figma_id = "I165:1540;165:2001"
+metadata/figma_name = "10 分钟快手餐"
+metadata/figma_type = "TEXT"
+text = "早餐推荐"
+theme_override_fonts/font = SubResource("R17")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="番茄鸡蛋面_I165_1540_165_2002" type="Label" parent="Content_165_1515/ScrollContent/Dinner_and_breakfast_165_1538/早餐推荐_165_1540"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 13
+offset_top = 49
+offset_right = 157
+offset_bottom = 67
+metadata/figma_id = "I165:1540;165:2002"
+metadata/figma_name = "番茄鸡蛋面 ›"
+metadata/figma_type = "TEXT"
+text = "燕麦鸡蛋组合"
+theme_override_fonts/font = SubResource("R18")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="饮品建议_165_1543" type="Label" parent="Content_165_1515/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 582
+offset_right = 369
+offset_bottom = 609
+metadata/figma_id = "165:1543"
+metadata/figma_name = "饮品建议"
+metadata/figma_type = "TEXT"
+text = "饮品建议"
+theme_override_fonts/font = SubResource("R19")
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Drink_options_165_1544" type="Panel" parent="Content_165_1515/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 620
+offset_right = 369
+offset_bottom = 668
+metadata/figma_id = "165:1544"
+metadata/figma_name = "Drink options"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="咖啡_165_1545" type="Panel" parent="Content_165_1515/ScrollContent/Drink_options_165_1544"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 166
+offset_bottom = 44
+metadata/figma_id = "165:1545"
+metadata/figma_name = "咖啡"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1616", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.9, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.890196, "g": 0.917647, "b": 0.87451}}], "strokeWeight": 1, "cornerRadius": 20, "topLeftRadius": 20, "topRightRadius": 20, "bottomLeftRadius": 20, "bottomRightRadius": 20}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1515/ScrollContent/Drink_options_165_1544/咖啡_165_1545"]
+layout_mode = 0
+offset_right = 166
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R20")
+theme_override_styles/hover = SubResource("R20")
+theme_override_styles/pressed = SubResource("R20")
+theme_override_styles/focus = SubResource("R20")
+metadata/source_id = "165:1545"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1616", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]
+
+[node name="调整份量_I165_1545_165_1984" type="Label" parent="Content_165_1515/ScrollContent/Drink_options_165_1544/咖啡_165_1545"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 150.0
+offset_bottom = 34.0
+metadata/figma_id = "I165:1545;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "咖啡  ›"
+theme_override_fonts/font = SubResource("R21")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="茶_165_1546" type="Panel" parent="Content_165_1515/ScrollContent/Drink_options_165_1544"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 178
+offset_top = 0
+offset_right = 344
+offset_bottom = 44
+metadata/figma_id = "165:1546"
+metadata/figma_name = "茶"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1616", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.9, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.890196, "g": 0.917647, "b": 0.87451}}], "strokeWeight": 1, "cornerRadius": 20, "topLeftRadius": 20, "topRightRadius": 20, "bottomLeftRadius": 20, "bottomRightRadius": 20}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1515/ScrollContent/Drink_options_165_1544/茶_165_1546"]
+layout_mode = 0
+offset_right = 166
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R22")
+theme_override_styles/hover = SubResource("R22")
+theme_override_styles/pressed = SubResource("R22")
+theme_override_styles/focus = SubResource("R22")
+metadata/source_id = "165:1546"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1616", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]
+
+[node name="调整份量_I165_1546_165_1984" type="Label" parent="Content_165_1515/ScrollContent/Drink_options_165_1544/茶_165_1546"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 150.0
+offset_bottom = 34.0
+metadata/figma_id = "I165:1546;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "茶  ›"
+theme_override_fonts/font = SubResource("R23")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Drink_options_165_1547" type="Panel" parent="Content_165_1515/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 684
+offset_right = 369
+offset_bottom = 732
+metadata/figma_id = "165:1547"
+metadata/figma_name = "Drink options"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="奶茶_165_1548" type="Panel" parent="Content_165_1515/ScrollContent/Drink_options_165_1547"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 166
+offset_bottom = 44
+metadata/figma_id = "165:1548"
+metadata/figma_name = "奶茶"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1616", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.9, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.890196, "g": 0.917647, "b": 0.87451}}], "strokeWeight": 1, "cornerRadius": 20, "topLeftRadius": 20, "topRightRadius": 20, "bottomLeftRadius": 20, "bottomRightRadius": 20}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1515/ScrollContent/Drink_options_165_1547/奶茶_165_1548"]
+layout_mode = 0
+offset_right = 166
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R24")
+theme_override_styles/hover = SubResource("R24")
+theme_override_styles/pressed = SubResource("R24")
+theme_override_styles/focus = SubResource("R24")
+metadata/source_id = "165:1548"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1616", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]
+
+[node name="调整份量_I165_1548_165_1984" type="Label" parent="Content_165_1515/ScrollContent/Drink_options_165_1547/奶茶_165_1548"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 150.0
+offset_bottom = 34.0
+metadata/figma_id = "I165:1548;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "奶茶  ›"
+theme_override_fonts/font = SubResource("R25")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="低咖啡因饮品_165_1549" type="Panel" parent="Content_165_1515/ScrollContent/Drink_options_165_1547"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 178
+offset_top = 0
+offset_right = 344
+offset_bottom = 44
+metadata/figma_id = "165:1549"
+metadata/figma_name = "低咖啡因饮品"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1616", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.9, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.890196, "g": 0.917647, "b": 0.87451}}], "strokeWeight": 1, "cornerRadius": 20, "topLeftRadius": 20, "topRightRadius": 20, "bottomLeftRadius": 20, "bottomRightRadius": 20}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1515/ScrollContent/Drink_options_165_1547/低咖啡因饮品_165_1549"]
+layout_mode = 0
+offset_right = 166
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R26")
+theme_override_styles/hover = SubResource("R26")
+theme_override_styles/pressed = SubResource("R26")
+theme_override_styles/focus = SubResource("R26")
+metadata/source_id = "165:1549"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1616", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]
+
+[node name="调整份量_I165_1549_165_1984" type="Label" parent="Content_165_1515/ScrollContent/Drink_options_165_1547/低咖啡因饮品_165_1549"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 150.0
+offset_bottom = 34.0
+metadata/figma_id = "I165:1549;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "低咖啡因饮品  ›"
+theme_override_fonts/font = SubResource("R27")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Weekly_plan_165_1550" type="Panel" parent="Content_165_1515/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 756
+offset_right = 369
+offset_bottom = 804
+metadata/figma_id = "165:1550"
+metadata/figma_name = "Weekly plan"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1642", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.84, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1515/ScrollContent/Weekly_plan_165_1550"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R28")
+theme_override_styles/hover = SubResource("R28")
+theme_override_styles/pressed = SubResource("R28")
+theme_override_styles/focus = SubResource("R28")
+metadata/source_id = "165:1550"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1642", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]
+
+[node name="调整份量_I165_1550_165_1984" type="Label" parent="Content_165_1515/ScrollContent/Weekly_plan_165_1550"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 329.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:1550;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "一周计划 · 看看这一周  ›"
+theme_override_fonts/font = SubResource("R29")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Action_更多今天吃什么_165_1551" type="Panel" parent="Content_165_1515/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 824
+offset_right = 369
+offset_bottom = 872
+metadata/figma_id = "165:1551"
+metadata/figma_name = "Action / 更多今天吃什么 ›"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1558", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false, "resetScrollPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.84, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1515/ScrollContent/Action_更多今天吃什么_165_1551"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R30")
+theme_override_styles/hover = SubResource("R30")
+theme_override_styles/pressed = SubResource("R30")
+theme_override_styles/focus = SubResource("R30")
+metadata/source_id = "165:1551"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1558", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false, "resetScrollPosition": false}]
+
+[node name="调整份量_I165_1551_165_1984" type="Label" parent="Content_165_1515/ScrollContent/Action_更多今天吃什么_165_1551"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 329.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:1551;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "更多今天吃什么 ›"
+theme_override_fonts/font = SubResource("R31")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Plan_delivery_side_note_165_1532" type="Panel" parent="Content_165_1515/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 378
+offset_right = 179
+offset_bottom = 558
+metadata/figma_id = "165:1532"
+metadata/figma_name = "Plan / delivery side note"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1592", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.952941, "g": 0.784314, "b": 0.698039}}], "strokeWeight": 1, "cornerRadius": 28, "topLeftRadius": 28, "topRightRadius": 28, "bottomLeftRadius": 28, "bottomRightRadius": 28}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Content_165_1515/ScrollContent/Plan_delivery_side_note_165_1532"]
+layout_mode = 0
+offset_right = 155
+offset_bottom = 180
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R32")
+theme_override_styles/hover = SubResource("R32")
+theme_override_styles/pressed = SubResource("R32")
+theme_override_styles/focus = SubResource("R32")
+metadata/source_id = "165:1532"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1592", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]
+
+[node name="外卖也能_165_1533" type="Label" parent="Content_165_1515/ScrollContent/Plan_delivery_side_note_165_1532"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 16
+offset_right = 139
+offset_bottom = 33
+metadata/figma_id = "165:1533"
+metadata/figma_name = "外卖也能"
+metadata/figma_type = "TEXT"
+text = "外卖也能"
+theme_override_fonts/font = SubResource("R33")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.321569, 0.392157, 0.317647, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="好好吃饭_165_1534" type="Label" parent="Content_165_1515/ScrollContent/Plan_delivery_side_note_165_1532"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 38
+offset_right = 139
+offset_bottom = 65
+metadata/figma_id = "165:1534"
+metadata/figma_name = "好好吃饭"
+metadata/figma_type = "TEXT"
+text = "好好吃饭"
+theme_override_fonts/font = SubResource("R34")
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.156863, 0.243137, 0.196078, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="加一份蔬菜_给自己多点照顾_165_1535" type="Label" parent="Content_165_1515/ScrollContent/Plan_delivery_side_note_165_1532"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 70
+offset_right = 139
+offset_bottom = 104
+metadata/figma_id = "165:1535"
+metadata/figma_name = "加一份蔬菜 给自己多点照顾"
+metadata/figma_type = "TEXT"
+text = "加一份蔬菜\n给自己多点照顾"
+theme_override_fonts/font = SubResource("R35")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.321569, 0.392157, 0.317647, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="FOOD_MealTray_165_1536" type="Panel" parent="Content_165_1515/ScrollContent/Plan_delivery_side_note_165_1532"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 71
+offset_top = 99
+offset_right = 154
+offset_bottom = 182
+metadata/figma_id = "165:1536"
+metadata/figma_name = "FOOD_MealTray"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.471591}
+clip_contents = false
+
+[node name="FOOD_MealTray_PNG_I165_1536_98_2069" type="TextureRect" parent="Content_165_1515/ScrollContent/Plan_delivery_side_note_165_1532/FOOD_MealTray_165_1536"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 2.83
+offset_top = 2.83
+offset_right = 80.17
+offset_bottom = 80.17
+metadata/figma_id = "I165:1536;98:2069"
+metadata/figma_name = "FOOD_MealTray/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("6")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Actions_165_1552" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 682
+offset_right = 393
+offset_bottom = 818
+metadata/figma_id = "165:1552"
+metadata/figma_name = "Actions"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Floating_Feed_Button_165_1554" type="Panel" parent="Actions_165_1552"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 81.5
+offset_top = 8
+offset_right = 311.5
+offset_bottom = 60
+metadata/figma_id = "165:1554"
+metadata/figma_name = "Floating Feed Button"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1223", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.196078, "g": 0.443137, "b": 0.345098}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.07}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.04, "g": 0.16, "b": 0.1, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 27, "topLeftRadius": 27, "topRightRadius": 27, "bottomLeftRadius": 27, "bottomRightRadius": 27, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 8, "boundVariables": {}, "color": {"r": 0.18, "g": 0.35, "b": 0.26, "a": 0.1}, "offset": {"x": 0, "y": 3}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Actions_165_1552/Floating_Feed_Button_165_1554"]
+layout_mode = 0
+offset_right = 230
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R36")
+theme_override_styles/hover = SubResource("R36")
+theme_override_styles/pressed = SubResource("R36")
+theme_override_styles/focus = SubResource("R36")
+metadata/source_id = "165:1554"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1223", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]
+
+[node name="投喂_I165_1554_45_364" type="Label" parent="Actions_165_1552/Floating_Feed_Button_165_1554"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 14.0
+offset_right = 214.0
+offset_bottom = 38.0
+metadata/figma_id = "I165:1554;45:364"
+metadata/figma_name = "＋ 投喂"
+metadata/figma_type = "TEXT"
+text = "＋ 投喂"
+theme_override_fonts/font = SubResource("R37")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(1, 0.996078, 0.976471, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Bottom_Navigation_165_1555" parent="Actions_165_1552" instance=ExtResource("7")]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 68
+offset_right = 369
+offset_bottom = 136
+metadata/figma_id = "165:1555"
+metadata/figma_name = "Bottom Navigation"
+metadata/figma_type = "INSTANCE"
+active_tab = 2
+
+[node name="Home_Indicator_Area_165_1556" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 818
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "165:1556"
+metadata/figma_name = "Home Indicator Area"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Home_Indicator_165_1557" type="Panel" parent="Home_Indicator_Area_165_1556"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 129.5
+offset_top = 14.5
+offset_right = 263.5
+offset_bottom = 19.5
+metadata/figma_id = "165:1557"
+metadata/figma_name = "Home Indicator"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.160784, "g": 0.235294, "b": 0.2}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true

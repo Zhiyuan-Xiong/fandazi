@@ -1,0 +1,325 @@
+{
+  "page": "00_Backup_Current_Prototype",
+  "frames": [
+    {
+      "id": "94:686",
+      "name": "01 — 启动 Splash",
+      "width": 393,
+      "height": 852,
+      "section": "01_Onboarding"
+    },
+    {
+      "id": "94:699",
+      "name": "02 — 欢迎 Welcome",
+      "width": 393,
+      "height": 852,
+      "section": "01_Onboarding"
+    },
+    {
+      "id": "94:722",
+      "name": "03 — 登录 Login",
+      "width": 393,
+      "height": 852,
+      "section": "01_Onboarding"
+    },
+    {
+      "id": "94:743",
+      "name": "04 — 功能介绍 Onboarding",
+      "width": 393,
+      "height": 852,
+      "section": "01_Onboarding"
+    },
+    {
+      "id": "94:764",
+      "name": "05 — 健康信息初始化",
+      "width": 393,
+      "height": 852,
+      "section": "01_Onboarding"
+    },
+    {
+      "id": "94:784",
+      "name": "06 — 创建食宠",
+      "width": 393,
+      "height": 852,
+      "section": "01_Onboarding"
+    },
+    {
+      "id": "94:804",
+      "name": "UI / 食宠主页",
+      "width": 393,
+      "height": 852,
+      "section": "02_Pet Life"
+    },
+    {
+      "id": "94:845",
+      "name": "Sheet / 食宠状态 Pet Status",
+      "width": 393,
+      "height": 852,
+      "section": "02_Pet Life"
+    },
+    {
+      "id": "94:870",
+      "name": "11 — 食宠成长 Level",
+      "width": 393,
+      "height": 852,
+      "section": "02_Pet Life"
+    },
+    {
+      "id": "94:890",
+      "name": "12 — 小窝 Room",
+      "width": 393,
+      "height": 852,
+      "section": "02_Pet Life"
+    },
+    {
+      "id": "94:913",
+      "name": "UI / 房间装扮",
+      "width": 393,
+      "height": 852,
+      "section": "02_Pet Life"
+    },
+    {
+      "id": "94:942",
+      "name": "14 — 场景解锁 Rewards",
+      "width": 393,
+      "height": 852,
+      "section": "02_Pet Life"
+    },
+    {
+      "id": "94:959",
+      "name": "21 — ＋投喂 Bottom Sheet",
+      "width": 393,
+      "height": 852,
+      "section": "03_Capture"
+    },
+    {
+      "id": "94:978",
+      "name": "Sheet / 模拟相机 Camera",
+      "width": 393,
+      "height": 852,
+      "section": "03_Capture"
+    },
+    {
+      "id": "94:993",
+      "name": "UI / 投喂确认 · Bottom Sheet",
+      "width": 393,
+      "height": 852,
+      "section": "03_Capture"
+    },
+    {
+      "id": "94:1018",
+      "name": "Sheet / 营养详情",
+      "width": 393,
+      "height": 852,
+      "section": "03_Capture"
+    },
+    {
+      "id": "94:1041",
+      "name": "UI / 饮食日记",
+      "width": 393,
+      "height": 852,
+      "section": "04_Diary"
+    },
+    {
+      "id": "94:1078",
+      "name": "30 — 日历 Calendar",
+      "width": 393,
+      "height": 852,
+      "section": "04_Diary"
+    },
+    {
+      "id": "94:1183",
+      "name": "Sheet / 食物详情",
+      "width": 393,
+      "height": 852,
+      "section": "04_Diary"
+    },
+    {
+      "id": "94:1207",
+      "name": "32 — 贴纸收藏",
+      "width": 393,
+      "height": 852,
+      "section": "04_Diary"
+    },
+    {
+      "id": "94:1230",
+      "name": "UI / 今日计划",
+      "width": 393,
+      "height": 852,
+      "section": "05_Plan"
+    },
+    {
+      "id": "94:1261",
+      "name": "34 — 今天吃什么",
+      "width": 393,
+      "height": 852,
+      "section": "05_Plan"
+    },
+    {
+      "id": "94:1277",
+      "name": "Sheet / 食谱详情",
+      "width": 393,
+      "height": 852,
+      "section": "05_Plan"
+    },
+    {
+      "id": "94:1295",
+      "name": "36 — 外卖怎么选",
+      "width": 393,
+      "height": 852,
+      "section": "05_Plan"
+    },
+    {
+      "id": "94:1319",
+      "name": "Sheet / 饮品助手",
+      "width": 393,
+      "height": 852,
+      "section": "05_Plan"
+    },
+    {
+      "id": "94:1345",
+      "name": "38 — 一周计划",
+      "width": 393,
+      "height": 852,
+      "section": "05_Plan"
+    },
+    {
+      "id": "94:1372",
+      "name": "UI / 健康指数",
+      "width": 393,
+      "height": 852,
+      "section": "06_Health Index"
+    },
+    {
+      "id": "94:1397",
+      "name": "Sheet / 一周趋势",
+      "width": 393,
+      "height": 852,
+      "section": "06_Health Index"
+    },
+    {
+      "id": "94:1436",
+      "name": "Sheet / 精力节律",
+      "width": 393,
+      "height": 852,
+      "section": "06_Health Index"
+    },
+    {
+      "id": "94:1453",
+      "name": "Sheet / 原因解释",
+      "width": 393,
+      "height": 852,
+      "section": "06_Health Index"
+    },
+    {
+      "id": "94:1476",
+      "name": "43 — 轻量建议",
+      "width": 393,
+      "height": 852,
+      "section": "06_Health Index"
+    },
+    {
+      "id": "94:1493",
+      "name": "Sheet / 邀请共同养育",
+      "width": 393,
+      "height": 852,
+      "section": "07_Co-Care"
+    },
+    {
+      "id": "94:1506",
+      "name": "UI / 搭子空间",
+      "width": 393,
+      "height": 852,
+      "section": "07_Co-Care"
+    },
+    {
+      "id": "94:1561",
+      "name": "Sheet / 轻互动 Send Care",
+      "width": 393,
+      "height": 852,
+      "section": "07_Co-Care"
+    },
+    {
+      "id": "94:1786",
+      "name": "44 — 个人资料 Profile",
+      "width": 393,
+      "height": 852,
+      "section": "09_Profile"
+    },
+    {
+      "id": "94:1809",
+      "name": "45 — 健康偏好",
+      "width": 393,
+      "height": 852,
+      "section": "09_Profile"
+    },
+    {
+      "id": "94:1829",
+      "name": "46 — 隐私与共享",
+      "width": 393,
+      "height": 852,
+      "section": "09_Profile"
+    },
+    {
+      "id": "94:1851",
+      "name": "Overlay — 份量调整",
+      "width": 393,
+      "height": 852,
+      "section": "10_Overlays · 辅助弹层"
+    },
+    {
+      "id": "94:1860",
+      "name": "Overlay — 饮品营养详情",
+      "width": 393,
+      "height": 852,
+      "section": "10_Overlays · 辅助弹层"
+    },
+    {
+      "id": "94:1870",
+      "name": "Overlay — 计划推荐详情",
+      "width": 393,
+      "height": 852,
+      "section": "10_Overlays · 辅助弹层"
+    },
+    {
+      "id": "116:933",
+      "name": "Feedback / 好好吃饭的小进步",
+      "width": 393,
+      "height": 852
+    },
+    {
+      "id": "116:957",
+      "name": "Feedback / 本餐记录完成",
+      "width": 393,
+      "height": 852
+    },
+    {
+      "id": "147:805",
+      "name": "Sheet / 我现在的心情",
+      "width": 393,
+      "height": 720
+    },
+    {
+      "id": "147:806",
+      "name": "Sheet / 告诉搭子我的餐食",
+      "width": 393,
+      "height": 560
+    },
+    {
+      "id": "147:807",
+      "name": "Sheet / TA 的餐食与关心",
+      "width": 393,
+      "height": 620
+    }
+  ],
+  "flowStartingPoints": [
+    {
+      "nodeId": "94:686",
+      "name": "UI · 首次使用 · 从启动开始"
+    },
+    {
+      "nodeId": "94:804",
+      "name": "UI · 日常体验 · 从食宠开始"
+    }
+  ]
+}

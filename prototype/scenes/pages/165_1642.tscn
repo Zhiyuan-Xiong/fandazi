@@ -1,0 +1,1158 @@
+[gd_scene load_steps=42 format=3]
+
+[ext_resource type="Script" path="res://scripts/surface.gd" id="1"]
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSansSC-VF.ttf" id="2"]
+
+[sub_resource type="FontVariation" id="R1"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R2"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R3"]
+
+
+[sub_resource type="FontVariation" id="R4"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R5"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R6"]
+
+
+[sub_resource type="FontVariation" id="R7"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R8"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R9"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R10"]
+
+
+[sub_resource type="FontVariation" id="R11"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R12"]
+
+
+[sub_resource type="FontVariation" id="R13"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R14"]
+
+
+[sub_resource type="FontVariation" id="R15"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R16"]
+
+
+[sub_resource type="FontVariation" id="R17"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R18"]
+
+
+[sub_resource type="FontVariation" id="R19"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R20"]
+
+
+[sub_resource type="FontVariation" id="R21"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R22"]
+
+
+[sub_resource type="FontVariation" id="R23"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R24"]
+
+
+[sub_resource type="FontVariation" id="R25"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R26"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R27"]
+
+
+[sub_resource type="FontVariation" id="R28"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R29"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R30"]
+
+
+[sub_resource type="FontVariation" id="R31"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R32"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R33"]
+
+
+[sub_resource type="FontVariation" id="R34"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R35"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R36"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R37"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R38"]
+
+
+[sub_resource type="FontVariation" id="R39"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+[node name="38_一周计划_165_1642" type="Panel"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "165:1642"
+metadata/figma_name = "38 — 一周计划"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 0.913725, "g": 0.941176, "b": 0.898039, "a": 1}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.984314, "g": 0.964706, "b": 0.913725, "a": 1}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1}
+clip_contents = true
+
+[node name="Safe_Area_165_1643" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 48
+metadata/figma_id = "165:1643"
+metadata/figma_name = "Safe Area"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="9_41_165_1644" type="Label" parent="Safe_Area_165_1643"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 14
+offset_right = 74
+offset_bottom = 34
+metadata/figma_id = "165:1644"
+metadata/figma_name = "9:41"
+metadata/figma_type = "TEXT"
+text = "9:41"
+theme_override_fonts/font = SubResource("R1")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Layer_165_1645" type="Label" parent="Safe_Area_165_1643"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 332
+offset_top = 14
+offset_right = 370
+offset_bottom = 32
+metadata/figma_id = "165:1645"
+metadata/figma_name = "● ▰"
+metadata/figma_type = "TEXT"
+text = "●  ▰"
+theme_override_fonts/font = SubResource("R2")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Top_Bar_165_1646" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 48
+offset_right = 393
+offset_bottom = 104
+metadata/figma_id = "165:1646"
+metadata/figma_name = "Top Bar"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="Back_I165_1646_28_79" type="Panel" parent="Top_Bar_165_1646"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 2
+offset_right = 60
+offset_bottom = 54
+metadata/figma_id = "I165:1646;28:79"
+metadata/figma_name = "Back"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Top_Bar_165_1646/Back_I165_1646_28_79"]
+layout_mode = 0
+offset_right = 44
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R3")
+theme_override_styles/hover = SubResource("R3")
+theme_override_styles/pressed = SubResource("R3")
+theme_override_styles/focus = SubResource("R3")
+metadata/source_id = "I165:1646;28:79"
+metadata/click_actions = [{"type": "BACK"}]
+
+[node name="Layer_I165_1646_28_79_165_1989" type="Label" parent="Top_Bar_165_1646/Back_I165_1646_28_79"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 6.0
+offset_top = 14.0
+offset_right = 38.0
+offset_bottom = 38.0
+metadata/figma_id = "I165:1646;28:79;165:1989"
+metadata/figma_name = "×"
+metadata/figma_type = "TEXT"
+text = "‹"
+theme_override_fonts/font = SubResource("R4")
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="页面标题_I165_1646_28_81" type="Label" parent="Top_Bar_165_1646"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 156.5
+offset_top = 14.5
+offset_right = 228.5
+offset_bottom = 41.5
+metadata/figma_id = "I165:1646;28:81"
+metadata/figma_name = "页面标题"
+metadata/figma_type = "TEXT"
+text = "一周计划"
+theme_override_fonts/font = SubResource("R5")
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Home_I165_1646_28_82" type="Panel" parent="Top_Bar_165_1646"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 325
+offset_top = 6
+offset_right = 377
+offset_bottom = 50
+metadata/figma_id = "I165:1646;28:82"
+metadata/figma_name = "Home"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:958", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Top_Bar_165_1646/Home_I165_1646_28_82"]
+layout_mode = 0
+offset_right = 52
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R6")
+theme_override_styles/hover = SubResource("R6")
+theme_override_styles/pressed = SubResource("R6")
+theme_override_styles/focus = SubResource("R6")
+metadata/source_id = "I165:1646;28:82"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:958", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]
+
+[node name="Layer_I165_1646_28_82_165_1989" type="Label" parent="Top_Bar_165_1646/Home_I165_1646_28_82"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 6.0
+offset_top = 10.0
+offset_right = 46.0
+offset_bottom = 34.0
+metadata/figma_id = "I165:1646;28:82;165:1989"
+metadata/figma_name = "×"
+metadata/figma_type = "TEXT"
+text = "首页"
+theme_override_fonts/font = SubResource("R7")
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Content_165_1647" type="ScrollContainer" parent="."]
+layout_mode = 0
+mouse_filter = 1
+offset_left = 0
+offset_top = 104
+offset_right = 393
+offset_bottom = 750
+metadata/figma_id = "165:1647"
+metadata/figma_name = "Content"
+metadata/figma_type = "FRAME"
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+
+[node name="ScrollContent" type="Control" parent="Content_165_1647"]
+custom_minimum_size = Vector2(393, 646)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="留点计划_也留点弹性_165_1648" type="Label" parent="Content_165_1647/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 16
+offset_right = 369
+offset_bottom = 48
+metadata/figma_id = "165:1648"
+metadata/figma_name = "留点计划，也留点弹性"
+metadata/figma_type = "TEXT"
+text = "留点计划，也留点弹性"
+theme_override_fonts/font = SubResource("R8")
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="周五_165_1649" type="Label" parent="Content_165_1647/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 60
+offset_right = 369
+offset_bottom = 87
+metadata/figma_id = "165:1649"
+metadata/figma_name = "周五"
+metadata/figma_type = "TEXT"
+metadata/bindings = {"characters": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:843"}}
+text = "周五"
+theme_override_fonts/font = SubResource("R9")
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="选择一周日期_165_1650" type="Panel" parent="Content_165_1647/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 99
+offset_right = 369
+offset_bottom = 143
+metadata/figma_id = "165:1650"
+metadata/figma_name = "选择一周日期"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Action_一_165_1651" type="Panel" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 42
+offset_bottom = 48
+metadata/figma_id = "165:1651"
+metadata/figma_name = "Action / 一"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:843", "variableValue": {"value": "周一", "type": "STRING", "resolvedType": "STRING"}}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.84, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650/Action_一_165_1651"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R10")
+theme_override_styles/hover = SubResource("R10")
+theme_override_styles/pressed = SubResource("R10")
+theme_override_styles/focus = SubResource("R10")
+metadata/source_id = "165:1651"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:843", "variableValue": {"value": "周一", "type": "STRING", "resolvedType": "STRING"}}]
+
+[node name="调整份量_I165_1651_165_1984" type="Label" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650/Action_一_165_1651"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 8.0
+offset_top = 12.0
+offset_right = 34.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:1651;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "一"
+theme_override_fonts/font = SubResource("R11")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Action_二_165_1652" type="Panel" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 50
+offset_top = 0
+offset_right = 92
+offset_bottom = 48
+metadata/figma_id = "165:1652"
+metadata/figma_name = "Action / 二"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:843", "variableValue": {"value": "周二", "type": "STRING", "resolvedType": "STRING"}}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.84, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650/Action_二_165_1652"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R12")
+theme_override_styles/hover = SubResource("R12")
+theme_override_styles/pressed = SubResource("R12")
+theme_override_styles/focus = SubResource("R12")
+metadata/source_id = "165:1652"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:843", "variableValue": {"value": "周二", "type": "STRING", "resolvedType": "STRING"}}]
+
+[node name="调整份量_I165_1652_165_1984" type="Label" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650/Action_二_165_1652"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 8.0
+offset_top = 12.0
+offset_right = 34.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:1652;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "二"
+theme_override_fonts/font = SubResource("R13")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Action_三_165_1653" type="Panel" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 100
+offset_top = 0
+offset_right = 142
+offset_bottom = 48
+metadata/figma_id = "165:1653"
+metadata/figma_name = "Action / 三"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:843", "variableValue": {"value": "周三", "type": "STRING", "resolvedType": "STRING"}}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.84, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650/Action_三_165_1653"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R14")
+theme_override_styles/hover = SubResource("R14")
+theme_override_styles/pressed = SubResource("R14")
+theme_override_styles/focus = SubResource("R14")
+metadata/source_id = "165:1653"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:843", "variableValue": {"value": "周三", "type": "STRING", "resolvedType": "STRING"}}]
+
+[node name="调整份量_I165_1653_165_1984" type="Label" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650/Action_三_165_1653"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 8.0
+offset_top = 12.0
+offset_right = 34.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:1653;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "三"
+theme_override_fonts/font = SubResource("R15")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Action_四_165_1654" type="Panel" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 150
+offset_top = 0
+offset_right = 192
+offset_bottom = 48
+metadata/figma_id = "165:1654"
+metadata/figma_name = "Action / 四"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:843", "variableValue": {"value": "周四", "type": "STRING", "resolvedType": "STRING"}}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.84, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650/Action_四_165_1654"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R16")
+theme_override_styles/hover = SubResource("R16")
+theme_override_styles/pressed = SubResource("R16")
+theme_override_styles/focus = SubResource("R16")
+metadata/source_id = "165:1654"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:843", "variableValue": {"value": "周四", "type": "STRING", "resolvedType": "STRING"}}]
+
+[node name="调整份量_I165_1654_165_1984" type="Label" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650/Action_四_165_1654"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 8.0
+offset_top = 12.0
+offset_right = 34.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:1654;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "四"
+theme_override_fonts/font = SubResource("R17")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Action_五_165_1655" type="Panel" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 200
+offset_top = 0
+offset_right = 242
+offset_bottom = 48
+metadata/figma_id = "165:1655"
+metadata/figma_name = "Action / 五"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:843", "variableValue": {"value": "周五", "type": "STRING", "resolvedType": "STRING"}}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.84, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650/Action_五_165_1655"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R18")
+theme_override_styles/hover = SubResource("R18")
+theme_override_styles/pressed = SubResource("R18")
+theme_override_styles/focus = SubResource("R18")
+metadata/source_id = "165:1655"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:843", "variableValue": {"value": "周五", "type": "STRING", "resolvedType": "STRING"}}]
+
+[node name="调整份量_I165_1655_165_1984" type="Label" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650/Action_五_165_1655"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 8.0
+offset_top = 12.0
+offset_right = 34.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:1655;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "五"
+theme_override_fonts/font = SubResource("R19")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Action_六_165_1656" type="Panel" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 250
+offset_top = 0
+offset_right = 292
+offset_bottom = 48
+metadata/figma_id = "165:1656"
+metadata/figma_name = "Action / 六"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:843", "variableValue": {"value": "周六", "type": "STRING", "resolvedType": "STRING"}}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.84, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650/Action_六_165_1656"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R20")
+theme_override_styles/hover = SubResource("R20")
+theme_override_styles/pressed = SubResource("R20")
+theme_override_styles/focus = SubResource("R20")
+metadata/source_id = "165:1656"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:843", "variableValue": {"value": "周六", "type": "STRING", "resolvedType": "STRING"}}]
+
+[node name="调整份量_I165_1656_165_1984" type="Label" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650/Action_六_165_1656"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 8.0
+offset_top = 12.0
+offset_right = 34.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:1656;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "六"
+theme_override_fonts/font = SubResource("R21")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Action_日_165_1657" type="Panel" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 300
+offset_top = 0
+offset_right = 342
+offset_bottom = 48
+metadata/figma_id = "165:1657"
+metadata/figma_name = "Action / 日"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:843", "variableValue": {"value": "周日", "type": "STRING", "resolvedType": "STRING"}}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.84, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650/Action_日_165_1657"]
+layout_mode = 0
+offset_right = 42
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R22")
+theme_override_styles/hover = SubResource("R22")
+theme_override_styles/pressed = SubResource("R22")
+theme_override_styles/focus = SubResource("R22")
+metadata/source_id = "165:1657"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:843", "variableValue": {"value": "周日", "type": "STRING", "resolvedType": "STRING"}}]
+
+[node name="调整份量_I165_1657_165_1984" type="Label" parent="Content_165_1647/ScrollContent/选择一周日期_165_1650/Action_日_165_1657"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 8.0
+offset_top = 12.0
+offset_right = 34.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:1657;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "日"
+theme_override_fonts/font = SubResource("R23")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Food_Card_165_1658" type="Panel" parent="Content_165_1647/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 155
+offset_right = 369
+offset_bottom = 233
+metadata/figma_id = "165:1658"
+metadata/figma_name = "Food Card"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:844", "variableValue": {"value": "早餐 · 已换成备选搭配", "type": "STRING", "resolvedType": "STRING"}}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1647/ScrollContent/Food_Card_165_1658"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 78
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R24")
+theme_override_styles/hover = SubResource("R24")
+theme_override_styles/pressed = SubResource("R24")
+theme_override_styles/focus = SubResource("R24")
+metadata/source_id = "165:1658"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:844", "variableValue": {"value": "早餐 · 已换成备选搭配", "type": "STRING", "resolvedType": "STRING"}}]
+
+[node name="番茄鸡蛋面_I165_1658_165_1994" type="Label" parent="Content_165_1647/ScrollContent/Food_Card_165_1658"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 10
+offset_right = 329
+offset_bottom = 33
+metadata/figma_id = "I165:1658;165:1994"
+metadata/figma_name = "番茄鸡蛋面"
+metadata/figma_type = "TEXT"
+text = "早餐"
+theme_override_fonts/font = SubResource("R25")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="1_碗_份量可调整_I165_1658_165_1995" type="Label" parent="Content_165_1647/ScrollContent/Food_Card_165_1658"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 37
+offset_right = 329
+offset_bottom = 55
+metadata/figma_id = "I165:1658;165:1995"
+metadata/figma_name = "1 碗 · 份量可调整"
+metadata/figma_type = "TEXT"
+text = "燕麦 + 鸡蛋 · 点击替换"
+theme_override_fonts/font = SubResource("R26")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Food_Card_165_1659" type="Panel" parent="Content_165_1647/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 245
+offset_right = 369
+offset_bottom = 323
+metadata/figma_id = "165:1659"
+metadata/figma_name = "Food Card"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:844", "variableValue": {"value": "午餐 · 已换成备选搭配", "type": "STRING", "resolvedType": "STRING"}}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1647/ScrollContent/Food_Card_165_1659"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 78
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R27")
+theme_override_styles/hover = SubResource("R27")
+theme_override_styles/pressed = SubResource("R27")
+theme_override_styles/focus = SubResource("R27")
+metadata/source_id = "165:1659"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:844", "variableValue": {"value": "午餐 · 已换成备选搭配", "type": "STRING", "resolvedType": "STRING"}}]
+
+[node name="番茄鸡蛋面_I165_1659_165_1994" type="Label" parent="Content_165_1647/ScrollContent/Food_Card_165_1659"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 10
+offset_right = 329
+offset_bottom = 33
+metadata/figma_id = "I165:1659;165:1994"
+metadata/figma_name = "番茄鸡蛋面"
+metadata/figma_type = "TEXT"
+text = "午餐"
+theme_override_fonts/font = SubResource("R28")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="1_碗_份量可调整_I165_1659_165_1995" type="Label" parent="Content_165_1647/ScrollContent/Food_Card_165_1659"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 37
+offset_right = 329
+offset_bottom = 55
+metadata/figma_id = "I165:1659;165:1995"
+metadata/figma_name = "1 碗 · 份量可调整"
+metadata/figma_type = "TEXT"
+text = "鸡肉蔬菜饭 · 点击替换"
+theme_override_fonts/font = SubResource("R29")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Food_Card_165_1660" type="Panel" parent="Content_165_1647/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 335
+offset_right = 369
+offset_bottom = 413
+metadata/figma_id = "165:1660"
+metadata/figma_name = "Food Card"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:844", "variableValue": {"value": "晚餐 · 已换成备选搭配", "type": "STRING", "resolvedType": "STRING"}}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1647/ScrollContent/Food_Card_165_1660"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 78
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R30")
+theme_override_styles/hover = SubResource("R30")
+theme_override_styles/pressed = SubResource("R30")
+theme_override_styles/focus = SubResource("R30")
+metadata/source_id = "165:1660"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:844", "variableValue": {"value": "晚餐 · 已换成备选搭配", "type": "STRING", "resolvedType": "STRING"}}]
+
+[node name="番茄鸡蛋面_I165_1660_165_1994" type="Label" parent="Content_165_1647/ScrollContent/Food_Card_165_1660"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 10
+offset_right = 329
+offset_bottom = 33
+metadata/figma_id = "I165:1660;165:1994"
+metadata/figma_name = "番茄鸡蛋面"
+metadata/figma_type = "TEXT"
+text = "晚餐"
+theme_override_fonts/font = SubResource("R31")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="1_碗_份量可调整_I165_1660_165_1995" type="Label" parent="Content_165_1647/ScrollContent/Food_Card_165_1660"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 37
+offset_right = 329
+offset_bottom = 55
+metadata/figma_id = "I165:1660;165:1995"
+metadata/figma_name = "1 碗 · 份量可调整"
+metadata/figma_type = "TEXT"
+text = "豆腐杂蔬饭 · 点击替换"
+theme_override_fonts/font = SubResource("R32")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Food_Card_165_1661" type="Panel" parent="Content_165_1647/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 425
+offset_right = 369
+offset_bottom = 503
+metadata/figma_id = "165:1661"
+metadata/figma_name = "Food Card"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:844", "variableValue": {"value": "饮品 · 已换成备选搭配", "type": "STRING", "resolvedType": "STRING"}}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1647/ScrollContent/Food_Card_165_1661"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 78
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R33")
+theme_override_styles/hover = SubResource("R33")
+theme_override_styles/pressed = SubResource("R33")
+theme_override_styles/focus = SubResource("R33")
+metadata/source_id = "165:1661"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:844", "variableValue": {"value": "饮品 · 已换成备选搭配", "type": "STRING", "resolvedType": "STRING"}}]
+
+[node name="番茄鸡蛋面_I165_1661_165_1994" type="Label" parent="Content_165_1647/ScrollContent/Food_Card_165_1661"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 10
+offset_right = 329
+offset_bottom = 33
+metadata/figma_id = "I165:1661;165:1994"
+metadata/figma_name = "番茄鸡蛋面"
+metadata/figma_type = "TEXT"
+text = "饮品"
+theme_override_fonts/font = SubResource("R34")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="1_碗_份量可调整_I165_1661_165_1995" type="Label" parent="Content_165_1647/ScrollContent/Food_Card_165_1661"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 37
+offset_right = 329
+offset_bottom = 55
+metadata/figma_id = "I165:1661;165:1995"
+metadata/figma_name = "1 碗 · 份量可调整"
+metadata/figma_type = "TEXT"
+text = "茶 / 低咖啡因饮品 · 点击替换"
+theme_override_fonts/font = SubResource("R35")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="晚餐_豆腐杂蔬饭_165_1662" type="Label" parent="Content_165_1647/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 515
+offset_right = 369
+offset_bottom = 536
+metadata/figma_id = "165:1662"
+metadata/figma_name = "晚餐 · 豆腐杂蔬饭"
+metadata/figma_type = "TEXT"
+metadata/bindings = {"characters": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:844"}}
+text = "晚餐 · 豆腐杂蔬饭"
+theme_override_fonts/font = SubResource("R36")
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.27451, 0.478431, 0.376471, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="当前为一周模板_可按当天安排灵活替换_165_1663" type="Label" parent="Content_165_1647/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 548
+offset_right = 369
+offset_bottom = 566
+metadata/figma_id = "165:1663"
+metadata/figma_name = "当前为一周模板；可按当天安排灵活替换。"
+metadata/figma_type = "TEXT"
+text = "当前为一周模板；可按当天安排灵活替换。"
+theme_override_fonts/font = SubResource("R37")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Actions_165_1664" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 750
+offset_right = 393
+offset_bottom = 818
+metadata/figma_id = "165:1664"
+metadata/figma_name = "Actions"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1}
+clip_contents = true
+
+[node name="Action_保存并回到计划_165_1665" type="Panel" parent="Actions_165_1664"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 8
+offset_right = 369
+offset_bottom = 60
+metadata/figma_id = "165:1665"
+metadata/figma_name = "Action / 保存并回到计划"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:815", "variableValue": {"value": "✓ 一周计划已更新", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:816", "variableValue": {"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:844"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}}, {"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.196078, "g": 0.443137, "b": 0.345098}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.07}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.04, "g": 0.16, "b": 0.1, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 8, "boundVariables": {}, "color": {"r": 0.18, "g": 0.35, "b": 0.26, "a": 0.1}, "offset": {"x": 0, "y": 3}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Actions_165_1664/Action_保存并回到计划_165_1665"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R38")
+theme_override_styles/hover = SubResource("R38")
+theme_override_styles/pressed = SubResource("R38")
+theme_override_styles/focus = SubResource("R38")
+metadata/source_id = "165:1665"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:815", "variableValue": {"value": "✓ 一周计划已更新", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:816", "variableValue": {"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:844"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}}, {"type": "BACK"}]
+
+[node name="确认这顿饭_I165_1665_165_1979" type="Label" parent="Actions_165_1664/Action_保存并回到计划_165_1665"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 14.5
+offset_right = 329.0
+offset_bottom = 37.5
+metadata/figma_id = "I165:1665;165:1979"
+metadata/figma_name = "确认这顿饭"
+metadata/figma_type = "TEXT"
+text = "保存并回到计划"
+theme_override_fonts/font = SubResource("R39")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Home_Indicator_Area_165_1666" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 818
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "165:1666"
+metadata/figma_name = "Home Indicator Area"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Home_Indicator_165_1667" type="Panel" parent="Home_Indicator_Area_165_1666"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 129.5
+offset_top = 14.5
+offset_right = 263.5
+offset_bottom = 19.5
+metadata/figma_id = "165:1667"
+metadata/figma_name = "Home Indicator"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.160784, "g": 0.235294, "b": 0.2}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true

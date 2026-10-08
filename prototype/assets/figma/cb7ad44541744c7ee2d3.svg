@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="138" height="8" viewBox="0 0 138 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Game state meter" clip-path="url(#clip0_0_650)">
+<path id="Vector" d="M134 0H4C1.79086 0 0 1.79086 0 4C0 6.20914 1.79086 8 4 8H134C136.209 8 138 6.20914 138 4C138 1.79086 136.209 0 134 0Z" fill="#E5E9DC"/>
+<path id="Vector_2" d="M95 0H4C1.79086 0 0 1.79086 0 4C0 6.20914 1.79086 8 4 8H95C97.2091 8 99 6.20914 99 4C99 1.79086 97.2091 0 95 0Z" fill="#71925C"/>
+</g>
+<defs>
+<clipPath id="clip0_0_650">
+<rect width="138" height="8" fill="white"/>
+</clipPath>
+</defs>
+</svg>

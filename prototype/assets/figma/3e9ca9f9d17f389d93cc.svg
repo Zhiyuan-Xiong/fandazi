@@ -1,0 +1,18 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="345" height="264" viewBox="0 0 345 264" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Welcome / soft illustration" clip-path="url(#clip0_0_132)">
+<path id="Vector" d="M34 64.5333C48 4.4 184 -7.33334 268 33C352 73.3333 371 152.533 311 209.733C251 266.933 37 263.267 12 186.267C-13 109.267 6 112.2 34 64.5333Z" fill="url(#paint0_radial_0_132)"/>
+<path id="Vector_2" d="M58 43.2667L64 52.0667L77 55L64 58.6667L58 68.2L53 58.6667L40 55L53 52.0667L58 43.2667Z" fill="#FFFDF1"/>
+<path id="Vector_3" d="M282 158.4L286 166.467L298 170.133L286 173.067L282 181.867L277 173.067L266 170.133L277 166.467L282 158.4Z" fill="#FFFDF1"/>
+<path id="Vector_4" d="M266 43.2667C267 25.6667 289 23.4667 295 31.5333C301 39.6 290 46.2 266 43.2667Z" fill="#8EAF78"/>
+<path id="Vector_5" d="M59 198.733C49 184.067 36 192.133 41 200.2L59 211.933L76 199.467C81 187.733 66 186.267 59 198.733Z" fill="#E7A78F"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_0_132" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(173.176 129.095) scale(172.81 119.746)">
+<stop stop-color="#F0D698"/>
+<stop offset="1" stop-color="#E5EDD9"/>
+</radialGradient>
+<clipPath id="clip0_0_132">
+<rect width="345" height="264" fill="white"/>
+</clipPath>
+</defs>
+</svg>

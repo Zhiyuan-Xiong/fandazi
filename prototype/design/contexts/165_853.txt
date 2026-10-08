@@ -1,0 +1,104 @@
+const imgOtterWavePng = "https://www.figma.com/api/mcp/asset/e9da1ac3-1c6e-4801-85c0-9139a951a027.png";
+const imgWelcomeSoftIllustration = "https://www.figma.com/api/mcp/asset/f756d6d2-1a10-4c80-b0de-f66591d0ca73.svg";
+
+export default function Component02Welcome() {
+  return (
+    <div className="bg-gradient-to-b content-stretch flex flex-col from-[#e9f0e5] items-start relative size-full to-[#fbf6e9]" data-node-id="165:853" data-name="02 — 欢迎 Welcome">
+      <div className="[word-break:break-word] content-stretch flex font-['Noto_Sans_SC:Bold'] font-bold gap-[var(--fandazi-ui-gap,8px)] h-[48px] items-center justify-between overflow-clip pl-[28px] pr-[24px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 text-[color:var(--fandazi-ink,#293c33)] w-[393px]" data-node-id="165:854" data-name="Safe Area">
+        <p className="absolute leading-[20px] left-[24px] text-[13px] top-[14px] w-[50px]" data-node-id="165:855">
+          9:41
+        </p>
+        <p className="absolute leading-[18px] left-[332px] text-[12px] top-[14px] w-[38px] whitespace-pre-wrap" data-node-id="165:856">{`●  ▰`}</p>
+      </div>
+      <div className="content-stretch flex gap-[var(--fandazi-ui-gap,8px)] h-[56px] items-center justify-between px-[var(--fandazi-ui-pad,16px)] py-[2px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[393px]" data-node-id="165:857" data-name="Top Bar">
+        <button className="content-stretch cursor-pointer flex h-[52px] items-center justify-center px-[6px] py-[8px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[44px]" data-node-id="I165:857;28:79" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(97, 133, 107, 0.06) 100%), linear-gradient(90deg, rgb(255, 254, 249) 0%, rgb(255, 254, 249) 100%)" }} data-name="Back">
+          <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Noto_Sans_SC:Bold'] font-bold justify-center leading-[0] min-w-px relative text-[20px] text-[color:var(--fandazi-ink,#293c33)] text-center" data-node-id="I165:857;28:79;165:1989">
+            <p className="leading-[24px]">‹</p>
+          </div>
+        </button>
+        <p className="[word-break:break-word] font-['Noto_Sans_SC:Medium'] font-medium leading-[27px] relative shrink-0 text-[18px] text-[color:var(--fandazi-ink,#293c33)] whitespace-nowrap" data-node-id="I165:857;28:81">
+          欢迎
+        </p>
+        <a className="content-stretch cursor-pointer flex h-[44px] items-center justify-center px-[6px] py-[8px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[52px]" data-node-id="I165:857;28:82" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(97, 133, 107, 0.06) 100%), linear-gradient(90deg, rgb(255, 254, 249) 0%, rgb(255, 254, 249) 100%)" }} data-name="Home">
+          <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Noto_Sans_SC:Bold'] font-bold justify-center leading-[0] min-w-px relative text-[14px] text-[color:var(--fandazi-ink,#293c33)] text-center" data-node-id="I165:857;28:82;165:1989">
+            <p className="leading-[24px]">首页</p>
+          </div>
+        </a>
+      </div>
+      <div className="h-[646px] overflow-x-clip overflow-y-auto relative shrink-0 w-[393px]" data-node-id="165:858" data-name="Content">
+        <div className="[word-break:break-word] absolute font-['Noto_Sans_SC:Bold'] font-bold leading-[0] left-[24px] text-[24px] text-[color:var(--fandazi-ink,#293c33)] top-[16px] w-[345px]" data-node-id="165:859">
+          <p className="leading-[32px] mb-0">吃下每一餐，</p>
+          <p className="leading-[32px]">也养好每一天。</p>
+        </div>
+        <div className="absolute content-stretch flex flex-col gap-[var(--fandazi-ui-gap,8px)] h-[264px] items-center left-[24px] overflow-clip p-[var(--fandazi-ui-pad,16px)] rounded-[var(--fandazi-ui-radius,16px)] top-[92px] w-[345px]" data-node-id="165:860" data-name="Welcome Hero">
+          <div className="absolute h-[264px] left-0 top-0 w-[345px]" data-node-id="167:2409" data-name="Welcome / soft illustration">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWelcomeSoftIllustration} />
+          </div>
+          <div className="absolute content-stretch flex flex-col items-center justify-center left-[56px] size-[258px] top-[5px]" data-node-id="167:2415" data-name="欢迎 / 完整挥手水獭">
+            <div className="relative shrink-0 size-[240.409px]" data-node-id="I167:2415;98:1928" data-name="OTTER_Wave/PNG">
+              <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgOtterWavePng} />
+            </div>
+          </div>
+        </div>
+        <div className="[word-break:break-word] absolute bg-[var(--fandazi-paper,#fffef9)] content-stretch flex flex-col gap-[var(--fandazi-ui-gap,8px)] h-[80px] items-start left-[24px] overflow-clip p-[var(--fandazi-ui-pad,16px)] rounded-[24px] text-[color:var(--fandazi-ink,#293c33)] top-[376px] w-[212px]" data-node-id="165:862" data-name="拍照记录">
+          <p className="font-['Noto_Sans_SC:Bold'] font-bold leading-[24px] relative shrink-0 text-[16px] w-[180px]" data-node-id="165:863">
+            拍照记录
+          </p>
+          <p className="font-['Noto_Sans_SC:Regular'] font-normal leading-[18px] relative shrink-0 text-[12px] w-[180px]" data-node-id="165:864">
+            拍一拍，留住每一餐。
+          </p>
+        </div>
+        <div className="[word-break:break-word] absolute bg-[var(--fandazi-yellow,#efd38e)] content-stretch flex flex-col gap-[var(--fandazi-ui-gap,8px)] h-[120px] items-start left-[248px] overflow-clip p-[var(--fandazi-ui-pad,16px)] rounded-[24px] text-[color:var(--fandazi-ink,#293c33)] top-[393px] w-[121px]" data-node-id="165:865" data-name="食宠陪伴">
+          <p className="font-['Noto_Sans_SC:Bold'] font-bold leading-[24px] relative shrink-0 text-[16px] w-[89px]" data-node-id="165:866">
+            食宠陪伴
+          </p>
+          <p className="font-['Noto_Sans_SC:Regular'] font-normal leading-[18px] relative shrink-0 text-[12px] w-[89px]" data-node-id="165:867">
+            照顾它，也关心自己的节律。
+          </p>
+        </div>
+        <div className="[word-break:break-word] absolute bg-[var(--fandazi-blue,#d7e7eb)] content-stretch flex flex-col gap-[var(--fandazi-ui-gap,8px)] h-[86px] items-start left-[24px] overflow-clip p-[var(--fandazi-ui-pad,16px)] rounded-[24px] text-[color:var(--fandazi-ink,#293c33)] top-[472px] w-[212px]" data-node-id="165:868" data-name="健康节律">
+          <p className="font-['Noto_Sans_SC:Bold'] font-bold leading-[24px] relative shrink-0 text-[16px] w-[180px]" data-node-id="165:869">
+            健康节律
+          </p>
+          <p className="font-['Noto_Sans_SC:Regular'] font-normal leading-[18px] relative shrink-0 text-[12px] w-[180px]" data-node-id="165:870">
+            理解变化，找到轻量调整。
+          </p>
+        </div>
+        <a className="absolute border border-[#dee8dc] border-solid content-stretch cursor-pointer flex h-[44px] items-center justify-center left-[24px] px-[16px] py-[10px] rounded-[var(--fandazi-ui-radius,18px)] top-[584px] w-[345px]" data-node-id="165:871" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(97, 133, 107, 0.06) 100%), linear-gradient(90deg, rgba(255, 255, 255, 0.84) 0%, rgba(255, 255, 255, 0.84) 100%)" }} data-name="Action / 已有账号登录">
+          <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Noto_Sans_SC:Medium'] font-medium justify-center leading-[0] min-w-px relative text-[16px] text-[color:var(--fandazi-ink,#293c33)] text-center" data-node-id="I165:871;165:1984">
+            <p className="leading-[24px]">已有账号登录</p>
+          </div>
+        </a>
+      </div>
+      <div className="content-stretch flex gap-[var(--fandazi-ui-gap,8px)] h-[68px] items-center justify-center overflow-clip px-[24px] py-[8px] relative shrink-0 w-[393px]" data-node-id="165:872" data-name="Actions">
+        <a className="content-stretch cursor-pointer drop-shadow-[0px_3px_4px_rgba(46,89,66,0.1)] flex h-[52px] items-center justify-center px-[16px] py-[14px] relative rounded-[var(--fandazi-ui-radius,26px)] shrink-0 w-[345px]" data-node-id="165:873" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, rgba(10, 41, 26, 0.06) 100%), linear-gradient(90deg, rgb(50, 113, 88) 0%, rgb(50, 113, 88) 100%)" }} data-name="Action / 开始使用">
+          <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Noto_Sans_SC:Bold'] font-bold justify-center leading-[0] min-w-px relative text-[15px] text-center text-white" data-node-id="I165:873;165:1979">
+            <p className="leading-[23px]">开始使用</p>
+          </div>
+        </a>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--fandazi-ui-gap,8px)] h-[34px] items-center justify-center overflow-clip relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[393px]" data-node-id="165:874" data-name="Home Indicator Area">
+        <div className="bg-[var(--fandazi-ink,#293c33)] h-[5px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[134px]" data-node-id="165:875" data-name="Home Indicator" />
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## OTTER_Wave
+**Node ID:** 98:1927
+
+角色外观以用户提供的标准设定图与 Otter State Set 为唯一依据。当前恢复原始 PNG；简化重绘矢量已停用，未宣称完成保真矢量化。
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

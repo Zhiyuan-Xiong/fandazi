@@ -1,0 +1,178 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://scripts/surface.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/figma/940fdec930f6a0387a00.png" id="2"]
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSansSC-VF.ttf" id="3"]
+[ext_resource type="Texture2D" path="res://assets/figma/d66853c53a1252adc6e9.png" id="4"]
+[ext_resource type="Script" path="res://scripts/otter_motion.gd" id="5"]
+
+[sub_resource type="FontVariation" id="R1"]
+base_font = ExtResource("3")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R2"]
+base_font = ExtResource("3")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R3"]
+base_font = ExtResource("3")
+variation_opentype = {2003265652: 400.0}
+[node name="State_Fed_165_2044" type="Panel"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 345
+offset_bottom = 316
+metadata/figma_id = "165:2044"
+metadata/figma_name = "State=Fed"
+metadata/figma_type = "COMPONENT"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 0.858824, "g": 0.921569, "b": 0.847059, "a": 1}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.984314, "g": 0.941176, "b": 0.862745, "a": 1}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 28, "topLeftRadius": 28, "topRightRadius": 28, "bottomLeftRadius": 28, "bottomRightRadius": 28, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 15, "boundVariables": {}, "color": {"r": 0.278431, "g": 0.396078, "b": 0.47451, "a": 0.06}, "offset": {"x": 0, "y": 4}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = false
+
+[node name="Food_165_2045" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 95.5
+offset_top = 16
+offset_right = 249.5
+offset_bottom = 166
+modulate = Color(1, 1, 1, 0.15)
+metadata/figma_id = "165:2045"
+metadata/figma_name = "Food"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="FOOD_Noodles_I165_2045_165_2020" type="Panel" parent="Food_165_2045"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 8
+offset_top = 8
+offset_right = 84
+offset_bottom = 84
+metadata/figma_id = "I165:2045;165:2020"
+metadata/figma_name = "FOOD_Noodles"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.431818}
+clip_contents = false
+
+[node name="FOOD_Noodles_PNG_I165_2045_165_2020_98_2027" type="TextureRect" parent="Food_165_2045/FOOD_Noodles_I165_2045_165_2020"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 2.59
+offset_top = 2.59
+offset_right = 73.41
+offset_bottom = 73.41
+metadata/figma_id = "I165:2045;165:2020;98:2027"
+metadata/figma_name = "FOOD_Noodles/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("2")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="面碗贴纸_I165_2045_165_2021" type="Label" parent="Food_165_2045"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 8
+offset_top = 88
+offset_right = 146
+offset_bottom = 111
+metadata/figma_id = "I165:2045;165:2021"
+metadata/figma_name = "◡ 面碗贴纸"
+metadata/figma_type = "TEXT"
+text = "◡  番茄面"
+theme_override_fonts/font = SubResource("R1")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="午餐_12_30_I165_2045_165_2022" type="Label" parent="Food_165_2045"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 8
+offset_top = 115
+offset_right = 146
+offset_bottom = 133
+metadata/figma_id = "I165:2045;165:2022"
+metadata/figma_name = "午餐 · 12:30"
+metadata/figma_type = "TEXT"
+text = "这一餐"
+theme_override_fonts/font = SubResource("R2")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Layer_165_2046" type="Label" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 161.5
+offset_top = 182
+offset_right = 183.5
+offset_bottom = 215
+metadata/figma_id = "165:2046"
+metadata/figma_name = "↓"
+metadata/figma_type = "TEXT"
+text = "↓"
+theme_override_fonts/font = SubResource("R3")
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.27451, 0.478431, 0.376471, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Pet_165_2047" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 110.58
+offset_top = 231
+offset_right = 234.42
+offset_bottom = 354.84
+metadata/figma_id = "165:2047"
+metadata/figma_name = "Pet"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.72, "cornerRadius": 72, "topLeftRadius": 72, "topRightRadius": 72, "bottomLeftRadius": 72, "bottomRightRadius": 72}
+clip_contents = false
+
+[node name="OTTER_Eat_I165_2047_165_2038" type="Panel" parent="Pet_165_2047"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 123.84
+offset_bottom = 123.84
+metadata/figma_id = "I165:2047;165:2038"
+metadata/figma_name = "OTTER_Eat"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.703636}
+clip_contents = false
+
+[node name="OTTER_Eat_PNG_I165_2047_165_2038_98_1925" type="TextureRect" parent="Pet_165_2047/OTTER_Eat_I165_2047_165_2038"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4.22
+offset_top = 4.22
+offset_right = 119.62
+offset_bottom = 119.62
+metadata/figma_id = "I165:2047;165:2038;98:1925"
+metadata/figma_name = "OTTER_Eat/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("4")
+expand_mode = 1
+script = ExtResource("5")
+pose_name = "Eat"
+stretch_mode = 5

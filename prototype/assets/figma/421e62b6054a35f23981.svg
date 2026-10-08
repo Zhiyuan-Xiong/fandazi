@@ -1,0 +1,17 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Speech / pointer" clip-path="url(#clip0_0_1534)">
+<g id="Vector">
+<path d="M1 0L3 16L21 0" fill="white"/>
+<path d="M1 0L3 16L21 0" stroke="#315745" stroke-width="1.5"/>
+</g>
+<g id="Vector_2">
+<path d="M1 0H21Z" fill="black"/>
+<path d="M1 0H21" stroke="white" stroke-width="3"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1534">
+<rect width="23" height="18" fill="white"/>
+</clipPath>
+</defs>
+</svg>

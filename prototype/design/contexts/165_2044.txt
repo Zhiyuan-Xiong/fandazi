@@ -1,0 +1,59 @@
+const imgFoodNoodlesPng = "https://www.figma.com/api/mcp/asset/5a9c9827-0777-4897-b1ff-fc4bf4740a96.png";
+const imgOtterEatPng = "https://www.figma.com/api/mcp/asset/533fdf5a-0d5c-4393-b578-873463650e32.png";
+
+type FeedSceneProps = {
+  className?: string;
+  state?: "Fed";
+};
+
+function FeedScene({ className, state = "Fed" }: FeedSceneProps) {
+  return (
+    <div className={className || "bg-gradient-to-b content-stretch drop-shadow-[0px_4px_7.5px_rgba(71,101,121,0.06)] flex flex-col from-[#dbebd8] gap-[16px] h-[316px] items-center p-[var(--fandazi-ui-pad,16px)] relative rounded-[28px] to-[#fbf0dc] w-[345px]"} data-node-id="165:2044">
+      <div className="bg-[var(--fandazi-paper,#fffef9)] content-stretch flex flex-col gap-[var(--fandazi-ui-small,4px)] h-[150px] items-start opacity-15 p-[8px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[154px]" data-node-id="165:2045" data-name="Food">
+        <div className="content-stretch flex flex-col items-center justify-center relative shrink-0 size-[76px]" data-node-id="I165:2045;165:2020" data-name="FOOD_Noodles">
+          <div className="relative shrink-0 size-[70.818px]" data-node-id="I165:2045;165:2020;98:2027" data-name="FOOD_Noodles/PNG">
+            <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgFoodNoodlesPng} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] font-['Noto_Sans_SC:Medium'] font-medium leading-[23px] min-w-full relative shrink-0 text-[15px] text-[color:var(--fandazi-ink,#293c33)] w-[min-content] whitespace-pre-wrap" data-node-id="I165:2045;165:2021">{`◡  番茄面`}</p>
+        <p className="[word-break:break-word] font-['Noto_Sans_SC:Regular'] font-normal leading-[18px] min-w-full relative shrink-0 text-[12px] text-[color:var(--fandazi-muted,#68796c)] w-[min-content]" data-node-id="I165:2045;165:2022">
+          这一餐
+        </p>
+      </div>
+      <p className="[word-break:break-word] font-['Noto_Sans_SC:Regular'] font-normal leading-[33px] relative shrink-0 text-[22px] text-[color:var(--fandazi-green,#467a60)] w-[22px]" data-node-id="165:2046">
+        ↓
+      </p>
+      <div className="content-stretch flex flex-col gap-[var(--fandazi-ui-gap,5.76px)] items-center justify-center relative rounded-[var(--fandazi-ui-pill,72px)] shrink-0 size-[123.84px]" data-node-id="165:2047" data-name="Pet">
+        <div className="content-stretch flex flex-col items-center justify-center relative shrink-0 size-[123.84px]" data-node-id="I165:2047;165:2038" data-name="OTTER_Eat">
+          <div className="relative shrink-0 size-[115.396px]" data-node-id="I165:2047;165:2038;98:1925" data-name="OTTER_Eat/PNG">
+            <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgOtterEatPng} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## FOOD_Noodles
+**Node ID:** 98:2026
+
+用户参考图直接裁切与抠图的透明 PNG；可替换图片填充，不是矢量路径。保留原画色彩。
+
+## OTTER_Eat
+**Node ID:** 98:1924
+
+角色外观以用户提供的标准设定图与 Otter State Set 为唯一依据。当前恢复原始 PNG；简化重绘矢量已停用，未宣称完成保真矢量化。
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

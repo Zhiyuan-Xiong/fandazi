@@ -1,0 +1,125 @@
+const imgOtterNormalPng = "https://www.figma.com/api/mcp/asset/3d1dab89-b5a6-45f1-8ff3-445541feba94.png";
+const imgSpeechPointer = "https://www.figma.com/api/mcp/asset/7ca3fab8-244b-4e00-ac7b-f4449e4f98b5.svg";
+const imgGameStateMeter = "https://www.figma.com/api/mcp/asset/7c7fbdea-430c-46c4-b60e-9f8f00bb92c0.svg";
+const imgGameStateMeter1 = "https://www.figma.com/api/mcp/asset/13c1570f-8912-4fdd-b5ad-3d21e692a126.svg";
+
+export default function SheetPetStatus() {
+  return (
+    <div className="content-stretch flex flex-col items-start relative size-full" data-node-id="165:1007" data-name="Sheet / 食宠状态 Pet Status">
+      <button className="bg-[rgba(0,0,0,0.2)] content-stretch cursor-pointer flex gap-[var(--fandazi-ui-gap,8px)] h-[132px] items-center justify-between overflow-clip pl-[28px] pr-[24px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[393px]" data-node-id="165:1008" data-name="Safe Area" />
+      <div className="bg-[#fffcf6] content-stretch flex gap-[var(--fandazi-ui-gap,8px)] h-[56px] items-center justify-between px-[var(--fandazi-ui-pad,16px)] py-[2px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[393px]" data-node-id="165:1011" data-name="Top Bar">
+        <button className="content-stretch cursor-pointer flex h-[52px] items-center justify-center px-[6px] py-[8px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[44px]" data-node-id="I165:1011;28:79" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(97, 133, 107, 0.06) 100%), linear-gradient(90deg, rgb(255, 254, 249) 0%, rgb(255, 254, 249) 100%)" }} data-name="Back">
+          <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Noto_Sans_SC:Bold'] font-bold justify-center leading-[0] min-w-px relative text-[20px] text-[color:var(--fandazi-ink,#293c33)] text-center" data-node-id="I165:1011;28:79;165:1989">
+            <p className="leading-[24px]">×</p>
+          </div>
+        </button>
+        <p className="[word-break:break-word] font-['Noto_Sans_SC:Medium'] font-medium leading-[27px] relative shrink-0 text-[18px] text-[color:var(--fandazi-ink,#293c33)] whitespace-nowrap" data-node-id="I165:1011;28:81">
+          食宠现在怎么样
+        </p>
+      </div>
+      <div className="bg-[#fffcf6] content-stretch flex flex-col gap-[10px] h-[562px] items-start overflow-x-clip overflow-y-auto px-[24px] py-[12px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[393px]" data-node-id="165:1012" data-name="Content">
+        <div className="bg-[#f2d487] content-stretch cursor-pointer flex flex-col h-[174px] items-start overflow-clip relative rounded-[30px] shrink-0 w-[345px]" data-node-id="165:1013" data-name="Pet / feeling portrait">
+          <button className="absolute bg-white border-[#315745] border-[1.5px] border-solid content-stretch flex flex-col gap-[3px] h-[93px] items-start left-[148px] overflow-clip pl-[17px] pr-[14px] pt-[11px] rounded-[20px] shadow-[0px_5px_0px_0px_rgba(113,142,124,0.16)] top-[27px] w-[183px]" data-node-id="165:1015" data-name="Pet / current feeling">
+            <div className="[word-break:break-word] font-['Noto_Sans_SC:Bold'] font-bold leading-[0] relative shrink-0 text-[#283e32] text-[14px] text-left w-[151px]" data-node-id="165:1016">
+              <p className="leading-[21px] mb-0">今天精神不错</p>
+              <p className="leading-[21px]">点我，表达现在的心情</p>
+            </div>
+            <div className="absolute h-[18px] left-[24.5px] top-[90.5px] w-[23px]" data-node-id="165:1017" data-name="Speech / pointer">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSpeechPointer} />
+            </div>
+          </button>
+          <button className="absolute content-stretch flex flex-col items-center justify-center left-[3px] size-[145px] top-[18px]" data-node-id="165:1024" data-name="Care v3 / Status preview / Normal">
+            <div className="relative shrink-0 size-[135.114px]" data-node-id="I165:1024;98:1958" data-name="OTTER_Normal/PNG">
+              <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgOtterNormalPng} />
+            </div>
+          </button>
+        </div>
+        <div className="content-stretch flex gap-[12px] h-[86px] items-start overflow-clip relative rounded-[24px] shrink-0 w-[345px]" data-node-id="165:1032" data-name="Pet / main states">
+          <div className="bg-[#fffdf7] content-stretch flex flex-col gap-[6px] h-[86px] items-start overflow-clip pl-[14px] pt-[12px] relative rounded-[24px] shrink-0 w-[166px]" data-node-id="165:1033" data-name="Weight State">
+            <p className="[word-break:break-word] font-['Noto_Sans_SC:Bold'] font-bold leading-[23px] relative shrink-0 text-[#315745] text-[15px] w-[138px]" data-node-id="165:1034">
+              体态 · 舒适
+            </p>
+            <div className="h-[8px] relative shrink-0 w-[138px]" data-node-id="165:1035" data-name="Game state meter">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGameStateMeter} />
+            </div>
+          </div>
+          <div className="bg-[#d4e2c4] content-stretch flex flex-col gap-[6px] h-[86px] items-start overflow-clip pl-[14px] pt-[12px] relative rounded-[24px] shrink-0 w-[166px]" data-node-id="165:1038" data-name="Energy State">
+            <p className="[word-break:break-word] font-['Noto_Sans_SC:Bold'] font-bold leading-[23px] relative shrink-0 text-[#315745] text-[15px] w-[138px]" data-node-id="165:1039">
+              精力 · 稳定
+            </p>
+            <div className="h-[8px] relative shrink-0 w-[138px]" data-node-id="165:1040" data-name="Game state meter">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGameStateMeter1} />
+            </div>
+          </div>
+        </div>
+        <p className="[word-break:break-word] font-['Noto_Sans_SC:Medium'] font-medium leading-[24px] relative shrink-0 text-[16px] text-[color:var(--fandazi-ink,#293c33)] w-[345px]" data-node-id="165:1049">
+          小饭的状态，从日常里来
+        </p>
+        <div className="bg-[var(--fandazi-canvas,#f7f6ee)] content-stretch flex gap-[12px] h-[34px] items-start overflow-clip relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[345px]" data-node-id="165:1050" data-name="State tags">
+          <div className="bg-[var(--fandazi-sage,#c9dcc3)] content-stretch flex flex-col gap-[var(--fandazi-ui-small,4px)] h-[34px] items-start px-[var(--fandazi-ui-pad,16px)] py-[10px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[166px]" data-node-id="165:1051" data-name="饱腹 · 舒适">
+            <p className="[word-break:break-word] font-['Noto_Sans_SC:Medium'] font-medium leading-[20px] relative shrink-0 text-[13px] text-[color:var(--fandazi-ink,#293c33)] w-full" data-node-id="I165:1051;165:2015">
+              饱腹 · 舒适
+            </p>
+          </div>
+          <div className="bg-[var(--fandazi-sage,#c9dcc3)] content-stretch flex flex-col gap-[var(--fandazi-ui-small,4px)] h-[34px] items-start px-[var(--fandazi-ui-pad,16px)] py-[10px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[166px]" data-node-id="165:1052" data-name="规律 · 记录 3 天">
+            <p className="[word-break:break-word] font-['Noto_Sans_SC:Medium'] font-medium leading-[20px] relative shrink-0 text-[13px] text-[color:var(--fandazi-ink,#293c33)] w-full" data-node-id="I165:1052;165:2015">
+              规律 · 记录 3 天
+            </p>
+          </div>
+        </div>
+        <div className="bg-[var(--fandazi-canvas,#f7f6ee)] content-stretch flex gap-[12px] h-[34px] items-start overflow-clip relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[345px]" data-node-id="165:1053" data-name="State tags">
+          <div className="bg-[var(--fandazi-sage,#c9dcc3)] content-stretch flex flex-col gap-[var(--fandazi-ui-small,4px)] h-[34px] items-start px-[var(--fandazi-ui-pad,16px)] py-[10px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[166px]" data-node-id="165:1054" data-name="水分 · 尚未记录">
+            <p className="[word-break:break-word] font-['Noto_Sans_SC:Medium'] font-medium leading-[20px] relative shrink-0 text-[13px] text-[color:var(--fandazi-ink,#293c33)] w-full" data-node-id="I165:1054;165:2015">
+              水分 · 尚未记录
+            </p>
+          </div>
+          <div className="bg-[var(--fandazi-sage,#c9dcc3)] content-stretch flex flex-col gap-[var(--fandazi-ui-small,4px)] h-[34px] items-start px-[var(--fandazi-ui-pad,16px)] py-[10px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[166px]" data-node-id="165:1055" data-name="均衡 · 多种食材">
+            <p className="[word-break:break-word] font-['Noto_Sans_SC:Medium'] font-medium leading-[20px] relative shrink-0 text-[13px] text-[color:var(--fandazi-ink,#293c33)] w-full" data-node-id="I165:1055;165:2015">
+              均衡 · 多种食材
+            </p>
+          </div>
+        </div>
+        <div className="bg-[var(--fandazi-canvas,#f7f6ee)] content-stretch flex h-[34px] items-start overflow-clip relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[345px]" data-node-id="165:1056" data-name="State tags">
+          <div className="bg-[var(--fandazi-sage,#c9dcc3)] content-stretch flex flex-col gap-[var(--fandazi-ui-small,4px)] h-[34px] items-start px-[var(--fandazi-ui-pad,16px)] py-[10px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[166px]" data-node-id="165:1057" data-name="咖啡因 · 已记录">
+            <p className="[word-break:break-word] font-['Noto_Sans_SC:Medium'] font-medium leading-[20px] relative shrink-0 text-[13px] text-[color:var(--fandazi-ink,#293c33)] w-full" data-node-id="I165:1057;165:2015">
+              咖啡因 · 已记录
+            </p>
+          </div>
+        </div>
+        <div className="[word-break:break-word] font-['Noto_Sans_SC:Regular'] font-normal leading-[0] relative shrink-0 text-[#526451] text-[12px] w-[345px]" data-node-id="165:1058">
+          <p className="leading-[18px] mb-0">示例中的茶饮带来较活跃的表现。</p>
+          <p className="leading-[18px]">晚间想休息时，可以看看低咖啡因饮品建议。</p>
+        </div>
+      </div>
+      <div className="bg-[#fffcf6] content-stretch flex gap-[var(--fandazi-ui-gap,8px)] h-[68px] items-center justify-center overflow-clip px-[24px] py-[8px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[393px]" data-node-id="165:1059" data-name="Actions">
+        <button className="content-stretch cursor-pointer drop-shadow-[0px_3px_4px_rgba(46,89,66,0.1)] flex h-[52px] items-center justify-center px-[16px] py-[14px] relative rounded-[var(--fandazi-ui-radius,26px)] shrink-0 w-[345px]" data-node-id="165:1060" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, rgba(10, 41, 26, 0.06) 100%), linear-gradient(90deg, rgb(50, 113, 88) 0%, rgb(50, 113, 88) 100%)" }} data-name="Pet status Home">
+          <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Noto_Sans_SC:Bold'] font-bold justify-center leading-[0] min-w-px relative text-[15px] text-center text-white" data-node-id="I165:1060;165:1979">
+            <p className="leading-[23px]">完成 · 关闭</p>
+          </div>
+        </button>
+      </div>
+      <div className="bg-[#fffcf6] content-stretch flex flex-col gap-[var(--fandazi-ui-gap,8px)] h-[34px] items-center justify-center overflow-clip relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[393px]" data-node-id="165:1061" data-name="Home Indicator Area">
+        <div className="bg-[var(--fandazi-ink,#293c33)] h-[5px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[134px]" data-node-id="165:1062" data-name="Home Indicator" />
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## OTTER_Normal
+**Node ID:** 98:1957
+
+角色外观以用户提供的标准设定图与 Otter State Set 为唯一依据。当前恢复原始 PNG；简化重绘矢量已停用，未宣称完成保真矢量化。
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

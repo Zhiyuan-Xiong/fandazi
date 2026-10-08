@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="204" height="8" viewBox="0 0 204 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Growth meter" clip-path="url(#clip0_0_1522)">
+<path id="Vector" d="M200 0H4C1.79086 0 0 1.79086 0 4C0 6.20914 1.79086 8 4 8H200C202.209 8 204 6.20914 204 4C204 1.79086 202.209 0 200 0Z" fill="#64836C"/>
+<path id="Vector_2" d="M123 0H4C1.79086 0 0 1.79086 0 4C0 6.20914 1.79086 8 4 8H123C125.209 8 127 6.20914 127 4C127 1.79086 125.209 0 123 0Z" fill="#F2CA6F"/>
+</g>
+<defs>
+<clipPath id="clip0_0_1522">
+<rect width="204" height="8" fill="white"/>
+</clipPath>
+</defs>
+</svg>

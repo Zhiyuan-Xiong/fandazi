@@ -1,0 +1,58 @@
+export default function SheetCamera() {
+  return (
+    <div className="bg-gradient-to-b content-stretch flex flex-col from-[#e9f0e5] items-start relative size-full to-[#fbf6e9]" data-node-id="94:978" data-name="Sheet / 模拟相机 Camera">
+      <button className="content-stretch cursor-pointer flex gap-[var(--fandazi-ui-gap,8px)] h-[48px] items-center justify-between overflow-clip pl-[28px] pr-[24px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[393px]" data-node-id="94:979" data-name="Safe Area" />
+      <div className="content-stretch flex gap-[var(--fandazi-ui-gap,8px)] h-[56px] items-center justify-between px-[var(--fandazi-ui-pad,16px)] py-[2px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[393px]" data-node-id="94:982" data-name="Top Bar">
+        <button className="bg-[var(--fandazi-ui-surface,#fffefa)] content-stretch cursor-pointer flex gap-[var(--fandazi-ui-gap,8px)] h-[52px] items-center justify-center px-[8px] py-[var(--fandazi-ui-pad,16px)] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[44px]" data-node-id="I94:982;28:79" data-name="Back">
+          <p className="[word-break:break-word] font-['Noto_Sans_SC:Medium'] font-medium leading-[24px] relative shrink-0 text-[16px] text-[color:var(--fandazi-ui-ink,#283e32)] text-left whitespace-nowrap" data-node-id="I94:982;28:79;94:1592">
+            ×
+          </p>
+        </button>
+        <p className="[word-break:break-word] font-['Noto_Sans_SC:Medium'] font-medium leading-[27px] relative shrink-0 text-[18px] text-[color:var(--fandazi-ui-ink,#283e32)] whitespace-nowrap" data-node-id="I94:982;28:81">
+          模拟相机
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col gap-[12px] h-[632px] items-start overflow-x-clip overflow-y-auto px-[24px] py-[var(--fandazi-ui-pad,16px)] relative shrink-0 w-[393px]" data-node-id="94:983" data-name="Content">
+        <p className="[word-break:break-word] font-['Noto_Sans_SC:Bold'] font-bold h-[32px] leading-[32px] relative shrink-0 text-[24px] text-[color:var(--fandazi-ui-ink,#283e32)] w-[345px]" data-node-id="94:984">
+          拍下今天的味道
+        </p>
+        <div className="[word-break:break-word] bg-[var(--fandazi-ui-room,#e8e1d2)] content-stretch flex flex-col gap-[var(--fandazi-ui-gap,8px)] h-[430px] items-start justify-center overflow-clip p-[var(--fandazi-ui-pad,16px)] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[345px]" data-node-id="94:985" data-name="Camera Viewfinder">
+          <p className="font-['Noto_Sans_SC:Medium'] font-medium h-[32px] leading-[32px] relative shrink-0 text-[24px] text-[color:var(--fandazi-ui-ink,#283e32)] w-[313px]" data-node-id="94:986">
+            食物取景框
+          </p>
+          <div className="font-['Noto_Sans_SC:Regular'] font-normal h-[42px] leading-[0] relative shrink-0 text-[14px] text-[color:var(--fandazi-ui-muted,#647367)] w-[313px]" data-node-id="94:987">
+            <p className="leading-[21px] mb-0">把这一餐放进画面里</p>
+            <p className="leading-[21px]">当前为相机占位，不调用摄像头。</p>
+          </div>
+        </div>
+        <button className="bg-[rgba(255,255,255,0.84)] border border-[#dee8dc] border-solid content-stretch cursor-pointer flex gap-[var(--fandazi-ui-gap,8px)] h-[52px] items-center justify-center px-[8px] py-[var(--fandazi-ui-pad,16px)] relative rounded-[var(--fandazi-ui-radius,18px)] shrink-0 w-[345px]" data-node-id="94:988" data-name="Action / 从相册选择示例照片">
+          <p className="[word-break:break-word] font-['Noto_Sans_SC:Medium'] font-medium leading-[24px] relative shrink-0 text-[16px] text-[color:var(--fandazi-ui-ink,#283e32)] text-left whitespace-nowrap" data-node-id="I94:988;94:1587">
+            从相册选择示例照片
+          </p>
+        </button>
+      </div>
+      <div className="content-stretch flex gap-[var(--fandazi-ui-gap,8px)] h-[82px] items-center justify-center overflow-clip px-[24px] py-[var(--fandazi-ui-pad,16px)] relative shrink-0 w-[393px]" data-node-id="94:989" data-name="Actions">
+        <button className="bg-[#327158] content-stretch cursor-pointer drop-shadow-[0px_4px_5px_rgba(113,142,124,0.12)] flex gap-[var(--fandazi-ui-gap,8px)] h-[52px] items-center justify-center px-[8px] py-[var(--fandazi-ui-pad,16px)] relative rounded-[var(--fandazi-ui-radius,18px)] shrink-0 w-[345px]" data-node-id="94:990" data-name="Action / ○ 拍摄">
+          <p className="[word-break:break-word] font-['Noto_Sans_SC:Bold'] font-bold leading-[24px] relative shrink-0 text-[16px] text-left text-white whitespace-nowrap" data-node-id="I94:990;94:1582">
+            ○ 拍摄
+          </p>
+        </button>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--fandazi-ui-gap,8px)] h-[34px] items-center justify-center overflow-clip relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[393px]" data-node-id="94:991" data-name="Home Indicator Area">
+        <div className="bg-[var(--fandazi-ui-ink,#283e32)] h-[5px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[134px]" data-node-id="94:992" data-name="Home Indicator" />
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

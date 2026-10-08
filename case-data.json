@@ -1,0 +1,24 @@
+{
+  "slug": "fandazi",
+  "title": {
+    "zh": "饭搭子",
+    "en": "FanDazi"
+  },
+  "subtitle": {
+    "zh": "UX／产品设计",
+    "en": "UX / Product design"
+  },
+  "description": {
+    "zh": "项目进行中。完成后补充问题定义、用户流程与原型。",
+    "en": "In progress. The problem framing, user flows, and prototype will be added when ready."
+  },
+  "categories": [
+    "ux"
+  ],
+  "status": "progress",
+  "kind": {
+    "zh": "UX／产品设计",
+    "en": "UX / Product design"
+  },
+  "featured": true
+}

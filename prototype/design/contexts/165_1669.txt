@@ -1,0 +1,279 @@
+const imgOtterPeacefulPng = "https://www.figma.com/api/mcp/asset/a1bc745b-7763-4a46-b176-e741175bebd3.png";
+const img78Of100GraduatedArc = "https://www.figma.com/api/mcp/asset/bd7834c0-5aba-4b91-a8c0-51493da443e0.svg";
+const imgWeeklyBreakfast5Of7Days = "https://www.figma.com/api/mcp/asset/00a287f8-31b3-4eb2-b528-f8fc0847a0a7.svg";
+const imgFoodDiversity3Of5Groups = "https://www.figma.com/api/mcp/asset/f067b210-e1ff-4379-995d-e4b7161bb9b3.svg";
+const imgEnergyGentleDailyCurve = "https://www.figma.com/api/mcp/asset/8a60b309-0363-4aea-b679-65c0145bb4e1.svg";
+const imgDrinkTimingCalibrated0820 = "https://www.figma.com/api/mcp/asset/b965f263-6aa7-4f8f-980a-1fe09f554ac5.svg";
+const imgIcon = "https://www.figma.com/api/mcp/asset/f6fef7b8-6736-43de-a390-6e8d1aff94b5.svg";
+const imgIcon1 = "https://www.figma.com/api/mcp/asset/523ae53c-fc23-408e-9cf3-511086a5f311.svg";
+const imgIcon2 = "https://www.figma.com/api/mcp/asset/cb75d987-7386-4da7-aca0-da34f96e01e5.svg";
+const imgIcon3 = "https://www.figma.com/api/mcp/asset/a69a8175-bcf9-4aec-9b0d-15d49f9ae671.svg";
+
+export default function Ui() {
+  return (
+    <div className="bg-gradient-to-b content-stretch flex flex-col from-[#e9f0e5] items-start relative size-full to-[#fbf6e9]" data-node-id="165:1669" data-name="UI / 健康指数">
+      <div className="[word-break:break-word] content-stretch flex font-['Noto_Sans_SC:Bold'] font-bold gap-[var(--fandazi-ui-gap,8px)] h-[48px] items-center justify-between overflow-clip pl-[28px] pr-[24px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 text-[color:var(--fandazi-ink,#293c33)] w-[393px]" data-node-id="165:1670" data-name="Safe Area">
+        <p className="absolute leading-[20px] left-[24px] text-[13px] top-[14px] w-[50px]" data-node-id="165:1671">
+          9:41
+        </p>
+        <p className="absolute leading-[18px] left-[332px] text-[12px] top-[14px] w-[38px] whitespace-pre-wrap" data-node-id="165:1672">{`●  ▰`}</p>
+      </div>
+      <div className="content-stretch flex gap-[var(--fandazi-ui-gap,8px)] h-[56px] items-center justify-between px-[24px] py-[2px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[393px]" data-node-id="165:1673" data-name="Top Bar">
+        <p className="[word-break:break-word] font-['Noto_Sans_SC:Bold'] font-bold leading-[29px] relative shrink-0 text-[20px] text-[color:var(--fandazi-ink,#293c33)] whitespace-nowrap" data-node-id="I165:1673;28:81">
+          健康指数
+        </p>
+        <a className="content-stretch cursor-pointer flex h-[44px] items-center justify-center px-[6px] py-[8px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[52px]" data-node-id="I165:1673;28:82" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(97, 133, 107, 0.06) 100%), linear-gradient(90deg, rgb(255, 254, 249) 0%, rgb(255, 254, 249) 100%)" }} data-name="Home">
+          <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Noto_Sans_SC:Bold'] font-bold justify-center leading-[0] min-w-px relative text-[14px] text-[color:var(--fandazi-ink,#293c33)] text-center" data-node-id="I165:1673;28:82;165:1989">
+            <p className="leading-[24px]">我</p>
+          </div>
+        </a>
+      </div>
+      <div className="h-[578px] overflow-x-clip overflow-y-auto relative shrink-0 w-[393px]" data-node-id="165:1674" data-name="Content">
+        <div className="absolute content-stretch flex flex-col gap-[var(--fandazi-ui-pad,16px)] items-start left-[24px] overflow-clip pb-[24px] top-[8px] w-[345px]" data-node-id="180:837" data-name="Health 2.1 / aligned scroll content">
+          <div className="[word-break:break-word] content-stretch flex h-[24px] items-center justify-between overflow-clip relative shrink-0 w-[345px]" data-node-id="180:2258" data-name="Date / sample context">
+            <p className="font-['Noto_Sans_SC:Bold'] font-bold leading-[21px] relative shrink-0 text-[14px] text-[color:var(--fandazi-ink,#293c33)] w-[200px]" data-node-id="180:2259">
+              9月12日 · 今天
+            </p>
+            <p className="font-['Noto_Sans_SC:Regular'] font-normal leading-[16px] relative shrink-0 text-[11px] text-[color:var(--fandazi-muted,#68796c)] w-[65px]" data-node-id="180:2260">
+              示例数据
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[4px] h-[296px] items-center overflow-clip relative shrink-0 w-[345px]" data-node-id="180:2261" data-name="Health / centered gauge & companion">
+            <div className="h-[260px] overflow-clip relative shrink-0 w-[345px]" data-node-id="180:2262" data-name="Gauge / calibrated 0–100">
+              <div className="absolute h-[260px] left-0 top-0 w-[345px]" data-node-id="180:2263" data-name="78 of 100 / graduated arc">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={img78Of100GraduatedArc} />
+              </div>
+              <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans_SC:Bold'] font-bold leading-[18px] left-[172.5px] text-[12px] text-[color:var(--fandazi-muted,#68796c)] text-center top-[67px] w-[155px]" data-node-id="180:2294">
+                今日状态
+              </p>
+              <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans_SC:Bold'] font-bold leading-[80px] left-[172.5px] text-[64px] text-[color:var(--fandazi-ink,#293c33)] text-center top-[86px] w-[155px]" data-node-id="180:2295">
+                78
+              </p>
+              <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] font-normal leading-[16px] left-[172.5px] text-[11px] text-[color:var(--fandazi-muted,#68796c)] text-center top-[168px] w-[155px] whitespace-pre-wrap" data-node-id="180:2296">{`/ 100  ·  示例指数`}</p>
+              <div className="absolute content-stretch flex flex-col items-center justify-center left-[137.5px] size-[70px] top-[193px]" data-node-id="165:1688" data-name="OTTER_Peaceful">
+                <div className="relative shrink-0 size-[65.227px]" data-node-id="I165:1688;98:1955" data-name="OTTER_Peaceful/PNG">
+                  <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgOtterPeacefulPng} />
+                </div>
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Noto_Sans_SC:Bold'] font-bold leading-[28px] relative shrink-0 text-[19px] text-[color:var(--fandazi-ink,#293c33)] text-center w-[345px]" data-node-id="180:2297">
+              稳稳的，很不错
+            </p>
+          </div>
+          <button className="block cursor-pointer h-[142px] overflow-clip relative shrink-0 w-[345px]" data-node-id="180:2298" data-name="Metric / 饮食规律">
+            <div className="[word-break:break-word] absolute content-stretch drop-shadow-[0px_3px_5px_rgba(113,142,124,0.03)] flex flex-col gap-[4px] h-[142px] items-start left-0 pb-[28px] pt-[12px] px-[14px] rounded-[24px] text-left top-0 w-[345px]" data-node-id="165:1695" role="button" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.22) 0%, rgba(217, 196, 148, 0.04) 100%), linear-gradient(90deg, rgb(201, 220, 195) 0%, rgb(201, 220, 195) 100%)" }} tabIndex="0" data-name="Health Index Card">
+              <p className="font-['Noto_Sans_SC:Bold'] font-bold leading-[24px] relative shrink-0 text-[#283e32] text-[16px] w-full" data-node-id="I165:1695;165:2143">
+                饮食规律
+              </p>
+              <p className="font-['Noto_Sans_SC:Regular'] font-normal leading-[18px] relative shrink-0 text-[#526451] text-[11px] w-full" data-node-id="I165:1695;165:2144">
+                本周早餐记录 5 天
+              </p>
+            </div>
+            <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Bold'] font-bold leading-[44px] left-[14px] text-[30px] text-[color:var(--fandazi-green,#467a60)] text-left top-[65px] w-[136px]" data-node-id="180:2306">
+              5 / 7
+            </p>
+            <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] font-normal leading-[16px] left-[14px] text-[11px] text-[color:var(--fandazi-muted,#68796c)] text-left top-[111px] w-[140px]" data-node-id="180:2307">
+              天有早餐记录
+            </p>
+            <div className="absolute h-[64px] left-[187px] top-[45px] w-[136px]" data-node-id="180:2308" data-name="Weekly breakfast / 5 of 7 days">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWeeklyBreakfast5Of7Days} />
+            </div>
+            <div className="[word-break:break-word] absolute content-stretch flex font-['Noto_Sans_SC:Regular'] font-normal h-[16px] items-start justify-between leading-[15px] left-[189px] overflow-clip text-[10px] text-[color:var(--fandazi-muted,#68796c)] text-center top-[109px] w-[124px]" data-node-id="182:2261" data-name="Breakfast / seven aligned weekdays">
+              <p className="relative shrink-0 w-[10px]" data-node-id="182:2262">
+                一
+              </p>
+              <p className="relative shrink-0 w-[10px]" data-node-id="182:2263">
+                二
+              </p>
+              <p className="relative shrink-0 w-[10px]" data-node-id="182:2264">
+                三
+              </p>
+              <p className="relative shrink-0 w-[10px]" data-node-id="182:2265">
+                四
+              </p>
+              <p className="relative shrink-0 w-[10px]" data-node-id="182:2266">
+                五
+              </p>
+              <p className="relative shrink-0 w-[10px]" data-node-id="182:2267">
+                六
+              </p>
+              <p className="relative shrink-0 w-[10px]" data-node-id="182:2268">
+                日
+              </p>
+            </div>
+          </button>
+          <div className="content-stretch cursor-pointer flex gap-[13px] h-[174px] items-start overflow-clip relative shrink-0 w-[345px]" data-node-id="180:2301" data-name="Metrics / balanced two-column row">
+            <button className="block h-[174px] overflow-clip relative shrink-0 w-[166px]" data-node-id="180:2302" data-name="Metric / 营养均衡">
+              <div className="[word-break:break-word] absolute bg-[var(--fandazi-paper,#fffef9)] content-stretch drop-shadow-[0px_3px_5px_rgba(113,142,124,0.03)] flex flex-col gap-[4px] h-[174px] items-start left-0 pb-[28px] pt-[12px] px-[14px] rounded-[24px] text-left top-0 w-[166px]" data-node-id="165:1699" role="button" tabIndex="0" data-name="Health Index Card">
+                <p className="font-['Noto_Sans_SC:Bold'] font-bold leading-[24px] relative shrink-0 text-[#283e32] text-[16px] w-full" data-node-id="I165:1699;165:2143">
+                  营养均衡
+                </p>
+                <p className="font-['Noto_Sans_SC:Regular'] font-normal leading-[18px] relative shrink-0 text-[#526451] text-[11px] w-full" data-node-id="I165:1699;165:2144">
+                  本餐食物种类 · 示例
+                </p>
+              </div>
+              <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Bold'] font-bold leading-[38px] left-[14px] text-[26px] text-[color:var(--fandazi-green,#467a60)] text-left top-[68px] w-[138px]" data-node-id="180:2319">
+                3 / 5 类
+              </p>
+              <div className="absolute h-[12px] left-[14px] top-[115px] w-[138px]" data-node-id="180:2320" data-name="Food diversity / 3 of 5 groups">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFoodDiversity3Of5Groups} />
+              </div>
+              <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Regular'] font-normal leading-[15px] left-[14px] text-[10px] text-[color:var(--fandazi-muted,#68796c)] text-left top-[142px] w-[138px]" data-node-id="180:2326">
+                主食 · 蛋白质 · 蔬菜
+              </p>
+            </button>
+            <button className="block h-[174px] overflow-clip relative shrink-0 w-[166px]" data-node-id="180:2303" data-name="Metric / 能量状态">
+              <div className="[word-break:break-word] absolute bg-[var(--fandazi-paper,#fffef9)] content-stretch drop-shadow-[0px_3px_5px_rgba(113,142,124,0.03)] flex flex-col gap-[4px] h-[174px] items-start left-0 pb-[28px] pt-[12px] px-[14px] rounded-[24px] text-left top-0 w-[166px]" data-node-id="165:1704" role="button" tabIndex="0" data-name="Health Index Card">
+                <p className="font-['Noto_Sans_SC:Bold'] font-bold leading-[24px] relative shrink-0 text-[#283e32] text-[16px] w-full" data-node-id="I165:1704;165:2143">
+                  能量状态
+                </p>
+                <p className="font-['Noto_Sans_SC:Regular'] font-normal leading-[18px] relative shrink-0 text-[#526451] text-[11px] w-full" data-node-id="I165:1704;165:2144">
+                  日内感受变化 · 示例
+                </p>
+              </div>
+              <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Bold'] font-bold leading-[38px] left-[14px] text-[26px] text-[color:var(--fandazi-ink,#293c33)] text-left top-[68px] w-[138px]" data-node-id="180:2329">
+                平稳
+              </p>
+              <div className="absolute h-[34px] left-[14px] top-[109px] w-[138px]" data-node-id="180:2330" data-name="Energy / gentle daily curve">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEnergyGentleDailyCurve} />
+              </div>
+              <div className="[word-break:break-word] absolute content-stretch flex font-['Noto_Sans_SC:Regular'] font-normal h-[16px] items-start justify-between leading-[15px] left-[14px] overflow-clip text-[10px] text-[color:var(--fandazi-muted,#68796c)] text-center top-[148px] w-[138px]" data-node-id="182:837" data-name="Energy / aligned time labels">
+                <p className="relative shrink-0 w-[24px]" data-node-id="182:838">
+                  早晨
+                </p>
+                <p className="relative shrink-0 w-[24px]" data-node-id="182:839">
+                  午后
+                </p>
+                <p className="relative shrink-0 w-[24px]" data-node-id="182:840">
+                  晚间
+                </p>
+              </div>
+            </button>
+          </div>
+          <button className="block cursor-pointer h-[148px] overflow-clip relative shrink-0 w-[345px]" data-node-id="180:2335" data-name="Metric / 刺激负荷与饮品时段">
+            <div className="[word-break:break-word] absolute content-stretch drop-shadow-[0px_3px_5px_rgba(113,142,124,0.03)] flex flex-col gap-[4px] h-[148px] items-start left-0 pb-[28px] pt-[12px] px-[14px] rounded-[24px] text-left top-0 w-[345px]" data-node-id="165:1708" role="button" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.22) 0%, rgba(217, 196, 148, 0.04) 100%), linear-gradient(90deg, rgb(239, 211, 142) 0%, rgb(239, 211, 142) 100%)" }} tabIndex="0" data-name="Health Index Card">
+              <p className="font-['Noto_Sans_SC:Bold'] font-bold leading-[24px] relative shrink-0 text-[#283e32] text-[16px] w-full" data-node-id="I165:1708;165:2143">
+                刺激负荷
+              </p>
+              <p className="font-['Noto_Sans_SC:Regular'] font-normal leading-[18px] relative shrink-0 text-[#526451] text-[11px] w-full" data-node-id="I165:1708;165:2144">
+                留意晚间饮品 · 时段示例
+              </p>
+            </div>
+            <p className="[word-break:break-word] absolute font-['Noto_Sans_SC:Bold'] font-bold leading-[18px] left-[198px] text-[12px] text-[color:var(--fandazi-ink,#293c33)] text-left top-[22px] w-[132px] whitespace-pre-wrap" data-node-id="180:2338">{`14:30  乌龙茶`}</p>
+            <div className="absolute h-[40px] left-[14px] top-[78px] w-[317px]" data-node-id="182:2269" data-name="Drink timing / calibrated 08–20">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDrinkTimingCalibrated0820} />
+            </div>
+            <div className="[word-break:break-word] absolute content-stretch flex font-['Noto_Sans_SC:Regular'] font-normal h-[16px] items-start justify-between leading-[15px] left-[14px] overflow-clip text-[10px] text-[color:var(--fandazi-muted,#68796c)] text-center top-[123px] w-[317px]" data-node-id="182:2275" data-name="Drink / aligned hour labels">
+              <p className="relative shrink-0 w-[30px]" data-node-id="182:2276">
+                08:00
+              </p>
+              <p className="relative shrink-0 w-[30px]" data-node-id="182:2277">
+                12:00
+              </p>
+              <p className="relative shrink-0 w-[30px]" data-node-id="182:2278">
+                16:00
+              </p>
+              <p className="relative shrink-0 w-[30px]" data-node-id="182:2279">
+                20:00
+              </p>
+            </div>
+          </button>
+          <div className="bg-[var(--fandazi-canvas,#f7f6ee)] content-stretch cursor-pointer flex gap-[var(--fandazi-ui-gap,8px)] h-[52px] items-start overflow-clip relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-full" data-node-id="165:1712" data-name="分析入口">
+            <button className="border border-[#dee8dc] border-solid content-stretch flex h-[48px] items-center justify-center px-[16px] py-[12px] relative rounded-[var(--fandazi-ui-radius,18px)] shrink-0 w-[168px]" data-node-id="165:1713" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(97, 133, 107, 0.06) 100%), linear-gradient(90deg, rgba(255, 255, 255, 0.84) 0%, rgba(255, 255, 255, 0.84) 100%)" }} data-name="Action / 本周趋势">
+              <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Noto_Sans_SC:Medium'] font-medium justify-center leading-[0] min-w-px relative text-[16px] text-[color:var(--fandazi-ink,#293c33)] text-center" data-node-id="I165:1713;165:1984">
+                <p className="leading-[24px]">本周趋势</p>
+              </div>
+            </button>
+            <button className="border border-[#dee8dc] border-solid content-stretch flex h-[48px] items-center justify-center px-[16px] py-[12px] relative rounded-[var(--fandazi-ui-radius,18px)] shrink-0 w-[168px]" data-node-id="165:1714" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(97, 133, 107, 0.06) 100%), linear-gradient(90deg, rgba(255, 255, 255, 0.84) 0%, rgba(255, 255, 255, 0.84) 100%)" }} data-name="Action / 为什么这样">
+              <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Noto_Sans_SC:Medium'] font-medium justify-center leading-[0] min-w-px relative text-[16px] text-[color:var(--fandazi-ink,#293c33)] text-center" data-node-id="I165:1714;165:1984">
+                <p className="leading-[24px]">为什么这样</p>
+              </div>
+            </button>
+          </div>
+          <a className="border border-[#dee8dc] border-solid content-stretch cursor-pointer flex h-[48px] items-center justify-center px-[16px] py-[12px] relative rounded-[var(--fandazi-ui-radius,18px)] shrink-0 w-full" data-node-id="165:1716" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(97, 133, 107, 0.06) 100%), linear-gradient(90deg, rgba(255, 255, 255, 0.84) 0%, rgba(255, 255, 255, 0.84) 100%)" }} data-name="Action / 看看适合今天的轻量建议 ›">
+            <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Noto_Sans_SC:Medium'] font-medium justify-center leading-[0] min-w-px relative text-[16px] text-[color:var(--fandazi-ink,#293c33)] text-center" data-node-id="I165:1716;165:1984">
+              <p className="leading-[24px]">看看适合今天的轻量建议 ›</p>
+            </div>
+          </a>
+          <div className="[word-break:break-word] font-['Noto_Sans_SC:Regular'] font-normal leading-[0] min-w-full relative shrink-0 text-[11px] text-[color:var(--fandazi-muted,#68796c)] w-[min-content]" data-node-id="165:1715">
+            <p className="leading-[18px] mb-0">图表为原型示例，尚未接入真实记录。</p>
+            <p className="leading-[18px]">指数用于日常陪伴展示，不代表医学评估。</p>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--fandazi-ui-gap,8px)] h-[136px] items-center justify-center overflow-clip pt-[8px] relative shrink-0 w-[393px]" data-node-id="165:1717" data-name="Actions">
+        <button className="content-stretch cursor-pointer drop-shadow-[0px_3px_4px_rgba(46,89,66,0.1)] flex h-[52px] items-center justify-center px-[16px] py-[14px] relative rounded-[27px] shrink-0 w-[230px]" data-node-id="165:1718" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, rgba(10, 41, 26, 0.06) 100%), linear-gradient(90deg, rgb(50, 113, 88) 0%, rgb(50, 113, 88) 100%)" }} data-name="Floating Feed Button">
+          <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Noto_Sans_SC:Bold'] font-bold justify-center leading-[0] min-w-px relative text-[16px] text-[color:var(--fandazi-paper,#fffef9)] text-center" data-node-id="I165:1718;45:364">
+            <p className="leading-[24px]">＋ 投喂</p>
+          </div>
+        </button>
+        <div className="bg-[rgba(255,255,255,0.95)] content-stretch drop-shadow-[0px_4px_10px_rgba(71,101,121,0.08)] flex gap-[4px] h-[68px] items-start px-[var(--fandazi-ui-pad,16px)] py-[8px] relative rounded-[var(--fandazi-ui-radius,34px)] shrink-0 w-[345px]" data-node-id="165:1719" data-name="Bottom Navigation">
+          <a className="bg-[var(--fandazi-paper,#fffef9)] content-stretch cursor-pointer flex flex-col gap-[var(--fandazi-ui-gap,8px)] h-[52px] items-center justify-center overflow-clip py-[var(--fandazi-ui-gap,8px)] relative rounded-[var(--fandazi-ui-radius,26px)] shrink-0 w-[72px]" data-node-id="I165:1719;165:2122" data-name="Tab / 食宠">
+            <div className="relative shrink-0 size-[22px]" data-node-id="I165:1719;165:2123" data-name="Icon / 食宠">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcon} />
+            </div>
+            <div className="[word-break:break-word] flex flex-col font-['Noto_Sans_SC:Regular'] font-normal justify-center leading-[0] min-w-full relative shrink-0 text-[#35503f] text-[11px] text-center w-[min-content]" data-node-id="I165:1719;165:2125">
+              <p className="leading-[17px]">食宠</p>
+            </div>
+          </a>
+          <a className="bg-[var(--fandazi-paper,#fffef9)] content-stretch cursor-pointer flex flex-col gap-[var(--fandazi-ui-gap,8px)] h-[52px] items-center justify-center overflow-clip py-[var(--fandazi-ui-gap,8px)] relative rounded-[var(--fandazi-ui-radius,26px)] shrink-0 w-[72px]" data-node-id="I165:1719;165:2126" data-name="Tab / 日记">
+            <div className="relative shrink-0 size-[22px]" data-node-id="I165:1719;165:2127" data-name="Icon / 日记">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcon1} />
+            </div>
+            <div className="[word-break:break-word] flex flex-col font-['Noto_Sans_SC:Regular'] font-normal justify-center leading-[0] min-w-full relative shrink-0 text-[#35503f] text-[11px] text-center w-[min-content]" data-node-id="I165:1719;165:2130">
+              <p className="leading-[17px]">日记</p>
+            </div>
+          </a>
+          <a className="bg-[var(--fandazi-paper,#fffef9)] content-stretch cursor-pointer flex flex-col gap-[var(--fandazi-ui-gap,8px)] h-[52px] items-center justify-center overflow-clip py-[var(--fandazi-ui-gap,8px)] relative rounded-[var(--fandazi-ui-radius,26px)] shrink-0 w-[72px]" data-node-id="I165:1719;165:2131" data-name="Tab / 计划">
+            <div className="relative shrink-0 size-[22px]" data-node-id="I165:1719;165:2132" data-name="Icon / 计划">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcon2} />
+            </div>
+            <div className="[word-break:break-word] flex flex-col font-['Noto_Sans_SC:Regular'] font-normal justify-center leading-[0] min-w-full relative shrink-0 text-[#35503f] text-[11px] text-center w-[min-content]" data-node-id="I165:1719;165:2135">
+              <p className="leading-[17px]">计划</p>
+            </div>
+          </a>
+          <div className="content-stretch flex flex-col gap-[var(--fandazi-ui-gap,8px)] h-[52px] items-center justify-center overflow-clip py-[var(--fandazi-ui-gap,8px)] relative rounded-[var(--fandazi-ui-radius,26px)] shrink-0 w-[99px]" data-node-id="I165:1719;165:2136" style={{ backgroundImage: "linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(97, 133, 107, 0.06) 100%), linear-gradient(90deg, rgb(201, 220, 195) 0%, rgb(201, 220, 195) 100%)" }} data-name="Tab / 健康指数">
+            <div className="relative shrink-0 size-[22px]" data-node-id="I165:1719;165:2137" data-name="Icon / 健康指数">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIcon3} />
+            </div>
+            <div className="[word-break:break-word] flex flex-col font-['Noto_Sans_SC:Bold'] font-bold justify-center leading-[0] min-w-full relative shrink-0 text-[#35503f] text-[11px] text-center w-[min-content]" data-node-id="I165:1719;165:2140">
+              <p className="leading-[17px]">健康指数</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--fandazi-ui-gap,8px)] h-[34px] items-center justify-center overflow-clip relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[393px]" data-node-id="165:1720" data-name="Home Indicator Area">
+        <div className="bg-[var(--fandazi-ink,#293c33)] h-[5px] relative rounded-[var(--fandazi-ui-radius,16px)] shrink-0 w-[134px]" data-node-id="165:1721" data-name="Home Indicator" />
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## OTTER_Peaceful
+**Node ID:** 98:1954
+
+角色外观以用户提供的标准设定图与 Otter State Set 为唯一依据。当前恢复原始 PNG；简化重绘矢量已停用，未宣称完成保真矢量化。
+
+## Health Index Card
+**Node ID:** 165:2141
+
+饭搭子中保真原型 · Health Index Card
+
+## Bottom Navigation
+**Node ID:** 165:2060
+
+饭搭子中保真原型 · Bottom Navigation
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

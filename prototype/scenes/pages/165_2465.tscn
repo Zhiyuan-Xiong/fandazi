@@ -1,0 +1,247 @@
+[gd_scene load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scripts/surface.gd" id="1"]
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSansSC-VF.ttf" id="2"]
+
+[sub_resource type="StyleBoxEmpty" id="R1"]
+
+
+[sub_resource type="FontVariation" id="R2"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R3"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R4"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R5"]
+
+
+[sub_resource type="FontVariation" id="R6"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R7"]
+
+
+[sub_resource type="FontVariation" id="R8"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+[node name="Overlay_饮品营养详情_165_2465" type="Panel"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "165:2465"
+metadata/figma_name = "Overlay — 饮品营养详情"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.22, "color": {"r": 0, "g": 0, "b": 0}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Rectangle_165_2466" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 338
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "165:2466"
+metadata/figma_name = "Rectangle"
+metadata/figma_type = "RECTANGLE"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 24, "topLeftRadius": 24, "topRightRadius": 24, "bottomLeftRadius": 24, "bottomRightRadius": 24}
+clip_contents = false
+
+[node name="Rectangle_165_2467" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 442
+metadata/figma_id = "165:2467"
+metadata/figma_name = "Rectangle"
+metadata/figma_type = "RECTANGLE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Rectangle_165_2467"]
+layout_mode = 0
+offset_right = 393
+offset_bottom = 442
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R1")
+theme_override_styles/hover = SubResource("R1")
+theme_override_styles/pressed = SubResource("R1")
+theme_override_styles/focus = SubResource("R1")
+metadata/source_id = "165:2467"
+metadata/click_actions = [{"type": "CLOSE"}]
+
+[node name="咖啡_165_2468" type="Label" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 362
+offset_right = 68
+offset_bottom = 395
+metadata/figma_id = "165:2468"
+metadata/figma_name = "咖啡"
+metadata/figma_type = "TEXT"
+metadata/bindings = {"characters": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:839"}}
+text = "咖啡"
+theme_override_fonts/font = SubResource("R2")
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="咖啡因约_80_mg_糖_0_g_茶多酚不适用_示例_250_ml_美式_165_2469" type="Label" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 407
+offset_right = 369
+offset_bottom = 449
+metadata/figma_id = "165:2469"
+metadata/figma_name = "咖啡因约 80 mg · 糖 0 g 茶多酚不适用 · 示例 250 ml 美式"
+metadata/figma_type = "TEXT"
+metadata/bindings = {"characters": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:840"}}
+text = "咖啡因约 80 mg · 糖 0 g\n茶多酚不适用 · 示例 250 ml 美式"
+theme_override_fonts/font = SubResource("R3")
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="睡眠友好选择_晚间可以换成低咖啡因饮品_含量随品牌_杯量与制作方法变化_以上仅为示例_165_2472" type="Label" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 461
+offset_right = 369
+offset_bottom = 497
+metadata/figma_id = "165:2472"
+metadata/figma_name = "睡眠友好选择：晚间可以换成低咖啡因饮品。含量随品牌、杯量与制作方法变化；以上仅为示例。"
+metadata/figma_type = "TEXT"
+text = "睡眠友好选择：晚间可以换成低咖啡因饮品。含量随品牌、杯量与制作方法变化；以上仅为示例。"
+theme_override_fonts/font = SubResource("R4")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Action_记录这一杯_165_2473" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 509
+offset_right = 369
+offset_bottom = 561
+metadata/figma_id = "165:2473"
+metadata/figma_name = "Action / 记录这一杯"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:849", "variableValue": {"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:839"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:850", "variableValue": {"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:840"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "✓ 饮品已记录 · 其余为示例贴纸", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 11 日 · 今天", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:860", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:872", "variableValue": {"value": "✓ 饮品贴纸已保存到日记", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.196078, "g": 0.443137, "b": 0.345098}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.07}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.04, "g": 0.16, "b": 0.1, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 8, "boundVariables": {}, "color": {"r": 0.18, "g": 0.35, "b": 0.26, "a": 0.1}, "offset": {"x": 0, "y": 3}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Action_记录这一杯_165_2473"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R5")
+theme_override_styles/hover = SubResource("R5")
+theme_override_styles/pressed = SubResource("R5")
+theme_override_styles/focus = SubResource("R5")
+metadata/source_id = "165:2473"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:855", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:856", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:849", "variableValue": {"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:839"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:850", "variableValue": {"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:840"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:806", "variableValue": {"value": "✓ 饮品已记录 · 其余为示例贴纸", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:837", "variableValue": {"value": "9 月 11 日 · 今天", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:860", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:98:872", "variableValue": {"value": "✓ 饮品贴纸已保存到日记", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]
+
+[node name="确认这顿饭_I165_2473_165_1979" type="Label" parent="Action_记录这一杯_165_2473"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 14.5
+offset_right = 329.0
+offset_bottom = 37.5
+metadata/figma_id = "I165:2473;165:1979"
+metadata/figma_name = "确认这顿饭"
+metadata/figma_type = "TEXT"
+text = "记录这一杯"
+theme_override_fonts/font = SubResource("R6")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Close_drink_165_2474" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 573
+offset_right = 369
+offset_bottom = 625
+metadata/figma_id = "165:2474"
+metadata/figma_name = "Close drink"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.196078, "g": 0.443137, "b": 0.345098}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.07}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.04, "g": 0.16, "b": 0.1, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 8, "boundVariables": {}, "color": {"r": 0.18, "g": 0.35, "b": 0.26, "a": 0.1}, "offset": {"x": 0, "y": 3}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Close_drink_165_2474"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R7")
+theme_override_styles/hover = SubResource("R7")
+theme_override_styles/pressed = SubResource("R7")
+theme_override_styles/focus = SubResource("R7")
+metadata/source_id = "165:2474"
+metadata/click_actions = [{"type": "CLOSE"}]
+
+[node name="确认这顿饭_I165_2474_165_1979" type="Label" parent="Close_drink_165_2474"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 14.5
+offset_right = 329.0
+offset_bottom = 37.5
+metadata/figma_id = "I165:2474;165:1979"
+metadata/figma_name = "确认这顿饭"
+metadata/figma_type = "TEXT"
+text = "知道了"
+theme_override_fonts/font = SubResource("R8")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true

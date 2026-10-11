@@ -30,3 +30,17 @@
 当前候选文件与既有 Git 历史 blob 扫描常见 API Key、GitHub Token、AWS Key 和私钥特征；未发现真实密钥。测试连接令牌是固定演示值，不授予真实服务访问。未带入真实 `.env`、bridge/settings、私人聊天或第三方角色参考。Figma MCP 原始上下文/临时资源链接不公开。
 
 素材权利按作者确认与 Noto OFL 分开记录，不自行授予原创资产商用许可。所有 README 相对链接、图片及资源来源索引在最终提交前检查；自动扫描不是对所有权利或安全问题的绝对保证。
+
+
+## 实际发布与远端恢复验证
+
+- 沿用公开仓库 [Zhiyuan-Xiong/fandazi](https://github.com/Zhiyuan-Xiong/fandazi)，正常推送 main，保留原有历史。
+- Web 构建提交：`8c12c1797ef8fae70721ede6a4bfdbc638cf1908`。
+- [Pages 部署工作流](https://github.com/Zhiyuan-Xiong/fandazi/actions/runs/38106234745) 已成功，LFS 实体文件获取与 Pages artifact 上传均通过。
+- [在线演示](https://zhiyuan-xiong.github.io/fandazi/) 已匿名打开并实际渲染 Godot 食宠主页；浏览器控制台未出现错误。
+- 公开 README 的 12 张图像均成功加载；Mermaid 工作流图实际渲染。中英文网站与 Figma 原型入口均可访问。
+- 从 GitHub 重新克隆到空目录，并 `git lfs pull` 取得实际 81,423,212 字节 Web 包；无预先 Godot 缓存导入后再次通过 55 场景 / 457 目标检查。见 [clone-smoke.log](evidence/current/clone-smoke.log)。
+
+部署之后的文档整理不改变上述 Web 构建的程序与资源。网站已指向同一仓库，在线演示入口已在本仓库中英文 README 顶部提供；网站“尚无网页版”的原有说明待后续网站同步，不覆盖其他会话的未提交内容。
+
+补充扫描复核：官方 Web 运行时 WASM 中的 PEM 格式解析标记会触发仅匹配标题的检查；已核对为编译字符串，未发现完整私钥数据块。

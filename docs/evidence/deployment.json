@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-11",
+  "repository": "https://github.com/Zhiyuan-Xiong/fandazi",
+  "visibility": "public",
+  "web_build_commit": "8c12c1797ef8fae70721ede6a4bfdbc638cf1908",
+  "workflow_run": 38106234745,
+  "workflow_conclusion": "success",
+  "demo": "https://zhiyuan-xiong.github.io/fandazi/",
+  "anonymous_browser_rendered": true,
+  "readme_images_loaded": 12,
+  "clone_restored_lfs_pck_bytes": 81423212,
+  "fresh_clone_smoke": {
+    "scenes": 55,
+    "targets": 457
+  },
+  "live_ai_tested": false
+}

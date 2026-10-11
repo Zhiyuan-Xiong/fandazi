@@ -48,20 +48,13 @@ These are Figma design exports. Individual logging does not require inviting any
 **I lead the direction, product rules and aesthetic decisions; AI assists production and implementation, with outputs refined through comparison and testing.** An initial complete brief establishes the problem, goals, boundaries, references and acceptance criteria. Precise short follow-up instructions then target local deviations while retaining context. The repository presents selected evidence, without publishing private conversation histories.
 
 ```mermaid
-flowchart TD
- A[Human problem framing and research judgement] --> B[Research and personal synthesis]
- B --> C[Strategy and interaction rules]
- C --> D[Complete brief and visual constraints]
- D --> E[AI asset batches]
- E --> F[Human selection and targeted feedback]
- F -->|Constraints not met| E
- F --> G[Figma screens and states]
- G --> H[Codex-assisted Godot scenes and scripts]
- H --> I[Runtime comparison and automated checks]
- I -->|Precise corrective instructions| H
- I -->|Visual inconsistency| F
- I --> J[Human acceptance and documented boundaries]
- J -->|New questions| B
+flowchart LR
+ A[Human research and design rules] --> B[AI assets and human refinement]
+ B --> C[Figma to Godot prototype]
+ C --> D[Testing and human review]
+ D -->|Implementation issues| C
+ D -->|Visual issues| B
+ D -->|New questions and research| A
 ```
 
 ### A · Human-Led Design

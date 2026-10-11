@@ -21,13 +21,13 @@
   },
   {
     "path": "README.md",
-    "bytes": 11534,
-    "sha256": "a051ae10ec1697661aa1e97b442de403dac8d2b9c1a98bc3584e7281ae67d84e"
+    "bytes": 11234,
+    "sha256": "41a1c4a0f0bbd7bb5f7ded80cebe6ca8310aaca729112c1be68cf8bd17a31e37"
   },
   {
     "path": "README_EN.md",
-    "bytes": 13363,
-    "sha256": "0fb14cd30e2798efc471bbf27c6899f6b425ce7051fd3442df7084504cb95ed9"
+    "bytes": 13026,
+    "sha256": "0f90b4ff77da2f73b2519f1f6c9afd85cfc00b2bd3f327005854cd3a4d9a7457"
   },
   {
     "path": "RIGHTS.md",
@@ -81,8 +81,8 @@
   },
   {
     "path": "docs/validation.md",
-    "bytes": 3079,
-    "sha256": "77da9eae59ce2370d7cadeafef0d3fd7a9d892287b333e1681cd172f6cd1640b"
+    "bytes": 4472,
+    "sha256": "6f72ece6f292546895a8053a98602e57e49a6026b64146215ee6ae300f0de695"
   },
   {
     "path": "godot-demo/export_presets.cfg",
@@ -300,9 +300,19 @@
     "sha256": "4ce880c16d6dd8410d90079dd72f26d06fa74a80cdc70c29985d2589be51b49f"
   },
   {
+    "path": "docs/evidence/deployment.json",
+    "bytes": 523,
+    "sha256": "12cd8cc481c91c5b96f9a8c042a505dab948da32e0cde210a8e1eb129ab02cba"
+  },
+  {
     "path": "docs/evidence/handoff-sources.json",
     "bytes": 1615,
     "sha256": "30d6d94e7b3901a36ec4b430e9c7f5a2108fca207f90255cc22fe20f38a8bbf8"
+  },
+  {
+    "path": "docs/evidence/current/clone-smoke.log",
+    "bytes": 169,
+    "sha256": "1f51c3a0b389a18b5ab2f2abd4b641a0ad74bfa99c4d654502267a99f3ab4a91"
   },
   {
     "path": "docs/evidence/current/core.log",

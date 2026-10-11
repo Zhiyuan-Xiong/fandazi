@@ -1,0 +1,347 @@
+[gd_scene load_steps=13 format=3]
+
+[ext_resource type="Script" path="res://scripts/surface.gd" id="1"]
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSansSC-VF.ttf" id="2"]
+
+[sub_resource type="FontVariation" id="R1"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R2"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R3"]
+
+
+[sub_resource type="FontVariation" id="R4"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R5"]
+
+
+[sub_resource type="FontVariation" id="R6"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R7"]
+
+
+[sub_resource type="FontVariation" id="R8"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R9"]
+
+
+[sub_resource type="FontVariation" id="R10"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+[node name="21_投喂_Bottom_Sheet_165_1223" type="Panel"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "165:1223"
+metadata/figma_name = "21 — ＋投喂 Bottom Sheet"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 0.913725, "g": 0.941176, "b": 0.898039, "a": 1}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.984314, "g": 0.964706, "b": 0.913725, "a": 1}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1}
+clip_contents = true
+
+[node name="Content_165_1228" type="ScrollContainer" parent="."]
+layout_mode = 0
+mouse_filter = 1
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "165:1228"
+metadata/figma_name = "Content"
+metadata/figma_type = "FRAME"
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+
+[node name="ScrollContent" type="Control" parent="Content_165_1228"]
+custom_minimum_size = Vector2(393, 876)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Rectangle_165_1229" type="Panel" parent="Content_165_1228/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 372
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "165:1229"
+metadata/figma_name = "Rectangle"
+metadata/figma_type = "RECTANGLE"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="Capture_sheet_header_165_1233" type="Panel" parent="Content_165_1228/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 402
+offset_right = 369
+offset_bottom = 514
+metadata/figma_id = "165:1233"
+metadata/figma_name = "Capture sheet header"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="Drag_handle_I165_1233_28_85" type="Panel" parent="Content_165_1228/ScrollContent/Capture_sheet_header_165_1233"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 12
+offset_right = 52
+offset_bottom = 16
+metadata/figma_id = "I165:1233;28:85"
+metadata/figma_name = "Drag handle"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="今天吃了什么_I165_1233_28_86" type="Label" parent="Content_165_1228/ScrollContent/Capture_sheet_header_165_1233"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 32
+offset_right = 170
+offset_bottom = 65
+metadata/figma_id = "I165:1233;28:86"
+metadata/figma_name = "今天吃了什么？"
+metadata/figma_type = "TEXT"
+text = "选择记录方式"
+theme_override_fonts/font = SubResource("R1")
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="选一种方式_和食宠分享这一餐_I165_1233_28_87" type="Label" parent="Content_165_1228/ScrollContent/Capture_sheet_header_165_1233"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 81
+offset_right = 226
+offset_bottom = 99
+metadata/figma_id = "I165:1233;28:87"
+metadata/figma_name = "选一种方式，和食宠分享这一餐。"
+metadata/figma_type = "TEXT"
+text = "原型演示 · 使用示例午餐"
+theme_override_fonts/font = SubResource("R2")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Capture_165_1234" type="Panel" parent="Content_165_1228/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 526
+offset_right = 369
+offset_bottom = 578
+metadata/figma_id = "165:1234"
+metadata/figma_name = "Capture"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1242", "navigation": "SWAP", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false, "resetScrollPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.196078, "g": 0.443137, "b": 0.345098}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.07}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.04, "g": 0.16, "b": 0.1, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 8, "boundVariables": {}, "color": {"r": 0.18, "g": 0.35, "b": 0.26, "a": 0.1}, "offset": {"x": 0, "y": 3}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1228/ScrollContent/Capture_165_1234"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R3")
+theme_override_styles/hover = SubResource("R3")
+theme_override_styles/pressed = SubResource("R3")
+theme_override_styles/focus = SubResource("R3")
+metadata/source_id = "165:1234"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1242", "navigation": "SWAP", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false, "resetScrollPosition": false}]
+
+[node name="确认这顿饭_I165_1234_165_1979" type="Label" parent="Content_165_1228/ScrollContent/Capture_165_1234"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 14.5
+offset_right = 329.0
+offset_bottom = 37.5
+metadata/figma_id = "I165:1234;165:1979"
+metadata/figma_name = "确认这顿饭"
+metadata/figma_type = "TEXT"
+text = "拍摄食物"
+theme_override_fonts/font = SubResource("R4")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Upload_165_1235" type="Panel" parent="Content_165_1228/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 590
+offset_right = 369
+offset_bottom = 638
+metadata/figma_id = "165:1235"
+metadata/figma_name = "Upload"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1257", "navigation": "SWAP", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false, "resetScrollPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.84, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1228/ScrollContent/Upload_165_1235"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R5")
+theme_override_styles/hover = SubResource("R5")
+theme_override_styles/pressed = SubResource("R5")
+theme_override_styles/focus = SubResource("R5")
+metadata/source_id = "165:1235"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1257", "navigation": "SWAP", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false, "resetScrollPosition": false}]
+
+[node name="调整份量_I165_1235_165_1984" type="Label" parent="Content_165_1228/ScrollContent/Upload_165_1235"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 329.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:1235;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "从相册上传"
+theme_override_fonts/font = SubResource("R6")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Drink_165_1236" type="Panel" parent="Content_165_1228/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 650
+offset_right = 369
+offset_bottom = 698
+metadata/figma_id = "165:1236"
+metadata/figma_name = "Drink"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1616", "navigation": "SWAP", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false, "resetScrollPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.84, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1228/ScrollContent/Drink_165_1236"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R7")
+theme_override_styles/hover = SubResource("R7")
+theme_override_styles/pressed = SubResource("R7")
+theme_override_styles/focus = SubResource("R7")
+metadata/source_id = "165:1236"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1616", "navigation": "SWAP", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false, "resetScrollPosition": false}]
+
+[node name="调整份量_I165_1236_165_1984" type="Label" parent="Content_165_1228/ScrollContent/Drink_165_1236"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 329.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:1236;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "记录饮品"
+theme_override_fonts/font = SubResource("R8")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Action_先不记录_165_1237" type="Panel" parent="Content_165_1228/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 710
+offset_right = 369
+offset_bottom = 758
+metadata/figma_id = "165:1237"
+metadata/figma_name = "Action / 先不记录"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.84, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_1228/ScrollContent/Action_先不记录_165_1237"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R9")
+theme_override_styles/hover = SubResource("R9")
+theme_override_styles/pressed = SubResource("R9")
+theme_override_styles/focus = SubResource("R9")
+metadata/source_id = "165:1237"
+metadata/click_actions = [{"type": "CLOSE"}]
+
+[node name="调整份量_I165_1237_165_1984" type="Label" parent="Content_165_1228/ScrollContent/Action_先不记录_165_1237"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 329.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:1237;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "先不记录"
+theme_override_fonts/font = SubResource("R10")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true

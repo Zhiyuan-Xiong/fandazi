@@ -1,0 +1,515 @@
+[gd_scene load_steps=22 format=3]
+
+[ext_resource type="Script" path="res://scripts/surface.gd" id="1"]
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSansSC-VF.ttf" id="2"]
+[ext_resource type="Texture2D" path="res://assets/figma/63cafa662fe51021145f.png" id="3"]
+[ext_resource type="Script" path="res://scripts/otter_motion.gd" id="4"]
+[ext_resource type="Texture2D" path="res://assets/figma/5c0ad3b62c7cdd82b8df.png" id="5"]
+[ext_resource type="Texture2D" path="res://assets/figma/5747609b96e6e0e3e9c6.png" id="6"]
+
+[sub_resource type="FontVariation" id="R1"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R2"]
+
+
+[sub_resource type="FontVariation" id="R3"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R4"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R5"]
+
+
+[sub_resource type="FontVariation" id="R6"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R7"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R8"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R9"]
+
+
+[sub_resource type="FontVariation" id="R10"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R11"]
+
+
+[sub_resource type="FontVariation" id="R12"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R13"]
+
+
+[sub_resource type="FontVariation" id="R14"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R15"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+[node name="Sheet_TA_的餐食与关心_165_2581" type="Panel"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 620
+metadata/figma_id = "165:2581"
+metadata/figma_name = "Sheet / TA 的餐食与关心"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 28, "topLeftRadius": 28, "topRightRadius": 28, "bottomLeftRadius": 28, "bottomRightRadius": 28}
+clip_contents = true
+
+[node name="TA_今天吃了什么_165_2582" type="Label" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 24
+offset_right = 314
+offset_bottom = 56
+metadata/figma_id = "165:2582"
+metadata/figma_name = "TA 今天吃了什么"
+metadata/figma_type = "TEXT"
+text = "TA 今天吃了什么"
+theme_override_fonts/font = SubResource("R1")
+theme_override_font_sizes/font_size = 21
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Secondary_Button_165_2583" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 325
+offset_top = 16
+offset_right = 369
+offset_bottom = 64
+metadata/figma_id = "165:2583"
+metadata/figma_name = "Secondary Button"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.82, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Secondary_Button_165_2583"]
+layout_mode = 0
+offset_right = 44
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R2")
+theme_override_styles/hover = SubResource("R2")
+theme_override_styles/pressed = SubResource("R2")
+theme_override_styles/focus = SubResource("R2")
+metadata/source_id = "165:2583"
+metadata/click_actions = [{"type": "CLOSE"}]
+
+[node name="调整份量_I165_2583_165_1984" type="Label" parent="Secondary_Button_165_2583"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 8.0
+offset_top = 12.0
+offset_right = 36.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:2583;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "×"
+theme_override_fonts/font = SubResource("R3")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="OTTER_Pleasure_165_2584" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 88
+offset_right = 132
+offset_bottom = 196
+metadata/figma_id = "165:2584"
+metadata/figma_name = "OTTER_Pleasure"
+metadata/figma_type = "INSTANCE"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:147:22"}}
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.613636}
+clip_contents = false
+
+[node name="OTTER_Pleasure_PNG_I165_2584_98_1952" type="TextureRect" parent="OTTER_Pleasure_165_2584"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 3.68
+offset_top = 3.68
+offset_right = 104.32
+offset_bottom = 104.32
+metadata/figma_id = "I165:2584;98:1952"
+metadata/figma_name = "OTTER_Pleasure/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("3")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "Pleasure"
+stretch_mode = 5
+
+[node name="TA_分享了午餐_番茄鸡蛋面_青菜_乌龙茶_只展示食物_不展示热量与体重_165_2585" type="Label" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 148
+offset_top = 86
+offset_right = 361
+offset_bottom = 149
+metadata/figma_id = "165:2585"
+metadata/figma_name = "TA 分享了午餐： 番茄鸡蛋面、青菜、乌龙茶 只展示食物，不展示热量与体重。"
+metadata/figma_type = "TEXT"
+metadata/bindings = {"characters": {"type": "VARIABLE_ALIAS", "id": "VariableID:147:24"}}
+text = "TA 分享了午餐：\n番茄鸡蛋面、青菜、乌龙茶\n只展示食物，不展示热量与体重。"
+theme_override_fonts/font = SubResource("R4")
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Primary_Button_165_2586" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 226
+offset_right = 369
+offset_bottom = 274
+metadata/figma_id = "165:2586"
+metadata/figma_name = "Primary Button"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1953", "navigation": "SWAP", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.2}, "resetVideoPosition": false, "resetScrollPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.27451, "g": 0.478431, "b": 0.376471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.07}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.04, "g": 0.16, "b": 0.1, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 8, "boundVariables": {}, "color": {"r": 0.18, "g": 0.35, "b": 0.26, "a": 0.1}, "offset": {"x": 0, "y": 3}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Primary_Button_165_2586"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R5")
+theme_override_styles/hover = SubResource("R5")
+theme_override_styles/pressed = SubResource("R5")
+theme_override_styles/focus = SubResource("R5")
+metadata/source_id = "165:2586"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1953", "navigation": "SWAP", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.2}, "resetVideoPosition": false, "resetScrollPosition": false}]
+
+[node name="确认这顿饭_I165_2586_165_1979" type="Label" parent="Primary_Button_165_2586"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 12.5
+offset_right = 329.0
+offset_bottom = 35.5
+metadata/figma_id = "I165:2586;165:1979"
+metadata/figma_name = "确认这顿饭"
+metadata/figma_type = "TEXT"
+text = "给 TA 一句关心"
+theme_override_fonts/font = SubResource("R6")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(1, 0.996078, 0.976471, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="未分享_没有吃饭_只展示_TA_主动分享的信息_165_2587" type="Label" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 290
+offset_right = 369
+offset_bottom = 308
+metadata/figma_id = "165:2587"
+metadata/figma_name = "未分享 ≠ 没有吃饭；只展示 TA 主动分享的信息。"
+metadata/figma_type = "TEXT"
+text = "未分享 ≠ 没有吃饭；只展示 TA 主动分享的信息。"
+theme_override_fonts/font = SubResource("R7")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="原型演示_切换_TA_的分享状态_165_2588" type="Label" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 334
+offset_right = 369
+offset_bottom = 355
+metadata/figma_id = "165:2588"
+metadata/figma_name = "原型演示 · 切换 TA 的分享状态"
+metadata/figma_type = "TEXT"
+text = "原型演示 · 切换 TA 的分享状态"
+theme_override_fonts/font = SubResource("R8")
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Secondary_Button_165_2589" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 374
+offset_right = 369
+offset_bottom = 422
+metadata/figma_id = "165:2589"
+metadata/figma_name = "Secondary Button"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:22", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:21", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:20", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:19", "variableValue": {"value": "TA · 今天的午餐\n番茄鸡蛋面 + 乌龙茶", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:24", "variableValue": {"value": "TA 分享了午餐：\n番茄鸡蛋面、青菜、乌龙茶\n只展示食物，不展示热量与体重。", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:23", "variableValue": {"value": "轻轻关心，不催促", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.82, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Secondary_Button_165_2589"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R9")
+theme_override_styles/hover = SubResource("R9")
+theme_override_styles/pressed = SubResource("R9")
+theme_override_styles/focus = SubResource("R9")
+metadata/source_id = "165:2589"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:147:22", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:21", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:20", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:19", "variableValue": {"value": "TA · 今天的午餐\n番茄鸡蛋面 + 乌龙茶", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:24", "variableValue": {"value": "TA 分享了午餐：\n番茄鸡蛋面、青菜、乌龙茶\n只展示食物，不展示热量与体重。", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:23", "variableValue": {"value": "轻轻关心，不催促", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]
+
+[node name="调整份量_I165_2589_165_1984" type="Label" parent="Secondary_Button_165_2589"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 329.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:2589;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "已吃饭 · 显示午餐气泡"
+theme_override_fonts/font = SubResource("R10")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Secondary_Button_165_2590" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 438
+offset_right = 369
+offset_bottom = 486
+metadata/figma_id = "165:2590"
+metadata/figma_name = "Secondary Button"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:22", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:21", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:20", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:19", "variableValue": {"value": "TA · 这顿饭还没吃\n忙完了，想一起吃", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:24", "variableValue": {"value": "TA 主动告诉你：\n这顿饭还没吃，想被提醒。\n给一句关心，不催促、不评分。", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:23", "variableValue": {"value": "轻轻关心，不催促", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.82, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Secondary_Button_165_2590"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R11")
+theme_override_styles/hover = SubResource("R11")
+theme_override_styles/pressed = SubResource("R11")
+theme_override_styles/focus = SubResource("R11")
+metadata/source_id = "165:2590"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:147:22", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:21", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:20", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:19", "variableValue": {"value": "TA · 这顿饭还没吃\n忙完了，想一起吃", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:24", "variableValue": {"value": "TA 主动告诉你：\n这顿饭还没吃，想被提醒。\n给一句关心，不催促、不评分。", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:23", "variableValue": {"value": "轻轻关心，不催促", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]
+
+[node name="调整份量_I165_2590_165_1984" type="Label" parent="Secondary_Button_165_2590"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 329.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:2590;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "还没吃 · TA 主动表达"
+theme_override_fonts/font = SubResource("R12")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Secondary_Button_165_2591" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 502
+offset_right = 369
+offset_bottom = 550
+metadata/figma_id = "165:2591"
+metadata/figma_name = "Secondary Button"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:22", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:21", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:20", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:19", "variableValue": {"value": "TA · 今天暂未分享\n不着急，等 TA 想说", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:24", "variableValue": {"value": "TA 今天暂未分享餐食。\n未记录不代表没吃饭。\n仍可以送一句温柔关心。", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:23", "variableValue": {"value": "轻轻关心，不催促", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.82, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Secondary_Button_165_2591"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R13")
+theme_override_styles/hover = SubResource("R13")
+theme_override_styles/pressed = SubResource("R13")
+theme_override_styles/focus = SubResource("R13")
+metadata/source_id = "165:2591"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:147:22", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:21", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:20", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:19", "variableValue": {"value": "TA · 今天暂未分享\n不着急，等 TA 想说", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:24", "variableValue": {"value": "TA 今天暂未分享餐食。\n未记录不代表没吃饭。\n仍可以送一句温柔关心。", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:23", "variableValue": {"value": "轻轻关心，不催促", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]
+
+[node name="调整份量_I165_2591_165_1984" type="Label" parent="Secondary_Button_165_2591"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 329.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:2591;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "暂未分享 · 不推断状态"
+theme_override_fonts/font = SubResource("R14")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="演示按钮只改变本地原型_不代替_TA_操作_165_2592" type="Label" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 576
+offset_right = 369
+offset_bottom = 593
+metadata/figma_id = "165:2592"
+metadata/figma_name = "演示按钮只改变本地原型，不代替 TA 操作。"
+metadata/figma_type = "TEXT"
+text = "演示按钮只改变本地原型，不代替 TA 操作。"
+theme_override_fonts/font = SubResource("R15")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="OTTER_Tired_165_2593" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 88
+offset_right = 132
+offset_bottom = 196
+visible = false
+metadata/figma_id = "165:2593"
+metadata/figma_name = "OTTER_Tired"
+metadata/figma_type = "INSTANCE"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:147:21"}}
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.613636}
+clip_contents = false
+
+[node name="OTTER_Tired_PNG_I165_2593_98_1961" type="TextureRect" parent="OTTER_Tired_165_2593"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 3.68
+offset_top = 3.68
+offset_right = 104.32
+offset_bottom = 104.32
+metadata/figma_id = "I165:2593;98:1961"
+metadata/figma_name = "OTTER_Tired/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("5")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "Tired"
+stretch_mode = 5
+
+[node name="OTTER_Normal_165_2594" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 88
+offset_right = 132
+offset_bottom = 196
+visible = false
+metadata/figma_id = "165:2594"
+metadata/figma_name = "OTTER_Normal"
+metadata/figma_type = "INSTANCE"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:147:20"}}
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.613636}
+clip_contents = false
+
+[node name="OTTER_Normal_PNG_I165_2594_98_1958" type="TextureRect" parent="OTTER_Normal_165_2594"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 3.68
+offset_top = 3.68
+offset_right = 104.32
+offset_bottom = 104.32
+metadata/figma_id = "I165:2594;98:1958"
+metadata/figma_name = "OTTER_Normal/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("6")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "Normal"
+stretch_mode = 5

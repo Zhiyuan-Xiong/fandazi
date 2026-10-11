@@ -1,0 +1,45 @@
+{
+  "v10": {
+    "style": "Use case: style-transfer. Image 1 is the edit target; Image 2 is STYLE REFERENCE ONLY. Recreate the core object of image 1 in the EXACT visual family of the food stickers in image 2: softly rounded, friendly, low-saturation sage, cream, dusty peach, butter yellow, clean milk-white die-cut sticker border, softly colored forms WITHOUT any dark green or black outline. Much flatter and simpler than image 1: broad flat color shapes, minimal internal detail, no material rendering, no fine texture, no realistic food details, no device bevel, no 3D extrusion, no glossy highlight, no outside shadow, NO ambient glow or colored haze. One unified small sticker composition, centered with transparent margin. Actual fully transparent background outside the white sticker border. REMOVE ALL HANDS, fingers, sleeves, human heads and bodies. No words, lettering, numbers, purple asset labels, logos or watermark. Reference image 2's background and text must not be copied.",
+    "items": [
+      {
+        "key": "sticker_meal_phone_v10",
+        "src": "action_phone_meal_v9",
+        "instruction": "Keep only ONE front-facing sage smartphone with a cream screen, a simple noodle bowl with an egg and just 2 green garnish shapes, and one pale-blue rounded check button below. No second object, no hand, no decoration. Simplify the food to match reference's noodle sticker."
+      },
+      {
+        "key": "sticker_coffee_record_v10",
+        "src": "action_record_reason_v9",
+        "instruction": "Keep only ONE front-facing sage smartphone. On its cream screen place one small coffee cup sticker matching reference image 2, and one very simple pale-blue crescent-moon state tile. Remove the separate real mug, connecting lines and all extra symbols. The phone is a single flat sticker with rounded corners."
+      },
+      {
+        "key": "sticker_share_phones_v10",
+        "src": "action_shared_phones_v9",
+        "instruction": "Keep TWO small softly overlapping sage phones with cream screens, each screen holding one very simplified food bowl sticker. Put one small dusty-peach heart message bubble between them. No hands or sleeves. Keep phones nearly front-facing with no visible thickness; combine everything into one milk-white die-cut sticker silhouette."
+      },
+      {
+        "key": "sticker_meal_diary_v10",
+        "src": "action_diary_collect_v9",
+        "instruction": "Keep only ONE open rounded cream diary with a sage cover. Place one simple noodle bowl sticker on the left page and one coffee cup sticker on the right, each matching the style reference. Only two short pale-sage lines per page; no binding rings, no texture, no hand, no separate floating stickers. One simple flat die-cut diary sticker."
+      }
+    ]
+  },
+  "v11": {
+    "common": "Use case: precise-object-edit. The attached image is the edit target and the final approved visual style. Change ONLY the contents of the phone screen. Preserve the SAME single front-facing smartphone exactly: same silhouette, position, scale, sage casing, cream screen, top notch, rounded corners, milk-white die-cut outline and transparent outer background. Do not add side buttons, extra phone thickness, perspective, hands, people, faces, decoration, glow or shadow. Keep the simple flat low-saturation sticker style. No text or numbers. All objects stay INSIDE the phone screen, with no objects outside the phone. Preserve genuine transparency outside the existing white cutout border.",
+    "items": [
+      {
+        "key": "phone_coffee_unified_v11",
+        "instruction": "Replace the large noodle bowl and check bar with two SIMPLE stacked rounded tiles: upper tile contains one small cream coffee cup with dark brown coffee; lower pale-blue tile contains one simple crescent moon. No saucer, steam, sparkles or fine details."
+      },
+      {
+        "key": "phone_share_unified_v11",
+        "instruction": "Replace the noodle bowl and check bar with two SIMPLE rounded chat message bubbles inside the cream screen: one pale-blue bubble with a tiny flat noodle bowl and one sage bubble with a dusty-peach heart. One small short rounded line below each bubble suggests a message. No people, avatars or lettering, no second phone."
+      },
+      {
+        "key": "phone_diary_unified_v11",
+        "instruction": "Replace the noodle bowl and check bar with a SIMPLE meal diary grid of four rounded pastel tiles inside the screen. Only two tiles contain pictures: one very simple noodle bowl and one cream coffee cup; other two tiles are pale-sage blank rounded cards. No calendar numbers, text, book, binding, hands or extra objects."
+      }
+    ]
+  },
+  "publication_note": "Original prompt text retained; machine-local output paths omitted. Visual evidence is in screenshots/process/ at the repository root."
+}

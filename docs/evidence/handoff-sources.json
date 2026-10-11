@@ -1,0 +1,52 @@
+[
+  {
+    "file": "00_START_HERE.md",
+    "sha256": "d09c0644e9a6eb333f022e2169d5671e3e25dd6aac6597616c16c7debe5bd8d5",
+    "bytes": 3838
+  },
+  {
+    "file": "01_APP_MASTER_HANDOFF.md",
+    "sha256": "40622b9fa70e80d7e094852d097ed8864aa74e89d1e49e80705fd209385d2994",
+    "bytes": 5023
+  },
+  {
+    "file": "02_COMPLETE_FUNCTION_SPEC.md",
+    "sha256": "88bcfc975dfec2d8991f450dfe83723a50f2d5ffa344e7367fb344d25ed2b61c",
+    "bytes": 19302
+  },
+  {
+    "file": "03_USER_FLOWS_AND_ARCHITECTURE.md",
+    "sha256": "918ff0d6811a9aa4352fdac9fd68e844f667821439627a7be5fe55c8ad5c2c3f",
+    "bytes": 5737
+  },
+  {
+    "file": "04_FIGMA_AND_UI_HANDOFF.md",
+    "sha256": "38590c67550bcbb513f84de0fc4305c1ffca8e710d26b8715cd3879f75d818d6",
+    "bytes": 4907
+  },
+  {
+    "file": "05_GODOT_TECHNICAL_HANDOFF.md",
+    "sha256": "04103c60c92c0553058932a8a5307dfe269b34f64ebca427df75fbbbc32af2fa",
+    "bytes": 6180
+  },
+  {
+    "file": "06_ASSETS_AND_VISUAL_SYSTEM.md",
+    "sha256": "46af9d21d55ec33794d6f7db463d672a99e772f1d4af70796b9a1eee13bdeea0",
+    "bytes": 4150
+  },
+  {
+    "file": "07_PROJECT_STATUS_AND_ITERATION.md",
+    "sha256": "2b2aea327c1b85d89467bd04a2126d9a1b45c9252010b01dd96e1876474364e6",
+    "bytes": 3482
+  },
+  {
+    "file": "08_WEBSITE_AND_GITHUB_HANDOFF.md",
+    "sha256": "4b73410e2eaa296800a2d2a7e32944072bda0307b284552513a52702f43551b2",
+    "bytes": 3865
+  },
+  {
+    "file": "饭搭子作品集完整Handoff_20261011_可读副本.md",
+    "sha256": "e844a2d853e2ff8e3161fab6015bb14e57f5e68052358db31a3e4d32c3752fe6",
+    "bytes": 56883
+  }
+]

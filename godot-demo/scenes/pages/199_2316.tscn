@@ -1,0 +1,824 @@
+[gd_scene load_steps=30 format=3]
+
+[ext_resource type="Script" path="res://scripts/surface.gd" id="1"]
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSansSC-VF.ttf" id="2"]
+[ext_resource type="Texture2D" path="res://assets/figma/b0a8bc727a6b8a90fb48.png" id="3"]
+[ext_resource type="Shader" path="res://scripts/rounded_gradient.gdshader" id="4"]
+[ext_resource type="Texture2D" path="res://assets/figma/ec3ffffaad4c5ae55a0c.png" id="5"]
+[ext_resource type="Texture2D" path="res://assets/figma/cae6f0f8443fddd1eeff.png" id="6"]
+[ext_resource type="Texture2D" path="res://assets/figma/f5391cc820b1c933d5f1.png" id="7"]
+[ext_resource type="Texture2D" path="res://assets/figma/c2a6d044023896c489b8.png" id="8"]
+[ext_resource type="Script" path="res://scripts/otter_motion.gd" id="9"]
+[ext_resource type="Texture2D" path="res://assets/figma/d658047bb1181c615319.png" id="10"]
+
+[sub_resource type="FontVariation" id="R1"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R2"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R3"]
+
+
+[sub_resource type="FontVariation" id="R4"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R5"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R6"]
+
+
+[sub_resource type="FontVariation" id="R7"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R8"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R9"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="ShaderMaterial" id="R10"]
+shader = ExtResource("4")
+shader_parameter/rect_size = Vector2(345, 290)
+shader_parameter/radii = Vector4(24, 24, 24, 24)
+
+[sub_resource type="FontVariation" id="R11"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="ShaderMaterial" id="R12"]
+shader = ExtResource("4")
+shader_parameter/rect_size = Vector2(345, 290)
+shader_parameter/radii = Vector4(24, 24, 24, 24)
+
+[sub_resource type="FontVariation" id="R13"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R14"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R15"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R16"]
+
+
+[sub_resource type="FontVariation" id="R17"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R18"]
+
+
+[sub_resource type="FontVariation" id="R19"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+[node name="Decor_保存成功_199_2316" type="Panel"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "199:2316"
+metadata/figma_name = "Decor / 保存成功"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1}
+clip_contents = true
+
+[node name="Safe_Area_200_2348" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 48
+metadata/figma_id = "200:2348"
+metadata/figma_name = "Safe Area"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="9_41_200_2349" type="Label" parent="Safe_Area_200_2348"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 14
+offset_right = 74
+offset_bottom = 34
+metadata/figma_id = "200:2349"
+metadata/figma_name = "9:41"
+metadata/figma_type = "TEXT"
+text = "9:41"
+theme_override_fonts/font = SubResource("R1")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Layer_200_2350" type="Label" parent="Safe_Area_200_2348"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 332
+offset_top = 14
+offset_right = 370
+offset_bottom = 32
+metadata/figma_id = "200:2350"
+metadata/figma_name = "● ▰"
+metadata/figma_type = "TEXT"
+text = "●  ▰"
+theme_override_fonts/font = SubResource("R2")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Header_200_2351" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 48
+offset_right = 393
+offset_bottom = 104
+metadata/figma_id = "200:2351"
+metadata/figma_name = "Header"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1}
+clip_contents = true
+
+[node name="Layer_200_2352" type="Panel" parent="Header_200_2351"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 8
+offset_right = 64
+offset_bottom = 48
+metadata/figma_id = "200:2352"
+metadata/figma_name = "‹"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.82, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Header_200_2351/Layer_200_2352"]
+layout_mode = 0
+offset_right = 40
+offset_bottom = 40
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R3")
+theme_override_styles/hover = SubResource("R3")
+theme_override_styles/pressed = SubResource("R3")
+theme_override_styles/focus = SubResource("R3")
+metadata/source_id = "200:2352"
+metadata/click_actions = [{"type": "BACK"}]
+
+[node name="调整份量_I200_2352_165_1984" type="Label" parent="Header_200_2351/Layer_200_2352"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 8.0
+offset_right = 24.0
+offset_bottom = 32.0
+metadata/figma_id = "I200:2352;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "‹"
+theme_override_fonts/font = SubResource("R4")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Page_title_200_2355" type="Label" parent="Header_200_2351"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 72
+offset_top = 14.5
+offset_right = 321
+offset_bottom = 41.5
+metadata/figma_id = "200:2355"
+metadata/figma_name = "Page title"
+metadata/figma_type = "TEXT"
+text = "保存成功"
+theme_override_fonts/font = SubResource("R5")
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Layer_200_2356" type="Panel" parent="Header_200_2351"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 329
+offset_top = 8
+offset_right = 369
+offset_bottom = 48
+metadata/figma_id = "200:2356"
+metadata/figma_name = "⌂"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "CONDITIONAL", "conditionalBlocks": [{"actions": [{"type": "NODE", "destinationId": "165:1833", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}], "condition": {"value": {"expressionArguments": [{"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:196:845"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}, {"value": "伙伴之家", "type": "STRING", "resolvedType": "STRING"}], "expressionFunction": "EQUALS"}, "type": "EXPRESSION", "resolvedType": "BOOLEAN"}}, {"actions": [{"type": "NODE", "destinationId": "165:1083", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.82, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Header_200_2351/Layer_200_2356"]
+layout_mode = 0
+offset_right = 40
+offset_bottom = 40
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R6")
+theme_override_styles/hover = SubResource("R6")
+theme_override_styles/pressed = SubResource("R6")
+theme_override_styles/focus = SubResource("R6")
+metadata/source_id = "200:2356"
+metadata/click_actions = [{"type": "CONDITIONAL", "conditionalBlocks": [{"actions": [{"type": "NODE", "destinationId": "165:1833", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}], "condition": {"value": {"expressionArguments": [{"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:196:845"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}, {"value": "伙伴之家", "type": "STRING", "resolvedType": "STRING"}], "expressionFunction": "EQUALS"}, "type": "EXPRESSION", "resolvedType": "BOOLEAN"}}, {"actions": [{"type": "NODE", "destinationId": "165:1083", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]}]
+
+[node name="调整份量_I200_2356_165_1984" type="Label" parent="Header_200_2351/Layer_200_2356"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 8.0
+offset_right = 24.0
+offset_bottom = 32.0
+metadata/figma_id = "I200:2356;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "⌂"
+theme_override_fonts/font = SubResource("R7")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Content_200_2359" type="ScrollContainer" parent="."]
+layout_mode = 0
+mouse_filter = 1
+offset_left = 0
+offset_top = 104
+offset_right = 393
+offset_bottom = 754
+metadata/figma_id = "200:2359"
+metadata/figma_name = "Content"
+metadata/figma_type = "FRAME"
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+
+[node name="ScrollContent" type="Control" parent="Content_200_2359"]
+custom_minimum_size = Vector2(393, 650)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Heading_205_2398" type="Label" parent="Content_200_2359/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 8
+offset_right = 369
+offset_bottom = 44
+metadata/figma_id = "205:2398"
+metadata/figma_name = "Heading"
+metadata/figma_type = "TEXT"
+text = "住进一点新的喜欢。"
+theme_override_fonts/font = SubResource("R8")
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Saved_message_205_2399" type="Label" parent="Content_200_2359/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 56
+offset_right = 369
+offset_bottom = 77
+metadata/figma_id = "205:2399"
+metadata/figma_name = "Saved message"
+metadata/figma_type = "TEXT"
+text = "✓ 布置已保存，回房间看看吧。"
+theme_override_fonts/font = SubResource("R9")
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Saved_room_My_205_2400" type="TextureRect" parent="Content_200_2359/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 89
+offset_right = 369
+offset_bottom = 379
+metadata/figma_id = "205:2400"
+metadata/figma_name = "Saved room / My"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:205:8"}}
+texture_filter = 4
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 6
+material = SubResource("R10")
+
+[node name="Placed_My_paw-rug_205_2401" type="TextureRect" parent="Content_200_2359/ScrollContent/Saved_room_My_205_2400"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 90
+offset_top = 162
+offset_right = 286
+offset_bottom = 289
+visible = false
+metadata/figma_id = "205:2401"
+metadata/figma_name = "Placed / My / paw-rug"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2287"}}
+texture_filter = 4
+texture = ExtResource("5")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Placed_My_sage-armchair_205_2402" type="TextureRect" parent="Content_200_2359/ScrollContent/Saved_room_My_205_2400"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 20
+offset_top = 142
+offset_right = 152
+offset_bottom = 274
+metadata/figma_id = "205:2402"
+metadata/figma_name = "Placed / My / sage-armchair"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2285"}}
+texture_filter = 4
+texture = ExtResource("6")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Placed_My_coffee-table_205_2403" type="TextureRect" parent="Content_200_2359/ScrollContent/Saved_room_My_205_2400"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 115
+offset_top = 182
+offset_right = 213
+offset_bottom = 280
+visible = false
+metadata/figma_id = "205:2403"
+metadata/figma_name = "Placed / My / coffee-table"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2286"}}
+texture_filter = 4
+texture = ExtResource("7")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="原版水獭_My_205_2404" type="Panel" parent="Content_200_2359/ScrollContent/Saved_room_My_205_2400"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 202
+offset_top = 144
+offset_right = 332
+offset_bottom = 274
+metadata/figma_id = "205:2404"
+metadata/figma_name = "原版水獭 / My"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.738636}
+clip_contents = false
+
+[node name="OTTER_Default_PNG_I205_2404_98_1910" type="TextureRect" parent="Content_200_2359/ScrollContent/Saved_room_My_205_2400/原版水獭_My_205_2404"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4.43
+offset_top = 4.43
+offset_right = 125.57
+offset_bottom = 125.57
+metadata/figma_id = "I205:2404;98:1910"
+metadata/figma_name = "OTTER_Default/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("8")
+expand_mode = 1
+script = ExtResource("9")
+pose_name = "Default"
+stretch_mode = 5
+
+[node name="Status_bubble_205_2405" type="Panel" parent="Content_200_2359/ScrollContent/Saved_room_My_205_2400"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 16
+offset_right = 220
+offset_bottom = 52
+metadata/figma_id = "205:2405"
+metadata/figma_name = "Status bubble"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Status_205_2406" type="Label" parent="Content_200_2359/ScrollContent/Saved_room_My_205_2400/Status_bubble_205_2405"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 12
+offset_top = 9.5
+offset_right = 192
+offset_bottom = 26.5
+metadata/figma_id = "205:2406"
+metadata/figma_name = "Status"
+metadata/figma_type = "TEXT"
+text = "我的小餐室 · 慢慢变丰盛"
+theme_override_fonts/font = SubResource("R11")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Saved_room_Partner_205_2409" type="TextureRect" parent="Content_200_2359/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 391
+offset_right = 369
+offset_bottom = 681
+visible = false
+metadata/figma_id = "205:2409"
+metadata/figma_name = "Saved room / Partner"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:205:9"}}
+texture_filter = 4
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 6
+material = SubResource("R12")
+
+[node name="Placed_Partner_paw-rug_205_2410" type="TextureRect" parent="Content_200_2359/ScrollContent/Saved_room_Partner_205_2409"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 90
+offset_top = 162
+offset_right = 286
+offset_bottom = 289
+visible = false
+metadata/figma_id = "205:2410"
+metadata/figma_name = "Placed / Partner / paw-rug"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2290"}}
+texture_filter = 4
+texture = ExtResource("5")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Placed_Partner_sage-armchair_205_2411" type="TextureRect" parent="Content_200_2359/ScrollContent/Saved_room_Partner_205_2409"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 20
+offset_top = 142
+offset_right = 152
+offset_bottom = 274
+metadata/figma_id = "205:2411"
+metadata/figma_name = "Placed / Partner / sage-armchair"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2288"}}
+texture_filter = 4
+texture = ExtResource("6")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Placed_Partner_coffee-table_205_2412" type="TextureRect" parent="Content_200_2359/ScrollContent/Saved_room_Partner_205_2409"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 73
+offset_top = 207
+offset_right = 157
+offset_bottom = 291
+visible = false
+metadata/figma_id = "205:2412"
+metadata/figma_name = "Placed / Partner / coffee-table"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2289"}}
+texture_filter = 4
+texture = ExtResource("7")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="原版水獭_Partner_205_2413" type="Panel" parent="Content_200_2359/ScrollContent/Saved_room_Partner_205_2409"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 213
+offset_top = 148
+offset_right = 337
+offset_bottom = 272
+metadata/figma_id = "205:2413"
+metadata/figma_name = "原版水獭 / Partner"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.704545}
+clip_contents = false
+
+[node name="OTTER_Eat_PNG_I205_2413_98_1925" type="TextureRect" parent="Content_200_2359/ScrollContent/Saved_room_Partner_205_2409/原版水獭_Partner_205_2413"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4.23
+offset_top = 4.23
+offset_right = 119.78
+offset_bottom = 119.78
+metadata/figma_id = "I205:2413;98:1925"
+metadata/figma_name = "OTTER_Eat/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("10")
+expand_mode = 1
+script = ExtResource("9")
+pose_name = "Eat"
+stretch_mode = 5
+
+[node name="Status_bubble_205_2414" type="Panel" parent="Content_200_2359/ScrollContent/Saved_room_Partner_205_2409"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 16
+offset_right = 220
+offset_bottom = 52
+metadata/figma_id = "205:2414"
+metadata/figma_name = "Status bubble"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Status_205_2415" type="Label" parent="Content_200_2359/ScrollContent/Saved_room_Partner_205_2409/Status_bubble_205_2414"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 12
+offset_top = 9.5
+offset_right = 192
+offset_bottom = 26.5
+metadata/figma_id = "205:2415"
+metadata/figma_name = "Status"
+metadata/figma_type = "TEXT"
+text = "一起把日常，住成喜欢的样子"
+theme_override_fonts/font = SubResource("R13")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="原版水獭_我的伙伴_205_2416" type="Panel" parent="Content_200_2359/ScrollContent/Saved_room_Partner_205_2409"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 98
+offset_top = 135
+offset_right = 238
+offset_bottom = 275
+metadata/figma_id = "205:2416"
+metadata/figma_name = "原版水獭 / 我的伙伴"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.795455}
+clip_contents = false
+
+[node name="OTTER_Default_PNG_I205_2416_98_1910" type="TextureRect" parent="Content_200_2359/ScrollContent/Saved_room_Partner_205_2409/原版水獭_我的伙伴_205_2416"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4.77
+offset_top = 4.77
+offset_right = 135.22
+offset_bottom = 135.22
+metadata/figma_id = "I205:2416;98:1910"
+metadata/figma_name = "OTTER_Default/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("8")
+expand_mode = 1
+script = ExtResource("9")
+pose_name = "Default"
+stretch_mode = 5
+
+[node name="Saved_confirmation_205_2417" type="Panel" parent="Content_200_2359/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 391
+offset_right = 369
+offset_bottom = 481
+metadata/figma_id = "205:2417"
+metadata/figma_name = "Saved confirmation"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.788235, "g": 0.862745, "b": 0.764706}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Saved_title_205_2418" type="Label" parent="Content_200_2359/ScrollContent/Saved_confirmation_205_2417"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 16
+offset_right = 329
+offset_bottom = 40
+metadata/figma_id = "205:2418"
+metadata/figma_name = "Saved title"
+metadata/figma_type = "TEXT"
+text = "家具在，小心意也在"
+theme_override_fonts/font = SubResource("R14")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Saved_detail_205_2419" type="Label" parent="Content_200_2359/ScrollContent/Saved_confirmation_205_2417"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 48
+offset_right = 329
+offset_bottom = 84
+metadata/figma_id = "205:2419"
+metadata/figma_name = "Saved detail"
+metadata/figma_type = "TEXT"
+text = "这次布置只更新当前房间。\n另一个房间的摆放会为你保留。"
+theme_override_fonts/font = SubResource("R15")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="再调整一下_205_2420" type="Panel" parent="Content_200_2359/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 493
+offset_right = 369
+offset_bottom = 537
+metadata/figma_id = "205:2420"
+metadata/figma_name = "再调整一下"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "CONDITIONAL", "conditionalBlocks": [{"actions": [{"type": "NODE", "destinationId": "199:2315", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}], "condition": {"value": {"expressionArguments": [{"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:196:845"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}, {"value": "伙伴之家", "type": "STRING", "resolvedType": "STRING"}], "expressionFunction": "EQUALS"}, "type": "EXPRESSION", "resolvedType": "BOOLEAN"}}, {"actions": [{"type": "NODE", "destinationId": "165:1138", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.82, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_200_2359/ScrollContent/再调整一下_205_2420"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R16")
+theme_override_styles/hover = SubResource("R16")
+theme_override_styles/pressed = SubResource("R16")
+theme_override_styles/focus = SubResource("R16")
+metadata/source_id = "205:2420"
+metadata/click_actions = [{"type": "CONDITIONAL", "conditionalBlocks": [{"actions": [{"type": "NODE", "destinationId": "199:2315", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}], "condition": {"value": {"expressionArguments": [{"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:196:845"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}, {"value": "伙伴之家", "type": "STRING", "resolvedType": "STRING"}], "expressionFunction": "EQUALS"}, "type": "EXPRESSION", "resolvedType": "BOOLEAN"}}, {"actions": [{"type": "NODE", "destinationId": "165:1138", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]}]
+
+[node name="调整份量_I205_2420_165_1984" type="Label" parent="Content_200_2359/ScrollContent/再调整一下_205_2420"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 10.0
+offset_right = 329.0
+offset_bottom = 34.0
+metadata/figma_id = "I205:2420;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "再调整一下"
+theme_override_fonts/font = SubResource("R17")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Actions_200_2360" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 754
+offset_right = 393
+offset_bottom = 818
+metadata/figma_id = "200:2360"
+metadata/figma_name = "Actions"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1}
+clip_contents = true
+
+[node name="回到房间_200_2361" type="Panel" parent="Actions_200_2360"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 8
+offset_right = 369
+offset_bottom = 56
+metadata/figma_id = "200:2361"
+metadata/figma_name = "回到房间"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "CONDITIONAL", "conditionalBlocks": [{"actions": [{"type": "NODE", "destinationId": "165:1833", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}], "condition": {"value": {"expressionArguments": [{"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:196:845"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}, {"value": "伙伴之家", "type": "STRING", "resolvedType": "STRING"}], "expressionFunction": "EQUALS"}, "type": "EXPRESSION", "resolvedType": "BOOLEAN"}}, {"actions": [{"type": "NODE", "destinationId": "165:1083", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.27451, "g": 0.478431, "b": 0.376471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.07}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.04, "g": 0.16, "b": 0.1, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 8, "boundVariables": {}, "color": {"r": 0.18, "g": 0.35, "b": 0.26, "a": 0.1}, "offset": {"x": 0, "y": 3}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Actions_200_2360/回到房间_200_2361"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R18")
+theme_override_styles/hover = SubResource("R18")
+theme_override_styles/pressed = SubResource("R18")
+theme_override_styles/focus = SubResource("R18")
+metadata/source_id = "200:2361"
+metadata/click_actions = [{"type": "CONDITIONAL", "conditionalBlocks": [{"actions": [{"type": "NODE", "destinationId": "165:1833", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}], "condition": {"value": {"expressionArguments": [{"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:196:845"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}, {"value": "伙伴之家", "type": "STRING", "resolvedType": "STRING"}], "expressionFunction": "EQUALS"}, "type": "EXPRESSION", "resolvedType": "BOOLEAN"}}, {"actions": [{"type": "NODE", "destinationId": "165:1083", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]}]
+
+[node name="确认这顿饭_I200_2361_165_1979" type="Label" parent="Actions_200_2360/回到房间_200_2361"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 12.5
+offset_right = 329.0
+offset_bottom = 35.5
+metadata/figma_id = "I200:2361;165:1979"
+metadata/figma_name = "确认这顿饭"
+metadata/figma_type = "TEXT"
+text = "回到房间"
+theme_override_fonts/font = SubResource("R19")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(1, 0.996078, 0.976471, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Home_Indicator_Area_200_2364" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 818
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "200:2364"
+metadata/figma_name = "Home Indicator Area"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Home_Indicator_200_2365" type="Panel" parent="Home_Indicator_Area_200_2364"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 129.5
+offset_top = 14.5
+offset_right = 263.5
+offset_bottom = 19.5
+metadata/figma_id = "200:2365"
+metadata/figma_name = "Home Indicator"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.160784, "g": 0.235294, "b": 0.2}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true

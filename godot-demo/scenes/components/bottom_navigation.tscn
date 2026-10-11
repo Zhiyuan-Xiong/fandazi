@@ -1,0 +1,1226 @@
+[gd_scene load_steps=52 format=3]
+
+[ext_resource type="Script" path="res://scripts/surface.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/bottom_navigation.gd" id="2"]
+[ext_resource type="Texture2D" path="res://assets/figma/34a53ddb600f5eb981f6.svg" id="3"]
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSansSC-VF.ttf" id="4"]
+[ext_resource type="Texture2D" path="res://assets/figma/887c7f7c7bd62d906141.svg" id="5"]
+[ext_resource type="Texture2D" path="res://assets/figma/c7ff59103c812d7009e0.svg" id="6"]
+[ext_resource type="Texture2D" path="res://assets/figma/481dd5c5dd4230f1258a.svg" id="7"]
+[ext_resource type="Texture2D" path="res://assets/figma/4f8538ba03378e4d8e4c.svg" id="8"]
+[ext_resource type="Texture2D" path="res://assets/figma/bbb170d29fa1de969a65.svg" id="9"]
+[ext_resource type="Texture2D" path="res://assets/figma/6f54b81d47002eb3edb8.svg" id="10"]
+[ext_resource type="Texture2D" path="res://assets/figma/af58e1f0a5a7d7e45882.svg" id="11"]
+[ext_resource type="Texture2D" path="res://assets/figma/209d2dcf1776067a335e.svg" id="12"]
+[ext_resource type="Texture2D" path="res://assets/figma/6c1911ccf4cfec4cdc79.svg" id="13"]
+[ext_resource type="Texture2D" path="res://assets/figma/4ce6eb101e9733b8326b.svg" id="14"]
+[ext_resource type="Texture2D" path="res://assets/figma/b5c9a33df7388c07dcdc.svg" id="15"]
+[ext_resource type="Texture2D" path="res://assets/figma/3cf31a3cb43969b89e39.svg" id="16"]
+[ext_resource type="Texture2D" path="res://assets/figma/52156127bc62802b0825.svg" id="17"]
+[ext_resource type="Texture2D" path="res://assets/figma/da379d5351ea43dd93dd.svg" id="18"]
+[ext_resource type="Texture2D" path="res://assets/figma/66f3ef40c7de980312af.svg" id="19"]
+
+[sub_resource type="StyleBoxEmpty" id="R1"]
+
+
+[sub_resource type="FontVariation" id="R2"]
+base_font = ExtResource("4")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R3"]
+
+
+[sub_resource type="FontVariation" id="R4"]
+base_font = ExtResource("4")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R5"]
+
+
+[sub_resource type="FontVariation" id="R6"]
+base_font = ExtResource("4")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R7"]
+
+
+[sub_resource type="FontVariation" id="R8"]
+base_font = ExtResource("4")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R9"]
+
+
+[sub_resource type="FontVariation" id="R10"]
+base_font = ExtResource("4")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R11"]
+
+
+[sub_resource type="FontVariation" id="R12"]
+base_font = ExtResource("4")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R13"]
+
+
+[sub_resource type="FontVariation" id="R14"]
+base_font = ExtResource("4")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R15"]
+
+
+[sub_resource type="FontVariation" id="R16"]
+base_font = ExtResource("4")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R17"]
+
+
+[sub_resource type="FontVariation" id="R18"]
+base_font = ExtResource("4")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R19"]
+
+
+[sub_resource type="FontVariation" id="R20"]
+base_font = ExtResource("4")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R21"]
+
+
+[sub_resource type="FontVariation" id="R22"]
+base_font = ExtResource("4")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R23"]
+
+
+[sub_resource type="FontVariation" id="R24"]
+base_font = ExtResource("4")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R25"]
+
+
+[sub_resource type="FontVariation" id="R26"]
+base_font = ExtResource("4")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R27"]
+
+
+[sub_resource type="FontVariation" id="R28"]
+base_font = ExtResource("4")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R29"]
+
+
+[sub_resource type="FontVariation" id="R30"]
+base_font = ExtResource("4")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R31"]
+
+
+[sub_resource type="FontVariation" id="R32"]
+base_font = ExtResource("4")
+variation_opentype = {2003265652: 700.0}
+[node name="BottomNavigation" type="Panel"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 345
+offset_bottom = 68
+metadata/figma_id = "165:1004"
+metadata/figma_name = "Bottom Navigation"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("2")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.95, "color": {"r": 1, "g": 1, "b": 1}}], "strokeWeight": 1, "cornerRadius": 34, "topLeftRadius": 34, "topRightRadius": 34, "bottomLeftRadius": 34, "bottomRightRadius": 34, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 20, "boundVariables": {}, "color": {"r": 0.278431, "g": 0.396078, "b": 0.47451, "a": 0.08}, "offset": {"x": 0, "y": 4}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = false
+
+[node name="State0" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 8.0
+offset_right = 343.0
+offset_bottom = 60.0
+mouse_filter = 2
+theme_override_constants/separation = 4
+visible = true
+
+[node name="Tab_食宠_I165_1004_165_2062" type="Panel" parent="State0"]
+layout_mode = 2
+mouse_filter = 2
+offset_left = 16
+offset_top = 8
+offset_right = 115
+offset_bottom = 60
+custom_minimum_size = Vector2(99, 52)
+metadata/figma_id = "I165:1004;165:2062"
+metadata/figma_name = "Tab / 食宠"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:958", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.788235, "g": 0.862745, "b": 0.764706}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="State0/Tab_食宠_I165_1004_165_2062"]
+layout_mode = 0
+offset_right = 99
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R1")
+theme_override_styles/hover = SubResource("R1")
+theme_override_styles/pressed = SubResource("R1")
+theme_override_styles/focus = SubResource("R1")
+metadata/source_id = "I165:1004;165:2062"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:958", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]
+
+[node name="Icon_食宠_I165_1004_165_2063" type="TextureRect" parent="State0/Tab_食宠_I165_1004_165_2062"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 38.5
+offset_top = 2.5
+offset_right = 60.5
+offset_bottom = 24.5
+metadata/figma_id = "I165:1004;165:2063"
+metadata/figma_name = "Icon / 食宠"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="食宠_I165_1004_165_2065" type="Label" parent="State0/Tab_食宠_I165_1004_165_2062"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 32.5
+offset_right = 99
+offset_bottom = 49.5
+metadata/figma_id = "I165:1004;165:2065"
+metadata/figma_name = "食宠"
+metadata/figma_type = "TEXT"
+text = "食宠"
+theme_override_fonts/font = SubResource("R2")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.207843, 0.313726, 0.247059, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Tab_日记_I165_1004_165_2066" type="Panel" parent="State0"]
+layout_mode = 2
+mouse_filter = 2
+offset_left = 119
+offset_top = 8
+offset_right = 191
+offset_bottom = 60
+custom_minimum_size = Vector2(72, 52)
+metadata/figma_id = "I165:1004;165:2066"
+metadata/figma_name = "Tab / 日记"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1308", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]}, {"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1308", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="State0/Tab_日记_I165_1004_165_2066"]
+layout_mode = 0
+offset_right = 72
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R3")
+theme_override_styles/hover = SubResource("R3")
+theme_override_styles/pressed = SubResource("R3")
+theme_override_styles/focus = SubResource("R3")
+metadata/source_id = "I165:1004;165:2066"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1308", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]
+
+[node name="Icon_日记_I165_1004_165_2067" type="TextureRect" parent="State0/Tab_日记_I165_1004_165_2066"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 25
+offset_top = 2.5
+offset_right = 47
+offset_bottom = 24.5
+metadata/figma_id = "I165:1004;165:2067"
+metadata/figma_name = "Icon / 日记"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("5")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="日记_I165_1004_165_2070" type="Label" parent="State0/Tab_日记_I165_1004_165_2066"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 32.5
+offset_right = 72
+offset_bottom = 49.5
+metadata/figma_id = "I165:1004;165:2070"
+metadata/figma_name = "日记"
+metadata/figma_type = "TEXT"
+text = "日记"
+theme_override_fonts/font = SubResource("R4")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.207843, 0.313726, 0.247059, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Tab_计划_I165_1004_165_2071" type="Panel" parent="State0"]
+layout_mode = 2
+mouse_filter = 2
+offset_left = 195
+offset_top = 8
+offset_right = 267
+offset_bottom = 60
+custom_minimum_size = Vector2(72, 52)
+metadata/figma_id = "I165:1004;165:2071"
+metadata/figma_name = "Tab / 计划"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1510", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]}, {"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1510", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="State0/Tab_计划_I165_1004_165_2071"]
+layout_mode = 0
+offset_right = 72
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R5")
+theme_override_styles/hover = SubResource("R5")
+theme_override_styles/pressed = SubResource("R5")
+theme_override_styles/focus = SubResource("R5")
+metadata/source_id = "I165:1004;165:2071"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1510", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]
+
+[node name="Icon_计划_I165_1004_165_2072" type="TextureRect" parent="State0/Tab_计划_I165_1004_165_2071"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 25
+offset_top = 2.5
+offset_right = 47
+offset_bottom = 24.5
+metadata/figma_id = "I165:1004;165:2072"
+metadata/figma_name = "Icon / 计划"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("6")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="计划_I165_1004_165_2075" type="Label" parent="State0/Tab_计划_I165_1004_165_2071"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 32.5
+offset_right = 72
+offset_bottom = 49.5
+metadata/figma_id = "I165:1004;165:2075"
+metadata/figma_name = "计划"
+metadata/figma_type = "TEXT"
+text = "计划"
+theme_override_fonts/font = SubResource("R6")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.207843, 0.313726, 0.247059, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Tab_健康指数_I165_1004_165_2076" type="Panel" parent="State0"]
+layout_mode = 2
+mouse_filter = 2
+offset_left = 271
+offset_top = 8
+offset_right = 343
+offset_bottom = 60
+custom_minimum_size = Vector2(72, 52)
+metadata/figma_id = "I165:1004;165:2076"
+metadata/figma_name = "Tab / 健康指数"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1669", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]}, {"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1669", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="State0/Tab_健康指数_I165_1004_165_2076"]
+layout_mode = 0
+offset_right = 72
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R7")
+theme_override_styles/hover = SubResource("R7")
+theme_override_styles/pressed = SubResource("R7")
+theme_override_styles/focus = SubResource("R7")
+metadata/source_id = "I165:1004;165:2076"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1669", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]
+
+[node name="Icon_健康指数_I165_1004_165_2077" type="TextureRect" parent="State0/Tab_健康指数_I165_1004_165_2076"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 25
+offset_top = 2.5
+offset_right = 47
+offset_bottom = 24.5
+metadata/figma_id = "I165:1004;165:2077"
+metadata/figma_name = "Icon / 健康指数"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("7")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="健康指数_I165_1004_165_2080" type="Label" parent="State0/Tab_健康指数_I165_1004_165_2076"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 32.5
+offset_right = 72
+offset_bottom = 49.5
+metadata/figma_id = "I165:1004;165:2080"
+metadata/figma_name = "健康指数"
+metadata/figma_type = "TEXT"
+text = "健康指数"
+theme_override_fonts/font = SubResource("R8")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.207843, 0.313726, 0.247059, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="State1" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 8.0
+offset_right = 343.0
+offset_bottom = 60.0
+mouse_filter = 2
+theme_override_constants/separation = 4
+visible = false
+
+[node name="Tab_食宠_I165_1355_165_2082" type="Panel" parent="State1"]
+layout_mode = 2
+mouse_filter = 2
+offset_left = 16
+offset_top = 8
+offset_right = 88
+offset_bottom = 60
+custom_minimum_size = Vector2(72, 52)
+metadata/figma_id = "I165:1355;165:2082"
+metadata/figma_name = "Tab / 食宠"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:958", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]}, {"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:958", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="State1/Tab_食宠_I165_1355_165_2082"]
+layout_mode = 0
+offset_right = 72
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R9")
+theme_override_styles/hover = SubResource("R9")
+theme_override_styles/pressed = SubResource("R9")
+theme_override_styles/focus = SubResource("R9")
+metadata/source_id = "I165:1355;165:2082"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:958", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]
+
+[node name="Icon_食宠_I165_1355_165_2083" type="TextureRect" parent="State1/Tab_食宠_I165_1355_165_2082"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 25
+offset_top = 2.5
+offset_right = 47
+offset_bottom = 24.5
+metadata/figma_id = "I165:1355;165:2083"
+metadata/figma_name = "Icon / 食宠"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("8")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="食宠_I165_1355_165_2085" type="Label" parent="State1/Tab_食宠_I165_1355_165_2082"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 32.5
+offset_right = 72
+offset_bottom = 49.5
+metadata/figma_id = "I165:1355;165:2085"
+metadata/figma_name = "食宠"
+metadata/figma_type = "TEXT"
+text = "食宠"
+theme_override_fonts/font = SubResource("R10")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.207843, 0.313726, 0.247059, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Tab_日记_I165_1355_165_2086" type="Panel" parent="State1"]
+layout_mode = 2
+mouse_filter = 2
+offset_left = 92
+offset_top = 8
+offset_right = 191
+offset_bottom = 60
+custom_minimum_size = Vector2(99, 52)
+metadata/figma_id = "I165:1355;165:2086"
+metadata/figma_name = "Tab / 日记"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1308", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.788235, "g": 0.862745, "b": 0.764706}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="State1/Tab_日记_I165_1355_165_2086"]
+layout_mode = 0
+offset_right = 99
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R11")
+theme_override_styles/hover = SubResource("R11")
+theme_override_styles/pressed = SubResource("R11")
+theme_override_styles/focus = SubResource("R11")
+metadata/source_id = "I165:1355;165:2086"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1308", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]
+
+[node name="Icon_日记_I165_1355_165_2087" type="TextureRect" parent="State1/Tab_日记_I165_1355_165_2086"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 38.5
+offset_top = 2.5
+offset_right = 60.5
+offset_bottom = 24.5
+metadata/figma_id = "I165:1355;165:2087"
+metadata/figma_name = "Icon / 日记"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("9")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="日记_I165_1355_165_2090" type="Label" parent="State1/Tab_日记_I165_1355_165_2086"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 32.5
+offset_right = 99
+offset_bottom = 49.5
+metadata/figma_id = "I165:1355;165:2090"
+metadata/figma_name = "日记"
+metadata/figma_type = "TEXT"
+text = "日记"
+theme_override_fonts/font = SubResource("R12")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.207843, 0.313726, 0.247059, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Tab_计划_I165_1355_165_2091" type="Panel" parent="State1"]
+layout_mode = 2
+mouse_filter = 2
+offset_left = 195
+offset_top = 8
+offset_right = 267
+offset_bottom = 60
+custom_minimum_size = Vector2(72, 52)
+metadata/figma_id = "I165:1355;165:2091"
+metadata/figma_name = "Tab / 计划"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1510", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]}, {"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1510", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="State1/Tab_计划_I165_1355_165_2091"]
+layout_mode = 0
+offset_right = 72
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R13")
+theme_override_styles/hover = SubResource("R13")
+theme_override_styles/pressed = SubResource("R13")
+theme_override_styles/focus = SubResource("R13")
+metadata/source_id = "I165:1355;165:2091"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1510", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]
+
+[node name="Icon_计划_I165_1355_165_2092" type="TextureRect" parent="State1/Tab_计划_I165_1355_165_2091"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 25
+offset_top = 2.5
+offset_right = 47
+offset_bottom = 24.5
+metadata/figma_id = "I165:1355;165:2092"
+metadata/figma_name = "Icon / 计划"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("10")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="计划_I165_1355_165_2095" type="Label" parent="State1/Tab_计划_I165_1355_165_2091"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 32.5
+offset_right = 72
+offset_bottom = 49.5
+metadata/figma_id = "I165:1355;165:2095"
+metadata/figma_name = "计划"
+metadata/figma_type = "TEXT"
+text = "计划"
+theme_override_fonts/font = SubResource("R14")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.207843, 0.313726, 0.247059, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Tab_健康指数_I165_1355_165_2096" type="Panel" parent="State1"]
+layout_mode = 2
+mouse_filter = 2
+offset_left = 271
+offset_top = 8
+offset_right = 343
+offset_bottom = 60
+custom_minimum_size = Vector2(72, 52)
+metadata/figma_id = "I165:1355;165:2096"
+metadata/figma_name = "Tab / 健康指数"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1669", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]}, {"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1669", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="State1/Tab_健康指数_I165_1355_165_2096"]
+layout_mode = 0
+offset_right = 72
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R15")
+theme_override_styles/hover = SubResource("R15")
+theme_override_styles/pressed = SubResource("R15")
+theme_override_styles/focus = SubResource("R15")
+metadata/source_id = "I165:1355;165:2096"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1669", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]
+
+[node name="Icon_健康指数_I165_1355_165_2097" type="TextureRect" parent="State1/Tab_健康指数_I165_1355_165_2096"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 25
+offset_top = 2.5
+offset_right = 47
+offset_bottom = 24.5
+metadata/figma_id = "I165:1355;165:2097"
+metadata/figma_name = "Icon / 健康指数"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("11")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="健康指数_I165_1355_165_2100" type="Label" parent="State1/Tab_健康指数_I165_1355_165_2096"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 32.5
+offset_right = 72
+offset_bottom = 49.5
+metadata/figma_id = "I165:1355;165:2100"
+metadata/figma_name = "健康指数"
+metadata/figma_type = "TEXT"
+text = "健康指数"
+theme_override_fonts/font = SubResource("R16")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.207843, 0.313726, 0.247059, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="State2" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 8.0
+offset_right = 343.0
+offset_bottom = 60.0
+mouse_filter = 2
+theme_override_constants/separation = 4
+visible = false
+
+[node name="Tab_食宠_I165_1555_165_2102" type="Panel" parent="State2"]
+layout_mode = 2
+mouse_filter = 2
+offset_left = 16
+offset_top = 8
+offset_right = 88
+offset_bottom = 60
+custom_minimum_size = Vector2(72, 52)
+metadata/figma_id = "I165:1555;165:2102"
+metadata/figma_name = "Tab / 食宠"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:958", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]}, {"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:958", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="State2/Tab_食宠_I165_1555_165_2102"]
+layout_mode = 0
+offset_right = 72
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R17")
+theme_override_styles/hover = SubResource("R17")
+theme_override_styles/pressed = SubResource("R17")
+theme_override_styles/focus = SubResource("R17")
+metadata/source_id = "I165:1555;165:2102"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:958", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]
+
+[node name="Icon_食宠_I165_1555_165_2103" type="TextureRect" parent="State2/Tab_食宠_I165_1555_165_2102"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 25
+offset_top = 2.5
+offset_right = 47
+offset_bottom = 24.5
+metadata/figma_id = "I165:1555;165:2103"
+metadata/figma_name = "Icon / 食宠"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("12")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="食宠_I165_1555_165_2105" type="Label" parent="State2/Tab_食宠_I165_1555_165_2102"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 32.5
+offset_right = 72
+offset_bottom = 49.5
+metadata/figma_id = "I165:1555;165:2105"
+metadata/figma_name = "食宠"
+metadata/figma_type = "TEXT"
+text = "食宠"
+theme_override_fonts/font = SubResource("R18")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.207843, 0.313726, 0.247059, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Tab_日记_I165_1555_165_2106" type="Panel" parent="State2"]
+layout_mode = 2
+mouse_filter = 2
+offset_left = 92
+offset_top = 8
+offset_right = 164
+offset_bottom = 60
+custom_minimum_size = Vector2(72, 52)
+metadata/figma_id = "I165:1555;165:2106"
+metadata/figma_name = "Tab / 日记"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1308", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]}, {"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1308", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="State2/Tab_日记_I165_1555_165_2106"]
+layout_mode = 0
+offset_right = 72
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R19")
+theme_override_styles/hover = SubResource("R19")
+theme_override_styles/pressed = SubResource("R19")
+theme_override_styles/focus = SubResource("R19")
+metadata/source_id = "I165:1555;165:2106"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1308", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]
+
+[node name="Icon_日记_I165_1555_165_2107" type="TextureRect" parent="State2/Tab_日记_I165_1555_165_2106"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 25
+offset_top = 2.5
+offset_right = 47
+offset_bottom = 24.5
+metadata/figma_id = "I165:1555;165:2107"
+metadata/figma_name = "Icon / 日记"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("13")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="日记_I165_1555_165_2110" type="Label" parent="State2/Tab_日记_I165_1555_165_2106"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 32.5
+offset_right = 72
+offset_bottom = 49.5
+metadata/figma_id = "I165:1555;165:2110"
+metadata/figma_name = "日记"
+metadata/figma_type = "TEXT"
+text = "日记"
+theme_override_fonts/font = SubResource("R20")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.207843, 0.313726, 0.247059, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Tab_计划_I165_1555_165_2111" type="Panel" parent="State2"]
+layout_mode = 2
+mouse_filter = 2
+offset_left = 168
+offset_top = 8
+offset_right = 267
+offset_bottom = 60
+custom_minimum_size = Vector2(99, 52)
+metadata/figma_id = "I165:1555;165:2111"
+metadata/figma_name = "Tab / 计划"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1510", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.788235, "g": 0.862745, "b": 0.764706}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="State2/Tab_计划_I165_1555_165_2111"]
+layout_mode = 0
+offset_right = 99
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R21")
+theme_override_styles/hover = SubResource("R21")
+theme_override_styles/pressed = SubResource("R21")
+theme_override_styles/focus = SubResource("R21")
+metadata/source_id = "I165:1555;165:2111"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1510", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]
+
+[node name="Icon_计划_I165_1555_165_2112" type="TextureRect" parent="State2/Tab_计划_I165_1555_165_2111"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 38.5
+offset_top = 2.5
+offset_right = 60.5
+offset_bottom = 24.5
+metadata/figma_id = "I165:1555;165:2112"
+metadata/figma_name = "Icon / 计划"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("14")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="计划_I165_1555_165_2115" type="Label" parent="State2/Tab_计划_I165_1555_165_2111"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 32.5
+offset_right = 99
+offset_bottom = 49.5
+metadata/figma_id = "I165:1555;165:2115"
+metadata/figma_name = "计划"
+metadata/figma_type = "TEXT"
+text = "计划"
+theme_override_fonts/font = SubResource("R22")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.207843, 0.313726, 0.247059, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Tab_健康指数_I165_1555_165_2116" type="Panel" parent="State2"]
+layout_mode = 2
+mouse_filter = 2
+offset_left = 271
+offset_top = 8
+offset_right = 343
+offset_bottom = 60
+custom_minimum_size = Vector2(72, 52)
+metadata/figma_id = "I165:1555;165:2116"
+metadata/figma_name = "Tab / 健康指数"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1669", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]}, {"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1669", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="State2/Tab_健康指数_I165_1555_165_2116"]
+layout_mode = 0
+offset_right = 72
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R23")
+theme_override_styles/hover = SubResource("R23")
+theme_override_styles/pressed = SubResource("R23")
+theme_override_styles/focus = SubResource("R23")
+metadata/source_id = "I165:1555;165:2116"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1669", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]
+
+[node name="Icon_健康指数_I165_1555_165_2117" type="TextureRect" parent="State2/Tab_健康指数_I165_1555_165_2116"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 25
+offset_top = 2.5
+offset_right = 47
+offset_bottom = 24.5
+metadata/figma_id = "I165:1555;165:2117"
+metadata/figma_name = "Icon / 健康指数"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("15")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="健康指数_I165_1555_165_2120" type="Label" parent="State2/Tab_健康指数_I165_1555_165_2116"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 32.5
+offset_right = 72
+offset_bottom = 49.5
+metadata/figma_id = "I165:1555;165:2120"
+metadata/figma_name = "健康指数"
+metadata/figma_type = "TEXT"
+text = "健康指数"
+theme_override_fonts/font = SubResource("R24")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.207843, 0.313726, 0.247059, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="State3" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 8.0
+offset_right = 343.0
+offset_bottom = 60.0
+mouse_filter = 2
+theme_override_constants/separation = 4
+visible = false
+
+[node name="Tab_食宠_I165_1719_165_2122" type="Panel" parent="State3"]
+layout_mode = 2
+mouse_filter = 2
+offset_left = 16
+offset_top = 8
+offset_right = 88
+offset_bottom = 60
+custom_minimum_size = Vector2(72, 52)
+metadata/figma_id = "I165:1719;165:2122"
+metadata/figma_name = "Tab / 食宠"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:958", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]}, {"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:958", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="State3/Tab_食宠_I165_1719_165_2122"]
+layout_mode = 0
+offset_right = 72
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R25")
+theme_override_styles/hover = SubResource("R25")
+theme_override_styles/pressed = SubResource("R25")
+theme_override_styles/focus = SubResource("R25")
+metadata/source_id = "I165:1719;165:2122"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:958", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]
+
+[node name="Icon_食宠_I165_1719_165_2123" type="TextureRect" parent="State3/Tab_食宠_I165_1719_165_2122"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 25
+offset_top = 2.5
+offset_right = 47
+offset_bottom = 24.5
+metadata/figma_id = "I165:1719;165:2123"
+metadata/figma_name = "Icon / 食宠"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("16")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="食宠_I165_1719_165_2125" type="Label" parent="State3/Tab_食宠_I165_1719_165_2122"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 32.5
+offset_right = 72
+offset_bottom = 49.5
+metadata/figma_id = "I165:1719;165:2125"
+metadata/figma_name = "食宠"
+metadata/figma_type = "TEXT"
+text = "食宠"
+theme_override_fonts/font = SubResource("R26")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.207843, 0.313726, 0.247059, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Tab_日记_I165_1719_165_2126" type="Panel" parent="State3"]
+layout_mode = 2
+mouse_filter = 2
+offset_left = 92
+offset_top = 8
+offset_right = 164
+offset_bottom = 60
+custom_minimum_size = Vector2(72, 52)
+metadata/figma_id = "I165:1719;165:2126"
+metadata/figma_name = "Tab / 日记"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1308", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]}, {"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1308", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="State3/Tab_日记_I165_1719_165_2126"]
+layout_mode = 0
+offset_right = 72
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R27")
+theme_override_styles/hover = SubResource("R27")
+theme_override_styles/pressed = SubResource("R27")
+theme_override_styles/focus = SubResource("R27")
+metadata/source_id = "I165:1719;165:2126"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1308", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]
+
+[node name="Icon_日记_I165_1719_165_2127" type="TextureRect" parent="State3/Tab_日记_I165_1719_165_2126"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 25
+offset_top = 2.5
+offset_right = 47
+offset_bottom = 24.5
+metadata/figma_id = "I165:1719;165:2127"
+metadata/figma_name = "Icon / 日记"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("17")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="日记_I165_1719_165_2130" type="Label" parent="State3/Tab_日记_I165_1719_165_2126"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 32.5
+offset_right = 72
+offset_bottom = 49.5
+metadata/figma_id = "I165:1719;165:2130"
+metadata/figma_name = "日记"
+metadata/figma_type = "TEXT"
+text = "日记"
+theme_override_fonts/font = SubResource("R28")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.207843, 0.313726, 0.247059, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Tab_计划_I165_1719_165_2131" type="Panel" parent="State3"]
+layout_mode = 2
+mouse_filter = 2
+offset_left = 168
+offset_top = 8
+offset_right = 240
+offset_bottom = 60
+custom_minimum_size = Vector2(72, 52)
+metadata/figma_id = "I165:1719;165:2131"
+metadata/figma_name = "Tab / 计划"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1510", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]}, {"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1510", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="State3/Tab_计划_I165_1719_165_2131"]
+layout_mode = 0
+offset_right = 72
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R29")
+theme_override_styles/hover = SubResource("R29")
+theme_override_styles/pressed = SubResource("R29")
+theme_override_styles/focus = SubResource("R29")
+metadata/source_id = "I165:1719;165:2131"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1510", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]
+
+[node name="Icon_计划_I165_1719_165_2132" type="TextureRect" parent="State3/Tab_计划_I165_1719_165_2131"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 25
+offset_top = 2.5
+offset_right = 47
+offset_bottom = 24.5
+metadata/figma_id = "I165:1719;165:2132"
+metadata/figma_name = "Icon / 计划"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("18")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="计划_I165_1719_165_2135" type="Label" parent="State3/Tab_计划_I165_1719_165_2131"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 32.5
+offset_right = 72
+offset_bottom = 49.5
+metadata/figma_id = "I165:1719;165:2135"
+metadata/figma_name = "计划"
+metadata/figma_type = "TEXT"
+text = "计划"
+theme_override_fonts/font = SubResource("R30")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.207843, 0.313726, 0.247059, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Tab_健康指数_I165_1719_165_2136" type="Panel" parent="State3"]
+layout_mode = 2
+mouse_filter = 2
+offset_left = 244
+offset_top = 8
+offset_right = 343
+offset_bottom = 60
+custom_minimum_size = Vector2(99, 52)
+metadata/figma_id = "I165:1719;165:2136"
+metadata/figma_name = "Tab / 健康指数"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1669", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.788235, "g": 0.862745, "b": 0.764706}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="State3/Tab_健康指数_I165_1719_165_2136"]
+layout_mode = 0
+offset_right = 99
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R31")
+theme_override_styles/hover = SubResource("R31")
+theme_override_styles/pressed = SubResource("R31")
+theme_override_styles/focus = SubResource("R31")
+metadata/source_id = "I165:1719;165:2136"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1669", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.22}, "resetVideoPosition": false, "resetScrollPosition": true}]
+
+[node name="Icon_健康指数_I165_1719_165_2137" type="TextureRect" parent="State3/Tab_健康指数_I165_1719_165_2136"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 38.5
+offset_top = 2.5
+offset_right = 60.5
+offset_bottom = 24.5
+metadata/figma_id = "I165:1719;165:2137"
+metadata/figma_name = "Icon / 健康指数"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("19")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="健康指数_I165_1719_165_2140" type="Label" parent="State3/Tab_健康指数_I165_1719_165_2136"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 32.5
+offset_right = 99
+offset_bottom = 49.5
+metadata/figma_id = "I165:1719;165:2140"
+metadata/figma_name = "健康指数"
+metadata/figma_type = "TEXT"
+text = "健康指数"
+theme_override_fonts/font = SubResource("R32")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.207843, 0.313726, 0.247059, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true

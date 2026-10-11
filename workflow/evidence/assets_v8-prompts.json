@@ -1,0 +1,157 @@
+{
+  "mode": "built-in image_gen",
+  "eyeStyle": "深绿色实心竖椭圆眼；无眼白、高光、睫毛",
+  "initial": [
+    {
+      "key": "empathy_scene_v8",
+      "prompt": "Use case: illustration-story. Input image is a STYLE reference only. Create an original editorial flat 2D illustration matching the reference's lively human expressions, asymmetric hair silhouettes, natural youthful faces, precise dark outlines, and clean flat shapes. Replace the purple/blue palette with the 饭搭子 project's muted forest green #527B64, sage #CFDCC6, mist blue #DDEAF0, warm cream and peach skin. No 3D, no photorealism, no gradients, no texture, no stock-photo style, no simplistic stick figure or dot-face icon. Transparent background with genuine alpha, clean edges and generous transparent margin. No words, letters, numbers, watermark, logos or mascot. Asset: compact square illustration for a UX case study's emotional companionship context. One upright phone with a dark green frame, with two friendly young adult bust portraits in separate circular sage/mist-blue medallions that overlap opposite sides of the phone. One woman with flowing dark green hair and one man with short slightly wavy hair, both with expressive noses and smiles like the reference. Three rounded chat bubbles, one containing a very simple bowl of food drawing, one with a small heart, one with a friendly waving-hand symbol. Balanced and orderly arrangement; draw only the discrete phone, portrait medallions and chat bubbles; everything outside these objects is transparent. Keep whole composition legible at about 200px wide."
+    },
+    {
+      "key": "friend_a_portrait_v8",
+      "prompt": "Use case: illustration-story. Input image is a STYLE reference only. Create an original editorial flat 2D illustration matching the reference's lively human expressions, asymmetric hair silhouettes, natural youthful faces, precise dark outlines, and clean flat shapes. Replace the purple/blue palette with the 饭搭子 project's muted forest green #527B64, sage #CFDCC6, mist blue #DDEAF0, warm cream and peach skin. No 3D, no photorealism, no gradients, no texture, no stock-photo style, no simplistic stick figure or dot-face icon. Transparent background with genuine alpha, clean edges and generous transparent margin. No words, letters, numbers, watermark, logos or mascot. Asset: exactly ONE large circular portrait medallion of a friendly young adult woman, three-quarter face turned slightly to the right, long wavy dark forest-green hair with a cream highlight, expressive eyes with eyebrows and a visible small nose, rosy cheek and relaxed smile. Sage-green casual shirt. Pale mist-blue regular circular backdrop. Bust crops neatly at bottom of the circle, full circle visible. Single subject, no phone, no speech bubble, no other object. Outside the circle is transparent."
+    },
+    {
+      "key": "friend_b_portrait_v8",
+      "prompt": "Use case: illustration-story. Input image is a STYLE reference only. Create an original editorial flat 2D illustration matching the reference's lively human expressions, asymmetric hair silhouettes, natural youthful faces, precise dark outlines, and clean flat shapes. Replace the purple/blue palette with the 饭搭子 project's muted forest green #527B64, sage #CFDCC6, mist blue #DDEAF0, warm cream and peach skin. No 3D, no photorealism, no gradients, no texture, no stock-photo style, no simplistic stick figure or dot-face icon. Transparent background with genuine alpha, clean edges and generous transparent margin. No words, letters, numbers, watermark, logos or mascot. Asset: exactly ONE large circular portrait medallion of a friendly young adult man, three-quarter face turned slightly to the left, short slightly curly dark forest-green hair with a cream highlight, expressive eyes with eyebrows and a visible small nose, rosy cheek and relaxed smile. Light sage-green casual shirt. Pale sage regular circular backdrop. Bust crops neatly at bottom of the circle, full circle visible. Single subject, no phone, no speech bubble, no other object. Outside the circle is transparent."
+    }
+  ],
+  "simplified": [
+    {
+      "key": "simple_01_busy_v8",
+      "prompt": "为绿色系 UX 作品集生成一张【极简商业扁平人物插画】透明 PNG 素材。参考附件中商业扁平插画的表达，但显著减少细节。横向3:2构图，完整居中。只画下面指定的人物动作与1至2件必要道具，没有室内环境、没有植物装饰、没有地板、没有背景图案。人物有简洁自然的五官与明确动作，像商业客户旅程图中的小场景，不是几何图标，不是无脸小人。线条细而干净，头发用一个深绿色形状概括，衣服用一块鼠尾草绿色平涂，没有褶皱，手部简洁自然。颜色仅深森林绿、浅鼠尾草绿、淡雾蓝、米杏肤色。所有色块完全平涂，不要任何渐变、光晕、纹理、高光、投影、模糊、氛围烟雾。整个主体之外真正透明 alpha，绝对不要绿色光晕或半透明背景。不要文字、品牌、复杂手机UI或动物角色。主体只占画布中央约85%，边缘留透明安全间距。具体场景：一位短波浪发年轻女子坐在小桌旁操作笔记本电脑，旁边只有一碗待吃的午餐，表现忙碌中用餐。"
+    },
+    {
+      "key": "simple_02_capture_v8",
+      "prompt": "为绿色系 UX 作品集生成一张【极简商业扁平人物插画】透明 PNG 素材。参考附件中商业扁平插画的表达，但显著减少细节。横向3:2构图，完整居中。只画下面指定的人物动作与1至2件必要道具，没有室内环境、没有植物装饰、没有地板、没有背景图案。人物有简洁自然的五官与明确动作，像商业客户旅程图中的小场景，不是几何图标，不是无脸小人。线条细而干净，头发用一个深绿色形状概括，衣服用一块鼠尾草绿色平涂，没有褶皱，手部简洁自然。颜色仅深森林绿、浅鼠尾草绿、淡雾蓝、米杏肤色。所有色块完全平涂，不要任何渐变、光晕、纹理、高光、投影、模糊、氛围烟雾。整个主体之外真正透明 alpha，绝对不要绿色光晕或半透明背景。不要文字、品牌、复杂手机UI或动物角色。主体只占画布中央约85%，边缘留透明安全间距。具体场景：一位短波浪发年轻女子双手拿手机拍摄桌上的一碗午餐。只有人物、手机、简洁的小桌和一碗饭。"
+    },
+    {
+      "key": "simple_03_confirm_v8",
+      "prompt": "为绿色系 UX 作品集生成一张【极简商业扁平人物插画】透明 PNG 素材。参考附件中商业扁平插画的表达，但显著减少细节。横向3:2构图，完整居中。只画下面指定的人物动作与1至2件必要道具，没有室内环境、没有植物装饰、没有地板、没有背景图案。人物有简洁自然的五官与明确动作，像商业客户旅程图中的小场景，不是几何图标，不是无脸小人。线条细而干净，头发用一个深绿色形状概括，衣服用一块鼠尾草绿色平涂，没有褶皱，手部简洁自然。颜色仅深森林绿、浅鼠尾草绿、淡雾蓝、米杏肤色。所有色块完全平涂，不要任何渐变、光晕、纹理、高光、投影、模糊、氛围烟雾。整个主体之外真正透明 alpha，绝对不要绿色光晕或半透明背景。不要文字、品牌、复杂手机UI或动物角色。主体只占画布中央约85%，边缘留透明安全间距。具体场景：一位短波浪发年轻女子手持手机，用另一只手点击确认，旁边只有一个很小的打勾气泡。"
+    },
+    {
+      "key": "simple_04_response_v8",
+      "prompt": "为绿色系 UX 作品集生成一张【极简商业扁平人物插画】透明 PNG 素材。参考附件中商业扁平插画的表达，但显著减少细节。横向3:2构图，完整居中。只画下面指定的人物动作与1至2件必要道具，没有室内环境、没有植物装饰、没有地板、没有背景图案。人物有简洁自然的五官与明确动作，像商业客户旅程图中的小场景，不是几何图标，不是无脸小人。线条细而干净，头发用一个深绿色形状概括，衣服用一块鼠尾草绿色平涂，没有褶皱，手部简洁自然。颜色仅深森林绿、浅鼠尾草绿、淡雾蓝、米杏肤色。所有色块完全平涂，不要任何渐变、光晕、纹理、高光、投影、模糊、氛围烟雾。整个主体之外真正透明 alpha，绝对不要绿色光晕或半透明背景。不要文字、品牌、复杂手机UI或动物角色。主体只占画布中央约85%，边缘留透明安全间距。具体场景：一位短波浪发年轻女子看着手机微笑，另一只手轻放胸口，旁边只有一个小爱心气泡，表现行为得到温和回应。"
+    },
+    {
+      "key": "simple_05_together_v8",
+      "prompt": "为绿色系 UX 作品集生成一张【极简商业扁平人物插画】透明 PNG 素材。参考附件中商业扁平插画的表达，但显著减少细节。横向3:2构图，完整居中。只画下面指定的人物动作与1至2件必要道具，没有室内环境、没有植物装饰、没有地板、没有背景图案。人物有简洁自然的五官与明确动作，像商业客户旅程图中的小场景，不是几何图标，不是无脸小人。线条细而干净，头发用一个深绿色形状概括，衣服用一块鼠尾草绿色平涂，没有褶皱，手部简洁自然。颜色仅深森林绿、浅鼠尾草绿、淡雾蓝、米杏肤色。所有色块完全平涂，不要任何渐变、光晕、纹理、高光、投影、模糊、氛围烟雾。整个主体之外真正透明 alpha，绝对不要绿色光晕或半透明背景。不要文字、品牌、复杂手机UI或动物角色。主体只占画布中央约85%，边缘留透明安全间距。具体场景：一位短波浪发年轻女子与一位短发年轻男子各自手持手机，彼此微笑，两人之间只有两个简单的聊天气泡，其中一个有小碗图案。"
+    },
+    {
+      "key": "simple_06_reflect_v8",
+      "prompt": "为绿色系 UX 作品集生成一张【极简商业扁平人物插画】透明 PNG 素材。参考附件中商业扁平插画的表达，但显著减少细节。横向3:2构图，完整居中。只画下面指定的人物动作与1至2件必要道具，没有室内环境、没有植物装饰、没有地板、没有背景图案。人物有简洁自然的五官与明确动作，像商业客户旅程图中的小场景，不是几何图标，不是无脸小人。线条细而干净，头发用一个深绿色形状概括，衣服用一块鼠尾草绿色平涂，没有褶皱，手部简洁自然。颜色仅深森林绿、浅鼠尾草绿、淡雾蓝、米杏肤色。所有色块完全平涂，不要任何渐变、光晕、纹理、高光、投影、模糊、氛围烟雾。整个主体之外真正透明 alpha，绝对不要绿色光晕或半透明背景。不要文字、品牌、复杂手机UI或动物角色。主体只占画布中央约85%，边缘留透明安全间距。具体场景：一位短波浪发年轻女子坐在小桌前查看平板上的四格餐食图片，旁边只有一个装着绿叶菜的购物袋，表现回顾与下一餐选择。"
+    },
+    {
+      "key": "simple_evening_drink_v8",
+      "prompt": "为绿色系 UX 作品集生成一张【极简商业扁平人物插画】透明 PNG 素材。参考附件中商业扁平插画的表达，但显著减少细节。横向3:2构图，完整居中。只画下面指定的人物动作与1至2件必要道具，没有室内环境、没有植物装饰、没有地板、没有背景图案。人物有简洁自然的五官与明确动作，像商业客户旅程图中的小场景，不是几何图标，不是无脸小人。线条细而干净，头发用一个深绿色形状概括，衣服用一块鼠尾草绿色平涂，没有褶皱，手部简洁自然。颜色仅深森林绿、浅鼠尾草绿、淡雾蓝、米杏肤色。所有色块完全平涂，不要任何渐变、光晕、纹理、高光、投影、模糊、氛围烟雾。整个主体之外真正透明 alpha，绝对不要绿色光晕或半透明背景。不要文字、品牌、复杂手机UI或动物角色。主体只占画布中央约85%，边缘留透明安全间距。具体场景：一位短波浪发年轻女子端着一杯咖啡，旁边只有一个简单的圆形时钟和小月牙，表现夜晚饮料记录。"
+    },
+    {
+      "key": "simple_meal_bowl_v8",
+      "prompt": "为绿色系 UX 作品集生成一张【极简商业扁平人物插画】透明 PNG 素材。参考附件中商业扁平插画的表达，但显著减少细节。横向3:2构图，完整居中。只画下面指定的人物动作与1至2件必要道具，没有室内环境、没有植物装饰、没有地板、没有背景图案。人物有简洁自然的五官与明确动作，像商业客户旅程图中的小场景，不是几何图标，不是无脸小人。线条细而干净，头发用一个深绿色形状概括，衣服用一块鼠尾草绿色平涂，没有褶皱，手部简洁自然。颜色仅深森林绿、浅鼠尾草绿、淡雾蓝、米杏肤色。所有色块完全平涂，不要任何渐变、光晕、纹理、高光、投影、模糊、氛围烟雾。整个主体之外真正透明 alpha，绝对不要绿色光晕或半透明背景。不要文字、品牌、复杂手机UI或动物角色。主体只占画布中央约85%，边缘留透明安全间距。具体场景：只有一碗简洁的面条餐食，碗内用少量纯色色块表现绿叶菜、半个鸡蛋和面条，侧边一双筷子。"
+    }
+  ],
+  "eyeEdit": "精确局部编辑：图1是待编辑素材，图2只作为统一眼睛画法的参考。将图1中每个人物的两只眼睛都改为图2那样的【单个深森林绿色实心竖向小椭圆】。没有眼白，没有瞳孔分层，没有高光，没有睫毛，没有上眼睑线，不要卡通大眼睛。左右眼尺寸比例一致，随脸部透视自然缩放。保留眉毛，但眉毛与眼睛必须明确分开。保持图1人物的脸型、发型、表情、姿势、服装、道具、构图、配色和画布比例不变；不要添加新元素。采用简洁平涂表现，清除主体外缘的模糊光晕，主体之外为真正透明 alpha。只输出编辑后的图1，不要并排比较图，不要输出图2，不要文字。",
+  "finalFiles": [
+    "C:/Users/24586/Documents/ChatGPT/饭搭子计划/assets_v8/simple_01_busy_v8_eyes.png",
+    "C:/Users/24586/Documents/ChatGPT/饭搭子计划/assets_v8/simple_02_capture_v8.png",
+    "C:/Users/24586/Documents/ChatGPT/饭搭子计划/assets_v8/simple_03_confirm_v8.png",
+    "C:/Users/24586/Documents/ChatGPT/饭搭子计划/assets_v8/simple_04_response_v8.png",
+    "C:/Users/24586/Documents/ChatGPT/饭搭子计划/assets_v8/simple_05_together_v8.png",
+    "C:/Users/24586/Documents/ChatGPT/饭搭子计划/assets_v8/simple_06_reflect_v8_eyes.png",
+    "C:/Users/24586/Documents/ChatGPT/饭搭子计划/assets_v8/simple_evening_drink_v8_eyes.png",
+    "C:/Users/24586/Documents/ChatGPT/饭搭子计划/assets_v8/empathy_scene_v8_eyes.png",
+    "C:/Users/24586/Documents/ChatGPT/饭搭子计划/assets_v8/friend_a_portrait_v8_eyes.png",
+    "C:/Users/24586/Documents/ChatGPT/饭搭子计划/assets_v8/friend_b_portrait_v8_eyes.png",
+    "C:/Users/24586/Documents/ChatGPT/饭搭子计划/assets_v8/simple_meal_bowl_v8.png"
+  ],
+  "placements": [
+    {
+      "id": "597:1119",
+      "key": "simple_01_busy_v8_eyes",
+      "name": "Imagegen / 生活旅程场景 1"
+    },
+    {
+      "id": "597:1120",
+      "key": "simple_02_capture_v8",
+      "name": "Imagegen / 生活旅程场景 2"
+    },
+    {
+      "id": "597:1121",
+      "key": "simple_03_confirm_v8",
+      "name": "Imagegen / 生活旅程场景 3"
+    },
+    {
+      "id": "597:1122",
+      "key": "simple_04_response_v8",
+      "name": "Imagegen / 生活旅程场景 4"
+    },
+    {
+      "id": "597:1123",
+      "key": "simple_05_together_v8",
+      "name": "Imagegen / 生活旅程场景 5"
+    },
+    {
+      "id": "597:1124",
+      "key": "simple_06_reflect_v8_eyes",
+      "name": "Imagegen / 生活旅程场景 6"
+    },
+    {
+      "id": "597:1125",
+      "key": "simple_02_capture_v8",
+      "name": "Imagegen / 拍照并确认餐食"
+    },
+    {
+      "id": "597:1126",
+      "key": "simple_evening_drink_v8_eyes",
+      "name": "Imagegen / 晚间咖啡情境"
+    },
+    {
+      "id": "597:1127",
+      "key": "simple_05_together_v8",
+      "name": "Imagegen / 自愿关心"
+    },
+    {
+      "id": "597:1128",
+      "key": "simple_03_confirm_v8",
+      "name": "Imagegen / 用户确认记录"
+    },
+    {
+      "id": "597:1129",
+      "key": "simple_04_response_v8",
+      "name": "Imagegen / 理解状态依据"
+    },
+    {
+      "id": "597:1130",
+      "key": "simple_05_together_v8",
+      "name": "Imagegen / 自愿共同关心"
+    },
+    {
+      "id": "591:1126",
+      "key": "simple_01_busy_v8_eyes"
+    },
+    {
+      "id": "591:1134",
+      "key": "simple_03_confirm_v8"
+    },
+    {
+      "id": "591:1142",
+      "key": "simple_04_response_v8"
+    },
+    {
+      "id": "591:1274",
+      "key": "empathy_scene_v8_eyes"
+    },
+    {
+      "id": "591:1275",
+      "key": "friend_a_portrait_v8_eyes"
+    },
+    {
+      "id": "591:1276",
+      "key": "friend_b_portrait_v8_eyes"
+    },
+    {
+      "id": "581:1144",
+      "key": "simple_meal_bowl_v8"
+    }
+  ],
+  "publication_note": "Original prompt text retained; machine-local output paths omitted. Visual evidence is in screenshots/process/ at the repository root."
+}

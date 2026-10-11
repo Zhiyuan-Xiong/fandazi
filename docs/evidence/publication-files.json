@@ -1,0 +1,3052 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 222,
+    "sha256": "d3467376570abc85a78a1d005b82bac4c780d89f4c7d8aa11a8793ca73e9be5a"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 342,
+    "sha256": "7a14e845258aa37e714f7e8a8eedf0824a46cff783ba8e45c3c8aa408fdc3d5a"
+  },
+  {
+    "path": "case-data.json",
+    "bytes": 670,
+    "sha256": "c842f4c94827f3110a7799cc04293b902725fcf93984a3cb9204f56472344f48"
+  },
+  {
+    "path": "PROJECT_HANDOFF.md",
+    "bytes": 3837,
+    "sha256": "5e7d881a6985f008997ee5323ff46a923a165b4e61085d88b4d1aaad32828c30"
+  },
+  {
+    "path": "README.md",
+    "bytes": 11534,
+    "sha256": "a051ae10ec1697661aa1e97b442de403dac8d2b9c1a98bc3584e7281ae67d84e"
+  },
+  {
+    "path": "README_EN.md",
+    "bytes": 13363,
+    "sha256": "0fb14cd30e2798efc471bbf27c6899f6b425ce7051fd3442df7084504cb95ed9"
+  },
+  {
+    "path": "RIGHTS.md",
+    "bytes": 1506,
+    "sha256": "10be9930a05341d7fa985be278e8803ba6de1103da7e6c57a4d58c1d32be5ec9"
+  },
+  {
+    "path": "工作流.md",
+    "bytes": 164,
+    "sha256": "6f0d92ba00b18415c2cddd99cf3f8a9f33ee315739d1b9156e03ebf3c8b47452"
+  },
+  {
+    "path": "assets/README.md",
+    "bytes": 324,
+    "sha256": "3dd56a62e44a29eb6c75337fe718aa0017e24ef07c3c2e6c4800d583ee12637c"
+  },
+  {
+    "path": "demo/otter-home.gif",
+    "bytes": 1150715,
+    "sha256": "c0c5684fa99c5fefb7b72c1f38a66ffbd08aaaf47638039996ba3e1eaa06b0ad"
+  },
+  {
+    "path": "demo/README.md",
+    "bytes": 1995,
+    "sha256": "f49a0a8c2760fcfd86327ff51c2049f108402412d4864794ffaff4f755265afc"
+  },
+  {
+    "path": "docs/portfolio-integration.md",
+    "bytes": 870,
+    "sha256": "b655e047d771234de8939431b5e2095093f56472548531acc54d2e33d3cead46"
+  },
+  {
+    "path": "docs/publication-scope.md",
+    "bytes": 2461,
+    "sha256": "12d1afb4044246278473dc0b97a4f7273e654eb752e8297dd9f335132e4d6395"
+  },
+  {
+    "path": "docs/research.md",
+    "bytes": 2747,
+    "sha256": "1270b8fbd325653ee271c0dbe6082a8122021b606dfa1c56d22f8b73d7ffcc40"
+  },
+  {
+    "path": "docs/running.md",
+    "bytes": 3039,
+    "sha256": "dc25502109744c27be432943305c817a66776561f9f0e7183e10d7dbd2ad7c15"
+  },
+  {
+    "path": "docs/technical.md",
+    "bytes": 4719,
+    "sha256": "d05482ac4ad4da67314d96f23bb5e2f554ae013403cc249efb1b839450ae4071"
+  },
+  {
+    "path": "docs/validation.md",
+    "bytes": 3079,
+    "sha256": "77da9eae59ce2370d7cadeafef0d3fd7a9d892287b333e1681cd172f6cd1640b"
+  },
+  {
+    "path": "godot-demo/export_presets.cfg",
+    "bytes": 1908,
+    "sha256": "72ebeef90465564b422f45620be49e7ce96c45fcd1c071bcd88cedf46b02c795"
+  },
+  {
+    "path": "godot-demo/project.godot",
+    "bytes": 844,
+    "sha256": "993d8e17b516be296fd4c25136031073bfbd7187b9278d306a044d90fa5c29d8"
+  },
+  {
+    "path": "godot-demo/README.md",
+    "bytes": 406,
+    "sha256": "4d31e37c328079e6cfe19e87298af6aea0b365d86bc46e92b8c2bfd4a6f1a6e4"
+  },
+  {
+    "path": "screenshots/hero.webp",
+    "bytes": 61218,
+    "sha256": "32ac53fc01afa76cfa1412202ee53aca024c1c85f1a94fe2b303f92a4cae7016"
+  },
+  {
+    "path": "workflow/README.md",
+    "bytes": 6529,
+    "sha256": "2c996e85728a55a5e99d2b6c6d61a47c6532cb7b5b843dc38501aac2afb70227"
+  },
+  {
+    "path": ".github/workflows/pages.yml",
+    "bytes": 705,
+    "sha256": "14ab252b52c72ed37d339ed42c7cf0ee5233d731f5abcac1868586baaf694db7"
+  },
+  {
+    "path": "assets/previews/food-mealtray.webp",
+    "bytes": 9496,
+    "sha256": "ba79bff5abbe879a84f6e7b59614ab132225cc72b730e929bec3256c4d5f7e19"
+  },
+  {
+    "path": "assets/previews/food-noodles.webp",
+    "bytes": 7030,
+    "sha256": "f37938591bbd0f1c5e7d61fc6f45c313adca02d4ea41220e4eb8081fb4ab8883"
+  },
+  {
+    "path": "assets/previews/food-riceball.webp",
+    "bytes": 2594,
+    "sha256": "959dba2bc30d7fe0ed341e3421a038589f958861631dc860c616850350a5ab12"
+  },
+  {
+    "path": "assets/previews/food-salad.webp",
+    "bytes": 6540,
+    "sha256": "136d3646d1fdc0d90c57b94b625fad8e9b06e5238e5d40c40beebf6dabd2a570"
+  },
+  {
+    "path": "assets/previews/food-tea.webp",
+    "bytes": 4898,
+    "sha256": "465532fa224388b1ac92560472e7ae760bb66476e9868711a6d3f426fbda2677"
+  },
+  {
+    "path": "assets/previews/furniture-arch-bookcase.webp",
+    "bytes": 26692,
+    "sha256": "82a81d4031fda9e1256ccb5ca265aa92aad16703e061fc965ac40f4a6b590543"
+  },
+  {
+    "path": "assets/previews/furniture-arched-door.webp",
+    "bytes": 18314,
+    "sha256": "2d962cfd851364df9b30104c82938c2d943f645c41c92cbe48455f8d931c8123"
+  },
+  {
+    "path": "assets/previews/furniture-coffee-table.webp",
+    "bytes": 35098,
+    "sha256": "2180f910a5dc69aa09d240a7ec91ecf5b59f4fb8d333c5b5829d72efdfba02dc"
+  },
+  {
+    "path": "assets/previews/furniture-paw-rug.webp",
+    "bytes": 25180,
+    "sha256": "678c6c7c25b0f5f340e9f415aa6325c90e6a19f8ab20c58b2530bcff0437c029"
+  },
+  {
+    "path": "assets/previews/furniture-sage-armchair.webp",
+    "bytes": 27136,
+    "sha256": "39eab049e862791258a2406c45ae640968109b53a109715738bfb143f9e07328"
+  },
+  {
+    "path": "assets/previews/furniture-sage-sofa.webp",
+    "bytes": 21238,
+    "sha256": "9fbb96e190189082735e234d0ea10df741211f7acdb75faf059b00bda9b4c81d"
+  },
+  {
+    "path": "assets/previews/furniture-standing-mirror.webp",
+    "bytes": 19838,
+    "sha256": "078d8f584442edb44bef9dd9498eb4d8e8cf31c1e1809733398c415128c92fcb"
+  },
+  {
+    "path": "assets/previews/furniture-tea-cart.webp",
+    "bytes": 45356,
+    "sha256": "9606a0ed92d316cd6ae97a4c3c4f87502ed484ebdbda3ad58767543ece96de37"
+  },
+  {
+    "path": "assets/previews/otter-angry.webp",
+    "bytes": 64660,
+    "sha256": "9a872e854f4f2e99b6124668578295e37d1f2232ac2dad476fbf9610b85f1c03"
+  },
+  {
+    "path": "assets/previews/otter-anxiety.webp",
+    "bytes": 58700,
+    "sha256": "ee3de225e5de7c0e3ebc02359decc5cebb70442483197383ba97c3ce796569a6"
+  },
+  {
+    "path": "assets/previews/otter-default.webp",
+    "bytes": 42472,
+    "sha256": "15c9a1671c95e4c8e03482be78e1739ae2a55a69ea32f29d58cc3eb80f88232c"
+  },
+  {
+    "path": "assets/previews/otter-disappointed.webp",
+    "bytes": 56792,
+    "sha256": "2685a0ca0950364db4c9c6fe27eac9dba0a012be39378d0adebb4a3cd2d510d5"
+  },
+  {
+    "path": "assets/previews/otter-eat.webp",
+    "bytes": 67746,
+    "sha256": "536a3b5ec2f3fef4e0720715038b1ab09791282e70f9b9c1461a48e3c3745ea0"
+  },
+  {
+    "path": "assets/previews/otter-flutter.webp",
+    "bytes": 58002,
+    "sha256": "f809cd710e49c5be1b8b0b0577b234c62a20bf637a751acc05f2fed3c76394f2"
+  },
+  {
+    "path": "assets/previews/otter-happy.webp",
+    "bytes": 54536,
+    "sha256": "5d87a3193741e36f74cbd425ae46f9ef2c0e7404837fa652fd9a4b3182a18df4"
+  },
+  {
+    "path": "assets/previews/otter-normal.webp",
+    "bytes": 47850,
+    "sha256": "b4c3116edc385217b0d09762e39b249a8b019ae679ca8c61469b5cbcfb122b4f"
+  },
+  {
+    "path": "assets/previews/otter-peaceful.webp",
+    "bytes": 57210,
+    "sha256": "217b62b2fef62f2da31ef8987480a7144f75797faf7e6e36178f4ffb1a930f60"
+  },
+  {
+    "path": "assets/previews/otter-pleasure.webp",
+    "bytes": 54936,
+    "sha256": "a6ad5c60e754a00430b5f937774a0e695c006bbdf25f5f80c5d1fee3fcdb5879"
+  },
+  {
+    "path": "assets/previews/otter-sad.webp",
+    "bytes": 53720,
+    "sha256": "df7cde30011d59f988c4f39a55f809bef9d2ac046a530de09f0fc9bc44b9e493"
+  },
+  {
+    "path": "assets/previews/otter-sleepy.webp",
+    "bytes": 40316,
+    "sha256": "c3b79e4b6920f5f42beebf4f44a626053ab00d7d7a7101bc4bc28687a593b6cd"
+  },
+  {
+    "path": "assets/previews/otter-stress.webp",
+    "bytes": 65596,
+    "sha256": "4b1b5292c481c9632cc0137ea7f403e1f0b06f53697f0b88597cd86c48bfc50a"
+  },
+  {
+    "path": "assets/previews/otter-tired.webp",
+    "bytes": 43340,
+    "sha256": "36d3fcab788c37187d2c7183b188a01fdc93878a975cdfafe10f4150649795c5"
+  },
+  {
+    "path": "demo/web/index.html",
+    "bytes": 2228,
+    "sha256": "64adb467afe714ca38fe074792784b326f40e6e748ff52c13d9d0517dee1a557"
+  },
+  {
+    "path": "demo/web/play.audio.position.worklet.js",
+    "bytes": 2973,
+    "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+  },
+  {
+    "path": "demo/web/play.audio.worklet.js",
+    "bytes": 7298,
+    "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+  },
+  {
+    "path": "demo/web/play.html",
+    "bytes": 5643,
+    "sha256": "8f1d8256a4d62ac99b875f1e76e6e6ac736a59a51de1975c0aa8f847c91829c4"
+  },
+  {
+    "path": "demo/web/play.js",
+    "bytes": 279815,
+    "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+  },
+  {
+    "path": "demo/web/play.pck",
+    "bytes": 81423212,
+    "sha256": "9356d8b0914466a01c70d5317c3044eca7da1fc5f6688095f057d39ef17d3a0b"
+  },
+  {
+    "path": "demo/web/play.png",
+    "bytes": 21443,
+    "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+  },
+  {
+    "path": "demo/web/play.wasm",
+    "bytes": 39514754,
+    "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+  },
+  {
+    "path": "demo/web/THIRD_PARTY_NOTICES.txt",
+    "bytes": 115347,
+    "sha256": "843e31949f76edaea67889d8ceef50bd3495b078480b9bdf437c984da1e2720a"
+  },
+  {
+    "path": "docs/evidence/asset-provenance.json",
+    "bytes": 103912,
+    "sha256": "4ce880c16d6dd8410d90079dd72f26d06fa74a80cdc70c29985d2589be51b49f"
+  },
+  {
+    "path": "docs/evidence/handoff-sources.json",
+    "bytes": 1615,
+    "sha256": "30d6d94e7b3901a36ec4b430e9c7f5a2108fca207f90255cc22fe20f38a8bbf8"
+  },
+  {
+    "path": "docs/evidence/current/core.log",
+    "bytes": 481,
+    "sha256": "ef87e7bf9e90a6fd950c3dec7dc5273268c2f2a0f534dccd658434f5d958332c"
+  },
+  {
+    "path": "docs/evidence/current/core_flow_result.json",
+    "bytes": 1872,
+    "sha256": "8abafb521e9987c360cbcffccdb2c87c888623b86336d6612ec96e81198dea40"
+  },
+  {
+    "path": "docs/evidence/current/service.log",
+    "bytes": 1246,
+    "sha256": "d4249843a78bdb4a6dc06043792fe2e2e52f360553f86dfc6e75bf67520e75cd"
+  },
+  {
+    "path": "docs/evidence/current/smoke.log",
+    "bytes": 169,
+    "sha256": "1f51c3a0b389a18b5ab2f2abd4b641a0ad74bfa99c4d654502267a99f3ab4a91"
+  },
+  {
+    "path": "docs/evidence/historical/AI_SERVICE_UNIT_TESTS.log",
+    "bytes": 1246,
+    "sha256": "5efc92a664956cfe8c1a86d763340a3377e8f62718ab9bc29d60756c5c3e2a29"
+  },
+  {
+    "path": "docs/evidence/historical/archive_pack_result.json",
+    "bytes": 1862,
+    "sha256": "ebc3b6be8ffc28f36b9c3a6593bcd0dcee63265dec78b603d869e4a8e22dfa96"
+  },
+  {
+    "path": "godot-demo/ai_service/key_setup.py",
+    "bytes": 4215,
+    "sha256": "ca0e75a2ad7ba0cee3a3b41c21ee6d2dca537ee01fa0600b90bd4290b8c5ccea"
+  },
+  {
+    "path": "godot-demo/ai_service/requirements.txt",
+    "bytes": 17,
+    "sha256": "1c803ca04270f3acd340ace239b1e86931871344e0070b4f6db9a59ae56336cb"
+  },
+  {
+    "path": "godot-demo/ai_service/server.py",
+    "bytes": 18434,
+    "sha256": "ada1720a316e95eebef79903d1ac8335f070e1a26229848edd5a78f399891c74"
+  },
+  {
+    "path": "godot-demo/ai_service/start.ps1",
+    "bytes": 681,
+    "sha256": "fb8e0d49cfc9926a1f3b0955839e4d19e09af36ce4a72f6e6c14e4ec9343a9b8"
+  },
+  {
+    "path": "godot-demo/ai_service/test_service.py",
+    "bytes": 7755,
+    "sha256": "f0d5b1e7ce3b2c5b72d27583443251db58d9e7bd0d9bdfb0459445da59f05d2e"
+  },
+  {
+    "path": "godot-demo/design/asset-map.json",
+    "bytes": 12916,
+    "sha256": "03386c3303788b907c2a27c69141680c6bf225514c0b1ba0ecc161a5df78bb46"
+  },
+  {
+    "path": "godot-demo/design/build-audit.json",
+    "bytes": 74569,
+    "sha256": "4aba33d3954f0e0cccdb268d51b22418baaed825d061499b56ea0feee5c87582"
+  },
+  {
+    "path": "godot-demo/design/button-alignment.json",
+    "bytes": 19248,
+    "sha256": "bfd5e9f0be82d9e33d87d80a825a2ce11a9d3a725974ef64e9148efb7ca95905"
+  },
+  {
+    "path": "godot-demo/design/catalog-layout.json",
+    "bytes": 12822,
+    "sha256": "699b7fd17e81bcd2fefbf7bee4720ad7440bb000160b4ff9dbd63823800f3c9e"
+  },
+  {
+    "path": "godot-demo/design/figma-snapshot.json",
+    "bytes": 1943545,
+    "sha256": "949955513d2570488826c47b124998fd16a0a5e3bbc96006df067b392809d3ba"
+  },
+  {
+    "path": "godot-demo/design/frame-index.json",
+    "bytes": 6855,
+    "sha256": "c93d8d1e0186df00bd36ec7fb9c35f8b7dc0af8025715828b6de4d54b0cfb8ef"
+  },
+  {
+    "path": "godot-demo/design/furniture.json",
+    "bytes": 6094,
+    "sha256": "dcf6fef20afd50dda5f3a37d2e260917940a7ca603d427bbfc1c14f5b27854c1"
+  },
+  {
+    "path": "godot-demo/design/hidden-instances.json",
+    "bytes": 27983,
+    "sha256": "aa712ed861d813c8daa3e61724375e478d4075948fb1dd81935ef0c1bc2b9331"
+  },
+  {
+    "path": "godot-demo/design/latest-frame-index.json",
+    "bytes": 7728,
+    "sha256": "e749891ddaaf7491e2c61643f7a2cbeb51bb497c40c3ddca2dc6c63cdd4f69a7"
+  },
+  {
+    "path": "godot-demo/design/overlay-settings.json",
+    "bytes": 4363,
+    "sha256": "127e0258ec2697e5fcce8b14edeb87f94637e80b44cec4c1b6a77b4d87cf40d9"
+  },
+  {
+    "path": "godot-demo/design/routes.json",
+    "bytes": 9594,
+    "sha256": "df212253b4106e7df5cb78de6e77816cbbbbdf6aed09fbfae8bdc903b970cf4c"
+  },
+  {
+    "path": "godot-demo/design/snapshot.lzw.b64",
+    "bytes": 428841,
+    "sha256": "fee63a8d1425884685b6940444a3688e4a416cdfcd5b4b7b50d5ac7bd66bbfee"
+  },
+  {
+    "path": "godot-demo/design/supplement.lzw.b64",
+    "bytes": 120377,
+    "sha256": "deeb2536e30f774e8e7e05c6173b7fa9d4fd7e53c400feb7053626d41d4bcde1"
+  },
+  {
+    "path": "godot-demo/design/variables.json",
+    "bytes": 32254,
+    "sha256": "f5627ee325b9aa5b5817b6f3b70080cf933a546842c8b392612422b71c5dfdc2"
+  },
+  {
+    "path": "godot-demo/scenes/main.tscn",
+    "bytes": 785,
+    "sha256": "735f6b0f22e0c4987b53e835a0888929c0cc23b121af0e8170b0a30e19055ccc"
+  },
+  {
+    "path": "godot-demo/scripts/ai_settings.gd",
+    "bytes": 3199,
+    "sha256": "38e543d7f56876be601296193ce13580dda7db42c7f041a9214a87c2f331a0cc"
+  },
+  {
+    "path": "godot-demo/scripts/ai_settings.gd.uid",
+    "bytes": 20,
+    "sha256": "faca4ba768ed252be3a83b90db4926232d071edb8d2fbd1ca9ca6b81e408cc32"
+  },
+  {
+    "path": "godot-demo/scripts/bottom_navigation.gd",
+    "bytes": 317,
+    "sha256": "40ead5e3ff28865538745b9ccc8a4f553e54afffad09b7904d52df57de23e422"
+  },
+  {
+    "path": "godot-demo/scripts/bottom_navigation.gd.uid",
+    "bytes": 20,
+    "sha256": "b1e0e1e4aaffd8f6849142f37e8df13080a27082e62f06ef63f99e63c44b7939"
+  },
+  {
+    "path": "godot-demo/scripts/drag_scroll.gd",
+    "bytes": 3182,
+    "sha256": "cb7b2ef71dd6dd58de8cf94b32443067787c50c262e4d991d1976846249ae9ad"
+  },
+  {
+    "path": "godot-demo/scripts/drag_scroll.gd.uid",
+    "bytes": 20,
+    "sha256": "db46e5ba7e6abd5df6f551f2b84bc528ca0d98bd0beb33dfc685ef866db16a73"
+  },
+  {
+    "path": "godot-demo/scripts/food_flow.gd",
+    "bytes": 15117,
+    "sha256": "0140854c260e9092f9d493756bf7005e02c52538e89b066024014e1b75a49c46"
+  },
+  {
+    "path": "godot-demo/scripts/food_flow.gd.uid",
+    "bytes": 20,
+    "sha256": "102a46a1e0aca330f69361cc806d72583b949cb0e5b21aee25f5b9c9eefef4e5"
+  },
+  {
+    "path": "godot-demo/scripts/food_summary.gd",
+    "bytes": 7079,
+    "sha256": "64b0eea8320eb87d6a37ed29f92a5ed773630447b12e92ca4fa26142b589a3c4"
+  },
+  {
+    "path": "godot-demo/scripts/food_summary.gd.uid",
+    "bytes": 20,
+    "sha256": "afe642ccf5f843931b410af951cfec0d2ecbe2c6c8b637c0ee714202b388f4c6"
+  },
+  {
+    "path": "godot-demo/scripts/food_view.gd",
+    "bytes": 15197,
+    "sha256": "27941577635cbed25e864e4c8724ddd4e1f55345d8ca46e77763101c007dc12a"
+  },
+  {
+    "path": "godot-demo/scripts/food_view.gd.uid",
+    "bytes": 19,
+    "sha256": "5129309d4f77035eb1c8db966f9294ee63f705b1c6c53e21b9ba13b23bc074fa"
+  },
+  {
+    "path": "godot-demo/scripts/home_mood.gd",
+    "bytes": 1995,
+    "sha256": "66730a917136af8054b45fb2ab876a63177562a4306ed3f9fc3b0db0ccb74a2c"
+  },
+  {
+    "path": "godot-demo/scripts/home_mood.gd.uid",
+    "bytes": 20,
+    "sha256": "8db142cbe9edda7ba00f3bda9b3d0f7cf5b3b463675d7a6bc2aeafa982e61fb8"
+  },
+  {
+    "path": "godot-demo/scripts/main.gd",
+    "bytes": 13560,
+    "sha256": "66e4241dcefd553d0af6f2e18d8d2e668d5a57be7163bd14a3eee23bddad8cf3"
+  },
+  {
+    "path": "godot-demo/scripts/main.gd.uid",
+    "bytes": 19,
+    "sha256": "68e76cb61dfd18796a6d5b09cb6c61aa57926b4054442cd7bf62c1ba33d79fd2"
+  },
+  {
+    "path": "godot-demo/scripts/otter_motion.gd",
+    "bytes": 3466,
+    "sha256": "346d72fbebf940b8e9c1be20991080266e73432443d294d33a105a4541c2591d"
+  },
+  {
+    "path": "godot-demo/scripts/otter_motion.gd.uid",
+    "bytes": 20,
+    "sha256": "d53d9c823e4bda46778ea47120810b602deea49557e7e8c2572c3e329fb98cd5"
+  },
+  {
+    "path": "godot-demo/scripts/room_canvas.gd",
+    "bytes": 9139,
+    "sha256": "b959f9ccd758e050ceae877942ee03edb0a0d92ab16c6e761941061856186ff6"
+  },
+  {
+    "path": "godot-demo/scripts/room_canvas.gd.uid",
+    "bytes": 20,
+    "sha256": "dcab7826e0fcf2b5cc002c13015b1e62b2b3a3039af2d38c6099a54ed3e048eb"
+  },
+  {
+    "path": "godot-demo/scripts/room_editor.gd",
+    "bytes": 8972,
+    "sha256": "2467c5f4616da22fb068dad9c71c38c161aea2a8043d18bbdde0d95a8dc8e421"
+  },
+  {
+    "path": "godot-demo/scripts/room_editor.gd.uid",
+    "bytes": 19,
+    "sha256": "678d683cde0861376e5eba0657401b59f7dabceefdd0f56959a8fdf1646d786c"
+  },
+  {
+    "path": "godot-demo/scripts/room_studio.gd",
+    "bytes": 9778,
+    "sha256": "6d7569bf02328a7c1e21549109806b8f91688cfe6f0f3fe4b928059ea206d0b0"
+  },
+  {
+    "path": "godot-demo/scripts/room_studio.gd.uid",
+    "bytes": 20,
+    "sha256": "21e2a661f18289cfe72ccdb132a7259487fe3595b57f75b2b6bdc03787640bfa"
+  },
+  {
+    "path": "godot-demo/scripts/rounded_gradient.gdshader",
+    "bytes": 511,
+    "sha256": "171a037298272323e1bd5e458f03a521bef33c48f6a35af8b402b4f393499da3"
+  },
+  {
+    "path": "godot-demo/scripts/rounded_gradient.gdshader.uid",
+    "bytes": 19,
+    "sha256": "cd885210c03a93f82bfacc1c35d219e2e4fff581b67809b23f653a7f3bffb461"
+  },
+  {
+    "path": "godot-demo/scripts/surface.gd",
+    "bytes": 3185,
+    "sha256": "d5630496cf91460a9137bd98530ec293164e4b458bb050b07a1e439c58a2a053"
+  },
+  {
+    "path": "godot-demo/scripts/surface.gd.uid",
+    "bytes": 19,
+    "sha256": "21b797c9243f9e46efc209f8919abc373a2055abba2bf7b98a8be3e886bdeaab"
+  },
+  {
+    "path": "godot-demo/tests/core_flow_check.gd",
+    "bytes": 3776,
+    "sha256": "713e3e441bbc0d7cee7044505ddc389a88d3b5ca0a530c903666b63668d06f4b"
+  },
+  {
+    "path": "godot-demo/tests/core_flow_check.gd.uid",
+    "bytes": 20,
+    "sha256": "37d060b008499047af6419f3d24a09a62f8a743d70464f4cd19eb490fad1424a"
+  },
+  {
+    "path": "godot-demo/tests/write_notices.gd",
+    "bytes": 661,
+    "sha256": "25fc418c4bec2d70f304c25d9addbab14c59606a69d91c33ff7ed5a8486cedd0"
+  },
+  {
+    "path": "godot-demo/tests/write_notices.gd.uid",
+    "bytes": 20,
+    "sha256": "8a30370a5493ae9c8bcbd70de048ff8b22b3e54e1a888e98052df587e2034fe2"
+  },
+  {
+    "path": "godot-demo/tools/build_scenes.py",
+    "bytes": 17007,
+    "sha256": "67fa16a41d5b875f10c743fd845f64c31e668b8770973096c6d6e706d1b5046e"
+  },
+  {
+    "path": "godot-demo/tools/decode_snapshot.py",
+    "bytes": 1714,
+    "sha256": "f903cda8a3bd82662893b1e3d1d7ca37c97fe5e0ec8398dd860e71bbba3561ed"
+  },
+  {
+    "path": "godot-demo/tools/extract_furniture.py",
+    "bytes": 1310,
+    "sha256": "903c2bd85ba70c68508d4a2698051f0b2b5d9bbeeba2f99cee11b804f8b30830"
+  },
+  {
+    "path": "godot-demo/tools/inspect_snapshot.py",
+    "bytes": 1276,
+    "sha256": "95c443dcd7ff821dc179ef84c9e91b6833561d111d9c352945a83329512e859f"
+  },
+  {
+    "path": "godot-demo/assets/figma/0169f7332eb38e5a4212.png",
+    "bytes": 1602696,
+    "sha256": "126d3037f9420667d92eccdc615d9d0771621b223ba8ba210fa4318936822cd4"
+  },
+  {
+    "path": "godot-demo/assets/figma/0169f7332eb38e5a4212.png.import",
+    "bytes": 977,
+    "sha256": "4d596bc8517ac7824bc7d97de9e91aaee00750369c9eb15890b4f71e664b0dac"
+  },
+  {
+    "path": "godot-demo/assets/figma/0183b74182555e52d291.png",
+    "bytes": 973186,
+    "sha256": "b54e08b81256a349f590be0cf8fd3bd335fa6a634e31163eb04f4a437ac7b0e1"
+  },
+  {
+    "path": "godot-demo/assets/figma/0183b74182555e52d291.png.import",
+    "bytes": 977,
+    "sha256": "86f409c47b7df79b822d1b148caa5577275b77499a5c6a8635159f01bf9f2925"
+  },
+  {
+    "path": "godot-demo/assets/figma/079c28d5d8357a3d8e06.png",
+    "bytes": 35597,
+    "sha256": "b12211b29a1c2ba2b037a3b2f55bd863343ea6b787dc6155e58fe7aa7fc86bc9"
+  },
+  {
+    "path": "godot-demo/assets/figma/079c28d5d8357a3d8e06.png.import",
+    "bytes": 976,
+    "sha256": "a6ab8d0e07064432753c7dac9b61995f48ca82c86e7ff28a074e95b4a7250dbb"
+  },
+  {
+    "path": "godot-demo/assets/figma/083fde8f8077f318384c.png",
+    "bytes": 857921,
+    "sha256": "0ff5239340a1220971f7b366260745ba06d6d9321746f4dd6986823c6ded71c6"
+  },
+  {
+    "path": "godot-demo/assets/figma/083fde8f8077f318384c.png.import",
+    "bytes": 977,
+    "sha256": "63d644effa6a520d055ab57a48616214fc37056d5fcb6009e7f6be2cd62e8e22"
+  },
+  {
+    "path": "godot-demo/assets/figma/090e68682c84f155d819.png",
+    "bytes": 1325430,
+    "sha256": "63c07e29d9d4e3ab4b444eb92e738ede87cc39bd207374d5c09c48366fd0eddc"
+  },
+  {
+    "path": "godot-demo/assets/figma/090e68682c84f155d819.png.import",
+    "bytes": 977,
+    "sha256": "21f7bee74a17337ed308452863f3abf1e92d575d9215ddf2f3ad568d70d606fa"
+  },
+  {
+    "path": "godot-demo/assets/figma/0b6420da3e1907d9ef09.png",
+    "bytes": 681495,
+    "sha256": "592ce7d4ebc5a8281ce17d4a04567045f3b8e2fc8961f99c27dc4b693d869243"
+  },
+  {
+    "path": "godot-demo/assets/figma/0b6420da3e1907d9ef09.png.import",
+    "bytes": 977,
+    "sha256": "195ee235b46da41c03efb6ac84be422d2e32a6073edfd9449307f7a1de093a91"
+  },
+  {
+    "path": "godot-demo/assets/figma/0ba0299181a27a9cea89.svg",
+    "bytes": 1125,
+    "sha256": "23058189d4e0f427e2a6c67e7e3a0c02f4f1598ba7f6df20737930d2549157fc"
+  },
+  {
+    "path": "godot-demo/assets/figma/0ba0299181a27a9cea89.svg.import",
+    "bytes": 1073,
+    "sha256": "db026c8276023ff68e856828414a6f2e03f4058d60d46b5ae3814b37e2937da0"
+  },
+  {
+    "path": "godot-demo/assets/figma/0d59b44d226bd6bf53a7.png",
+    "bytes": 973186,
+    "sha256": "b54e08b81256a349f590be0cf8fd3bd335fa6a634e31163eb04f4a437ac7b0e1"
+  },
+  {
+    "path": "godot-demo/assets/figma/0d59b44d226bd6bf53a7.png.import",
+    "bytes": 977,
+    "sha256": "ff98fc0e6c60a6decfbb7e6ba5ec11c1b85a3563023288e749e83526b774c2d6"
+  },
+  {
+    "path": "godot-demo/assets/figma/0ea06deef6b51cd3e05b.svg",
+    "bytes": 1160,
+    "sha256": "869a669279970189e332fb5d9cba90fa793ab73775cfe699641932b594e69c50"
+  },
+  {
+    "path": "godot-demo/assets/figma/0ea06deef6b51cd3e05b.svg.import",
+    "bytes": 1074,
+    "sha256": "72613f2bc1f9642f8b9713ac1b7d343dfcae882e2d582714c4a5f7ed3cffb3f8"
+  },
+  {
+    "path": "godot-demo/assets/figma/0f0ac1978b450de1011a.png",
+    "bytes": 1448958,
+    "sha256": "c217f38db461a46b4213c2b21be4e111ac603fa01e842993d0499f6828d36e95"
+  },
+  {
+    "path": "godot-demo/assets/figma/0f0ac1978b450de1011a.png.import",
+    "bytes": 977,
+    "sha256": "31aeda66deb243ba597716787845785b4136e7d02d70c6c0f3d31d0af9c4641f"
+  },
+  {
+    "path": "godot-demo/assets/figma/10c7570289d957e85adf.png",
+    "bytes": 857921,
+    "sha256": "0ff5239340a1220971f7b366260745ba06d6d9321746f4dd6986823c6ded71c6"
+  },
+  {
+    "path": "godot-demo/assets/figma/10c7570289d957e85adf.png.import",
+    "bytes": 977,
+    "sha256": "7f120d83f6bd5e11e94a073f76759b9f305b39683e502258dcd0c289a6dc8fce"
+  },
+  {
+    "path": "godot-demo/assets/figma/11baa42152d10cc80d9b.png",
+    "bytes": 1159087,
+    "sha256": "48331e6b66818f093cc32a6fa5e83ed96cbdf5bafadc8bf2cbc3482de2eaf467"
+  },
+  {
+    "path": "godot-demo/assets/figma/11baa42152d10cc80d9b.png.import",
+    "bytes": 977,
+    "sha256": "ef8ee8105d850a4120abbde402d55b1fa608ad83b53ed9424eafc70da05e21d7"
+  },
+  {
+    "path": "godot-demo/assets/figma/12580b6de91f356ce653.png",
+    "bytes": 779489,
+    "sha256": "bfcc8b177a3bb490983f20c72d23ce9e1e7017831864484514185e14c7a5b7df"
+  },
+  {
+    "path": "godot-demo/assets/figma/12580b6de91f356ce653.png.import",
+    "bytes": 977,
+    "sha256": "061e935008cdaa6d03d7cbe3d1dc84431a569f3587cab610c3221965064fc884"
+  },
+  {
+    "path": "godot-demo/assets/figma/175fe69f04ca7133348f.png",
+    "bytes": 790978,
+    "sha256": "8ad11ac1836bbc8a2ec3e29c754eed96b1c075ad6263be2bb2241fdcc980455a"
+  },
+  {
+    "path": "godot-demo/assets/figma/175fe69f04ca7133348f.png.import",
+    "bytes": 977,
+    "sha256": "518a5b99113a8118df905d9e0064757b376d6bb0b374764a8826a6026556dde3"
+  },
+  {
+    "path": "godot-demo/assets/figma/1924df61e8350d5e6865.png",
+    "bytes": 1602696,
+    "sha256": "126d3037f9420667d92eccdc615d9d0771621b223ba8ba210fa4318936822cd4"
+  },
+  {
+    "path": "godot-demo/assets/figma/1924df61e8350d5e6865.png.import",
+    "bytes": 976,
+    "sha256": "5a992792b61be225527fcc3f11c04d6d108b8a87163342d51bf37124f7dc801e"
+  },
+  {
+    "path": "godot-demo/assets/figma/1a5b668fb5b4c10295e7.png",
+    "bytes": 1074336,
+    "sha256": "39a3543961a9f86caf8b737162478f038f8c71af1ee144ebd56551a9199afe3e"
+  },
+  {
+    "path": "godot-demo/assets/figma/1a5b668fb5b4c10295e7.png.import",
+    "bytes": 977,
+    "sha256": "0f5abac4ea3803e9fd18c7ec81f0ec613182cee560c7226e6ba460dc2bdb014f"
+  },
+  {
+    "path": "godot-demo/assets/figma/1bae4afb53de1cf37e45.png",
+    "bytes": 854003,
+    "sha256": "40f9da3b732e345a183ca2fe77b53d8ac48d53776cc95b62ddb119b69957ddcd"
+  },
+  {
+    "path": "godot-demo/assets/figma/1bae4afb53de1cf37e45.png.import",
+    "bytes": 977,
+    "sha256": "60a53b0448ce42ee5b14bc01da139e8743041034c13e74a15d8a1104060e9968"
+  },
+  {
+    "path": "godot-demo/assets/figma/1c0b659b9b90dda77b69.png",
+    "bytes": 836241,
+    "sha256": "9a317401877a16d036c44e663245287a84f82f1b6292e975686cbee83af0bda0"
+  },
+  {
+    "path": "godot-demo/assets/figma/1c0b659b9b90dda77b69.png.import",
+    "bytes": 977,
+    "sha256": "306568bf57a0d0a7db1f6809c6160a552fba97eda0d9bd0dffb79ee16901e530"
+  },
+  {
+    "path": "godot-demo/assets/figma/1c58b3c078fc92a6f838.svg",
+    "bytes": 654,
+    "sha256": "257e4367bbeff72fb8bc3545d6399441c50ca01c45fa297fba230c941259be50"
+  },
+  {
+    "path": "godot-demo/assets/figma/1c58b3c078fc92a6f838.svg.import",
+    "bytes": 1074,
+    "sha256": "e2c97036771beb97b349c23bda44fd2ff4adfc082dc2a220df538a2fc1acad1e"
+  },
+  {
+    "path": "godot-demo/assets/figma/1d0b5088fdbf1ad671cf.png",
+    "bytes": 1602696,
+    "sha256": "126d3037f9420667d92eccdc615d9d0771621b223ba8ba210fa4318936822cd4"
+  },
+  {
+    "path": "godot-demo/assets/figma/1d0b5088fdbf1ad671cf.png.import",
+    "bytes": 976,
+    "sha256": "411c8bc49136b202d95a598f425ccae85ebecbc29c56b775dc2005d92e417de2"
+  },
+  {
+    "path": "godot-demo/assets/figma/1eb0b21bc7ddf60011dc.svg",
+    "bytes": 2772,
+    "sha256": "aac409065420c86a582b754018a1d8300331864078d0e184df83f78be43d20c3"
+  },
+  {
+    "path": "godot-demo/assets/figma/1eb0b21bc7ddf60011dc.svg.import",
+    "bytes": 1074,
+    "sha256": "25463f73b6c745d928e740eeca5a7edf65619824a7ee78da1f42c38ec2aafad6"
+  },
+  {
+    "path": "godot-demo/assets/figma/1f7dd4a23da588461016.png",
+    "bytes": 1408726,
+    "sha256": "3fc5f06db1c0cdcf46156495d10478c8c79c8c288ba197f513ce927cc627c3e9"
+  },
+  {
+    "path": "godot-demo/assets/figma/1f7dd4a23da588461016.png.import",
+    "bytes": 976,
+    "sha256": "c2887a73e5653f0e6976bcfc99a2680521b0351c348fc8454f30fbc851c976f7"
+  },
+  {
+    "path": "godot-demo/assets/figma/1f975f03df51ef227447.png",
+    "bytes": 1448958,
+    "sha256": "c217f38db461a46b4213c2b21be4e111ac603fa01e842993d0499f6828d36e95"
+  },
+  {
+    "path": "godot-demo/assets/figma/1f975f03df51ef227447.png.import",
+    "bytes": 976,
+    "sha256": "62fcd3435f94a5361dabc0848a7aa3c2ad21a89cb3d9ad7752b686dc177b2506"
+  },
+  {
+    "path": "godot-demo/assets/figma/209d2dcf1776067a335e.svg",
+    "bytes": 606,
+    "sha256": "bb7bfa828d8da32b41ae5c7fcbe33604d99127c49092956a9c8c8139a7110798"
+  },
+  {
+    "path": "godot-demo/assets/figma/209d2dcf1776067a335e.svg.import",
+    "bytes": 1074,
+    "sha256": "137f5fc8fdd9c7a24ddb7c2efb3d03a4de54fd9b1729dac84e51bfc05891f87f"
+  },
+  {
+    "path": "godot-demo/assets/figma/251f8505910bccf0b2db.png",
+    "bytes": 1073794,
+    "sha256": "2c87fde710b99e895fff8d5dcaa7f2330cc9d3fcefd07d759f7686aaf908b443"
+  },
+  {
+    "path": "godot-demo/assets/figma/251f8505910bccf0b2db.png.import",
+    "bytes": 977,
+    "sha256": "002d73e330d351d6e86d716c932b17c76a3ce367b913f43f5ff2e2f09e77abfa"
+  },
+  {
+    "path": "godot-demo/assets/figma/271475dddf6b730fb0b4.png",
+    "bytes": 57573,
+    "sha256": "2c997a4c8bab1772e8ad22eec339c7a1c388bb2509bbac4ed62f49e17cbebf16"
+  },
+  {
+    "path": "godot-demo/assets/figma/271475dddf6b730fb0b4.png.import",
+    "bytes": 977,
+    "sha256": "afcf9421e9812445c77e6b828ba2a59ce20d58e8e8b82cede29bf800e0113d9d"
+  },
+  {
+    "path": "godot-demo/assets/figma/28612ea87ed3f3aa8e17.svg",
+    "bytes": 303,
+    "sha256": "0f3974b404f82e599fbb085359c179c79d5c679962260a6eecf7348593783c9d"
+  },
+  {
+    "path": "godot-demo/assets/figma/28612ea87ed3f3aa8e17.svg.import",
+    "bytes": 1074,
+    "sha256": "679dd7ec6c4640469a6d7e0feebc2929470b9f29b3b581c21e97bac9809bb3a5"
+  },
+  {
+    "path": "godot-demo/assets/figma/2ba21467fefc373a0444.png",
+    "bytes": 35597,
+    "sha256": "b12211b29a1c2ba2b037a3b2f55bd863343ea6b787dc6155e58fe7aa7fc86bc9"
+  },
+  {
+    "path": "godot-demo/assets/figma/2ba21467fefc373a0444.png.import",
+    "bytes": 977,
+    "sha256": "67c2f52a3f714a5fde28e1fe28de78d8dd50b08e7105434486779b4ae9bcf22e"
+  },
+  {
+    "path": "godot-demo/assets/figma/2c72819139e614d3a319.png",
+    "bytes": 613181,
+    "sha256": "7c8c5a07433be355ce7a2ce4205c30bc5d29785363ea695d01e7c4e7268a1b41"
+  },
+  {
+    "path": "godot-demo/assets/figma/2c72819139e614d3a319.png.import",
+    "bytes": 976,
+    "sha256": "69ad57c613ff47322fd740462ee05e2c8d2550733683f3f5c07406dc8162b3bb"
+  },
+  {
+    "path": "godot-demo/assets/figma/2d91ef2a0308eca0764a.png",
+    "bytes": 35597,
+    "sha256": "b12211b29a1c2ba2b037a3b2f55bd863343ea6b787dc6155e58fe7aa7fc86bc9"
+  },
+  {
+    "path": "godot-demo/assets/figma/2d91ef2a0308eca0764a.png.import",
+    "bytes": 976,
+    "sha256": "9b32e2ecf4d175210c849950fb7d219a4d0d3045b981c7e44fff480368741b6c"
+  },
+  {
+    "path": "godot-demo/assets/figma/2e5dacc7bb9a183914ae.png",
+    "bytes": 848755,
+    "sha256": "09382275038d5c0d6748900a5cbf2f1e81fdece063ace4c1d3c8a8a547952b58"
+  },
+  {
+    "path": "godot-demo/assets/figma/2e5dacc7bb9a183914ae.png.import",
+    "bytes": 976,
+    "sha256": "7143eadf441f5cc78119715af95346d9bd9d8c0845955ad0b002a1c433671039"
+  },
+  {
+    "path": "godot-demo/assets/figma/31c86f55fd9b86897606.png",
+    "bytes": 562936,
+    "sha256": "dd72be6693a4aac725b067c91fe3f52f8ca207312c252cfe24442950eb9926aa"
+  },
+  {
+    "path": "godot-demo/assets/figma/31c86f55fd9b86897606.png.import",
+    "bytes": 977,
+    "sha256": "9427d9e0ae025866954508357c85a68b3b05f54b2de2936282d04e935af1c859"
+  },
+  {
+    "path": "godot-demo/assets/figma/31d5f64980827f8b93ac.png",
+    "bytes": 47112,
+    "sha256": "120d83e063559609e0661e77eae8ade51bf126b8c3122039f63b53a610ce93df"
+  },
+  {
+    "path": "godot-demo/assets/figma/31d5f64980827f8b93ac.png.import",
+    "bytes": 977,
+    "sha256": "e900371417c1182d8c4d49af272613b73d9141e1167d354710d72d9928a04c24"
+  },
+  {
+    "path": "godot-demo/assets/figma/34a53ddb600f5eb981f6.svg",
+    "bytes": 606,
+    "sha256": "db647a44827196b05a4ef5d6867d76c4f9ebd792f0037e4a2da97284f0043b43"
+  },
+  {
+    "path": "godot-demo/assets/figma/34a53ddb600f5eb981f6.svg.import",
+    "bytes": 1074,
+    "sha256": "288c11028cc05f1e71703caf89771464392a28bccebf3c6667b0179088a58433"
+  },
+  {
+    "path": "godot-demo/assets/figma/38b14719b5ddd2009122.png",
+    "bytes": 895820,
+    "sha256": "da3b088cff3ee2a5fb51f50a8354720355979116ab0e6fecb276e480331484ad"
+  },
+  {
+    "path": "godot-demo/assets/figma/38b14719b5ddd2009122.png.import",
+    "bytes": 977,
+    "sha256": "6758d92a75419ea6f85a47c3f424269682c0311b35f00f7ba8c00cbf58242a5b"
+  },
+  {
+    "path": "godot-demo/assets/figma/39e95a954ab6fc4e70b7.svg",
+    "bytes": 606,
+    "sha256": "db647a44827196b05a4ef5d6867d76c4f9ebd792f0037e4a2da97284f0043b43"
+  },
+  {
+    "path": "godot-demo/assets/figma/39e95a954ab6fc4e70b7.svg.import",
+    "bytes": 1074,
+    "sha256": "c702b534e023502b631601c23715f350916d76c2d690d58eb8c5cea4f710dcce"
+  },
+  {
+    "path": "godot-demo/assets/figma/3b20f8cf740606f1fb12.svg",
+    "bytes": 1397,
+    "sha256": "d33757538cf7b4cb42a77fbd63ec9d78b8cc00ff421dca530f13f0d3ec69c522"
+  },
+  {
+    "path": "godot-demo/assets/figma/3b20f8cf740606f1fb12.svg.import",
+    "bytes": 1074,
+    "sha256": "039fbb1eb3e6a5c5f5d7551805f3e85d25a63d8c0c7782292d835a95f1572666"
+  },
+  {
+    "path": "godot-demo/assets/figma/3b5eb62ff7d682da4915.png",
+    "bytes": 891753,
+    "sha256": "15ba5c47cbbebe30d9b9d0620880289fcea77f2b73ce8dc6a08b10f009865ffc"
+  },
+  {
+    "path": "godot-demo/assets/figma/3b5eb62ff7d682da4915.png.import",
+    "bytes": 976,
+    "sha256": "204ece935f6bf6f5bdecfe5b08ae78a3e77f0722efb59af216d529dac2fc9807"
+  },
+  {
+    "path": "godot-demo/assets/figma/3cf31a3cb43969b89e39.svg",
+    "bytes": 606,
+    "sha256": "bb7bfa828d8da32b41ae5c7fcbe33604d99127c49092956a9c8c8139a7110798"
+  },
+  {
+    "path": "godot-demo/assets/figma/3cf31a3cb43969b89e39.svg.import",
+    "bytes": 1074,
+    "sha256": "587fdb31fd5dde71665b4a09e7ccd5384c385eb488261ae559c2f35cead3707f"
+  },
+  {
+    "path": "godot-demo/assets/figma/3e9ca9f9d17f389d93cc.svg",
+    "bytes": 1334,
+    "sha256": "32691f9ea52d2edbe81c264c85f5bb164f4668d39d6ad4e2d80300fb76b8a97d"
+  },
+  {
+    "path": "godot-demo/assets/figma/3e9ca9f9d17f389d93cc.svg.import",
+    "bytes": 1073,
+    "sha256": "b1f36a9ca9d1bb5ab900a19f12ac4bdbdecc30778dea2aaf011c3a37a6f6b0b8"
+  },
+  {
+    "path": "godot-demo/assets/figma/41d4a9c3b6c53fcbe716.png",
+    "bytes": 552171,
+    "sha256": "7766c9ca653ae0de1bf7a0cb660addc281aee912c7f724b70376b9405dcd049b"
+  },
+  {
+    "path": "godot-demo/assets/figma/41d4a9c3b6c53fcbe716.png.import",
+    "bytes": 977,
+    "sha256": "ca6c857570d73859a7c214663a35ee8a2125fa77c0d5e16fae6c73b22bf991b1"
+  },
+  {
+    "path": "godot-demo/assets/figma/421e62b6054a35f23981.svg",
+    "bytes": 568,
+    "sha256": "5f2e1eca5fcca15822ea98482607d57f5e8be41ae6e16b5e2f10f4b84aad62fb"
+  },
+  {
+    "path": "godot-demo/assets/figma/421e62b6054a35f23981.svg.import",
+    "bytes": 1073,
+    "sha256": "d9b716e7f176646df75def5114b26243411e4e4bf29a56e6ceb1e8eaed6b1ed0"
+  },
+  {
+    "path": "godot-demo/assets/figma/43e813f1f43d837465eb.png",
+    "bytes": 790978,
+    "sha256": "8ad11ac1836bbc8a2ec3e29c754eed96b1c075ad6263be2bb2241fdcc980455a"
+  },
+  {
+    "path": "godot-demo/assets/figma/43e813f1f43d837465eb.png.import",
+    "bytes": 977,
+    "sha256": "454bb868bc80974b15201a7e8f767e3504b1b009b3d30060bd9a2ff329e91c2b"
+  },
+  {
+    "path": "godot-demo/assets/figma/44240a5c8e29cb266bf8.svg",
+    "bytes": 647,
+    "sha256": "c61780a23d6d09aac781c73574ddd88916bdbcc4b738ab41787c4f3e80979b97"
+  },
+  {
+    "path": "godot-demo/assets/figma/44240a5c8e29cb266bf8.svg.import",
+    "bytes": 1074,
+    "sha256": "f9d4a05a7113e0f2523b3cc6e659176872543a664af5c19da8db559783387d54"
+  },
+  {
+    "path": "godot-demo/assets/figma/45cdd7c71210a10bb785.png",
+    "bytes": 35597,
+    "sha256": "b12211b29a1c2ba2b037a3b2f55bd863343ea6b787dc6155e58fe7aa7fc86bc9"
+  },
+  {
+    "path": "godot-demo/assets/figma/45cdd7c71210a10bb785.png.import",
+    "bytes": 977,
+    "sha256": "f25b70418b1695374c838c17ca64d14519124f915e23763f86aaed6d9caf0a5e"
+  },
+  {
+    "path": "godot-demo/assets/figma/481dd5c5dd4230f1258a.svg",
+    "bytes": 1020,
+    "sha256": "b1957b280f86239461efff80360b875fc7463efbcebfe3c40c167626b4c76fa2"
+  },
+  {
+    "path": "godot-demo/assets/figma/481dd5c5dd4230f1258a.svg.import",
+    "bytes": 1074,
+    "sha256": "70ae4c81107fb0f00f551ae3bf620ac8264d15226ff14970e3ab7008c46b45e3"
+  },
+  {
+    "path": "godot-demo/assets/figma/4918a112b751ebcd1176.svg",
+    "bytes": 568,
+    "sha256": "fcc32d324c2e683a45e3c7ca08f1cd0da01365430f7b6a3a9847cd7f3b86ae39"
+  },
+  {
+    "path": "godot-demo/assets/figma/4918a112b751ebcd1176.svg.import",
+    "bytes": 1074,
+    "sha256": "9cb8c7ea27f7fcd443af9b855cd0c61e54c2ce47bec3aef88f1a17ede8d99445"
+  },
+  {
+    "path": "godot-demo/assets/figma/49aefdd75ee246146409.png",
+    "bytes": 759151,
+    "sha256": "26f7c01e9e81697fc8463209e21749d3a8d3a37744145df2a08d6cfa3f6afafb"
+  },
+  {
+    "path": "godot-demo/assets/figma/49aefdd75ee246146409.png.import",
+    "bytes": 977,
+    "sha256": "c7923d3c897152158c0367dba88b6ad57ff2c4d44e62d4d59275f96501c128e5"
+  },
+  {
+    "path": "godot-demo/assets/figma/4a42246da4991547551c.png",
+    "bytes": 907385,
+    "sha256": "bb116c997e5071fd265392213d9d0a7a748431887daea8f6146e5f78a22b09ec"
+  },
+  {
+    "path": "godot-demo/assets/figma/4a42246da4991547551c.png.import",
+    "bytes": 976,
+    "sha256": "43dde6bb8f51772d574203253b436648e44186599d6fe6d806979a68d41584e3"
+  },
+  {
+    "path": "godot-demo/assets/figma/4b9bfc404535565665b7.png",
+    "bytes": 848755,
+    "sha256": "09382275038d5c0d6748900a5cbf2f1e81fdece063ace4c1d3c8a8a547952b58"
+  },
+  {
+    "path": "godot-demo/assets/figma/4b9bfc404535565665b7.png.import",
+    "bytes": 977,
+    "sha256": "050ee2606f79398bfa43f54bd9e375e7fc24482648d19f37569e115e8c651f5f"
+  },
+  {
+    "path": "godot-demo/assets/figma/4ce6eb101e9733b8326b.svg",
+    "bytes": 771,
+    "sha256": "8859e2cb35b47187a603b7884ea940328c293533e5b04f2451e0e863bffb094e"
+  },
+  {
+    "path": "godot-demo/assets/figma/4ce6eb101e9733b8326b.svg.import",
+    "bytes": 1074,
+    "sha256": "becdefe53129ca7aa5370afb96f4404232028383e7ecba1d715afcc60ff85544"
+  },
+  {
+    "path": "godot-demo/assets/figma/4f8538ba03378e4d8e4c.svg",
+    "bytes": 606,
+    "sha256": "bb7bfa828d8da32b41ae5c7fcbe33604d99127c49092956a9c8c8139a7110798"
+  },
+  {
+    "path": "godot-demo/assets/figma/4f8538ba03378e4d8e4c.svg.import",
+    "bytes": 1074,
+    "sha256": "40a1bc15353c62fec0c8f38c6d6119ba858b40c7836a5e816322a7885df4ba21"
+  },
+  {
+    "path": "godot-demo/assets/figma/50d6b8af6371e52f38d7.png",
+    "bytes": 752718,
+    "sha256": "bcb3cda6ba35c9de30ed28a384cbe35d74f3b04723a0500a20566e65418f1ffb"
+  },
+  {
+    "path": "godot-demo/assets/figma/50d6b8af6371e52f38d7.png.import",
+    "bytes": 976,
+    "sha256": "65ded81fcfbec6582efbc6ed4c9b396d28bc8c79a4fb03d60359623ce9eb5b58"
+  },
+  {
+    "path": "godot-demo/assets/figma/5210bd3e4e9caa3aa60e.png",
+    "bytes": 759151,
+    "sha256": "26f7c01e9e81697fc8463209e21749d3a8d3a37744145df2a08d6cfa3f6afafb"
+  },
+  {
+    "path": "godot-demo/assets/figma/5210bd3e4e9caa3aa60e.png.import",
+    "bytes": 977,
+    "sha256": "153fcfee1144df44c5307d56ebd2e51395313ce9457dc407a2e6ec28fdff81ff"
+  },
+  {
+    "path": "godot-demo/assets/figma/52156127bc62802b0825.svg",
+    "bytes": 914,
+    "sha256": "05e00eaaa76f50cd6f7dca96dc0142c722e79a618c700d8411e5a6c237dc5239"
+  },
+  {
+    "path": "godot-demo/assets/figma/52156127bc62802b0825.svg.import",
+    "bytes": 1074,
+    "sha256": "05783cdada7ab9f8607810fd71a4d5f8caf0a37cddd86ae74d069ca898b3905a"
+  },
+  {
+    "path": "godot-demo/assets/figma/5235694245e04290d007.png",
+    "bytes": 1057415,
+    "sha256": "d3d76cfd740cc00dbf26ecb6ade74c8bc2266ad0ae4fd27dc60efe66b7def9d1"
+  },
+  {
+    "path": "godot-demo/assets/figma/5235694245e04290d007.png.import",
+    "bytes": 976,
+    "sha256": "71f629080955f8613e68e30ff58682937174e5979d3a03303601b035798ed9da"
+  },
+  {
+    "path": "godot-demo/assets/figma/5654df1a0d317324834a.png",
+    "bytes": 47112,
+    "sha256": "120d83e063559609e0661e77eae8ade51bf126b8c3122039f63b53a610ce93df"
+  },
+  {
+    "path": "godot-demo/assets/figma/5654df1a0d317324834a.png.import",
+    "bytes": 977,
+    "sha256": "61d7e7961ac61d08715cfb13fde521a7135a45c9cd410b43df453f91299cf0b3"
+  },
+  {
+    "path": "godot-demo/assets/figma/5747609b96e6e0e3e9c6.png",
+    "bytes": 790978,
+    "sha256": "8ad11ac1836bbc8a2ec3e29c754eed96b1c075ad6263be2bb2241fdcc980455a"
+  },
+  {
+    "path": "godot-demo/assets/figma/5747609b96e6e0e3e9c6.png.import",
+    "bytes": 977,
+    "sha256": "1d4fd9725a195af4232d3825a19b896c7f75aca38a6975d0bdfffaa360d63836"
+  },
+  {
+    "path": "godot-demo/assets/figma/5883a903c162b5380782.png",
+    "bytes": 341317,
+    "sha256": "f1a87ec3a5271de223ec9358cd4dcffabe27dfd640ffcad6ddd162f2d20a37c4"
+  },
+  {
+    "path": "godot-demo/assets/figma/5883a903c162b5380782.png.import",
+    "bytes": 977,
+    "sha256": "4d74ca845b2f9a15c54d6821359959fa48479016c0444518ed116d7f8f346f86"
+  },
+  {
+    "path": "godot-demo/assets/figma/59efa1e907ce2eed0d5b.png",
+    "bytes": 1513906,
+    "sha256": "6e827fc1da18550920f547dbd68d37fa3821f53d0cb161003b14f36dcc39bb68"
+  },
+  {
+    "path": "godot-demo/assets/figma/59efa1e907ce2eed0d5b.png.import",
+    "bytes": 977,
+    "sha256": "d827c344ea89469a2874461301b340f6e432cda9fcedb626396244889aafaf01"
+  },
+  {
+    "path": "godot-demo/assets/figma/5b0428c7ffb8adf023e7.png",
+    "bytes": 759151,
+    "sha256": "26f7c01e9e81697fc8463209e21749d3a8d3a37744145df2a08d6cfa3f6afafb"
+  },
+  {
+    "path": "godot-demo/assets/figma/5b0428c7ffb8adf023e7.png.import",
+    "bytes": 977,
+    "sha256": "fd088f367e0d60f6167301bfab98a73698549c384ee1d7a23bf4ffad886ecd30"
+  },
+  {
+    "path": "godot-demo/assets/figma/5c0ad3b62c7cdd82b8df.png",
+    "bytes": 552171,
+    "sha256": "7766c9ca653ae0de1bf7a0cb660addc281aee912c7f724b70376b9405dcd049b"
+  },
+  {
+    "path": "godot-demo/assets/figma/5c0ad3b62c7cdd82b8df.png.import",
+    "bytes": 977,
+    "sha256": "b6cb7ad3a39ae8152e2d9f56cf814e1e1a263c7a9dd2f3e3977c68839ebc0e75"
+  },
+  {
+    "path": "godot-demo/assets/figma/5ee5944b2e3d2df4d2c9.png",
+    "bytes": 613181,
+    "sha256": "7c8c5a07433be355ce7a2ce4205c30bc5d29785363ea695d01e7c4e7268a1b41"
+  },
+  {
+    "path": "godot-demo/assets/figma/5ee5944b2e3d2df4d2c9.png.import",
+    "bytes": 977,
+    "sha256": "01e731d2fa2f98cd65606d94863ec3d11eb70b1f026586807e20aeab85337b59"
+  },
+  {
+    "path": "godot-demo/assets/figma/6195bc2cb7344ec85d8f.png",
+    "bytes": 857921,
+    "sha256": "0ff5239340a1220971f7b366260745ba06d6d9321746f4dd6986823c6ded71c6"
+  },
+  {
+    "path": "godot-demo/assets/figma/6195bc2cb7344ec85d8f.png.import",
+    "bytes": 976,
+    "sha256": "42f3dc139c6c7641b8c1169bacfe23bbf0ee44f2319c34322f2355b1dd103096"
+  },
+  {
+    "path": "godot-demo/assets/figma/62358ca0dd0d0aec54ff.svg",
+    "bytes": 491,
+    "sha256": "42b38c423ef766fa9dc43a7cf8d689ce8554fa791f52f5c9ee20bcbfa8ddab4a"
+  },
+  {
+    "path": "godot-demo/assets/figma/62358ca0dd0d0aec54ff.svg.import",
+    "bytes": 1074,
+    "sha256": "81e9a6a0a45b95f76d0d19354c7c638b105f407a3b28f345faaae4d53228ee83"
+  },
+  {
+    "path": "godot-demo/assets/figma/63cafa662fe51021145f.png",
+    "bytes": 749340,
+    "sha256": "a2d0b8dfbc02cc06b8f2c7d445fa9237ed4aed428290a5a4195ca1d9a0734ff9"
+  },
+  {
+    "path": "godot-demo/assets/figma/63cafa662fe51021145f.png.import",
+    "bytes": 976,
+    "sha256": "2e203c451bc88b7699fde1a751a84078548c3bcdd67c5dc2de085320ee6e16d4"
+  },
+  {
+    "path": "godot-demo/assets/figma/65e55b818e558cf6e18e.png",
+    "bytes": 1399823,
+    "sha256": "7d0ee99ed76c8a0abe11f66e854f3f907b18130fdff3630b0ee0d2401b169695"
+  },
+  {
+    "path": "godot-demo/assets/figma/65e55b818e558cf6e18e.png.import",
+    "bytes": 976,
+    "sha256": "4327958a2e37781f1c5a6a13deff52f3ca26522a8a2cc5863f7732a91531f69e"
+  },
+  {
+    "path": "godot-demo/assets/figma/66f3ef40c7de980312af.svg",
+    "bytes": 1020,
+    "sha256": "153419ca4a05ad7cf56a92addeb0109173d3ad2ecf6ea3d5235d4b68242e6550"
+  },
+  {
+    "path": "godot-demo/assets/figma/66f3ef40c7de980312af.svg.import",
+    "bytes": 1074,
+    "sha256": "a755992507cfe0e02109df8c55275eb0c7a7904e07187fa62d9a6e9e092b5f7f"
+  },
+  {
+    "path": "godot-demo/assets/figma/67a0a2e1170fab00fcc3.svg",
+    "bytes": 960,
+    "sha256": "73200b87accc2e3f2c1155ff98be86520ab0a0d299e47371d493a39c79e6d9b1"
+  },
+  {
+    "path": "godot-demo/assets/figma/67a0a2e1170fab00fcc3.svg.import",
+    "bytes": 1074,
+    "sha256": "236eca504e1e56543c54fca3f745cd0777f5e9b3e9f1f73a39add87adc971a71"
+  },
+  {
+    "path": "godot-demo/assets/figma/698af6ab7aa77cd11bbe.png",
+    "bytes": 1070586,
+    "sha256": "07b5185fe8c5d0edcde2335df57e29520d4e4a87157453c024dcf5f9336606f8"
+  },
+  {
+    "path": "godot-demo/assets/figma/698af6ab7aa77cd11bbe.png.import",
+    "bytes": 977,
+    "sha256": "2ade6f38f42514593bc5e4653174834052cf54a3dd75fe0e9f258d747261edf1"
+  },
+  {
+    "path": "godot-demo/assets/figma/69e507cf359765dff5e6.png",
+    "bytes": 973186,
+    "sha256": "b54e08b81256a349f590be0cf8fd3bd335fa6a634e31163eb04f4a437ac7b0e1"
+  },
+  {
+    "path": "godot-demo/assets/figma/69e507cf359765dff5e6.png.import",
+    "bytes": 977,
+    "sha256": "dd2e0be09054c9fadf696a117489581d31e984a8e020af029d4c2d83d2bbf6e3"
+  },
+  {
+    "path": "godot-demo/assets/figma/6a0daa7d40fc9a0cb079.png",
+    "bytes": 29970,
+    "sha256": "6bfc6512baa2d02c2df16af7d3e079f4b9901932ac7d8b9f0259ac0add639643"
+  },
+  {
+    "path": "godot-demo/assets/figma/6a0daa7d40fc9a0cb079.png.import",
+    "bytes": 977,
+    "sha256": "8ce9d1c2cd8b78b3cfd0afb278f25e1794710879048e848f2ae75709212518cd"
+  },
+  {
+    "path": "godot-demo/assets/figma/6c0ecfcd0730bc3fad2f.png",
+    "bytes": 759151,
+    "sha256": "26f7c01e9e81697fc8463209e21749d3a8d3a37744145df2a08d6cfa3f6afafb"
+  },
+  {
+    "path": "godot-demo/assets/figma/6c0ecfcd0730bc3fad2f.png.import",
+    "bytes": 977,
+    "sha256": "2b875bc36f3be52fab634e3a20c27f8c0ed50955069011a6fdaf13061e81e043"
+  },
+  {
+    "path": "godot-demo/assets/figma/6c1911ccf4cfec4cdc79.svg",
+    "bytes": 914,
+    "sha256": "05e00eaaa76f50cd6f7dca96dc0142c722e79a618c700d8411e5a6c237dc5239"
+  },
+  {
+    "path": "godot-demo/assets/figma/6c1911ccf4cfec4cdc79.svg.import",
+    "bytes": 1074,
+    "sha256": "07e2e4345c12e91b143635412c0694fff0ca07dc23c0db96ed37274619eebaec"
+  },
+  {
+    "path": "godot-demo/assets/figma/6e4aee20a0c278e5e490.png",
+    "bytes": 1074336,
+    "sha256": "39a3543961a9f86caf8b737162478f038f8c71af1ee144ebd56551a9199afe3e"
+  },
+  {
+    "path": "godot-demo/assets/figma/6e4aee20a0c278e5e490.png.import",
+    "bytes": 977,
+    "sha256": "4d6195b87a606ae71e608e1d13b07f184d6f6309d755de07b47e5f7a0122de6d"
+  },
+  {
+    "path": "godot-demo/assets/figma/6f54b81d47002eb3edb8.svg",
+    "bytes": 771,
+    "sha256": "0d308c4578193402c82ae643c4ffa997e1a488e144cb6e71cda374a15a329d58"
+  },
+  {
+    "path": "godot-demo/assets/figma/6f54b81d47002eb3edb8.svg.import",
+    "bytes": 1074,
+    "sha256": "917c349d70800c8f0407e8cddb0ea258a3ee5c120741b847449c51b09148ca38"
+  },
+  {
+    "path": "godot-demo/assets/figma/6fdba8a51d4ad0343d40.png",
+    "bytes": 669085,
+    "sha256": "e0cc278e86014d459a4ce7c4f4014520a161ac4387e5b31f0d03266a25a3f99d"
+  },
+  {
+    "path": "godot-demo/assets/figma/6fdba8a51d4ad0343d40.png.import",
+    "bytes": 976,
+    "sha256": "c716401d685626866c8e08965488194ba84a2f343b7456daf487e68607c6ea6d"
+  },
+  {
+    "path": "godot-demo/assets/figma/7158c9354dd093477f46.png",
+    "bytes": 29892,
+    "sha256": "b8dde53b1ccc5ecdcad2f4f899e357b6c39cb9a223a5bab1fd1e0c06ee7b7df0"
+  },
+  {
+    "path": "godot-demo/assets/figma/7158c9354dd093477f46.png.import",
+    "bytes": 977,
+    "sha256": "71c23a3a96b9865ec5777535b158951bc3d7e955aaaddd1227cbeac81c25ad46"
+  },
+  {
+    "path": "godot-demo/assets/figma/72ac9ffc846423dda550.png",
+    "bytes": 750178,
+    "sha256": "343ac671a959dae11b2e4b0f79cc34976f1663084c50a347635590fe1f28c0fd"
+  },
+  {
+    "path": "godot-demo/assets/figma/72ac9ffc846423dda550.png.import",
+    "bytes": 977,
+    "sha256": "f5a8690791c3ca7b64deb60c2a08a3ed89c0120852c5087693bdb2e8ed9a6b31"
+  },
+  {
+    "path": "godot-demo/assets/figma/76693364daf9fa5b0269.png",
+    "bytes": 330760,
+    "sha256": "b4c479071c0491a1ed32ad56c85356bef465bae46ffaaeba029eedc559f559b6"
+  },
+  {
+    "path": "godot-demo/assets/figma/76693364daf9fa5b0269.png.import",
+    "bytes": 976,
+    "sha256": "2fd9d4bb8f5d3422b565aa61ee29b782ed070b88e3f92e84ca60fe072e7a337d"
+  },
+  {
+    "path": "godot-demo/assets/figma/7c58acdd1bce7f4186fd.png",
+    "bytes": 773085,
+    "sha256": "9bc2961b0fe4b721257f591aafcab01efb6e9753cc8ec375489416cc0b790fa5"
+  },
+  {
+    "path": "godot-demo/assets/figma/7c58acdd1bce7f4186fd.png.import",
+    "bytes": 977,
+    "sha256": "d80b97071fa6a09d526522114f553ab64be5995247aa1a57adcd2113e57d3b77"
+  },
+  {
+    "path": "godot-demo/assets/figma/7e76301ed19d5264ec88.png",
+    "bytes": 613181,
+    "sha256": "7c8c5a07433be355ce7a2ce4205c30bc5d29785363ea695d01e7c4e7268a1b41"
+  },
+  {
+    "path": "godot-demo/assets/figma/7e76301ed19d5264ec88.png.import",
+    "bytes": 977,
+    "sha256": "250af0769a5304e15ccc38b54fac55422ad50c593ac0e063744c76476a531b64"
+  },
+  {
+    "path": "godot-demo/assets/figma/7f9b66476b2c59d9b9cb.svg",
+    "bytes": 643,
+    "sha256": "e1e5e52f899f4623f406287286e5bd0d61efa0427107db149cda6fc51124e247"
+  },
+  {
+    "path": "godot-demo/assets/figma/7f9b66476b2c59d9b9cb.svg.import",
+    "bytes": 1073,
+    "sha256": "0d93ddfae04339a3bafadf7529a9198e3809d84899be7eb36dec3ef26c31ef41"
+  },
+  {
+    "path": "godot-demo/assets/figma/8257e775056010986eaa.png",
+    "bytes": 1044725,
+    "sha256": "478c2b8abfb13375859bbef76f2fc18f0265d34ad0a6fc4d70ef1cce038aef95"
+  },
+  {
+    "path": "godot-demo/assets/figma/8257e775056010986eaa.png.import",
+    "bytes": 977,
+    "sha256": "f88f9070fe162b91ccc31c66502405f7e609edfb32e04f9ae2882e6330ad18fb"
+  },
+  {
+    "path": "godot-demo/assets/figma/83b97eae5c0bd098d766.png",
+    "bytes": 47112,
+    "sha256": "120d83e063559609e0661e77eae8ade51bf126b8c3122039f63b53a610ce93df"
+  },
+  {
+    "path": "godot-demo/assets/figma/83b97eae5c0bd098d766.png.import",
+    "bytes": 977,
+    "sha256": "0c72f1e06ba58c86e1bd3d7d7c3926d7119653965b86245dcdb9aabf1fca8aa5"
+  },
+  {
+    "path": "godot-demo/assets/figma/8642924040c5b07af1ac.svg",
+    "bytes": 673,
+    "sha256": "bb30de9ca98824d69dbf3559995c6755ae4517137fccad4a1a83a58c1aeff877"
+  },
+  {
+    "path": "godot-demo/assets/figma/8642924040c5b07af1ac.svg.import",
+    "bytes": 1073,
+    "sha256": "86b7ba3c3267a5208695e20dbac7e15f9351e6397e78cd75175959777fd1ca40"
+  },
+  {
+    "path": "godot-demo/assets/figma/86602eb168e461cf7c34.png",
+    "bytes": 35597,
+    "sha256": "b12211b29a1c2ba2b037a3b2f55bd863343ea6b787dc6155e58fe7aa7fc86bc9"
+  },
+  {
+    "path": "godot-demo/assets/figma/86602eb168e461cf7c34.png.import",
+    "bytes": 977,
+    "sha256": "2e606c96482cf5b44519d7adf77bf884c8583767d95eb2d6b0f6a765502e37bc"
+  },
+  {
+    "path": "godot-demo/assets/figma/86b258f97cdea9cf81d7.png",
+    "bytes": 819946,
+    "sha256": "f1558aa9e41527b110533201e0620ee73f9f0331e866010297c9df0fff676ea2"
+  },
+  {
+    "path": "godot-demo/assets/figma/86b258f97cdea9cf81d7.png.import",
+    "bytes": 977,
+    "sha256": "240915698f1ae4335cb0ccf9808e6d955f20477bd94f5d722d06b0c76e5bd001"
+  },
+  {
+    "path": "godot-demo/assets/figma/8874978569b86e33dd03.svg",
+    "bytes": 914,
+    "sha256": "05e00eaaa76f50cd6f7dca96dc0142c722e79a618c700d8411e5a6c237dc5239"
+  },
+  {
+    "path": "godot-demo/assets/figma/8874978569b86e33dd03.svg.import",
+    "bytes": 1073,
+    "sha256": "9b302a64cf5416c3b123c361ce42dcf0aa6897dbae84af901f00e702dd3195ed"
+  },
+  {
+    "path": "godot-demo/assets/figma/887c7f7c7bd62d906141.svg",
+    "bytes": 914,
+    "sha256": "05e00eaaa76f50cd6f7dca96dc0142c722e79a618c700d8411e5a6c237dc5239"
+  },
+  {
+    "path": "godot-demo/assets/figma/887c7f7c7bd62d906141.svg.import",
+    "bytes": 1072,
+    "sha256": "f2d10a896b0eb412d242a1d3983201894b1d99a8243ee6fcf94c093e7c839976"
+  },
+  {
+    "path": "godot-demo/assets/figma/8be55b9c44ae1222eb33.svg",
+    "bytes": 1160,
+    "sha256": "869a669279970189e332fb5d9cba90fa793ab73775cfe699641932b594e69c50"
+  },
+  {
+    "path": "godot-demo/assets/figma/8be55b9c44ae1222eb33.svg.import",
+    "bytes": 1073,
+    "sha256": "877256ba02a68ab0a95a8598a8c115d3bd324a9771f159246d1db9b4fe75be87"
+  },
+  {
+    "path": "godot-demo/assets/figma/902d5ff7fef979759a65.png",
+    "bytes": 613181,
+    "sha256": "7c8c5a07433be355ce7a2ce4205c30bc5d29785363ea695d01e7c4e7268a1b41"
+  },
+  {
+    "path": "godot-demo/assets/figma/902d5ff7fef979759a65.png.import",
+    "bytes": 977,
+    "sha256": "6b0af149ee14b0bbe605200faa0c28c192c0100d387ea7ac840c0428e9d5b448"
+  },
+  {
+    "path": "godot-demo/assets/figma/90b9b78335855dd7a7cc.png",
+    "bytes": 1376154,
+    "sha256": "f1d25fc193eadfc850e4a8cccd59e3557514e6da3651eed88ed8fb3c820363e3"
+  },
+  {
+    "path": "godot-demo/assets/figma/90b9b78335855dd7a7cc.png.import",
+    "bytes": 977,
+    "sha256": "0b7a5c7b902adaeb50ff308a05410459e5c28b6a95520b51343c4cbf2e94087c"
+  },
+  {
+    "path": "godot-demo/assets/figma/94037bec7e888e7647c3.png",
+    "bytes": 47112,
+    "sha256": "120d83e063559609e0661e77eae8ade51bf126b8c3122039f63b53a610ce93df"
+  },
+  {
+    "path": "godot-demo/assets/figma/94037bec7e888e7647c3.png.import",
+    "bytes": 976,
+    "sha256": "9d1c799aa76fc4b34c002c3a6a5c29d1ff129709e57d3136292ecf8f7a63a655"
+  },
+  {
+    "path": "godot-demo/assets/figma/9407690f6e8cf87b308e.png",
+    "bytes": 857921,
+    "sha256": "0ff5239340a1220971f7b366260745ba06d6d9321746f4dd6986823c6ded71c6"
+  },
+  {
+    "path": "godot-demo/assets/figma/9407690f6e8cf87b308e.png.import",
+    "bytes": 977,
+    "sha256": "286da94e0f871b478daefbb8566c79d23bd357b53146de74a2d33e929a4eea80"
+  },
+  {
+    "path": "godot-demo/assets/figma/940fdec930f6a0387a00.png",
+    "bytes": 47112,
+    "sha256": "120d83e063559609e0661e77eae8ade51bf126b8c3122039f63b53a610ce93df"
+  },
+  {
+    "path": "godot-demo/assets/figma/940fdec930f6a0387a00.png.import",
+    "bytes": 977,
+    "sha256": "07aeaff3c5d8b4f21ff7bf2612055ce52ae22816f5b440cd40d9eef9ef123c87"
+  },
+  {
+    "path": "godot-demo/assets/figma/94a61fbaa0bc324e0697.png",
+    "bytes": 69143,
+    "sha256": "4deda6c6e5bb01cc323ee7850a043d120b31a168b269567e42498cbe23d6e128"
+  },
+  {
+    "path": "godot-demo/assets/figma/94a61fbaa0bc324e0697.png.import",
+    "bytes": 977,
+    "sha256": "fd5423305fa7228e13e29b8b6a212df8b23a83ac74f15f40492b1f1219f078e6"
+  },
+  {
+    "path": "godot-demo/assets/figma/955bbd66b7ffd2937ddb.png",
+    "bytes": 1070586,
+    "sha256": "07b5185fe8c5d0edcde2335df57e29520d4e4a87157453c024dcf5f9336606f8"
+  },
+  {
+    "path": "godot-demo/assets/figma/955bbd66b7ffd2937ddb.png.import",
+    "bytes": 977,
+    "sha256": "0dbc7fea4a7f21e65b051099fcdd054240e4e6d5c30ce09c7c73f10683658b03"
+  },
+  {
+    "path": "godot-demo/assets/figma/9594dd4293684b03c8bd.png",
+    "bytes": 1062449,
+    "sha256": "bbfe085ec8ec71f5fff2512097ab467e97ca66b8abadb41734df0e7d0da9048c"
+  },
+  {
+    "path": "godot-demo/assets/figma/9594dd4293684b03c8bd.png.import",
+    "bytes": 977,
+    "sha256": "2ce062eabdeccfe689b54ca3817264bb4ac52d8c01cd7582045250d448eec119"
+  },
+  {
+    "path": "godot-demo/assets/figma/98352e59ac6b0235bd77.png",
+    "bytes": 47112,
+    "sha256": "120d83e063559609e0661e77eae8ade51bf126b8c3122039f63b53a610ce93df"
+  },
+  {
+    "path": "godot-demo/assets/figma/98352e59ac6b0235bd77.png.import",
+    "bytes": 977,
+    "sha256": "b59575378a0fb8c5755cf5387c98cfdef62139704da340b79e702c796846b244"
+  },
+  {
+    "path": "godot-demo/assets/figma/99432062c28dd231a60d.svg",
+    "bytes": 334,
+    "sha256": "9bea03874ba8e1bdd36311dbf7ebf78bdb485c13415b0ee5049b7cf4b281eef5"
+  },
+  {
+    "path": "godot-demo/assets/figma/99432062c28dd231a60d.svg.import",
+    "bytes": 1074,
+    "sha256": "28b3fca8c86af65cae128f873ebce17e5fc77bb029256122e813a17f16936d24"
+  },
+  {
+    "path": "godot-demo/assets/figma/9b1047808659a694904d.png",
+    "bytes": 613181,
+    "sha256": "7c8c5a07433be355ce7a2ce4205c30bc5d29785363ea695d01e7c4e7268a1b41"
+  },
+  {
+    "path": "godot-demo/assets/figma/9b1047808659a694904d.png.import",
+    "bytes": 976,
+    "sha256": "41d246bda1d359466985425762e979b736433dcd286387997e44fa91a5e97783"
+  },
+  {
+    "path": "godot-demo/assets/figma/a02eb807e9efc9738e80.png",
+    "bytes": 657162,
+    "sha256": "37ce0dbb5f95b0e370459385b1485c66b657602dc379223635c96d8349888f85"
+  },
+  {
+    "path": "godot-demo/assets/figma/a02eb807e9efc9738e80.png.import",
+    "bytes": 977,
+    "sha256": "0e3676a9ee27b8b56d1a44360efd909706e401066c8ae4303876166832e2b6ba"
+  },
+  {
+    "path": "godot-demo/assets/figma/a047685f95daaaa284a6.png",
+    "bytes": 1070586,
+    "sha256": "07b5185fe8c5d0edcde2335df57e29520d4e4a87157453c024dcf5f9336606f8"
+  },
+  {
+    "path": "godot-demo/assets/figma/a047685f95daaaa284a6.png.import",
+    "bytes": 977,
+    "sha256": "2c303f2ad0bef2904429a883045dac48107e1ae94c93fc28fe27e0d399ddf903"
+  },
+  {
+    "path": "godot-demo/assets/figma/a2de7877700470cc600f.png",
+    "bytes": 581859,
+    "sha256": "f35ac6f7e4b73bff9d02c749123f279ae15cdafb3c9d82aac56bf62640e78fda"
+  },
+  {
+    "path": "godot-demo/assets/figma/a2de7877700470cc600f.png.import",
+    "bytes": 976,
+    "sha256": "6886ba475c44904b0a92c7fdb6431c3fef6a42639772dbe8dbb42640339c224b"
+  },
+  {
+    "path": "godot-demo/assets/figma/a49e6d76d08052c7ece3.png",
+    "bytes": 907385,
+    "sha256": "bb116c997e5071fd265392213d9d0a7a748431887daea8f6146e5f78a22b09ec"
+  },
+  {
+    "path": "godot-demo/assets/figma/a49e6d76d08052c7ece3.png.import",
+    "bytes": 977,
+    "sha256": "26860cfd5bcdf9969259c2ae45e9af4ba7cc8fc73288a1a4ee079215cb19b0b8"
+  },
+  {
+    "path": "godot-demo/assets/figma/a5dc2fe5e2d76663b21c.png",
+    "bytes": 47112,
+    "sha256": "120d83e063559609e0661e77eae8ade51bf126b8c3122039f63b53a610ce93df"
+  },
+  {
+    "path": "godot-demo/assets/figma/a5dc2fe5e2d76663b21c.png.import",
+    "bytes": 977,
+    "sha256": "34a473f4708426fde3b2f47390419118c6798255c510401464a1d2a0689da5d7"
+  },
+  {
+    "path": "godot-demo/assets/figma/a7f8c2e98248b33b85fc.png",
+    "bytes": 1044725,
+    "sha256": "478c2b8abfb13375859bbef76f2fc18f0265d34ad0a6fc4d70ef1cce038aef95"
+  },
+  {
+    "path": "godot-demo/assets/figma/a7f8c2e98248b33b85fc.png.import",
+    "bytes": 977,
+    "sha256": "e0861df557dbfd6691fdc28d48ff645c3e6b0f8863af98bec927d5b7f09444aa"
+  },
+  {
+    "path": "godot-demo/assets/figma/a859d482f38a738d69f1.png",
+    "bytes": 1067760,
+    "sha256": "4d25313649f146555985db87eec66033a33a8824fd1b8216f24915d5111d11c8"
+  },
+  {
+    "path": "godot-demo/assets/figma/a859d482f38a738d69f1.png.import",
+    "bytes": 975,
+    "sha256": "8e9430f55f9e97894cb2005734045ab3ad1a8b9e844a6781f425a86977279400"
+  },
+  {
+    "path": "godot-demo/assets/figma/ab7fd33503999e0df0bb.svg",
+    "bytes": 654,
+    "sha256": "b3381386be14c2b7a434266352a0b8f239c5ab704bbc080e3c129ac6bcef8cf3"
+  },
+  {
+    "path": "godot-demo/assets/figma/ab7fd33503999e0df0bb.svg.import",
+    "bytes": 1074,
+    "sha256": "92ecb31a6caa3304da885a7ac68e9508b76171286da923bd48120bf97e1b726f"
+  },
+  {
+    "path": "godot-demo/assets/figma/af58e1f0a5a7d7e45882.svg",
+    "bytes": 1020,
+    "sha256": "b1957b280f86239461efff80360b875fc7463efbcebfe3c40c167626b4c76fa2"
+  },
+  {
+    "path": "godot-demo/assets/figma/af58e1f0a5a7d7e45882.svg.import",
+    "bytes": 1074,
+    "sha256": "f8666a4553ba6864262727af068298bf9f4718ab2070793edbe85bf21ae90ae0"
+  },
+  {
+    "path": "godot-demo/assets/figma/b0a8bc727a6b8a90fb48.png",
+    "bytes": 1057415,
+    "sha256": "d3d76cfd740cc00dbf26ecb6ade74c8bc2266ad0ae4fd27dc60efe66b7def9d1"
+  },
+  {
+    "path": "godot-demo/assets/figma/b0a8bc727a6b8a90fb48.png.import",
+    "bytes": 976,
+    "sha256": "865717530547ab42cc28c533ce4668527473657dcb6650d2cbf5eabf8d329f22"
+  },
+  {
+    "path": "godot-demo/assets/figma/b15414e49829c46a11c2.png",
+    "bytes": 1602696,
+    "sha256": "126d3037f9420667d92eccdc615d9d0771621b223ba8ba210fa4318936822cd4"
+  },
+  {
+    "path": "godot-demo/assets/figma/b15414e49829c46a11c2.png.import",
+    "bytes": 977,
+    "sha256": "41e51d84d3b6728cff8998c0331ff605e977ef202a428e88ddb341a77fff6cf7"
+  },
+  {
+    "path": "godot-demo/assets/figma/b16939a85ca8bce33249.png",
+    "bytes": 609409,
+    "sha256": "d435205ef35e2ae8651f71d2ac2a1abef02f7968bdd2dd441275e4f00a5e8245"
+  },
+  {
+    "path": "godot-demo/assets/figma/b16939a85ca8bce33249.png.import",
+    "bytes": 976,
+    "sha256": "b05e11aa9d4f8007c6b14145284dc6857e03aefb8097c655973ecee814bdf071"
+  },
+  {
+    "path": "godot-demo/assets/figma/b35c0c971eeb859a01b8.png",
+    "bytes": 47112,
+    "sha256": "120d83e063559609e0661e77eae8ade51bf126b8c3122039f63b53a610ce93df"
+  },
+  {
+    "path": "godot-demo/assets/figma/b35c0c971eeb859a01b8.png.import",
+    "bytes": 976,
+    "sha256": "cb5ef9decb45e1ccfd9955ec0678d8d7a7361c1a470753b5397984aa5bbf5256"
+  },
+  {
+    "path": "godot-demo/assets/figma/b3f5fba184b46df60e63.png",
+    "bytes": 330760,
+    "sha256": "b4c479071c0491a1ed32ad56c85356bef465bae46ffaaeba029eedc559f559b6"
+  },
+  {
+    "path": "godot-demo/assets/figma/b3f5fba184b46df60e63.png.import",
+    "bytes": 977,
+    "sha256": "9c98acdc4bca6686868723da19bcb123c0791e7512a422e518ec41826ab90323"
+  },
+  {
+    "path": "godot-demo/assets/figma/b5992ebd4fd225bfaac1.png",
+    "bytes": 857921,
+    "sha256": "0ff5239340a1220971f7b366260745ba06d6d9321746f4dd6986823c6ded71c6"
+  },
+  {
+    "path": "godot-demo/assets/figma/b5992ebd4fd225bfaac1.png.import",
+    "bytes": 977,
+    "sha256": "dcaadd18774e43337b936d62b0e78b41e4c4a6e538f2eb1a68c2a50cd7d42326"
+  },
+  {
+    "path": "godot-demo/assets/figma/b5c9a33df7388c07dcdc.svg",
+    "bytes": 1020,
+    "sha256": "b1957b280f86239461efff80360b875fc7463efbcebfe3c40c167626b4c76fa2"
+  },
+  {
+    "path": "godot-demo/assets/figma/b5c9a33df7388c07dcdc.svg.import",
+    "bytes": 1074,
+    "sha256": "825cbe6a82a1cd88b260b870db9105848e2349971fb76e9d24c868c7e5be6195"
+  },
+  {
+    "path": "godot-demo/assets/figma/b6231875f1da3f546e63.png",
+    "bytes": 1057415,
+    "sha256": "d3d76cfd740cc00dbf26ecb6ade74c8bc2266ad0ae4fd27dc60efe66b7def9d1"
+  },
+  {
+    "path": "godot-demo/assets/figma/b6231875f1da3f546e63.png.import",
+    "bytes": 976,
+    "sha256": "2dea1a009b589625fa8eef8b2127ad3eeefcbe5d075c2446b2bb058ee73e6d74"
+  },
+  {
+    "path": "godot-demo/assets/figma/b8225653b21d8397220c.png",
+    "bytes": 45264,
+    "sha256": "716cd00ddb73519919cd37e1e37d21ca62495339505300d5318bcf18c602e31f"
+  },
+  {
+    "path": "godot-demo/assets/figma/b8225653b21d8397220c.png.import",
+    "bytes": 977,
+    "sha256": "de2a16918b0cfbeefded1561b23b3affaff3f7a6898c26e54ddf1d5ca7c50168"
+  },
+  {
+    "path": "godot-demo/assets/figma/ba5a9d3669c5f4fafcd3.svg",
+    "bytes": 1057,
+    "sha256": "c6284cd7af3f4c6ae1a6234fec552313232b4265a7ee945d58901953f6539639"
+  },
+  {
+    "path": "godot-demo/assets/figma/ba5a9d3669c5f4fafcd3.svg.import",
+    "bytes": 1073,
+    "sha256": "7b5a3b759a59a076ab8fc1a679caa8f84bb63d1611cf40ace226ba59f184fb28"
+  },
+  {
+    "path": "godot-demo/assets/figma/ba81ca6e1036c0446d5b.png",
+    "bytes": 1596406,
+    "sha256": "b999758ec23f5577abc25feafa1abe585cc85e340b20aae8cdbc7a5d32897c65"
+  },
+  {
+    "path": "godot-demo/assets/figma/ba81ca6e1036c0446d5b.png.import",
+    "bytes": 976,
+    "sha256": "93255918a0912514968aaa1bb83d3520f0d716bfca2c67de564910635c2d7b08"
+  },
+  {
+    "path": "godot-demo/assets/figma/baadd473a03f7883fa7a.png",
+    "bytes": 769915,
+    "sha256": "2c56f056a0dbfa1f0f69eb8a63bb5bbeb830a0d231c7835ea3f6d564bdbbb03d"
+  },
+  {
+    "path": "godot-demo/assets/figma/baadd473a03f7883fa7a.png.import",
+    "bytes": 977,
+    "sha256": "ab85945ae9891ec7d041d6f607470d31d64d3193af07ecaf0f1d8e903520847d"
+  },
+  {
+    "path": "godot-demo/assets/figma/bbb170d29fa1de969a65.svg",
+    "bytes": 914,
+    "sha256": "00f297c85955144b2f360b747be2c58e6e077c04f52b246c6e3a8656e2f2b2e9"
+  },
+  {
+    "path": "godot-demo/assets/figma/bbb170d29fa1de969a65.svg.import",
+    "bytes": 1073,
+    "sha256": "74155838272fde78977ae8a5647ca768c90c608a6258a5847cbcd41c33a9faf8"
+  },
+  {
+    "path": "godot-demo/assets/figma/bc2a8b34814fad4bf414.svg",
+    "bytes": 771,
+    "sha256": "0d308c4578193402c82ae643c4ffa997e1a488e144cb6e71cda374a15a329d58"
+  },
+  {
+    "path": "godot-demo/assets/figma/bc2a8b34814fad4bf414.svg.import",
+    "bytes": 1074,
+    "sha256": "7ba6c10ca00db9d2c4aa8ee326078fe2e912a72f772f480cfeaefc9174fd95ca"
+  },
+  {
+    "path": "godot-demo/assets/figma/bdccb3b3927f0682bcea.png",
+    "bytes": 749340,
+    "sha256": "a2d0b8dfbc02cc06b8f2c7d445fa9237ed4aed428290a5a4195ca1d9a0734ff9"
+  },
+  {
+    "path": "godot-demo/assets/figma/bdccb3b3927f0682bcea.png.import",
+    "bytes": 977,
+    "sha256": "a6fc6ca91e87f6b5f40febdf1230d2f3b5f5cfb7c12557d5d3899114f1bf6221"
+  },
+  {
+    "path": "godot-demo/assets/figma/be0cbba436c3b600820f.png",
+    "bytes": 1070586,
+    "sha256": "07b5185fe8c5d0edcde2335df57e29520d4e4a87157453c024dcf5f9336606f8"
+  },
+  {
+    "path": "godot-demo/assets/figma/be0cbba436c3b600820f.png.import",
+    "bytes": 977,
+    "sha256": "b8a45e8dcc291cf3478c7e7b02d6b659782c3304a169a76ff85f9dcd6a9b5904"
+  },
+  {
+    "path": "godot-demo/assets/figma/bfe546cb1b6fde0840ed.png",
+    "bytes": 613181,
+    "sha256": "7c8c5a07433be355ce7a2ce4205c30bc5d29785363ea695d01e7c4e7268a1b41"
+  },
+  {
+    "path": "godot-demo/assets/figma/bfe546cb1b6fde0840ed.png.import",
+    "bytes": 976,
+    "sha256": "843f8fcf15ff08604bd159c4f07efd285580700114be594698a3bac275d4c0b7"
+  },
+  {
+    "path": "godot-demo/assets/figma/c2a6d044023896c489b8.png",
+    "bytes": 613181,
+    "sha256": "7c8c5a07433be355ce7a2ce4205c30bc5d29785363ea695d01e7c4e7268a1b41"
+  },
+  {
+    "path": "godot-demo/assets/figma/c2a6d044023896c489b8.png.import",
+    "bytes": 977,
+    "sha256": "0825fc78bbfc5ac54fe9043d1d10e746ba57bb47a550e2a8393ef5ae13e522bd"
+  },
+  {
+    "path": "godot-demo/assets/figma/c2f7eb5deed38c5bde30.png",
+    "bytes": 1602696,
+    "sha256": "126d3037f9420667d92eccdc615d9d0771621b223ba8ba210fa4318936822cd4"
+  },
+  {
+    "path": "godot-demo/assets/figma/c2f7eb5deed38c5bde30.png.import",
+    "bytes": 977,
+    "sha256": "0109ed8dfe635dbe58132bea11a02a0330352164803eae7164253dbea01b8f1e"
+  },
+  {
+    "path": "godot-demo/assets/figma/c3f2e44e7b5992f29a54.png",
+    "bytes": 24006,
+    "sha256": "fe5d36c49dd472999c4279ed9d8b311b065018c9b8f071b1c99b8486112d16d2"
+  },
+  {
+    "path": "godot-demo/assets/figma/c3f2e44e7b5992f29a54.png.import",
+    "bytes": 977,
+    "sha256": "1103bed0fdc8dbf43484862feaab365411d8b096b07925929068baed43c40f9b"
+  },
+  {
+    "path": "godot-demo/assets/figma/c67c78d876f5225a14ba.png",
+    "bytes": 1062449,
+    "sha256": "bbfe085ec8ec71f5fff2512097ab467e97ca66b8abadb41734df0e7d0da9048c"
+  },
+  {
+    "path": "godot-demo/assets/figma/c67c78d876f5225a14ba.png.import",
+    "bytes": 977,
+    "sha256": "9b38351557b7af54994be93bbb48e03a0f01b7d9ced34985a6b3fb4e87aa8276"
+  },
+  {
+    "path": "godot-demo/assets/figma/c7ff59103c812d7009e0.svg",
+    "bytes": 771,
+    "sha256": "0d308c4578193402c82ae643c4ffa997e1a488e144cb6e71cda374a15a329d58"
+  },
+  {
+    "path": "godot-demo/assets/figma/c7ff59103c812d7009e0.svg.import",
+    "bytes": 1073,
+    "sha256": "7d06f3a432b07bccb427b4e2941fdada66f1d30afffa9707d2dc9d444544442d"
+  },
+  {
+    "path": "godot-demo/assets/figma/c840c375e553e15de7d8.png",
+    "bytes": 1057415,
+    "sha256": "d3d76cfd740cc00dbf26ecb6ade74c8bc2266ad0ae4fd27dc60efe66b7def9d1"
+  },
+  {
+    "path": "godot-demo/assets/figma/c840c375e553e15de7d8.png.import",
+    "bytes": 976,
+    "sha256": "1dda993f29d68e554be00727d5026e13878184874fc23da6a4fad8113b38ea6c"
+  },
+  {
+    "path": "godot-demo/assets/figma/c8e0b0733edfc919c343.png",
+    "bytes": 830908,
+    "sha256": "6d22a30903629a3839677c7fcf544a8a5bea6ee0072e099f925425a817f5f9d4"
+  },
+  {
+    "path": "godot-demo/assets/figma/c8e0b0733edfc919c343.png.import",
+    "bytes": 976,
+    "sha256": "3fb24c90eda879193981fcf2327eb612921ee1ec05cb974f0359683c2e470e7b"
+  },
+  {
+    "path": "godot-demo/assets/figma/ca6988724f208cb2b9f5.png",
+    "bytes": 1034196,
+    "sha256": "3503164431046af6e6f0fcf19be4bb2cc92d45ed1745ccb7eb99b48eaf3bd6e6"
+  },
+  {
+    "path": "godot-demo/assets/figma/ca6988724f208cb2b9f5.png.import",
+    "bytes": 977,
+    "sha256": "49cadefec015af0b5865d6f786a3220921f0e968203c00015562fbb16c36014a"
+  },
+  {
+    "path": "godot-demo/assets/figma/cae6f0f8443fddd1eeff.png",
+    "bytes": 1602696,
+    "sha256": "126d3037f9420667d92eccdc615d9d0771621b223ba8ba210fa4318936822cd4"
+  },
+  {
+    "path": "godot-demo/assets/figma/cae6f0f8443fddd1eeff.png.import",
+    "bytes": 977,
+    "sha256": "3051700a36b742da2824b2be15de8d13cabf81d4bac8e271410e4ae52f1b68f3"
+  },
+  {
+    "path": "godot-demo/assets/figma/cb7ad44541744c7ee2d3.svg",
+    "bytes": 643,
+    "sha256": "791b126ff50a262626140e84ba26f5bc4cc8664d3c9a948dfb4292663212ebe3"
+  },
+  {
+    "path": "godot-demo/assets/figma/cb7ad44541744c7ee2d3.svg.import",
+    "bytes": 1073,
+    "sha256": "fb2264de0992260fa08c1045fc89575fd30fc6b278d00b56a91ea6a6d60893af"
+  },
+  {
+    "path": "godot-demo/assets/figma/cd8ab914b2432c1444ea.png",
+    "bytes": 613181,
+    "sha256": "7c8c5a07433be355ce7a2ce4205c30bc5d29785363ea695d01e7c4e7268a1b41"
+  },
+  {
+    "path": "godot-demo/assets/figma/cd8ab914b2432c1444ea.png.import",
+    "bytes": 977,
+    "sha256": "7c85e0c221770334989edcf0891816be0dd1f11d5562feeff502ceedc59db584"
+  },
+  {
+    "path": "godot-demo/assets/figma/ce50a52faa467d07e026.png",
+    "bytes": 907385,
+    "sha256": "bb116c997e5071fd265392213d9d0a7a748431887daea8f6146e5f78a22b09ec"
+  },
+  {
+    "path": "godot-demo/assets/figma/ce50a52faa467d07e026.png.import",
+    "bytes": 976,
+    "sha256": "a476e7dfc51538958bf52654c512d412925e7dbd2bd7b7159f4a4e14d95faf39"
+  },
+  {
+    "path": "godot-demo/assets/figma/d658047bb1181c615319.png",
+    "bytes": 857921,
+    "sha256": "0ff5239340a1220971f7b366260745ba06d6d9321746f4dd6986823c6ded71c6"
+  },
+  {
+    "path": "godot-demo/assets/figma/d658047bb1181c615319.png.import",
+    "bytes": 977,
+    "sha256": "35047b32c8e3423fc786459996b5d4532d1cd505c0befee286ecb3fc7ecf7466"
+  },
+  {
+    "path": "godot-demo/assets/figma/d66853c53a1252adc6e9.png",
+    "bytes": 857921,
+    "sha256": "0ff5239340a1220971f7b366260745ba06d6d9321746f4dd6986823c6ded71c6"
+  },
+  {
+    "path": "godot-demo/assets/figma/d66853c53a1252adc6e9.png.import",
+    "bytes": 977,
+    "sha256": "2981348eac20770d58d1320e37962e5b03cd13a5acf64dad7a4910d2c8c34acd"
+  },
+  {
+    "path": "godot-demo/assets/figma/d682fc802b0b76e8b314.png",
+    "bytes": 801422,
+    "sha256": "e05d72e95ec70d5f742435f6ca4dcd81c94eeefd69d44e8cc0e70528e8547315"
+  },
+  {
+    "path": "godot-demo/assets/figma/d682fc802b0b76e8b314.png.import",
+    "bytes": 977,
+    "sha256": "22e7954d745de1b40c2635607585c1a4da89a06cc2bbc43f7850f2c80d86cae4"
+  },
+  {
+    "path": "godot-demo/assets/figma/d7c9d209f6ffedec607b.png",
+    "bytes": 1074336,
+    "sha256": "39a3543961a9f86caf8b737162478f038f8c71af1ee144ebd56551a9199afe3e"
+  },
+  {
+    "path": "godot-demo/assets/figma/d7c9d209f6ffedec607b.png.import",
+    "bytes": 977,
+    "sha256": "75c303a20444a113838cce3561cab1f9f2ecec81816a207453bc8bc4886832cd"
+  },
+  {
+    "path": "godot-demo/assets/figma/d80433aff3989b3c632f.png",
+    "bytes": 29970,
+    "sha256": "6bfc6512baa2d02c2df16af7d3e079f4b9901932ac7d8b9f0259ac0add639643"
+  },
+  {
+    "path": "godot-demo/assets/figma/d80433aff3989b3c632f.png.import",
+    "bytes": 976,
+    "sha256": "68dda1ee60491b5210b76833a6e2910fc65685c5b901ccc79b18c08f8cedb169"
+  },
+  {
+    "path": "godot-demo/assets/figma/d81fe506e8bb053a52d2.png",
+    "bytes": 40292,
+    "sha256": "be0ab57b34dc0afb12b03f5d520107b4bbe3629c5d7e645b85cd491377060d7f"
+  },
+  {
+    "path": "godot-demo/assets/figma/d81fe506e8bb053a52d2.png.import",
+    "bytes": 977,
+    "sha256": "c39738396274d68602073ca612ba14b42b0e524cb237b110e3051e3b839fef24"
+  },
+  {
+    "path": "godot-demo/assets/figma/da379d5351ea43dd93dd.svg",
+    "bytes": 771,
+    "sha256": "0d308c4578193402c82ae643c4ffa997e1a488e144cb6e71cda374a15a329d58"
+  },
+  {
+    "path": "godot-demo/assets/figma/da379d5351ea43dd93dd.svg.import",
+    "bytes": 1074,
+    "sha256": "1e5724fa44d7786870cb2560edfff5a7c4c2fc8e85608042a969394477764798"
+  },
+  {
+    "path": "godot-demo/assets/figma/db75abf5fcb86077876b.png",
+    "bytes": 1062449,
+    "sha256": "bbfe085ec8ec71f5fff2512097ab467e97ca66b8abadb41734df0e7d0da9048c"
+  },
+  {
+    "path": "godot-demo/assets/figma/db75abf5fcb86077876b.png.import",
+    "bytes": 976,
+    "sha256": "cadd67e7bbc5acffb2423fce068155054d51c6a37c7a92e622f22976ca4a351e"
+  },
+  {
+    "path": "godot-demo/assets/figma/dc46df783924ce607adf.png",
+    "bytes": 857921,
+    "sha256": "0ff5239340a1220971f7b366260745ba06d6d9321746f4dd6986823c6ded71c6"
+  },
+  {
+    "path": "godot-demo/assets/figma/dc46df783924ce607adf.png.import",
+    "bytes": 977,
+    "sha256": "61568c2e3f7b46315480108a64826bcf314ea4f26f207aed5318a1a7d481e9be"
+  },
+  {
+    "path": "godot-demo/assets/figma/dd4f226756c29a52c31a.png",
+    "bytes": 1044725,
+    "sha256": "478c2b8abfb13375859bbef76f2fc18f0265d34ad0a6fc4d70ef1cce038aef95"
+  },
+  {
+    "path": "godot-demo/assets/figma/dd4f226756c29a52c31a.png.import",
+    "bytes": 977,
+    "sha256": "9025c7afb293ed0222e9c469b20b3badb915cef572ced59408dad52576134060"
+  },
+  {
+    "path": "godot-demo/assets/figma/ddb3e9c76f299fe0bfa3.png",
+    "bytes": 31200,
+    "sha256": "d1e7eaf17f130064233f0aee8f03aaffdafbbdf7a97714ed014d421fdf12c581"
+  },
+  {
+    "path": "godot-demo/assets/figma/ddb3e9c76f299fe0bfa3.png.import",
+    "bytes": 976,
+    "sha256": "2ccd43847bee650cbe463a0e6d773190a67d8c66307f7f90ff508ee30460cdd7"
+  },
+  {
+    "path": "godot-demo/assets/figma/ddc6215762cb8972778d.png",
+    "bytes": 1044725,
+    "sha256": "478c2b8abfb13375859bbef76f2fc18f0265d34ad0a6fc4d70ef1cce038aef95"
+  },
+  {
+    "path": "godot-demo/assets/figma/ddc6215762cb8972778d.png.import",
+    "bytes": 977,
+    "sha256": "e04c3c72959319d7b54df10a41265f7befbebdefe89030945e76305869c6a27c"
+  },
+  {
+    "path": "godot-demo/assets/figma/de6d469145bddd978eff.png",
+    "bytes": 857921,
+    "sha256": "0ff5239340a1220971f7b366260745ba06d6d9321746f4dd6986823c6ded71c6"
+  },
+  {
+    "path": "godot-demo/assets/figma/de6d469145bddd978eff.png.import",
+    "bytes": 976,
+    "sha256": "87bcb06779ae715ecd4ca63af29f5851b338ae37749cf226a48cbd6165ace25b"
+  },
+  {
+    "path": "godot-demo/assets/figma/df36ca2b81808164e80f.svg",
+    "bytes": 6570,
+    "sha256": "e899fe5d0c9a6d5b39677600476d031f9b5099857647f6494aa1432758a73363"
+  },
+  {
+    "path": "godot-demo/assets/figma/df36ca2b81808164e80f.svg.import",
+    "bytes": 1074,
+    "sha256": "bc528a0baffeae32afc4fa0b48d72991683bb54078ffd6821b0523fa3779ac02"
+  },
+  {
+    "path": "godot-demo/assets/figma/e02948b9a7933faa430c.png",
+    "bytes": 774099,
+    "sha256": "4c9fdf0f22ed30f85fd7a9b550b0e4e62cfad885c6967f5641d21b9203912fd8"
+  },
+  {
+    "path": "godot-demo/assets/figma/e02948b9a7933faa430c.png.import",
+    "bytes": 976,
+    "sha256": "799b8bf2981c58ec4316862787452d2e413268722e2b382b992dd50bf79d0fdc"
+  },
+  {
+    "path": "godot-demo/assets/figma/e29e1890030a404f284e.png",
+    "bytes": 1057415,
+    "sha256": "d3d76cfd740cc00dbf26ecb6ade74c8bc2266ad0ae4fd27dc60efe66b7def9d1"
+  },
+  {
+    "path": "godot-demo/assets/figma/e29e1890030a404f284e.png.import",
+    "bytes": 977,
+    "sha256": "6e7ba9cc014356c23ca87cb236b40d394557b296df7482e3a12c2bb41704093d"
+  },
+  {
+    "path": "godot-demo/assets/figma/e2c95bbb1a0553fe6e24.png",
+    "bytes": 1044725,
+    "sha256": "478c2b8abfb13375859bbef76f2fc18f0265d34ad0a6fc4d70ef1cce038aef95"
+  },
+  {
+    "path": "godot-demo/assets/figma/e2c95bbb1a0553fe6e24.png.import",
+    "bytes": 977,
+    "sha256": "c07bdd529c68709341e6f8ea43d581ea83a75e73f3ca70e0f889e186b26befcc"
+  },
+  {
+    "path": "godot-demo/assets/figma/e537724b570c408ca8fd.png",
+    "bytes": 1062449,
+    "sha256": "bbfe085ec8ec71f5fff2512097ab467e97ca66b8abadb41734df0e7d0da9048c"
+  },
+  {
+    "path": "godot-demo/assets/figma/e537724b570c408ca8fd.png.import",
+    "bytes": 977,
+    "sha256": "c208211e9e1885322b2a9c649f8e85b2f5f0ea87b1bc5255cde2ae986939acec"
+  },
+  {
+    "path": "godot-demo/assets/figma/e6cf6b78968520ed223e.png",
+    "bytes": 35597,
+    "sha256": "b12211b29a1c2ba2b037a3b2f55bd863343ea6b787dc6155e58fe7aa7fc86bc9"
+  },
+  {
+    "path": "godot-demo/assets/figma/e6cf6b78968520ed223e.png.import",
+    "bytes": 977,
+    "sha256": "5715c3e00cde93ae9eb6b7582b47335c1914c73e5ab1520c50840732b244d968"
+  },
+  {
+    "path": "godot-demo/assets/figma/e6eaf49d8fa79e730b99.png",
+    "bytes": 779489,
+    "sha256": "bfcc8b177a3bb490983f20c72d23ce9e1e7017831864484514185e14c7a5b7df"
+  },
+  {
+    "path": "godot-demo/assets/figma/e6eaf49d8fa79e730b99.png.import",
+    "bytes": 976,
+    "sha256": "51661be0cbd594dca8545b0e2d203e002a3c772716fd5ff570a710953bf84e81"
+  },
+  {
+    "path": "godot-demo/assets/figma/e711aa34a91fbf32efcf.png",
+    "bytes": 1070586,
+    "sha256": "07b5185fe8c5d0edcde2335df57e29520d4e4a87157453c024dcf5f9336606f8"
+  },
+  {
+    "path": "godot-demo/assets/figma/e711aa34a91fbf32efcf.png.import",
+    "bytes": 976,
+    "sha256": "c372bda429a7924070f1c9736558127f0fb439592e7ac67339c13ce475515dcd"
+  },
+  {
+    "path": "godot-demo/assets/figma/e807a4caf52d4e69828a.png",
+    "bytes": 417665,
+    "sha256": "74e27f35d5c74fb02af87ee1848eccce400360c79a948c9ec7330fb8ba2b80da"
+  },
+  {
+    "path": "godot-demo/assets/figma/e807a4caf52d4e69828a.png.import",
+    "bytes": 976,
+    "sha256": "b5d5003e5441a40257895cf0949f51b50386cbeb39897e531ca0c8cf8bfd3735"
+  },
+  {
+    "path": "godot-demo/assets/figma/e8ffad1502ecc251d24f.png",
+    "bytes": 1602696,
+    "sha256": "126d3037f9420667d92eccdc615d9d0771621b223ba8ba210fa4318936822cd4"
+  },
+  {
+    "path": "godot-demo/assets/figma/e8ffad1502ecc251d24f.png.import",
+    "bytes": 977,
+    "sha256": "c0e7a6d150759d4f897ea708006f38cc60c52e595d37301f8f4582bac9e1ccbf"
+  },
+  {
+    "path": "godot-demo/assets/figma/e93771f9947ce54c3334.png",
+    "bytes": 657162,
+    "sha256": "37ce0dbb5f95b0e370459385b1485c66b657602dc379223635c96d8349888f85"
+  },
+  {
+    "path": "godot-demo/assets/figma/e93771f9947ce54c3334.png.import",
+    "bytes": 977,
+    "sha256": "79b667478349a79fdf9d1f8ff5380ba1dbdba7acb6b3af14fad0eaa0031d5167"
+  },
+  {
+    "path": "godot-demo/assets/figma/e9c0aaf7a0005c5cf39b.svg",
+    "bytes": 960,
+    "sha256": "73200b87accc2e3f2c1155ff98be86520ab0a0d299e47371d493a39c79e6d9b1"
+  },
+  {
+    "path": "godot-demo/assets/figma/e9c0aaf7a0005c5cf39b.svg.import",
+    "bytes": 1074,
+    "sha256": "1b12925e2f9d66a34363a676430edf4cee43339a97f07404d7e1f17f013f3996"
+  },
+  {
+    "path": "godot-demo/assets/figma/ec3ffffaad4c5ae55a0c.png",
+    "bytes": 1044725,
+    "sha256": "478c2b8abfb13375859bbef76f2fc18f0265d34ad0a6fc4d70ef1cce038aef95"
+  },
+  {
+    "path": "godot-demo/assets/figma/ec3ffffaad4c5ae55a0c.png.import",
+    "bytes": 977,
+    "sha256": "51e4da92c8760886283dc87e8d69783f2f4e48ae115f128849f09d8f096229b4"
+  },
+  {
+    "path": "godot-demo/assets/figma/ee615e9333b2b2f64d94.svg",
+    "bytes": 1035,
+    "sha256": "4145c22b4f077e5dd81b47a292da475e9e392d3972bfcc32f848fb88b5d06b50"
+  },
+  {
+    "path": "godot-demo/assets/figma/ee615e9333b2b2f64d94.svg.import",
+    "bytes": 1074,
+    "sha256": "9e766df85d5946567cf679abccbb9bb7b48c70249b36a0662c4d724fac18ad90"
+  },
+  {
+    "path": "godot-demo/assets/figma/f1612bcfc45bc334cf54.png",
+    "bytes": 341317,
+    "sha256": "f1a87ec3a5271de223ec9358cd4dcffabe27dfd640ffcad6ddd162f2d20a37c4"
+  },
+  {
+    "path": "godot-demo/assets/figma/f1612bcfc45bc334cf54.png.import",
+    "bytes": 977,
+    "sha256": "c1735b9845fb15655f49acad8177fd13e420891062f61806f218f0e1bf04189f"
+  },
+  {
+    "path": "godot-demo/assets/figma/f1f0155ab66d47f57d71.svg",
+    "bytes": 1020,
+    "sha256": "b1957b280f86239461efff80360b875fc7463efbcebfe3c40c167626b4c76fa2"
+  },
+  {
+    "path": "godot-demo/assets/figma/f1f0155ab66d47f57d71.svg.import",
+    "bytes": 1074,
+    "sha256": "636a824dff4ca44a1554f1d19678d5f93ffd8b4083f797f4d2a423f1c82bbda0"
+  },
+  {
+    "path": "godot-demo/assets/figma/f32d4ea61b075d94615e.png",
+    "bytes": 852981,
+    "sha256": "08ac4f55c753a72e51b0efcb4ec69cbf5548b98d3a3adbdd38b763485b883bd4"
+  },
+  {
+    "path": "godot-demo/assets/figma/f32d4ea61b075d94615e.png.import",
+    "bytes": 977,
+    "sha256": "8bf1dec588ff491625f335bdc46545ebbd02a4c598d030fa22526343ca44962f"
+  },
+  {
+    "path": "godot-demo/assets/figma/f5391cc820b1c933d5f1.png",
+    "bytes": 1062449,
+    "sha256": "bbfe085ec8ec71f5fff2512097ab467e97ca66b8abadb41734df0e7d0da9048c"
+  },
+  {
+    "path": "godot-demo/assets/figma/f5391cc820b1c933d5f1.png.import",
+    "bytes": 976,
+    "sha256": "720c4f86092a3a43e4925a47eb001938b16b2f7c73f3abe067f0cf8eb22b6798"
+  },
+  {
+    "path": "godot-demo/assets/figma/f7cf3a9b268bb6bb958c.png",
+    "bytes": 1194005,
+    "sha256": "52d3cea1ce7a04c91405af98bcfefa6fe628129e1b0122550f7e93585392651e"
+  },
+  {
+    "path": "godot-demo/assets/figma/f7cf3a9b268bb6bb958c.png.import",
+    "bytes": 977,
+    "sha256": "fed1faa7a4dd33883bf729b47968ee9a4170f384582bb11b7b05519bb1202ff7"
+  },
+  {
+    "path": "godot-demo/assets/figma/f9cebabacf3fd80f4e65.png",
+    "bytes": 1070586,
+    "sha256": "07b5185fe8c5d0edcde2335df57e29520d4e4a87157453c024dcf5f9336606f8"
+  },
+  {
+    "path": "godot-demo/assets/figma/f9cebabacf3fd80f4e65.png.import",
+    "bytes": 976,
+    "sha256": "7315329771598753b2818e006f3923e91b09cf4ce939742af8fff28e37a1d817"
+  },
+  {
+    "path": "godot-demo/assets/figma/fa25cae90946568bc1a4.png",
+    "bytes": 657162,
+    "sha256": "37ce0dbb5f95b0e370459385b1485c66b657602dc379223635c96d8349888f85"
+  },
+  {
+    "path": "godot-demo/assets/figma/fa25cae90946568bc1a4.png.import",
+    "bytes": 977,
+    "sha256": "1aae1004834c1fef99ae98a1fd9ed10f90cdb26422a4b2b8202a119f9b170605"
+  },
+  {
+    "path": "godot-demo/assets/figma/fd0fcc1201ddb67893d4.svg",
+    "bytes": 566,
+    "sha256": "433f525828895a07c1b907a1133a56258855c6e2febbb8d6e467dd645e8c8966"
+  },
+  {
+    "path": "godot-demo/assets/figma/fd0fcc1201ddb67893d4.svg.import",
+    "bytes": 1074,
+    "sha256": "f23526e914c57c6d1061d8e0d0328c2801987ac8c72cac162113ea0a52e9813a"
+  },
+  {
+    "path": "godot-demo/assets/figma/fef350ea159517e2803e.png",
+    "bytes": 1602696,
+    "sha256": "126d3037f9420667d92eccdc615d9d0771621b223ba8ba210fa4318936822cd4"
+  },
+  {
+    "path": "godot-demo/assets/figma/fef350ea159517e2803e.png.import",
+    "bytes": 977,
+    "sha256": "f57d5b8f4efd253829560a1bd7368ca73a8f56828dbef1522004ef93215bb79b"
+  },
+  {
+    "path": "godot-demo/assets/fonts/NotoSansSC-VF.ttf",
+    "bytes": 17773244,
+    "sha256": "763146584cf0710223441356b4395e279021b0806c196614377a7a0174ae074a"
+  },
+  {
+    "path": "godot-demo/assets/fonts/NotoSansSC-VF.ttf.import",
+    "bytes": 777,
+    "sha256": "ca73a8ce2f59fa455fcf0c73834d6ca92d2e744706156ef6965905a186a7d899"
+  },
+  {
+    "path": "godot-demo/assets/fonts/OFL.txt",
+    "bytes": 4387,
+    "sha256": "70d45ca6e59e052c4d4ddc7efe094493e13d1baf1a3b93e88bf03e683e1d1c80"
+  },
+  {
+    "path": "godot-demo/scenes/components/bottom_navigation.tscn",
+    "bytes": 52518,
+    "sha256": "b99ac9fc0d66841bb6bfac479f788fdae3ce88ea7d58d95140043bb801b1050f"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1007.tscn",
+    "bytes": 57433,
+    "sha256": "a008b4d37065da0b046b0594c880dbf25cb70b5d9c2aa418d126334018e3f189"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1063.tscn",
+    "bytes": 25327,
+    "sha256": "73007961e0ae95e025f56f985e7c22ed47517c2103009042c529dc5de8972a23"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1083.tscn",
+    "bytes": 33156,
+    "sha256": "43794f884d44e026303e00ff2abae549bf57db1a9adcbcd389674e0afb4e7dde"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1138.tscn",
+    "bytes": 597671,
+    "sha256": "2657465a0a39b4e03acfead850f1ec9650f947f2b6b203d95e997862506484b2"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1206.tscn",
+    "bytes": 121918,
+    "sha256": "029f0e49fab44954ad43fc7b4528b82883686f22080531dbf393459f52438024"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1223.tscn",
+    "bytes": 15561,
+    "sha256": "c9c460e691bc5ec0c751b4be662456f4fad772c007a44e831484a627483e30d5"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1242.tscn",
+    "bytes": 15974,
+    "sha256": "b4d7e8ad831f1193631b033828bd6de6b9c8c59a48e8af23e4c3bc2024e53378"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1257.tscn",
+    "bytes": 50366,
+    "sha256": "35021f09edc5842c02f77f39a71b179d1e382ab878a9d59400d6f3d15de37ea7"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1285.tscn",
+    "bytes": 20889,
+    "sha256": "e60c2f28ea9a542ea53a7db3c529ef45138cebfce6c8732cc77d13f92148192c"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1308.tscn",
+    "bytes": 66819,
+    "sha256": "e0f67676e8166fded8ad29595c7871e47af943484f5e056fd920779d6ff68f5f"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1358.tscn",
+    "bytes": 143150,
+    "sha256": "e57c19731c31598d953857894653c27277269e65a47574c83677a9c6bee06cef"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1463.tscn",
+    "bytes": 33592,
+    "sha256": "82bc6e6a2339fa40a82f3ca774bb4a9180506e7cfe34b3d4ebcdbccebb51e3a5"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1487.tscn",
+    "bytes": 52795,
+    "sha256": "a6fe754f66e20c545f4bc15e3002e1e57cab8fd48f5c4d84029137d9c5bd6c95"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1510.tscn",
+    "bytes": 55493,
+    "sha256": "7c22a3eb12a6d40d32b34d68026513bd5d00ce6cdab3d723bf6c0014dec81b70"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1558.tscn",
+    "bytes": 33995,
+    "sha256": "f6d47fd3e1893a5f37342c82a78d39b61a2c5b46635b497f0776d992e94361b3"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1574.tscn",
+    "bytes": 17525,
+    "sha256": "9c75a6f9ba3adcd2cab9b50233680a5ae27465dc2b3462cbe55343d3a32d9b03"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1592.tscn",
+    "bytes": 42793,
+    "sha256": "7b1e44631b9dc734b8faec596a7f33c520b0b090bfeaa5441d0ccc327991d873"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1616.tscn",
+    "bytes": 39456,
+    "sha256": "b492ec6bfb8d9f7798bd7f3f13c8073b1dd9e3aad5ebe42604d25cb4113be693"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1642.tscn",
+    "bytes": 48620,
+    "sha256": "37bed5618b4c20da313e68b57a282a0ee676c3cc5ecd7839ee317dc4584822ad"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1669.tscn",
+    "bytes": 72822,
+    "sha256": "bf840c2a5ab64c6eaf29204b17b698cc06111e2b60d08faf86cbf1dcd4d5f844"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1722.tscn",
+    "bytes": 33555,
+    "sha256": "6388c4033097ef0db3689d796e33f07301c5ff1ce37c69ecbd17e3728ac4f806"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1761.tscn",
+    "bytes": 23990,
+    "sha256": "23ad3839fa128d7e32c359469ab5261bdc1b98ead28285903258480f4ba25b50"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1779.tscn",
+    "bytes": 21273,
+    "sha256": "0b6cf6405e26bfb5009366a121d62106f7d2e2cc51efc77193add2aeb6e6a931"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1803.tscn",
+    "bytes": 27063,
+    "sha256": "3c84c23c53c9c90a956d5a36a80e3993b4c75fb35453efa645a8c450eb78227c"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1820.tscn",
+    "bytes": 15890,
+    "sha256": "cc710324e0000cc0780aef8d55c05efe002277c228e270e8fc2b9068374e4261"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1833.tscn",
+    "bytes": 106491,
+    "sha256": "9f46d546c29eac167867e40ef45106903cda01cf8edd9a4d4fe526bd3bfe451b"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_1953.tscn",
+    "bytes": 42072,
+    "sha256": "99da7767638f80a606d7bd7d8156e542a6c0c0349e872f1cc175ed1705b6240e"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_2044.tscn",
+    "bytes": 6347,
+    "sha256": "ac4bd1fce3ed9f9f3bdd5b233210dff5adc3639d1964eaa886b3981f14379f1f"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_2054.tscn",
+    "bytes": 5783,
+    "sha256": "bb3b337654902ea0687533caf292218c31a9f5252209f17480d8c6813eef2540"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_2377.tscn",
+    "bytes": 7820,
+    "sha256": "6df4d6e2d0459f11cb590013a897230a4f52677b2394fff34ceb7df2d2382196"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_2391.tscn",
+    "bytes": 32778,
+    "sha256": "bda3e734a19e4d197bcf43a5c57b0fca16d1a289681cc69063e3c7a6c8ddfede"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_2414.tscn",
+    "bytes": 48456,
+    "sha256": "34c2114d3def3d88d66ab1002faf36ba5d7e5c9a79901a49478a3085169ea6c2"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_2434.tscn",
+    "bytes": 32185,
+    "sha256": "006b39459e4b809aa25589c8fd032fac756c3fd3384b617d00c9a0d5561026c4"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_2456.tscn",
+    "bytes": 19466,
+    "sha256": "d7a976b0adcfda57aa5124314c476e5baff2669882c8268a71681aec80dea47c"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_2465.tscn",
+    "bytes": 12521,
+    "sha256": "22f3867c065741969e5ca11a18fba0aded3d36a5f2d0377253a2325fc135742b"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_2475.tscn",
+    "bytes": 10957,
+    "sha256": "f278132b5a71eec2cdfb893ca6b2fd8779392c4c2414bea54df530839d6f3030"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_2484.tscn",
+    "bytes": 13858,
+    "sha256": "bbeb39135c7ed8d648571e3bdd0da9294b015ce96904e7d24a2450356b331165"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_2504.tscn",
+    "bytes": 16706,
+    "sha256": "34c2fe5f96b94288d29cffd22a4496a0c839ab0e6aca77adb44101b0e9694e9a"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_2525.tscn",
+    "bytes": 90022,
+    "sha256": "d7a2465de12c12bfdb54ab726f7ae2d30e033c6b89361e80748d30e12b401403"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_2571.tscn",
+    "bytes": 21799,
+    "sha256": "c938fed3451bdee3b42efa19f9c6fa6bab523915bed974e0f250c947d7c8b740"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_2581.tscn",
+    "bytes": 26186,
+    "sha256": "28a8954aaa124917b8f8df4752901cdff4fc767adb008f85456ac96087cb0398"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_840.tscn",
+    "bytes": 11450,
+    "sha256": "7ca4c97fa2d54cec1217f82f3940a636ce84aafc7a2af4e35947ee48ceceb5d3"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_853.tscn",
+    "bytes": 25243,
+    "sha256": "b836008068e12f769ace2e7a2ecb51e7ed061f31917af4bc3845addbc5be7b79"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_876.tscn",
+    "bytes": 29638,
+    "sha256": "83dbe77704eeefc006f6b370aff7f918559562d94afdb52531f2990ff1d647f7"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_897.tscn",
+    "bytes": 22237,
+    "sha256": "2d1b266cc7a762667006168cdd5544f146b4e822f4208fa3b8b48a96d8e5d03b"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_918.tscn",
+    "bytes": 46814,
+    "sha256": "7ceed0aac60cf83822d76f8026dcf796904989f8bc78874eae7b40ba6f1e2004"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_938.tscn",
+    "bytes": 35716,
+    "sha256": "46eededc80f19e9330da61bc7b40f0fe0b63757fb14b4060e06fc6aa70a8810e"
+  },
+  {
+    "path": "godot-demo/scenes/pages/165_958.tscn",
+    "bytes": 43344,
+    "sha256": "8683b0cdfda1c563a4f1cab4cf41b2ec46bd6c3dc98267a8257fc66671b0c4d8"
+  },
+  {
+    "path": "godot-demo/scenes/pages/168_2268.tscn",
+    "bytes": 11501,
+    "sha256": "d48ad37b7c2bdc1e26f32ee39050593e95c5582a2190003d922ddb146d2e27cb"
+  },
+  {
+    "path": "godot-demo/scenes/pages/199_2311.tscn",
+    "bytes": 130225,
+    "sha256": "64f0321d83ed0ff36dbb10c64e88d6b3350725362c71d76ad69cc55dcea02666"
+  },
+  {
+    "path": "godot-demo/scenes/pages/199_2312.tscn",
+    "bytes": 32545,
+    "sha256": "bd91ccce2d99a20f30e4cdd56c19234e3f1ad31064380a7dea83dceaf91730f0"
+  },
+  {
+    "path": "godot-demo/scenes/pages/199_2313.tscn",
+    "bytes": 572618,
+    "sha256": "85d8876bf4156a4ae1c17053035c6318cff0a9e27c773d67ee88ccf20c44669d"
+  },
+  {
+    "path": "godot-demo/scenes/pages/199_2314.tscn",
+    "bytes": 41064,
+    "sha256": "8e2d5fb20de9b93f29bcd5326ff9f4122ca235cfa06015fc0a27ae810d945827"
+  },
+  {
+    "path": "godot-demo/scenes/pages/199_2315.tscn",
+    "bytes": 598377,
+    "sha256": "3208f8f531ad6f82db5ec9eaa0959fb4606dca23d5e4b8fbd438b48e51fb1048"
+  },
+  {
+    "path": "godot-demo/scenes/pages/199_2316.tscn",
+    "bytes": 34012,
+    "sha256": "5818e1161c7f4ea84cfd67eef8ca3883f78699056f94b7665f6c779c82b4384f"
+  },
+  {
+    "path": "screenshots/process/process-eyes-after.webp",
+    "bytes": 74118,
+    "sha256": "de3a939f2047d12532cf11ed312accd1a9a782d04921a6c93248189c7988958b"
+  },
+  {
+    "path": "screenshots/process/process-eyes-before.webp",
+    "bytes": 77156,
+    "sha256": "f2a4ad6d990ccbeff6f8259903fb2d1e9f56ffc22d48481249a5568c71aaed14"
+  },
+  {
+    "path": "screenshots/runtime/runtime-food-photo-diary.webp",
+    "bytes": 17704,
+    "sha256": "17874c6acbe66a5acb3e4e72a4ac06c0611b6d5a6e1a119d1e67b22bb7a70325"
+  },
+  {
+    "path": "screenshots/runtime/runtime-food-photo-imported.webp",
+    "bytes": 28848,
+    "sha256": "bcbc74874c80595a60fccd530937cd740d22664807b7f1b696863a441d426ed6"
+  },
+  {
+    "path": "screenshots/runtime/runtime-home-mood-happy.webp",
+    "bytes": 27002,
+    "sha256": "1836d9e63df3611edc41b86d0f5c162edecb58d47ca4437a9f9540114da32006"
+  },
+  {
+    "path": "screenshots/runtime/runtime-personal-empty.webp",
+    "bytes": 23724,
+    "sha256": "1b0888979e8ce211cf55d335a68bb42c816c2337aa238ba835738ecfec13c142"
+  },
+  {
+    "path": "screenshots/runtime/runtime-room-editor-arranged.webp",
+    "bytes": 33408,
+    "sha256": "52625b5414f110e54044fed6ad6504e060400ea0228e698afddfaf64fc6949de"
+  },
+  {
+    "path": "screenshots/runtime/runtime-room-editor-initial.webp",
+    "bytes": 30472,
+    "sha256": "b08857a7341f31fe3b5fa0ff2afe07030fba7c6097cd2204b40a510e4667a67b"
+  },
+  {
+    "path": "screenshots/runtime/runtime-room-otter-sofa.webp",
+    "bytes": 22660,
+    "sha256": "47ed9a0d9fa4ee7d0d9b9d26b4ebd751e172555ba75218fc10dc43ad85f0274d"
+  },
+  {
+    "path": "screenshots/ui/index.json",
+    "bytes": 14142,
+    "sha256": "a7a2a8ad0c4f7117b9aff3c72f0177ba44562fc9fdbe5b8689809cfc9ae8d5de"
+  },
+  {
+    "path": "screenshots/ui/README.md",
+    "bytes": 7637,
+    "sha256": "9d0a9ef28e507b2c6c50871a29bb808090cbae752f98a13b31e39befc3cda14e"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1007.webp",
+    "bytes": 47762,
+    "sha256": "0e22b46dc89dda543e90514105afd7eaad9f5bebcee98230254d64c517f276a5"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1063.webp",
+    "bytes": 95226,
+    "sha256": "8d31a73ca5f76b59319c510909adfe3229fd6614293d476bbf95f7ffa02ac703"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1083.webp",
+    "bytes": 157796,
+    "sha256": "7274ba767ca0eba78a1e01058b27f24b0b51b693e329a28f8c9de251354df771"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1138.webp",
+    "bytes": 165532,
+    "sha256": "36d226eab962c4587d3fe472bda3a48fb945f62287a96f5ac0863496356e4627"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1206.webp",
+    "bytes": 110154,
+    "sha256": "23eec3a33eef03fca737b2ae46ae747b26d9c049088688a09a0b203f2a7e274c"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1223.webp",
+    "bytes": 38652,
+    "sha256": "1a74840810af771b8472839d9c8696058501ea8d441c794f548167cf5e342da5"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1242.webp",
+    "bytes": 60258,
+    "sha256": "1cd1caf0a719e58ee40aea1059ea59496363064367bed7cbdb46196570fd941a"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1257.webp",
+    "bytes": 49678,
+    "sha256": "9c0c9136903be3adf529444781dab0e01bcab2bbe8edf3743e8b359542c58a00"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1285.webp",
+    "bytes": 35096,
+    "sha256": "86f7dc14c93b49ed88d815bfdfbe86971ce219934c102d738e95fe4861aeb8d9"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1308.webp",
+    "bytes": 114778,
+    "sha256": "f878569cf8640c11ac63d4b9a8eac5afbdcf5718b6bf7c0a597856950b44a005"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1358.webp",
+    "bytes": 43872,
+    "sha256": "fcd68a328d9c243f3950fba362050aebdce2dd80f689e9ee8baa1d202e861fbb"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1463.webp",
+    "bytes": 53586,
+    "sha256": "0784255afb1c968f765313ae05f21611c12a2c46391906fadadb4d44395234e6"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1487.webp",
+    "bytes": 75510,
+    "sha256": "a4ee9209d17e009c40bd277e62841e4dd7a3793d594e9817875983e5710914f5"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1510.webp",
+    "bytes": 136404,
+    "sha256": "1f6b8f3cd9320e3d0118015fb05327bf1fe26227b174083f68adafe01aacc002"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1558.webp",
+    "bytes": 66410,
+    "sha256": "e7bc8920d3e452b49eacd8aa755627497056aa3ceed56ffb90df7f2a7e4e71d7"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1574.webp",
+    "bytes": 47140,
+    "sha256": "f59342172edff4183039ae2074bbd3b0547590f102869977a5ba186d42e16a95"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1592.webp",
+    "bytes": 73780,
+    "sha256": "e1d251d6f10bcd23c50ca10559c3bab6d9e376e28037da215df0eaaa030c9018"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1616.webp",
+    "bytes": 39998,
+    "sha256": "9daf1d756fa4589e91f92ec591e9ab354d24eafc528d6e67d74372edf1316db2"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1642.webp",
+    "bytes": 77048,
+    "sha256": "5e60ac8ac37adb0847f62c41412906170d92d5469669502379f5125201f63add"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1669.webp",
+    "bytes": 118020,
+    "sha256": "f1c7ccf26b452c70fac29f71e821e5af05007580865270d94d31d69cd01d9b8d"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1722.webp",
+    "bytes": 32578,
+    "sha256": "236881e9d28701ce94dfec839352a53189041832dad9875b012742ff1583227d"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1761.webp",
+    "bytes": 35250,
+    "sha256": "c45479ab2fc86fb04ef49827957dffc07aab63806f61fbf3e00086bfbe6bc173"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1779.webp",
+    "bytes": 35990,
+    "sha256": "49c3c7ecf25c5fe1f7df1ec9d184dc2f102ff07e0e6c4e3b1f3b9f0e53d9b43e"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1803.webp",
+    "bytes": 77626,
+    "sha256": "e825549f1d176850a6bcd173aa3c1e5979869e366c361445eba841c98a684a72"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1820.webp",
+    "bytes": 24172,
+    "sha256": "3d0b4f277cb5b4fc6f50f73d78fdf71c870379fb6c14f1d7df32bab867cce650"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1833.webp",
+    "bytes": 170464,
+    "sha256": "45f124d6b75ea1be8f112746f3b117c42508d656e096d0e8ed54ff96334b3eba"
+  },
+  {
+    "path": "screenshots/ui/ui-165-1953.webp",
+    "bytes": 42654,
+    "sha256": "3270674154f3e0e0da21e8392ce8004b46ec6d1f54a912ea326c2b8fc020bdb3"
+  },
+  {
+    "path": "screenshots/ui/ui-165-2391.webp",
+    "bytes": 79192,
+    "sha256": "8c8a644e3333f8f96451a2f08db287c39ccda8e49a7d74b166d3afcae113f132"
+  },
+  {
+    "path": "screenshots/ui/ui-165-2414.webp",
+    "bytes": 83108,
+    "sha256": "3ced78641530bd71cd0bb3c43318708e781c2d4d380fcd19b71e08698a05ed5a"
+  },
+  {
+    "path": "screenshots/ui/ui-165-2434.webp",
+    "bytes": 80154,
+    "sha256": "f1ce2653fdaab1df551cde2ed27771295443af0bfb33664f767df894e596de66"
+  },
+  {
+    "path": "screenshots/ui/ui-165-2456.webp",
+    "bytes": 6028,
+    "sha256": "f3e93546c05041853b2647d720c54448e20f262a062a6b2e57ae27a15ac32053"
+  },
+  {
+    "path": "screenshots/ui/ui-165-2465.webp",
+    "bytes": 32728,
+    "sha256": "3a0c99afe794c2141e42ac081f9de92c537e81da8b8ec7e99759b6d1404743f7"
+  },
+  {
+    "path": "screenshots/ui/ui-165-2475.webp",
+    "bytes": 24286,
+    "sha256": "890de121024ffa54051edd960f3346f1e1dda6db594100c3740f96941a820598"
+  },
+  {
+    "path": "screenshots/ui/ui-165-2484.webp",
+    "bytes": 55322,
+    "sha256": "b4de8efb7dfeec1dffbe0061e4f39bea085002b553f2e0365635526067c413ef"
+  },
+  {
+    "path": "screenshots/ui/ui-165-2504.webp",
+    "bytes": 67380,
+    "sha256": "9bf31beb4eb811333d453984f51e029d1fa4fffe76babcf5cc2b8d101ebb789b"
+  },
+  {
+    "path": "screenshots/ui/ui-165-2525.webp",
+    "bytes": 84102,
+    "sha256": "1ea79d9293ed899e707465236edba06f48a0e02c7b04768278981330e57d18ad"
+  },
+  {
+    "path": "screenshots/ui/ui-165-2571.webp",
+    "bytes": 17330,
+    "sha256": "a1a0e7d45bedb4319ee156338e6a03379151d21ccb143eb67d2c651952c15702"
+  },
+  {
+    "path": "screenshots/ui/ui-165-2581.webp",
+    "bytes": 38832,
+    "sha256": "a7dafcf7b19418ebbcaa367706e198cc1e20f3ae7af8c4a40a46b68c12950867"
+  },
+  {
+    "path": "screenshots/ui/ui-165-840.webp",
+    "bytes": 141002,
+    "sha256": "216adf527042f16ce165ba1bd04cded89fc7f67e0ef1d83f664897c5b0e80186"
+  },
+  {
+    "path": "screenshots/ui/ui-165-853.webp",
+    "bytes": 102222,
+    "sha256": "bba2b2a7d5825e54acd82279a8817f63d816853b1c17f22cf7e69ec2f7e12425"
+  },
+  {
+    "path": "screenshots/ui/ui-165-876.webp",
+    "bytes": 86474,
+    "sha256": "3c259e90998bd0e147a3f73fd4ffc4512711b0c5a7ba4e574cd65288e17c7fea"
+  },
+  {
+    "path": "screenshots/ui/ui-165-897.webp",
+    "bytes": 104676,
+    "sha256": "6189830792ca5aae46d312f48d9fc99d3d17ba0a1b356ee77e49b85ca712ce1c"
+  },
+  {
+    "path": "screenshots/ui/ui-165-918.webp",
+    "bytes": 74504,
+    "sha256": "ea89c90884aecf14028c53ad3774caf6e0fc2264aa7001da19d1f2db9f70ae55"
+  },
+  {
+    "path": "screenshots/ui/ui-165-938.webp",
+    "bytes": 77054,
+    "sha256": "24d38f80834762da4a7f614e8d0f0f5d7ca06f4ca7a9f19249e4850408af94b1"
+  },
+  {
+    "path": "screenshots/ui/ui-165-958.webp",
+    "bytes": 108802,
+    "sha256": "679ed37fc309634014abfd538d550b69c69bfaf36375ffd32987893a31502c05"
+  },
+  {
+    "path": "screenshots/ui/ui-168-2268.webp",
+    "bytes": 141052,
+    "sha256": "0d9efd03e6370e74d5b3fed48c75f6800eae52c2244ce216cbc4197fad7c3902"
+  },
+  {
+    "path": "screenshots/ui/ui-199-2311.webp",
+    "bytes": 60018,
+    "sha256": "1ffaf35d8b5c3e3a7ec2f32bb72e50b5055c092054df015ae779c1a168887193"
+  },
+  {
+    "path": "screenshots/ui/ui-199-2312.webp",
+    "bytes": 55554,
+    "sha256": "754ca7b3f68dbd231ba274cc573081114c0516e89f0ab2ed5ea03e008180f3fe"
+  },
+  {
+    "path": "screenshots/ui/ui-199-2313.webp",
+    "bytes": 67126,
+    "sha256": "1e78a4807396dc43d47611b394648172cfe453520070b8b4155c1c4e28f71730"
+  },
+  {
+    "path": "screenshots/ui/ui-199-2314.webp",
+    "bytes": 51674,
+    "sha256": "257ed1969d62524e0d0a74d642627b7710205cf78ce4f7ef09cbb9278f4e381c"
+  },
+  {
+    "path": "screenshots/ui/ui-199-2315.webp",
+    "bytes": 140058,
+    "sha256": "4e3aaa5f08c854dbe8091a2d4e0aa222dfc9a84a8231c7650070de644a9f8863"
+  },
+  {
+    "path": "screenshots/ui/ui-199-2316.webp",
+    "bytes": 102572,
+    "sha256": "8cfb881aca2983b2531f207de0575721b302bc3022ad056e87c14e2548a326f5"
+  },
+  {
+    "path": "screenshots/ui/ui-320-1003.webp",
+    "bytes": 72642,
+    "sha256": "9ffbcfbd27f426b7e0dd285c179d89bf188ac071ff214f7140da11d18dd1739e"
+  },
+  {
+    "path": "screenshots/ui/ui-320-1004.webp",
+    "bytes": 84522,
+    "sha256": "4a69179e8f5b62e4632423090ea726c634cdfce607bf8eae12d31a75d1744caf"
+  },
+  {
+    "path": "screenshots/ui/ui-320-1005.webp",
+    "bytes": 78256,
+    "sha256": "dfcad7ca08213ee22e7040e5dde4de127757d77f20fa0166afdc3a88fb80fa67"
+  },
+  {
+    "path": "screenshots/ui/ui-320-1006.webp",
+    "bytes": 84660,
+    "sha256": "794e54fba70aeadafa2fdb55190ff14aa37e7366da4e9d2ce743e3cb7b72890d"
+  },
+  {
+    "path": "screenshots/ui/ui-320-1007.webp",
+    "bytes": 74098,
+    "sha256": "5066d0f9ebecac0b6836d66a765e00fd9bdcc93e0af54a785c19b5532974a5f3"
+  },
+  {
+    "path": "screenshots/ui/ui-320-1008.webp",
+    "bytes": 65898,
+    "sha256": "db63631a326ae024ae3aead643c2ad4b3600e1a4984bacadc67fd985a17cf368"
+  },
+  {
+    "path": "screenshots/ui/ui-320-1009.webp",
+    "bytes": 68320,
+    "sha256": "5c79c3170afaa0efa2c16579b353e9041adff2d7bef1ec23af9217f8eec9cbbd"
+  },
+  {
+    "path": "screenshots/ui/ui-320-1010.webp",
+    "bytes": 86500,
+    "sha256": "aee6b62ad99233bf169138537ce8afbd1ace746923b9f91c61a595d113ee8f3f"
+  },
+  {
+    "path": "screenshots/ui/ui-320-1011.webp",
+    "bytes": 87754,
+    "sha256": "712ab2a19953f86244ce3f10921b1ae9f8a2c5e7624f96134db6006b766fb66c"
+  },
+  {
+    "path": "screenshots/ui/ui-320-1012.webp",
+    "bytes": 81746,
+    "sha256": "a35f122489771f315141778db16c850a6607d98a7ee891565e5e1fce5feb23fd"
+  },
+  {
+    "path": "screenshots/ui/ui-320-1013.webp",
+    "bytes": 78918,
+    "sha256": "7a4b995460a3cef1b46c98c585c2b76ae068a258e35cb95fe5701542b9682d40"
+  },
+  {
+    "path": "workflow/evidence/assets_v11-prompts.json",
+    "bytes": 4872,
+    "sha256": "cbf66f9274d34eb5edb2c4ab38f3e1b5d8d2cc82c37e2c33672b6238b30df34a"
+  },
+  {
+    "path": "workflow/evidence/assets_v8-prompts.json",
+    "bytes": 17924,
+    "sha256": "8949450b7b6fdb2e37f5ee947ab3b5d376a8fd6df0f4f65d3e763f541691ade0"
+  }
+]

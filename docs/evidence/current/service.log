@@ -1,0 +1,16 @@
+test_encrypted_local_settings (test_service.ServiceTests.test_encrypted_local_settings) ... ok
+test_image_edit_sends_photo_and_original_style (test_service.ServiceTests.test_image_edit_sends_photo_and_original_style) ... ok
+test_invalid_photo (test_service.ServiceTests.test_invalid_photo) ... ok
+test_loopback_authentication_and_unconfigured_api (test_service.ServiceTests.test_loopback_authentication_and_unconfigured_api) ... ok
+test_no_key_does_not_make_network_call (test_service.ServiceTests.test_no_key_does_not_make_network_call) ... ok
+test_non_food_never_gets_calories (test_service.ServiceTests.test_non_food_never_gets_calories) ... ok
+test_numeric_validation (test_service.ServiceTests.test_numeric_validation) ... ok
+test_photo_normalization (test_service.ServiceTests.test_photo_normalization) ... ok
+test_refusal_and_truncation (test_service.ServiceTests.test_refusal_and_truncation) ... ok
+test_response_request_and_schema (test_service.ServiceTests.test_response_request_and_schema) ... ok
+test_sticker_rejects_opaque_or_empty_output (test_service.ServiceTests.test_sticker_rejects_opaque_or_empty_output) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.562s
+
+OK

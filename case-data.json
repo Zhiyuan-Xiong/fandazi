@@ -9,8 +9,8 @@
     "en": "UX / Product design"
   },
   "description": {
-    "zh": "项目进行中。完成后补充问题定义、用户流程与原型。",
-    "en": "In progress. The problem framing, user flows, and prototype will be added when ready."
+    "zh": "食宠陪伴式饮食记录：独立 UX / 产品设计、AI 辅助素材与可运行 Godot 原型。",
+    "en": "A pet-companion meal diary: independent UX/product design, AI-assisted assets and a runnable Godot prototype."
   },
   "categories": [
     "ux"
@@ -20,5 +20,6 @@
     "zh": "UX／产品设计",
     "en": "UX / Product design"
   },
-  "featured": true
+  "featured": true,
+  "repository": "https://github.com/Zhiyuan-Xiong/fandazi"
 }

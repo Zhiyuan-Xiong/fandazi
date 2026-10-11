@@ -1,0 +1,417 @@
+[gd_scene load_steps=18 format=3]
+
+[ext_resource type="Script" path="res://scripts/surface.gd" id="1"]
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSansSC-VF.ttf" id="2"]
+
+[sub_resource type="FontVariation" id="R1"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R2"]
+
+
+[sub_resource type="FontVariation" id="R3"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R4"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R5"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R6"]
+
+
+[sub_resource type="FontVariation" id="R7"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R8"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R9"]
+
+
+[sub_resource type="FontVariation" id="R10"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R11"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R12"]
+
+
+[sub_resource type="FontVariation" id="R13"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R14"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R15"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+[node name="Sheet_告诉搭子我的餐食_165_2571" type="Panel"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 560
+metadata/figma_id = "165:2571"
+metadata/figma_name = "Sheet / 告诉搭子我的餐食"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 28, "topLeftRadius": 28, "topRightRadius": 28, "bottomLeftRadius": 28, "bottomRightRadius": 28}
+clip_contents = true
+
+[node name="告诉_TA_我吃饭了吗_165_2572" type="Label" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 24
+offset_right = 314
+offset_bottom = 56
+metadata/figma_id = "165:2572"
+metadata/figma_name = "告诉 TA，我吃饭了吗"
+metadata/figma_type = "TEXT"
+text = "告诉 TA，我吃饭了吗"
+theme_override_fonts/font = SubResource("R1")
+theme_override_font_sizes/font_size = 21
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Secondary_Button_165_2573" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 325
+offset_top = 16
+offset_right = 369
+offset_bottom = 64
+metadata/figma_id = "165:2573"
+metadata/figma_name = "Secondary Button"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.82, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Secondary_Button_165_2573"]
+layout_mode = 0
+offset_right = 44
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R2")
+theme_override_styles/hover = SubResource("R2")
+theme_override_styles/pressed = SubResource("R2")
+theme_override_styles/focus = SubResource("R2")
+metadata/source_id = "165:2573"
+metadata/click_actions = [{"type": "CLOSE"}]
+
+[node name="调整份量_I165_2573_165_1984" type="Label" parent="Secondary_Button_165_2573"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 8.0
+offset_top = 12.0
+offset_right = 36.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:2573;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "×"
+theme_override_fonts/font = SubResource("R3")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="只分享你愿意告诉_TA_的内容_不公开热量_体重或详细营养数据_165_2574" type="Label" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 70
+offset_right = 369
+offset_bottom = 110
+metadata/figma_id = "165:2574"
+metadata/figma_name = "只分享你愿意告诉 TA 的内容。\n不公开热量、体重或详细营养数据。"
+metadata/figma_type = "TEXT"
+text = "只分享你愿意告诉 TA 的内容。\n不公开热量、体重或详细营养数据。"
+theme_override_fonts/font = SubResource("R4")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Sharing_current_165_2575" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 130
+offset_right = 369
+offset_bottom = 196
+metadata/figma_id = "165:2575"
+metadata/figma_name = "Sharing / current"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.788235, "g": 0.862745, "b": 0.764706}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="我_今天还未分享_点这里告诉_TA_165_2576" type="Label" parent="Sharing_current_165_2575"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 12
+offset_right = 329
+offset_bottom = 54
+metadata/figma_id = "165:2576"
+metadata/figma_name = "我 · 今天还未分享 点这里告诉 TA"
+metadata/figma_type = "TEXT"
+metadata/bindings = {"characters": {"type": "VARIABLE_ALIAS", "id": "VariableID:147:17"}}
+text = "我 · 今天还未分享\n点这里告诉 TA"
+theme_override_fonts/font = SubResource("R5")
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Shared_Care_Message_165_2577" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 218
+offset_right = 369
+offset_bottom = 294
+metadata/figma_id = "165:2577"
+metadata/figma_name = "Shared Care Message"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "肚子空空，想认真吃顿饭", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:17", "variableValue": {"value": "我 · 还没吃这顿饭\n想被温柔提醒一下", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:18", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.937255, "g": 0.827451, "b": 0.556863}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Shared_Care_Message_165_2577"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 76
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R6")
+theme_override_styles/hover = SubResource("R6")
+theme_override_styles/pressed = SubResource("R6")
+theme_override_styles/focus = SubResource("R6")
+metadata/source_id = "165:2577"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "肚子空空，想认真吃顿饭", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:17", "variableValue": {"value": "我 · 还没吃这顿饭\n想被温柔提醒一下", "type": "STRING", "resolvedType": "STRING"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:18", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "CLOSE"}]
+
+[node name="Title_I165_2577_165_2164" type="Label" parent="Shared_Care_Message_165_2577"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 16
+offset_right = 329
+offset_bottom = 40
+metadata/figma_id = "I165:2577;165:2164"
+metadata/figma_name = "Title"
+metadata/figma_type = "TEXT"
+text = "我还没吃，想被温柔提醒"
+theme_override_fonts/font = SubResource("R7")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Detail_I165_2577_165_2165" type="Label" parent="Shared_Care_Message_165_2577"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 48
+offset_right = 329
+offset_bottom = 66
+metadata/figma_id = "I165:2577;165:2165"
+metadata/figma_name = "Detail"
+metadata/figma_type = "TEXT"
+text = "主动表达，不会因为未记录自动提醒"
+theme_override_fonts/font = SubResource("R8")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Shared_Care_Message_165_2578" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 310
+offset_right = 369
+offset_bottom = 386
+metadata/figma_id = "165:2578"
+metadata/figma_name = "Shared Care Message"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "CONDITIONAL", "conditionalBlocks": [{"actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:18", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:17", "variableValue": {"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:851"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}}, {"type": "CLOSE"}], "condition": {"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:808"}, "type": "VARIABLE_ALIAS", "resolvedType": "BOOLEAN"}}, {"actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:18", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "NODE", "destinationId": "165:1223", "navigation": "SWAP", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.2}, "resetVideoPosition": false, "resetScrollPosition": false}]}]}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.788235, "g": 0.862745, "b": 0.764706}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Shared_Care_Message_165_2578"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 76
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R9")
+theme_override_styles/hover = SubResource("R9")
+theme_override_styles/pressed = SubResource("R9")
+theme_override_styles/focus = SubResource("R9")
+metadata/source_id = "165:2578"
+metadata/click_actions = [{"type": "CONDITIONAL", "conditionalBlocks": [{"actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:18", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:17", "variableValue": {"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:851"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}}, {"type": "CLOSE"}], "condition": {"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:808"}, "type": "VARIABLE_ALIAS", "resolvedType": "BOOLEAN"}}, {"actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:18", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "NODE", "destinationId": "165:1223", "navigation": "SWAP", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.2}, "resetVideoPosition": false, "resetScrollPosition": false}]}]}]
+
+[node name="Title_I165_2578_165_2164" type="Label" parent="Shared_Care_Message_165_2578"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 16
+offset_right = 329
+offset_bottom = 40
+metadata/figma_id = "I165:2578;165:2164"
+metadata/figma_name = "Title"
+metadata/figma_type = "TEXT"
+text = "分享已记录的这一餐"
+theme_override_fonts/font = SubResource("R10")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Detail_I165_2578_165_2165" type="Label" parent="Shared_Care_Message_165_2578"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 48
+offset_right = 329
+offset_bottom = 66
+metadata/figma_id = "I165:2578;165:2165"
+metadata/figma_name = "Detail"
+metadata/figma_type = "TEXT"
+text = "没有记录时，先打开正常投喂流程"
+theme_override_fonts/font = SubResource("R11")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Shared_Care_Message_165_2579" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 402
+offset_right = 369
+offset_bottom = 478
+metadata/figma_id = "165:2579"
+metadata/figma_name = "Shared Care Message"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:18", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:17", "variableValue": {"value": "我 · 仅自己可见\n餐食与状态暂不分享", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Shared_Care_Message_165_2579"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 76
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R12")
+theme_override_styles/hover = SubResource("R12")
+theme_override_styles/pressed = SubResource("R12")
+theme_override_styles/focus = SubResource("R12")
+metadata/source_id = "165:2579"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:147:18", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:17", "variableValue": {"value": "我 · 仅自己可见\n餐食与状态暂不分享", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]
+
+[node name="Title_I165_2579_165_2164" type="Label" parent="Shared_Care_Message_165_2579"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 16
+offset_right = 329
+offset_bottom = 40
+metadata/figma_id = "I165:2579;165:2164"
+metadata/figma_name = "Title"
+metadata/figma_type = "TEXT"
+text = "暂不分享 · 仅自己可见"
+theme_override_fonts/font = SubResource("R13")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Detail_I165_2579_165_2165" type="Label" parent="Shared_Care_Message_165_2579"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 48
+offset_right = 329
+offset_bottom = 66
+metadata/figma_id = "I165:2579;165:2165"
+metadata/figma_name = "Detail"
+metadata/figma_type = "TEXT"
+text = "清除搭子气泡，不改变自己的心情"
+theme_override_fonts/font = SubResource("R14")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="轻量分享可以随时关闭_本原型不发送真实消息_165_2580" type="Label" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 510
+offset_right = 369
+offset_bottom = 527
+metadata/figma_id = "165:2580"
+metadata/figma_name = "轻量分享可以随时关闭 · 本原型不发送真实消息"
+metadata/figma_type = "TEXT"
+text = "轻量分享可以随时关闭 · 本原型不发送真实消息"
+theme_override_fonts/font = SubResource("R15")
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true

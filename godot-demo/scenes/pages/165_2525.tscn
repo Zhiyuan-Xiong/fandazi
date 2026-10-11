@@ -1,0 +1,1311 @@
+[gd_scene load_steps=47 format=3]
+
+[ext_resource type="Script" path="res://scripts/surface.gd" id="1"]
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSansSC-VF.ttf" id="2"]
+[ext_resource type="Texture2D" path="res://assets/figma/5b0428c7ffb8adf023e7.png" id="3"]
+[ext_resource type="Script" path="res://scripts/otter_motion.gd" id="4"]
+[ext_resource type="Texture2D" path="res://assets/figma/e6eaf49d8fa79e730b99.png" id="5"]
+[ext_resource type="Texture2D" path="res://assets/figma/bdccb3b3927f0682bcea.png" id="6"]
+[ext_resource type="Texture2D" path="res://assets/figma/ce50a52faa467d07e026.png" id="7"]
+[ext_resource type="Texture2D" path="res://assets/figma/43e813f1f43d837465eb.png" id="8"]
+[ext_resource type="Texture2D" path="res://assets/figma/5c0ad3b62c7cdd82b8df.png" id="9"]
+[ext_resource type="Texture2D" path="res://assets/figma/1c0b659b9b90dda77b69.png" id="10"]
+[ext_resource type="Texture2D" path="res://assets/figma/7c58acdd1bce7f4186fd.png" id="11"]
+[ext_resource type="Texture2D" path="res://assets/figma/86b258f97cdea9cf81d7.png" id="12"]
+[ext_resource type="Texture2D" path="res://assets/figma/1bae4afb53de1cf37e45.png" id="13"]
+[ext_resource type="Texture2D" path="res://assets/figma/d682fc802b0b76e8b314.png" id="14"]
+[ext_resource type="Texture2D" path="res://assets/figma/5883a903c162b5380782.png" id="15"]
+
+[sub_resource type="FontVariation" id="R1"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R2"]
+
+
+[sub_resource type="FontVariation" id="R3"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R4"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R5"]
+
+
+[sub_resource type="FontVariation" id="R6"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R7"]
+
+
+[sub_resource type="FontVariation" id="R8"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R9"]
+
+
+[sub_resource type="FontVariation" id="R10"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R11"]
+
+
+[sub_resource type="FontVariation" id="R12"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R13"]
+
+
+[sub_resource type="FontVariation" id="R14"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R15"]
+
+
+[sub_resource type="FontVariation" id="R16"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R17"]
+
+
+[sub_resource type="FontVariation" id="R18"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R19"]
+
+
+[sub_resource type="FontVariation" id="R20"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R21"]
+
+
+[sub_resource type="FontVariation" id="R22"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R23"]
+
+
+[sub_resource type="FontVariation" id="R24"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R25"]
+
+
+[sub_resource type="FontVariation" id="R26"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R27"]
+
+
+[sub_resource type="FontVariation" id="R28"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R29"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R30"]
+
+
+[sub_resource type="FontVariation" id="R31"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+[node name="Sheet_我现在的心情_165_2525" type="Panel"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 720
+metadata/figma_id = "165:2525"
+metadata/figma_name = "Sheet / 我现在的心情"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 28, "topLeftRadius": 28, "topRightRadius": 28, "bottomLeftRadius": 28, "bottomRightRadius": 28}
+clip_contents = true
+
+[node name="今天_团团替我表达_165_2526" type="Label" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 24
+offset_right = 314
+offset_bottom = 56
+metadata/figma_id = "165:2526"
+metadata/figma_name = "今天，团团替我表达"
+metadata/figma_type = "TEXT"
+text = "今天，团团替我表达"
+theme_override_fonts/font = SubResource("R1")
+theme_override_font_sizes/font_size = 21
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Secondary_Button_165_2527" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 325
+offset_top = 16
+offset_right = 369
+offset_bottom = 64
+metadata/figma_id = "165:2527"
+metadata/figma_name = "Secondary Button"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.82, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Secondary_Button_165_2527"]
+layout_mode = 0
+offset_right = 44
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R2")
+theme_override_styles/hover = SubResource("R2")
+theme_override_styles/pressed = SubResource("R2")
+theme_override_styles/focus = SubResource("R2")
+metadata/source_id = "165:2527"
+metadata/click_actions = [{"type": "CLOSE"}]
+
+[node name="调整份量_I165_2527_165_1984" type="Label" parent="Secondary_Button_165_2527"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 8.0
+offset_top = 12.0
+offset_right = 36.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:2527;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "×"
+theme_override_fonts/font = SubResource("R3")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="点一个状态_角色和气泡会一起改变_165_2528" type="Label" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 65
+offset_right = 369
+offset_bottom = 85
+metadata/figma_id = "165:2528"
+metadata/figma_name = "点一个状态，角色和气泡会一起改变。"
+metadata/figma_type = "TEXT"
+text = "点一个状态，角色和气泡会一起改变。"
+theme_override_fonts/font = SubResource("R4")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Mood_row_0_165_2529" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 105
+offset_right = 369
+offset_bottom = 215
+metadata/figma_id = "165:2529"
+metadata/figma_name = "Mood row 0"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1}
+clip_contents = true
+
+[node name="Mood_choice_Happy_165_2530" type="Panel" parent="Mood_row_0_165_2529"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 107
+offset_bottom = 102
+metadata/figma_id = "165:2530"
+metadata/figma_name = "Mood choice / Happy"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "开心！今天有好好照顾自己", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Mood_row_0_165_2529/Mood_choice_Happy_165_2530"]
+layout_mode = 0
+offset_right = 107
+offset_bottom = 102
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R5")
+theme_override_styles/hover = SubResource("R5")
+theme_override_styles/pressed = SubResource("R5")
+theme_override_styles/focus = SubResource("R5")
+metadata/source_id = "165:2530"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "开心！今天有好好照顾自己", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]
+
+[node name="OTTER_Happy_165_2531" type="Panel" parent="Mood_row_0_165_2529/Mood_choice_Happy_165_2530"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 13.5
+offset_top = 0
+offset_right = 93.5
+offset_bottom = 80
+metadata/figma_id = "165:2531"
+metadata/figma_name = "OTTER_Happy"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.454545}
+clip_contents = false
+
+[node name="OTTER_Happy_PNG_I165_2531_98_1946" type="TextureRect" parent="Mood_row_0_165_2529/Mood_choice_Happy_165_2530/OTTER_Happy_165_2531"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 2.73
+offset_top = 2.73
+offset_right = 77.28
+offset_bottom = 77.28
+metadata/figma_id = "I165:2531;98:1946"
+metadata/figma_name = "OTTER_Happy/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("3")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "Happy"
+stretch_mode = 5
+
+[node name="开心_165_2532" type="Label" parent="Mood_row_0_165_2529/Mood_choice_Happy_165_2530"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 82
+offset_right = 103
+offset_bottom = 102
+metadata/figma_id = "165:2532"
+metadata/figma_name = "开心"
+metadata/figma_type = "TEXT"
+text = "开心"
+theme_override_fonts/font = SubResource("R6")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Mood_choice_Flutter_165_2533" type="Panel" parent="Mood_row_0_165_2529"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 119
+offset_top = 0
+offset_right = 226
+offset_bottom = 102
+metadata/figma_id = "165:2533"
+metadata/figma_name = "Mood choice / Flutter"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "被惦记的感觉，真好", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Mood_row_0_165_2529/Mood_choice_Flutter_165_2533"]
+layout_mode = 0
+offset_right = 107
+offset_bottom = 102
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R7")
+theme_override_styles/hover = SubResource("R7")
+theme_override_styles/pressed = SubResource("R7")
+theme_override_styles/focus = SubResource("R7")
+metadata/source_id = "165:2533"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "被惦记的感觉，真好", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]
+
+[node name="OTTER_Flutter_165_2534" type="Panel" parent="Mood_row_0_165_2529/Mood_choice_Flutter_165_2533"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 13.5
+offset_top = 0
+offset_right = 93.5
+offset_bottom = 80
+metadata/figma_id = "165:2534"
+metadata/figma_name = "OTTER_Flutter"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.454545}
+clip_contents = false
+
+[node name="OTTER_Flutter_PNG_I165_2534_98_1949" type="TextureRect" parent="Mood_row_0_165_2529/Mood_choice_Flutter_165_2533/OTTER_Flutter_165_2534"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 2.73
+offset_top = 2.73
+offset_right = 77.28
+offset_bottom = 77.28
+metadata/figma_id = "I165:2534;98:1949"
+metadata/figma_name = "OTTER_Flutter/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("5")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "Flutter"
+stretch_mode = 5
+
+[node name="心动_165_2535" type="Label" parent="Mood_row_0_165_2529/Mood_choice_Flutter_165_2533"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 82
+offset_right = 103
+offset_bottom = 102
+metadata/figma_id = "165:2535"
+metadata/figma_name = "心动"
+metadata/figma_type = "TEXT"
+text = "心动"
+theme_override_fonts/font = SubResource("R8")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Mood_choice_Pleasure_165_2536" type="Panel" parent="Mood_row_0_165_2529"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 238
+offset_top = 0
+offset_right = 345
+offset_bottom = 102
+metadata/figma_id = "165:2536"
+metadata/figma_name = "Mood choice / Pleasure"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "吃得满足，心里暖暖的", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Mood_row_0_165_2529/Mood_choice_Pleasure_165_2536"]
+layout_mode = 0
+offset_right = 107
+offset_bottom = 102
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R9")
+theme_override_styles/hover = SubResource("R9")
+theme_override_styles/pressed = SubResource("R9")
+theme_override_styles/focus = SubResource("R9")
+metadata/source_id = "165:2536"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "吃得满足，心里暖暖的", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]
+
+[node name="OTTER_Pleasure_165_2537" type="Panel" parent="Mood_row_0_165_2529/Mood_choice_Pleasure_165_2536"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 13.5
+offset_top = 0
+offset_right = 93.5
+offset_bottom = 80
+metadata/figma_id = "165:2537"
+metadata/figma_name = "OTTER_Pleasure"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.454545}
+clip_contents = false
+
+[node name="OTTER_Pleasure_PNG_I165_2537_98_1952" type="TextureRect" parent="Mood_row_0_165_2529/Mood_choice_Pleasure_165_2536/OTTER_Pleasure_165_2537"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 2.73
+offset_top = 2.73
+offset_right = 77.28
+offset_bottom = 77.28
+metadata/figma_id = "I165:2537;98:1952"
+metadata/figma_name = "OTTER_Pleasure/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("6")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "Pleasure"
+stretch_mode = 5
+
+[node name="满足_165_2538" type="Label" parent="Mood_row_0_165_2529/Mood_choice_Pleasure_165_2536"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 82
+offset_right = 103
+offset_bottom = 102
+metadata/figma_id = "165:2538"
+metadata/figma_name = "满足"
+metadata/figma_type = "TEXT"
+text = "满足"
+theme_override_fonts/font = SubResource("R10")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Mood_row_1_165_2539" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 225
+offset_right = 369
+offset_bottom = 335
+metadata/figma_id = "165:2539"
+metadata/figma_name = "Mood row 1"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1}
+clip_contents = true
+
+[node name="Mood_choice_Peaceful_165_2540" type="Panel" parent="Mood_row_1_165_2539"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 107
+offset_bottom = 102
+metadata/figma_id = "165:2540"
+metadata/figma_name = "Mood choice / Peaceful"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "慢慢来，今天很平静", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Mood_row_1_165_2539/Mood_choice_Peaceful_165_2540"]
+layout_mode = 0
+offset_right = 107
+offset_bottom = 102
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R11")
+theme_override_styles/hover = SubResource("R11")
+theme_override_styles/pressed = SubResource("R11")
+theme_override_styles/focus = SubResource("R11")
+metadata/source_id = "165:2540"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "慢慢来，今天很平静", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]
+
+[node name="OTTER_Peaceful_165_2541" type="Panel" parent="Mood_row_1_165_2539/Mood_choice_Peaceful_165_2540"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 13.5
+offset_top = 0
+offset_right = 93.5
+offset_bottom = 80
+metadata/figma_id = "165:2541"
+metadata/figma_name = "OTTER_Peaceful"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.454545}
+clip_contents = false
+
+[node name="OTTER_Peaceful_PNG_I165_2541_98_1955" type="TextureRect" parent="Mood_row_1_165_2539/Mood_choice_Peaceful_165_2540/OTTER_Peaceful_165_2541"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 2.73
+offset_top = 2.73
+offset_right = 77.28
+offset_bottom = 77.28
+metadata/figma_id = "I165:2541;98:1955"
+metadata/figma_name = "OTTER_Peaceful/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("7")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "Peaceful"
+stretch_mode = 5
+
+[node name="平静_165_2542" type="Label" parent="Mood_row_1_165_2539/Mood_choice_Peaceful_165_2540"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 82
+offset_right = 103
+offset_bottom = 102
+metadata/figma_id = "165:2542"
+metadata/figma_name = "平静"
+metadata/figma_type = "TEXT"
+text = "平静"
+theme_override_fonts/font = SubResource("R12")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Mood_choice_Normal_165_2543" type="Panel" parent="Mood_row_1_165_2539"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 119
+offset_top = 0
+offset_right = 226
+offset_bottom = 102
+metadata/figma_id = "165:2543"
+metadata/figma_name = "Mood choice / Normal"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "今天精神不错，一起好好吃饭", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Mood_row_1_165_2539/Mood_choice_Normal_165_2543"]
+layout_mode = 0
+offset_right = 107
+offset_bottom = 102
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R13")
+theme_override_styles/hover = SubResource("R13")
+theme_override_styles/pressed = SubResource("R13")
+theme_override_styles/focus = SubResource("R13")
+metadata/source_id = "165:2543"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "今天精神不错，一起好好吃饭", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]
+
+[node name="OTTER_Normal_165_2544" type="Panel" parent="Mood_row_1_165_2539/Mood_choice_Normal_165_2543"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 13.5
+offset_top = 0
+offset_right = 93.5
+offset_bottom = 80
+metadata/figma_id = "165:2544"
+metadata/figma_name = "OTTER_Normal"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.454545}
+clip_contents = false
+
+[node name="OTTER_Normal_PNG_I165_2544_98_1958" type="TextureRect" parent="Mood_row_1_165_2539/Mood_choice_Normal_165_2543/OTTER_Normal_165_2544"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 2.73
+offset_top = 2.73
+offset_right = 77.28
+offset_bottom = 77.28
+metadata/figma_id = "I165:2544;98:1958"
+metadata/figma_name = "OTTER_Normal/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("8")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "Normal"
+stretch_mode = 5
+
+[node name="日常_165_2545" type="Label" parent="Mood_row_1_165_2539/Mood_choice_Normal_165_2543"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 82
+offset_right = 103
+offset_bottom = 102
+metadata/figma_id = "165:2545"
+metadata/figma_name = "日常"
+metadata/figma_type = "TEXT"
+text = "日常"
+theme_override_fonts/font = SubResource("R14")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Mood_choice_Tired_165_2546" type="Panel" parent="Mood_row_1_165_2539"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 238
+offset_top = 0
+offset_right = 345
+offset_bottom = 102
+metadata/figma_id = "165:2546"
+metadata/figma_name = "Mood choice / Tired"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "今天有点累，想慢慢吃顿饭", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Mood_row_1_165_2539/Mood_choice_Tired_165_2546"]
+layout_mode = 0
+offset_right = 107
+offset_bottom = 102
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R15")
+theme_override_styles/hover = SubResource("R15")
+theme_override_styles/pressed = SubResource("R15")
+theme_override_styles/focus = SubResource("R15")
+metadata/source_id = "165:2546"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "今天有点累，想慢慢吃顿饭", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]
+
+[node name="OTTER_Tired_165_2547" type="Panel" parent="Mood_row_1_165_2539/Mood_choice_Tired_165_2546"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 13.5
+offset_top = 0
+offset_right = 93.5
+offset_bottom = 80
+metadata/figma_id = "165:2547"
+metadata/figma_name = "OTTER_Tired"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.454545}
+clip_contents = false
+
+[node name="OTTER_Tired_PNG_I165_2547_98_1961" type="TextureRect" parent="Mood_row_1_165_2539/Mood_choice_Tired_165_2546/OTTER_Tired_165_2547"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 2.73
+offset_top = 2.73
+offset_right = 77.28
+offset_bottom = 77.28
+metadata/figma_id = "I165:2547;98:1961"
+metadata/figma_name = "OTTER_Tired/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("9")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "Tired"
+stretch_mode = 5
+
+[node name="疲惫_165_2548" type="Label" parent="Mood_row_1_165_2539/Mood_choice_Tired_165_2546"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 82
+offset_right = 103
+offset_bottom = 102
+metadata/figma_id = "165:2548"
+metadata/figma_name = "疲惫"
+metadata/figma_type = "TEXT"
+text = "疲惫"
+theme_override_fonts/font = SubResource("R16")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Mood_row_2_165_2549" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 345
+offset_right = 369
+offset_bottom = 455
+metadata/figma_id = "165:2549"
+metadata/figma_name = "Mood row 2"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1}
+clip_contents = true
+
+[node name="Mood_choice_Sad_165_2550" type="Panel" parent="Mood_row_2_165_2549"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 107
+offset_bottom = 102
+metadata/figma_id = "165:2550"
+metadata/figma_name = "Mood choice / Sad"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "有一点难过，想被陪一会儿", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Mood_row_2_165_2549/Mood_choice_Sad_165_2550"]
+layout_mode = 0
+offset_right = 107
+offset_bottom = 102
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R17")
+theme_override_styles/hover = SubResource("R17")
+theme_override_styles/pressed = SubResource("R17")
+theme_override_styles/focus = SubResource("R17")
+metadata/source_id = "165:2550"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "有一点难过，想被陪一会儿", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]
+
+[node name="OTTER_Sad_165_2551" type="Panel" parent="Mood_row_2_165_2549/Mood_choice_Sad_165_2550"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 13.5
+offset_top = 0
+offset_right = 93.5
+offset_bottom = 80
+metadata/figma_id = "165:2551"
+metadata/figma_name = "OTTER_Sad"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.454545}
+clip_contents = false
+
+[node name="OTTER_Sad_PNG_I165_2551_98_1964" type="TextureRect" parent="Mood_row_2_165_2549/Mood_choice_Sad_165_2550/OTTER_Sad_165_2551"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 2.73
+offset_top = 2.73
+offset_right = 77.28
+offset_bottom = 77.28
+metadata/figma_id = "I165:2551;98:1964"
+metadata/figma_name = "OTTER_Sad/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("10")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "Sad"
+stretch_mode = 5
+
+[node name="难过_165_2552" type="Label" parent="Mood_row_2_165_2549/Mood_choice_Sad_165_2550"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 82
+offset_right = 103
+offset_bottom = 102
+metadata/figma_id = "165:2552"
+metadata/figma_name = "难过"
+metadata/figma_type = "TEXT"
+text = "难过"
+theme_override_fonts/font = SubResource("R18")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Mood_choice_Anxiety_165_2553" type="Panel" parent="Mood_row_2_165_2549"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 119
+offset_top = 0
+offset_right = 226
+offset_bottom = 102
+metadata/figma_id = "165:2553"
+metadata/figma_name = "Mood choice / Anxiety"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "有点紧张，先照顾好自己", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Mood_row_2_165_2549/Mood_choice_Anxiety_165_2553"]
+layout_mode = 0
+offset_right = 107
+offset_bottom = 102
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R19")
+theme_override_styles/hover = SubResource("R19")
+theme_override_styles/pressed = SubResource("R19")
+theme_override_styles/focus = SubResource("R19")
+metadata/source_id = "165:2553"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "有点紧张，先照顾好自己", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]
+
+[node name="OTTER_Anxiety_165_2554" type="Panel" parent="Mood_row_2_165_2549/Mood_choice_Anxiety_165_2553"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 13.5
+offset_top = 0
+offset_right = 93.5
+offset_bottom = 80
+metadata/figma_id = "165:2554"
+metadata/figma_name = "OTTER_Anxiety"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.454545}
+clip_contents = false
+
+[node name="OTTER_Anxiety_PNG_I165_2554_98_1967" type="TextureRect" parent="Mood_row_2_165_2549/Mood_choice_Anxiety_165_2553/OTTER_Anxiety_165_2554"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 2.73
+offset_top = 2.73
+offset_right = 77.28
+offset_bottom = 77.28
+metadata/figma_id = "I165:2554;98:1967"
+metadata/figma_name = "OTTER_Anxiety/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("11")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "Anxiety"
+stretch_mode = 5
+
+[node name="焦虑_165_2555" type="Label" parent="Mood_row_2_165_2549/Mood_choice_Anxiety_165_2553"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 82
+offset_right = 103
+offset_bottom = 102
+metadata/figma_id = "165:2555"
+metadata/figma_name = "焦虑"
+metadata/figma_type = "TEXT"
+text = "焦虑"
+theme_override_fonts/font = SubResource("R20")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Mood_choice_Angry_165_2556" type="Panel" parent="Mood_row_2_165_2549"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 238
+offset_top = 0
+offset_right = 345
+offset_bottom = 102
+metadata/figma_id = "165:2556"
+metadata/figma_name = "Mood choice / Angry"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "需要一点空间，缓一缓就好", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Mood_row_2_165_2549/Mood_choice_Angry_165_2556"]
+layout_mode = 0
+offset_right = 107
+offset_bottom = 102
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R21")
+theme_override_styles/hover = SubResource("R21")
+theme_override_styles/pressed = SubResource("R21")
+theme_override_styles/focus = SubResource("R21")
+metadata/source_id = "165:2556"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "需要一点空间，缓一缓就好", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]
+
+[node name="OTTER_Angry_165_2557" type="Panel" parent="Mood_row_2_165_2549/Mood_choice_Angry_165_2556"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 13.5
+offset_top = 0
+offset_right = 93.5
+offset_bottom = 80
+metadata/figma_id = "165:2557"
+metadata/figma_name = "OTTER_Angry"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.454545}
+clip_contents = false
+
+[node name="OTTER_Angry_PNG_I165_2557_98_1970" type="TextureRect" parent="Mood_row_2_165_2549/Mood_choice_Angry_165_2556/OTTER_Angry_165_2557"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 2.73
+offset_top = 2.73
+offset_right = 77.28
+offset_bottom = 77.28
+metadata/figma_id = "I165:2557;98:1970"
+metadata/figma_name = "OTTER_Angry/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("12")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "Angry"
+stretch_mode = 5
+
+[node name="生气_165_2558" type="Label" parent="Mood_row_2_165_2549/Mood_choice_Angry_165_2556"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 82
+offset_right = 103
+offset_bottom = 102
+metadata/figma_id = "165:2558"
+metadata/figma_name = "生气"
+metadata/figma_type = "TEXT"
+text = "生气"
+theme_override_fonts/font = SubResource("R22")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Mood_row_3_165_2559" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 465
+offset_right = 369
+offset_bottom = 575
+metadata/figma_id = "165:2559"
+metadata/figma_name = "Mood row 3"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1}
+clip_contents = true
+
+[node name="Mood_choice_Disappointed_165_2560" type="Panel" parent="Mood_row_3_165_2559"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 107
+offset_bottom = 102
+metadata/figma_id = "165:2560"
+metadata/figma_name = "Mood choice / Disappointed"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "有点失落，抱抱自己", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Mood_row_3_165_2559/Mood_choice_Disappointed_165_2560"]
+layout_mode = 0
+offset_right = 107
+offset_bottom = 102
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R23")
+theme_override_styles/hover = SubResource("R23")
+theme_override_styles/pressed = SubResource("R23")
+theme_override_styles/focus = SubResource("R23")
+metadata/source_id = "165:2560"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "有点失落，抱抱自己", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]
+
+[node name="OTTER_Disappointed_165_2561" type="Panel" parent="Mood_row_3_165_2559/Mood_choice_Disappointed_165_2560"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 13.5
+offset_top = 0
+offset_right = 93.5
+offset_bottom = 80
+metadata/figma_id = "165:2561"
+metadata/figma_name = "OTTER_Disappointed"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.454545}
+clip_contents = false
+
+[node name="OTTER_Disappointed_PNG_I165_2561_98_1973" type="TextureRect" parent="Mood_row_3_165_2559/Mood_choice_Disappointed_165_2560/OTTER_Disappointed_165_2561"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 2.73
+offset_top = 2.73
+offset_right = 77.28
+offset_bottom = 77.28
+metadata/figma_id = "I165:2561;98:1973"
+metadata/figma_name = "OTTER_Disappointed/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("13")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "Disappointed"
+stretch_mode = 5
+
+[node name="失落_165_2562" type="Label" parent="Mood_row_3_165_2559/Mood_choice_Disappointed_165_2560"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 82
+offset_right = 103
+offset_bottom = 102
+metadata/figma_id = "165:2562"
+metadata/figma_name = "失落"
+metadata/figma_type = "TEXT"
+text = "失落"
+theme_override_fonts/font = SubResource("R24")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Mood_choice_Stress_165_2563" type="Panel" parent="Mood_row_3_165_2559"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 119
+offset_top = 0
+offset_right = 226
+offset_bottom = 102
+metadata/figma_id = "165:2563"
+metadata/figma_name = "Mood choice / Stress"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "事情有点多，先歇一会儿", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Mood_row_3_165_2559/Mood_choice_Stress_165_2563"]
+layout_mode = 0
+offset_right = 107
+offset_bottom = 102
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R25")
+theme_override_styles/hover = SubResource("R25")
+theme_override_styles/pressed = SubResource("R25")
+theme_override_styles/focus = SubResource("R25")
+metadata/source_id = "165:2563"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "事情有点多，先歇一会儿", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]
+
+[node name="OTTER_Stress_165_2564" type="Panel" parent="Mood_row_3_165_2559/Mood_choice_Stress_165_2563"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 13.5
+offset_top = 0
+offset_right = 93.5
+offset_bottom = 80
+metadata/figma_id = "165:2564"
+metadata/figma_name = "OTTER_Stress"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.454545}
+clip_contents = false
+
+[node name="OTTER_Stress_PNG_I165_2564_98_1976" type="TextureRect" parent="Mood_row_3_165_2559/Mood_choice_Stress_165_2563/OTTER_Stress_165_2564"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 2.73
+offset_top = 2.73
+offset_right = 77.28
+offset_bottom = 77.28
+metadata/figma_id = "I165:2564;98:1976"
+metadata/figma_name = "OTTER_Stress/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("14")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "Stress"
+stretch_mode = 5
+
+[node name="压力大_165_2565" type="Label" parent="Mood_row_3_165_2559/Mood_choice_Stress_165_2563"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 82
+offset_right = 103
+offset_bottom = 102
+metadata/figma_id = "165:2565"
+metadata/figma_name = "压力大"
+metadata/figma_type = "TEXT"
+text = "压力大"
+theme_override_fonts/font = SubResource("R26")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Mood_choice_Sleepy_165_2566" type="Panel" parent="Mood_row_3_165_2559"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 238
+offset_top = 0
+offset_right = 345
+offset_bottom = 102
+metadata/figma_id = "165:2566"
+metadata/figma_name = "Mood choice / Sleepy"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "困啦，今天早点休息", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Mood_row_3_165_2559/Mood_choice_Sleepy_165_2566"]
+layout_mode = 0
+offset_right = 107
+offset_bottom = 102
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R27")
+theme_override_styles/hover = SubResource("R27")
+theme_override_styles/pressed = SubResource("R27")
+theme_override_styles/focus = SubResource("R27")
+metadata/source_id = "165:2566"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:147:4", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:5", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:6", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:7", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:8", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:9", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:10", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:11", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:12", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:13", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:14", "variableValue": {"value": false, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:15", "variableValue": {"value": true, "type": "BOOLEAN", "resolvedType": "BOOLEAN"}}, {"type": "SET_VARIABLE", "variableId": "VariableID:147:16", "variableValue": {"value": "困啦，今天早点休息", "type": "STRING", "resolvedType": "STRING"}}, {"type": "CLOSE"}]
+
+[node name="OTTER_Sleepy_165_2567" type="Panel" parent="Mood_row_3_165_2559/Mood_choice_Sleepy_165_2566"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 13.5
+offset_top = 0
+offset_right = 93.5
+offset_bottom = 80
+metadata/figma_id = "165:2567"
+metadata/figma_name = "OTTER_Sleepy"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.454545}
+clip_contents = false
+
+[node name="OTTER_Sleepy_PNG_I165_2567_98_1979" type="TextureRect" parent="Mood_row_3_165_2559/Mood_choice_Sleepy_165_2566/OTTER_Sleepy_165_2567"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 2.73
+offset_top = 2.73
+offset_right = 77.28
+offset_bottom = 77.28
+metadata/figma_id = "I165:2567;98:1979"
+metadata/figma_name = "OTTER_Sleepy/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("15")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "Sleepy"
+stretch_mode = 5
+
+[node name="困倦_165_2568" type="Label" parent="Mood_row_3_165_2559/Mood_choice_Sleepy_165_2566"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4
+offset_top = 82
+offset_right = 103
+offset_bottom = 102
+metadata/figma_id = "165:2568"
+metadata/figma_name = "困倦"
+metadata/figma_type = "TEXT"
+text = "困倦"
+theme_override_fonts/font = SubResource("R28")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="心情由你自己表达_不由餐食记录推断_负面心情也值得被温柔对待_165_2569" type="Label" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 597
+offset_right = 369
+offset_bottom = 633
+metadata/figma_id = "165:2569"
+metadata/figma_name = "心情由你自己表达，不由餐食记录推断。\n负面心情也值得被温柔对待。"
+metadata/figma_type = "TEXT"
+text = "心情由你自己表达，不由餐食记录推断。\n负面心情也值得被温柔对待。"
+theme_override_fonts/font = SubResource("R29")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Primary_Button_165_2570" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 650
+offset_right = 369
+offset_bottom = 698
+metadata/figma_id = "165:2570"
+metadata/figma_name = "Primary Button"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.27451, "g": 0.478431, "b": 0.376471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.07}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.04, "g": 0.16, "b": 0.1, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 8, "boundVariables": {}, "color": {"r": 0.18, "g": 0.35, "b": 0.26, "a": 0.1}, "offset": {"x": 0, "y": 3}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Primary_Button_165_2570"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R30")
+theme_override_styles/hover = SubResource("R30")
+theme_override_styles/pressed = SubResource("R30")
+theme_override_styles/focus = SubResource("R30")
+metadata/source_id = "165:2570"
+metadata/click_actions = [{"type": "CLOSE"}]
+
+[node name="确认这顿饭_I165_2570_165_1979" type="Label" parent="Primary_Button_165_2570"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 12.5
+offset_right = 329.0
+offset_bottom = 35.5
+metadata/figma_id = "I165:2570;165:1979"
+metadata/figma_name = "确认这顿饭"
+metadata/figma_type = "TEXT"
+text = "保留当前状态 · 关闭"
+theme_override_fonts/font = SubResource("R31")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(1, 0.996078, 0.976471, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true

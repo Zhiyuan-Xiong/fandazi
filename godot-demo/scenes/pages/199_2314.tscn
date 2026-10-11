@@ -1,0 +1,1094 @@
+[gd_scene load_steps=49 format=3]
+
+[ext_resource type="Script" path="res://scripts/surface.gd" id="1"]
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSansSC-VF.ttf" id="2"]
+[ext_resource type="Texture2D" path="res://assets/figma/cae6f0f8443fddd1eeff.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/figma/e711aa34a91fbf32efcf.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/figma/f5391cc820b1c933d5f1.png" id="5"]
+[ext_resource type="Texture2D" path="res://assets/figma/ec3ffffaad4c5ae55a0c.png" id="6"]
+[ext_resource type="Texture2D" path="res://assets/figma/4b9bfc404535565665b7.png" id="7"]
+[ext_resource type="Texture2D" path="res://assets/figma/b3f5fba184b46df60e63.png" id="8"]
+[ext_resource type="Texture2D" path="res://assets/figma/1f975f03df51ef227447.png" id="9"]
+[ext_resource type="Texture2D" path="res://assets/figma/69e507cf359765dff5e6.png" id="10"]
+[ext_resource type="Texture2D" path="res://assets/figma/ba81ca6e1036c0446d5b.png" id="11"]
+[ext_resource type="Texture2D" path="res://assets/figma/50d6b8af6371e52f38d7.png" id="12"]
+[ext_resource type="Texture2D" path="res://assets/figma/1f7dd4a23da588461016.png" id="13"]
+[ext_resource type="Texture2D" path="res://assets/figma/65e55b818e558cf6e18e.png" id="14"]
+[ext_resource type="Texture2D" path="res://assets/figma/3b5eb62ff7d682da4915.png" id="15"]
+[ext_resource type="Texture2D" path="res://assets/figma/31c86f55fd9b86897606.png" id="16"]
+[ext_resource type="Texture2D" path="res://assets/figma/d7c9d209f6ffedec607b.png" id="17"]
+[ext_resource type="Texture2D" path="res://assets/figma/59efa1e907ce2eed0d5b.png" id="18"]
+[ext_resource type="Texture2D" path="res://assets/figma/38b14719b5ddd2009122.png" id="19"]
+[ext_resource type="Texture2D" path="res://assets/figma/e02948b9a7933faa430c.png" id="20"]
+[ext_resource type="Texture2D" path="res://assets/figma/11baa42152d10cc80d9b.png" id="21"]
+[ext_resource type="Texture2D" path="res://assets/figma/72ac9ffc846423dda550.png" id="22"]
+[ext_resource type="Texture2D" path="res://assets/figma/f7cf3a9b268bb6bb958c.png" id="23"]
+[ext_resource type="Texture2D" path="res://assets/figma/6fdba8a51d4ad0343d40.png" id="24"]
+[ext_resource type="Texture2D" path="res://assets/figma/251f8505910bccf0b2db.png" id="25"]
+[ext_resource type="Texture2D" path="res://assets/figma/090e68682c84f155d819.png" id="26"]
+[ext_resource type="Texture2D" path="res://assets/figma/90b9b78335855dd7a7cc.png" id="27"]
+[ext_resource type="Texture2D" path="res://assets/figma/0b6420da3e1907d9ef09.png" id="28"]
+[ext_resource type="Texture2D" path="res://assets/figma/ca6988724f208cb2b9f5.png" id="29"]
+[ext_resource type="Texture2D" path="res://assets/figma/baadd473a03f7883fa7a.png" id="30"]
+[ext_resource type="Texture2D" path="res://assets/figma/a2de7877700470cc600f.png" id="31"]
+[ext_resource type="Texture2D" path="res://assets/figma/f32d4ea61b075d94615e.png" id="32"]
+[ext_resource type="Texture2D" path="res://assets/figma/c8e0b0733edfc919c343.png" id="33"]
+[ext_resource type="Texture2D" path="res://assets/figma/a859d482f38a738d69f1.png" id="34"]
+
+[sub_resource type="FontVariation" id="R1"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R2"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R3"]
+
+
+[sub_resource type="FontVariation" id="R4"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R5"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R6"]
+
+
+[sub_resource type="FontVariation" id="R7"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R8"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R9"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R10"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R11"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R12"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R13"]
+
+
+[sub_resource type="FontVariation" id="R14"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+[node name="Decor_冻结家具详情_199_2314" type="Panel"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "199:2314"
+metadata/figma_name = "Decor / 冻结家具详情"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1}
+clip_contents = true
+
+[node name="Safe_Area_200_2312" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 48
+metadata/figma_id = "200:2312"
+metadata/figma_name = "Safe Area"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="9_41_200_2313" type="Label" parent="Safe_Area_200_2312"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 14
+offset_right = 74
+offset_bottom = 34
+metadata/figma_id = "200:2313"
+metadata/figma_name = "9:41"
+metadata/figma_type = "TEXT"
+text = "9:41"
+theme_override_fonts/font = SubResource("R1")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Layer_200_2314" type="Label" parent="Safe_Area_200_2312"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 332
+offset_top = 14
+offset_right = 370
+offset_bottom = 32
+metadata/figma_id = "200:2314"
+metadata/figma_name = "● ▰"
+metadata/figma_type = "TEXT"
+text = "●  ▰"
+theme_override_fonts/font = SubResource("R2")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Header_200_2315" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 48
+offset_right = 393
+offset_bottom = 104
+metadata/figma_id = "200:2315"
+metadata/figma_name = "Header"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1}
+clip_contents = true
+
+[node name="Layer_200_2316" type="Panel" parent="Header_200_2315"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 8
+offset_right = 64
+offset_bottom = 48
+metadata/figma_id = "200:2316"
+metadata/figma_name = "‹"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.82, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Header_200_2315/Layer_200_2316"]
+layout_mode = 0
+offset_right = 40
+offset_bottom = 40
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R3")
+theme_override_styles/hover = SubResource("R3")
+theme_override_styles/pressed = SubResource("R3")
+theme_override_styles/focus = SubResource("R3")
+metadata/source_id = "200:2316"
+metadata/click_actions = [{"type": "BACK"}]
+
+[node name="调整份量_I200_2316_165_1984" type="Label" parent="Header_200_2315/Layer_200_2316"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 8.0
+offset_right = 24.0
+offset_bottom = 32.0
+metadata/figma_id = "I200:2316;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "‹"
+theme_override_fonts/font = SubResource("R4")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Page_title_200_2319" type="Label" parent="Header_200_2315"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 72
+offset_top = 14.5
+offset_right = 321
+offset_bottom = 41.5
+metadata/figma_id = "200:2319"
+metadata/figma_name = "Page title"
+metadata/figma_type = "TEXT"
+text = "冻结家具详情"
+theme_override_fonts/font = SubResource("R5")
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Layer_200_2320" type="Panel" parent="Header_200_2315"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 329
+offset_top = 8
+offset_right = 369
+offset_bottom = 48
+metadata/figma_id = "200:2320"
+metadata/figma_name = "⌂"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "CONDITIONAL", "conditionalBlocks": [{"actions": [{"type": "NODE", "destinationId": "165:1833", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}], "condition": {"value": {"expressionArguments": [{"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:196:845"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}, {"value": "伙伴之家", "type": "STRING", "resolvedType": "STRING"}], "expressionFunction": "EQUALS"}, "type": "EXPRESSION", "resolvedType": "BOOLEAN"}}, {"actions": [{"type": "NODE", "destinationId": "165:1083", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.82, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Header_200_2315/Layer_200_2320"]
+layout_mode = 0
+offset_right = 40
+offset_bottom = 40
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R6")
+theme_override_styles/hover = SubResource("R6")
+theme_override_styles/pressed = SubResource("R6")
+theme_override_styles/focus = SubResource("R6")
+metadata/source_id = "200:2320"
+metadata/click_actions = [{"type": "CONDITIONAL", "conditionalBlocks": [{"actions": [{"type": "NODE", "destinationId": "165:1833", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}], "condition": {"value": {"expressionArguments": [{"value": {"type": "VARIABLE_ALIAS", "id": "VariableID:196:845"}, "type": "VARIABLE_ALIAS", "resolvedType": "STRING"}, {"value": "伙伴之家", "type": "STRING", "resolvedType": "STRING"}], "expressionFunction": "EQUALS"}, "type": "EXPRESSION", "resolvedType": "BOOLEAN"}}, {"actions": [{"type": "NODE", "destinationId": "165:1083", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]}]
+
+[node name="调整份量_I200_2320_165_1984" type="Label" parent="Header_200_2315/Layer_200_2320"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 8.0
+offset_right = 24.0
+offset_bottom = 32.0
+metadata/figma_id = "I200:2320;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "⌂"
+theme_override_fonts/font = SubResource("R7")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Content_200_2323" type="ScrollContainer" parent="."]
+layout_mode = 0
+mouse_filter = 1
+offset_left = 0
+offset_top = 104
+offset_right = 393
+offset_bottom = 754
+metadata/figma_id = "200:2323"
+metadata/figma_name = "Content"
+metadata/figma_type = "FRAME"
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+
+[node name="ScrollContent" type="Control" parent="Content_200_2323"]
+custom_minimum_size = Vector2(393, 650)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Frozen_eyebrow_202_2348" type="Label" parent="Content_200_2323/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 8
+offset_right = 369
+offset_bottom = 29
+metadata/figma_id = "202:2348"
+metadata/figma_name = "Frozen eyebrow"
+metadata/figma_type = "TEXT"
+text = "❄ 还在等一个合适的日常"
+theme_override_fonts/font = SubResource("R8")
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Frozen_asset_stage_202_2349" type="Panel" parent="Content_200_2323/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 41
+offset_right = 369
+offset_bottom = 327
+metadata/figma_id = "202:2349"
+metadata/figma_name = "Frozen asset stage"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.08}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.12, "g": 0.28, "b": 0.2, "a": 0.035}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 24, "topLeftRadius": 24, "topRightRadius": 24, "bottomLeftRadius": 24, "bottomRightRadius": 24}
+clip_contents = true
+
+[node name="Artwork_sage-armchair_202_2356" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2356"
+metadata/figma_name = "Artwork / sage-armchair"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2291"}}
+texture_filter = 4
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_sage-sofa_202_2357" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2357"
+metadata/figma_name = "Artwork / sage-sofa"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2292"}}
+texture_filter = 4
+texture = ExtResource("4")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_coffee-table_202_2358" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2358"
+metadata/figma_name = "Artwork / coffee-table"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2293"}}
+texture_filter = 4
+texture = ExtResource("5")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_paw-rug_202_2359" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2359"
+metadata/figma_name = "Artwork / paw-rug"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2294"}}
+texture_filter = 4
+texture = ExtResource("6")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_trailing-plant_202_2360" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2360"
+metadata/figma_name = "Artwork / trailing-plant"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2295"}}
+texture_filter = 4
+texture = ExtResource("7")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_floor-lamp_202_2361" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2361"
+metadata/figma_name = "Artwork / floor-lamp"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2296"}}
+texture_filter = 4
+texture = ExtResource("8")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_peach-cushion_202_2362" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2362"
+metadata/figma_name = "Artwork / peach-cushion"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2297"}}
+texture_filter = 4
+texture = ExtResource("9")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_arch-bookcase_202_2363" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2363"
+metadata/figma_name = "Artwork / arch-bookcase"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2298"}}
+texture_filter = 4
+texture = ExtResource("10")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_pet-bed_202_2364" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2364"
+metadata/figma_name = "Artwork / pet-bed"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2299"}}
+texture_filter = 4
+texture = ExtResource("11")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_bedside-table_202_2365" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2365"
+metadata/figma_name = "Artwork / bedside-table"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2300"}}
+texture_filter = 4
+texture = ExtResource("12")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_blanket-basket_202_2366" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2366"
+metadata/figma_name = "Artwork / blanket-basket"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2301"}}
+texture_filter = 4
+texture = ExtResource("13")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_beanbag_202_2367" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2367"
+metadata/figma_name = "Artwork / beanbag"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2302"}}
+texture_filter = 4
+texture = ExtResource("14")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_drawer-chest_202_2368" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2368"
+metadata/figma_name = "Artwork / drawer-chest"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2303"}}
+texture_filter = 4
+texture = ExtResource("15")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_standing-mirror_202_2369" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2369"
+metadata/figma_name = "Artwork / standing-mirror"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2304"}}
+texture_filter = 4
+texture = ExtResource("16")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_low-cabinet_202_2370" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2370"
+metadata/figma_name = "Artwork / low-cabinet"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2305"}}
+texture_filter = 4
+texture = ExtResource("17")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_cream-cushion_202_2371" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2371"
+metadata/figma_name = "Artwork / cream-cushion"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2306"}}
+texture_filter = 4
+texture = ExtResource("18")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_dining-table_202_2372" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2372"
+metadata/figma_name = "Artwork / dining-table"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2307"}}
+texture_filter = 4
+texture = ExtResource("19")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_dining-chair_202_2373" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2373"
+metadata/figma_name = "Artwork / dining-chair"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2308"}}
+texture_filter = 4
+texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_tea-cart_202_2374" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2374"
+metadata/figma_name = "Artwork / tea-cart"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2309"}}
+texture_filter = 4
+texture = ExtResource("21")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_kitchen-cabinet_202_2375" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2375"
+metadata/figma_name = "Artwork / kitchen-cabinet"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2310"}}
+texture_filter = 4
+texture = ExtResource("22")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_pantry-shelf_202_2376" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2376"
+metadata/figma_name = "Artwork / pantry-shelf"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2311"}}
+texture_filter = 4
+texture = ExtResource("23")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_fridge_202_2377" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2377"
+metadata/figma_name = "Artwork / fridge"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2312"}}
+texture_filter = 4
+texture = ExtResource("24")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_round-tea-cart_202_2378" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2378"
+metadata/figma_name = "Artwork / round-tea-cart"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2313"}}
+texture_filter = 4
+texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_snack-basket_202_2379" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2379"
+metadata/figma_name = "Artwork / snack-basket"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2314"}}
+texture_filter = 4
+texture = ExtResource("26")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_curtain-window_202_2380" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2380"
+metadata/figma_name = "Artwork / curtain-window"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2315"}}
+texture_filter = 4
+texture = ExtResource("27")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_leaf-art_202_2381" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2381"
+metadata/figma_name = "Artwork / leaf-art"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2316"}}
+texture_filter = 4
+texture = ExtResource("28")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_wall-clock_202_2382" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2382"
+metadata/figma_name = "Artwork / wall-clock"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2317"}}
+texture_filter = 4
+texture = ExtResource("29")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_leaf-stool_202_2383" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2383"
+metadata/figma_name = "Artwork / leaf-stool"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2318"}}
+texture_filter = 4
+texture = ExtResource("30")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_wall-lamp_202_2384" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2384"
+metadata/figma_name = "Artwork / wall-lamp"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2319"}}
+texture_filter = 4
+texture = ExtResource("31")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_wall-shelf_202_2385" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2385"
+metadata/figma_name = "Artwork / wall-shelf"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2320"}}
+texture_filter = 4
+texture = ExtResource("32")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_arched-door_202_2386" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2386"
+metadata/figma_name = "Artwork / arched-door"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2321"}}
+texture_filter = 4
+texture = ExtResource("33")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Artwork_corner-module_202_2387" type="TextureRect" parent="Content_200_2323/ScrollContent/Frozen_asset_stage_202_2349"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 42
+offset_top = 13
+offset_right = 302
+offset_bottom = 273
+visible = false
+modulate = Color(1, 1, 1, 0.8)
+metadata/figma_id = "202:2387"
+metadata/figma_name = "Artwork / corner-module"
+metadata/figma_type = "FRAME"
+metadata/bindings = {"visible": {"type": "VARIABLE_ALIAS", "id": "VariableID:201:2322"}}
+texture_filter = 4
+texture = ExtResource("34")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Selected_item_name_202_2350" type="Label" parent="Content_200_2323/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 339
+offset_right = 369
+offset_bottom = 375
+metadata/figma_id = "202:2350"
+metadata/figma_name = "Selected item name"
+metadata/figma_type = "TEXT"
+metadata/bindings = {"characters": {"type": "VARIABLE_ALIAS", "id": "VariableID:230:2"}}
+text = "双人云朵沙发"
+theme_override_fonts/font = SubResource("R9")
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Unlock_requirement_202_2351" type="Label" parent="Content_200_2323/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 387
+offset_right = 369
+offset_bottom = 411
+metadata/figma_id = "202:2351"
+metadata/figma_name = "Unlock requirement"
+metadata/figma_type = "TEXT"
+metadata/bindings = {"characters": {"type": "VARIABLE_ALIAS", "id": "VariableID:230:3"}}
+text = "累计打卡 7 天解锁"
+theme_override_fonts/font = SubResource("R10")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Gentle_policy_202_2352" type="Panel" parent="Content_200_2323/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 423
+offset_right = 369
+offset_bottom = 535
+metadata/figma_id = "202:2352"
+metadata/figma_name = "Gentle policy"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Policy_title_202_2353" type="Label" parent="Content_200_2323/ScrollContent/Gentle_policy_202_2352"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 16
+offset_right = 329
+offset_bottom = 40
+metadata/figma_id = "202:2353"
+metadata/figma_name = "Policy title"
+metadata/figma_type = "TEXT"
+text = "慢慢来，小窝会越来越完整"
+theme_override_fonts/font = SubResource("R11")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Policy_body_202_2354" type="Label" parent="Content_200_2323/ScrollContent/Gentle_policy_202_2352"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 48
+offset_right = 329
+offset_bottom = 88
+metadata/figma_id = "202:2354"
+metadata/figma_name = "Policy body"
+metadata/figma_type = "TEXT"
+text = "每天打卡获得一件家具。\n不需要补签，已获得的家具不会失去。"
+theme_override_fonts/font = SubResource("R12")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Actions_200_2324" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 754
+offset_right = 393
+offset_bottom = 818
+metadata/figma_id = "200:2324"
+metadata/figma_name = "Actions"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1}
+clip_contents = true
+
+[node name="去打卡_慢慢解锁_200_2325" type="Panel" parent="Actions_200_2324"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 8
+offset_right = 369
+offset_bottom = 56
+metadata/figma_id = "200:2325"
+metadata/figma_name = "去打卡，慢慢解锁"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "199:2311", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.27451, "g": 0.478431, "b": 0.376471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.07}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.04, "g": 0.16, "b": 0.1, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 8, "boundVariables": {}, "color": {"r": 0.18, "g": 0.35, "b": 0.26, "a": 0.1}, "offset": {"x": 0, "y": 3}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Actions_200_2324/去打卡_慢慢解锁_200_2325"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R13")
+theme_override_styles/hover = SubResource("R13")
+theme_override_styles/pressed = SubResource("R13")
+theme_override_styles/focus = SubResource("R13")
+metadata/source_id = "200:2325"
+metadata/click_actions = [{"type": "NODE", "destinationId": "199:2311", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]
+
+[node name="确认这顿饭_I200_2325_165_1979" type="Label" parent="Actions_200_2324/去打卡_慢慢解锁_200_2325"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 12.5
+offset_right = 329.0
+offset_bottom = 35.5
+metadata/figma_id = "I200:2325;165:1979"
+metadata/figma_name = "确认这顿饭"
+metadata/figma_type = "TEXT"
+text = "去打卡，慢慢解锁"
+theme_override_fonts/font = SubResource("R14")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(1, 0.996078, 0.976471, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Home_Indicator_Area_200_2328" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 818
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "200:2328"
+metadata/figma_name = "Home Indicator Area"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Home_Indicator_200_2329" type="Panel" parent="Home_Indicator_Area_200_2328"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 129.5
+offset_top = 14.5
+offset_right = 263.5
+offset_bottom = 19.5
+metadata/figma_id = "200:2329"
+metadata/figma_name = "Home Indicator"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.160784, "g": 0.235294, "b": 0.2}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true

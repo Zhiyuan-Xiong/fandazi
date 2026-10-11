@@ -1,0 +1,560 @@
+[gd_scene load_steps=19 format=3]
+
+[ext_resource type="Script" path="res://scripts/surface.gd" id="1"]
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSansSC-VF.ttf" id="2"]
+
+[sub_resource type="StyleBoxEmpty" id="R1"]
+
+
+[sub_resource type="StyleBoxEmpty" id="R2"]
+
+
+[sub_resource type="FontVariation" id="R3"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R4"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R5"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R6"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R7"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R8"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R9"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R10"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R11"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R12"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R13"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R14"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R15"]
+
+
+[sub_resource type="FontVariation" id="R16"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+[node name="Sheet_营养详情_165_1285" type="Panel"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "165:1285"
+metadata/figma_name = "Sheet / 营养详情"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1}
+clip_contents = true
+
+[node name="Safe_Area_165_1286" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 132
+metadata/figma_id = "165:1286"
+metadata/figma_name = "Safe Area"
+metadata/figma_type = "FRAME"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.2, "color": {"r": 0, "g": 0, "b": 0}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="HitTarget" type="Button" parent="Safe_Area_165_1286"]
+layout_mode = 0
+offset_right = 393
+offset_bottom = 132
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R1")
+theme_override_styles/hover = SubResource("R1")
+theme_override_styles/pressed = SubResource("R1")
+theme_override_styles/focus = SubResource("R1")
+metadata/source_id = "165:1286"
+metadata/click_actions = [{"type": "CLOSE"}]
+
+[node name="Top_Bar_165_1289" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 132
+offset_right = 393
+offset_bottom = 188
+metadata/figma_id = "165:1289"
+metadata/figma_name = "Top Bar"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.988235, "b": 0.964706}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="Back_I165_1289_28_79" type="Panel" parent="Top_Bar_165_1289"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 2
+offset_right = 60
+offset_bottom = 54
+metadata/figma_id = "I165:1289;28:79"
+metadata/figma_name = "Back"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Top_Bar_165_1289/Back_I165_1289_28_79"]
+layout_mode = 0
+offset_right = 44
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R2")
+theme_override_styles/hover = SubResource("R2")
+theme_override_styles/pressed = SubResource("R2")
+theme_override_styles/focus = SubResource("R2")
+metadata/source_id = "I165:1289;28:79"
+metadata/click_actions = [{"type": "CLOSE"}]
+
+[node name="Layer_I165_1289_28_79_165_1989" type="Label" parent="Top_Bar_165_1289/Back_I165_1289_28_79"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 6.0
+offset_top = 14.0
+offset_right = 38.0
+offset_bottom = 38.0
+metadata/figma_id = "I165:1289;28:79;165:1989"
+metadata/figma_name = "×"
+metadata/figma_type = "TEXT"
+text = "×"
+theme_override_fonts/font = SubResource("R3")
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="页面标题_I165_1289_28_81" type="Label" parent="Top_Bar_165_1289"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 305
+offset_top = 14.5
+offset_right = 377
+offset_bottom = 41.5
+metadata/figma_id = "I165:1289;28:81"
+metadata/figma_name = "页面标题"
+metadata/figma_type = "TEXT"
+text = "营养详情"
+theme_override_fonts/font = SubResource("R4")
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Content_165_1290_Backdrop" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 188
+offset_right = 393
+offset_bottom = 750
+metadata/figma_id = "165:1290"
+metadata/figma_name = "Content"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.988235, "b": 0.964706}}], "strokeWeight": 1}
+
+[node name="Content_165_1290" type="ScrollContainer" parent="."]
+layout_mode = 0
+mouse_filter = 1
+offset_left = 0
+offset_top = 188
+offset_right = 393
+offset_bottom = 750
+metadata/figma_id = "165:1290"
+metadata/figma_name = "Content"
+metadata/figma_type = "FRAME"
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+
+[node name="ScrollContent" type="Control" parent="Content_165_1290"]
+custom_minimum_size = Vector2(393, 562)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="这一餐的营养细节_165_1291" type="Label" parent="Content_165_1290/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 16
+offset_right = 369
+offset_bottom = 48
+metadata/figma_id = "165:1291"
+metadata/figma_name = "这一餐的营养细节"
+metadata/figma_type = "TEXT"
+text = "这一餐的营养细节"
+theme_override_fonts/font = SubResource("R5")
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Food_Card_165_1292" type="Panel" parent="Content_165_1290/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 60
+offset_right = 369
+offset_bottom = 138
+metadata/figma_id = "165:1292"
+metadata/figma_name = "Food Card"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="番茄鸡蛋面_I165_1292_165_1994" type="Label" parent="Content_165_1290/ScrollContent/Food_Card_165_1292"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 10
+offset_right = 329
+offset_bottom = 33
+metadata/figma_id = "I165:1292;165:1994"
+metadata/figma_name = "番茄鸡蛋面"
+metadata/figma_type = "TEXT"
+text = "番茄鸡蛋面 · 青菜 · 乌龙茶"
+theme_override_fonts/font = SubResource("R6")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="1_碗_份量可调整_I165_1292_165_1995" type="Label" parent="Content_165_1290/ScrollContent/Food_Card_165_1292"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 37
+offset_right = 329
+offset_bottom = 55
+metadata/figma_id = "I165:1292;165:1995"
+metadata/figma_name = "1 碗 · 份量可调整"
+metadata/figma_type = "TEXT"
+metadata/bindings = {"characters": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:800"}}
+text = "面 1 碗 · 菜 1 份 · 茶 1 杯"
+theme_override_fonts/font = SubResource("R7")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="热量_520_kcal_蛋白质_24_g_脂肪_16_g_碳水_70_g_膳食纤维_8_g_165_1293" type="Label" parent="Content_165_1290/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 150
+offset_right = 369
+offset_bottom = 198
+metadata/figma_id = "165:1293"
+metadata/figma_name = "热量 520 kcal · 蛋白质 24 g 脂肪 16 g · 碳水 70 g · 膳食纤维 8 g"
+metadata/figma_type = "TEXT"
+metadata/bindings = {"characters": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:817"}}
+text = "热量 520 kcal · 蛋白质 24 g\n脂肪 16 g · 碳水 70 g · 膳食纤维 8 g"
+theme_override_fonts/font = SubResource("R8")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="糖_6_g_165_1294" type="Panel" parent="Content_165_1290/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 210
+offset_right = 369
+offset_bottom = 290
+metadata/figma_id = "165:1294"
+metadata/figma_name = "糖 · 6 g"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="糖_6_g_165_1295" type="Label" parent="Content_165_1290/ScrollContent/糖_6_g_165_1294"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 16
+offset_right = 329
+offset_bottom = 40
+metadata/figma_id = "165:1295"
+metadata/figma_name = "糖 · 6 g"
+metadata/figma_type = "TEXT"
+text = "糖 · 6 g"
+theme_override_fonts/font = SubResource("R9")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="示例估算_配方与份量会影响结果_165_1296" type="Label" parent="Content_165_1290/ScrollContent/糖_6_g_165_1294"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 48
+offset_right = 329
+offset_bottom = 66
+metadata/figma_id = "165:1296"
+metadata/figma_name = "示例估算，配方与份量会影响结果。"
+metadata/figma_type = "TEXT"
+text = "示例估算，配方与份量会影响结果。"
+theme_override_fonts/font = SubResource("R10")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="饮品_乌龙茶_250_ml_165_1297" type="Panel" parent="Content_165_1290/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 302
+offset_right = 369
+offset_bottom = 406
+metadata/figma_id = "165:1297"
+metadata/figma_name = "饮品 · 乌龙茶 250 ml"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="饮品_乌龙茶_250_ml_165_1298" type="Label" parent="Content_165_1290/ScrollContent/饮品_乌龙茶_250_ml_165_1297"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 16
+offset_right = 329
+offset_bottom = 40
+metadata/figma_id = "165:1298"
+metadata/figma_name = "饮品 · 乌龙茶 250 ml"
+metadata/figma_type = "TEXT"
+text = "饮品 · 乌龙茶 250 ml"
+theme_override_fonts/font = SubResource("R11")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="咖啡因约_30_mg_茶多酚无法仅凭照片可靠估算_165_1299" type="Label" parent="Content_165_1290/ScrollContent/饮品_乌龙茶_250_ml_165_1297"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 48
+offset_right = 329
+offset_bottom = 84
+metadata/figma_id = "165:1299"
+metadata/figma_name = "咖啡因约 30 mg 茶多酚无法仅凭照片可靠估算。"
+metadata/figma_type = "TEXT"
+text = "咖啡因约 30 mg\n茶多酚无法仅凭照片可靠估算。"
+theme_override_fonts/font = SubResource("R12")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="如何理解这些数字_165_1300" type="Panel" parent="Content_165_1290/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 418
+offset_right = 369
+offset_bottom = 524
+metadata/figma_id = "165:1300"
+metadata/figma_name = "如何理解这些数字"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="如何理解这些数字_165_1301" type="Label" parent="Content_165_1290/ScrollContent/如何理解这些数字_165_1300"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 16
+offset_right = 329
+offset_bottom = 40
+metadata/figma_id = "165:1301"
+metadata/figma_name = "如何理解这些数字"
+metadata/figma_type = "TEXT"
+text = "如何理解这些数字"
+theme_override_fonts/font = SubResource("R13")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="图片识别不等于检测_优先确认食物和大致份量_不必精确称重_165_1302" type="Label" parent="Content_165_1290/ScrollContent/如何理解这些数字_165_1300"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 48
+offset_right = 329
+offset_bottom = 84
+metadata/figma_id = "165:1302"
+metadata/figma_name = "图片识别不等于检测。优先确认食物和大致份量，不必精确称重。"
+metadata/figma_type = "TEXT"
+text = "图片识别不等于检测。优先确认食物和大致份量，不必精确称重。"
+theme_override_fonts/font = SubResource("R14")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Actions_165_1303" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 750
+offset_right = 393
+offset_bottom = 818
+metadata/figma_id = "165:1303"
+metadata/figma_name = "Actions"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.988235, "b": 0.964706}}], "strokeWeight": 1}
+clip_contents = true
+
+[node name="Action_返回确认这顿饭_165_1304" type="Panel" parent="Actions_165_1303"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 8
+offset_right = 369
+offset_bottom = 60
+metadata/figma_id = "165:1304"
+metadata/figma_name = "Action / 返回确认这顿饭"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "CLOSE"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.196078, "g": 0.443137, "b": 0.345098}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.07}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.04, "g": 0.16, "b": 0.1, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 8, "boundVariables": {}, "color": {"r": 0.18, "g": 0.35, "b": 0.26, "a": 0.1}, "offset": {"x": 0, "y": 3}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Actions_165_1303/Action_返回确认这顿饭_165_1304"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R15")
+theme_override_styles/hover = SubResource("R15")
+theme_override_styles/pressed = SubResource("R15")
+theme_override_styles/focus = SubResource("R15")
+metadata/source_id = "165:1304"
+metadata/click_actions = [{"type": "CLOSE"}]
+
+[node name="确认这顿饭_I165_1304_165_1979" type="Label" parent="Actions_165_1303/Action_返回确认这顿饭_165_1304"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 14.5
+offset_right = 329.0
+offset_bottom = 37.5
+metadata/figma_id = "I165:1304;165:1979"
+metadata/figma_name = "确认这顿饭"
+metadata/figma_type = "TEXT"
+text = "完成 · 关闭"
+theme_override_fonts/font = SubResource("R16")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Home_Indicator_Area_165_1305" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 818
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "165:1305"
+metadata/figma_name = "Home Indicator Area"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.988235, "b": 0.964706}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Home_Indicator_165_1306" type="Panel" parent="Home_Indicator_Area_165_1305"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 129.5
+offset_top = 14.5
+offset_right = 263.5
+offset_bottom = 19.5
+metadata/figma_id = "165:1306"
+metadata/figma_name = "Home Indicator"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.160784, "g": 0.235294, "b": 0.2}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true

@@ -1,0 +1,506 @@
+[
+  {
+    "figma_node": "165:1007",
+    "name": "165_1007_Sheet _ 食宠状态 Pet Status.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1007.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1063",
+    "name": "165_1063_11 — 食宠成长 Level.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1063.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1083",
+    "name": "165_1083_12 — 小窝 Room.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1083.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1138",
+    "name": "165_1138_UI _ 房间装扮.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1138.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1206",
+    "name": "165_1206_14 — 场景解锁 Rewards.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1206.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1223",
+    "name": "165_1223_21 — 记录一餐 · Bottom Sheet.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1223.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1242",
+    "name": "165_1242_Sheet _ 模拟相机 Camera.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1242.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1257",
+    "name": "165_1257_UI _ 投喂确认 · Bottom Sheet.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1257.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1285",
+    "name": "165_1285_Sheet _ 营养详情.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1285.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1308",
+    "name": "165_1308_UI _ 饮食日记.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1308.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1358",
+    "name": "165_1358_30 — 日历 Calendar.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1358.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1463",
+    "name": "165_1463_Sheet _ 食物详情.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1463.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1487",
+    "name": "165_1487_32 — 贴纸收藏.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1487.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1510",
+    "name": "165_1510_UI _ 今日计划.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1510.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1558",
+    "name": "165_1558_34 — 今天吃什么.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1558.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1574",
+    "name": "165_1574_Sheet _ 食谱详情.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1574.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1592",
+    "name": "165_1592_36 — 外卖怎么选.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1592.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1616",
+    "name": "165_1616_Sheet _ 饮品助手.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1616.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1642",
+    "name": "165_1642_38 — 一周计划.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1642.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1669",
+    "name": "165_1669_UI _ 健康指数.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1669.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1722",
+    "name": "165_1722_Sheet _ 一周趋势.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1722.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1761",
+    "name": "165_1761_Sheet _ 精力节律.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1761.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1779",
+    "name": "165_1779_Sheet _ 原因解释.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1779.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1803",
+    "name": "165_1803_43 — 轻量建议.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1803.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1820",
+    "name": "165_1820_Sheet _ 邀请共同养育.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1820.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1833",
+    "name": "165_1833_UI _ 搭子空间.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1833.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:1953",
+    "name": "165_1953_Sheet _ 轻互动 Send Care.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-1953.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:2391",
+    "name": "165_2391_44 — 个人资料 Profile.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-2391.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:2414",
+    "name": "165_2414_45 — 健康偏好.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-2414.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:2434",
+    "name": "165_2434_46 — 隐私与共享.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-2434.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:2456",
+    "name": "165_2456_Overlay — 份量调整.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-2456.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:2465",
+    "name": "165_2465_Overlay — 饮品营养详情.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-2465.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:2475",
+    "name": "165_2475_Overlay — 计划推荐详情.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-2475.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:2484",
+    "name": "165_2484_Feedback _ 好好吃饭的小进步.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-2484.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:2504",
+    "name": "165_2504_Feedback _ 本餐记录完成.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-2504.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:2525",
+    "name": "165_2525_Sheet _ 我现在的心情.png",
+    "width": 393,
+    "height": 720,
+    "path": "screenshots/ui/ui-165-2525.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:2571",
+    "name": "165_2571_Sheet _ 告诉搭子我的餐食.png",
+    "width": 393,
+    "height": 560,
+    "path": "screenshots/ui/ui-165-2571.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:2581",
+    "name": "165_2581_Sheet _ TA 的餐食与关心.png",
+    "width": 393,
+    "height": 620,
+    "path": "screenshots/ui/ui-165-2581.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:840",
+    "name": "165_840_01 — 启动 Splash.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-840.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:853",
+    "name": "165_853_02 — 欢迎 Welcome.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-853.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:876",
+    "name": "165_876_03 — 登录 Login.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-876.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:897",
+    "name": "165_897_04 — 功能介绍 Onboarding.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-897.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:918",
+    "name": "165_918_05 — 健康信息初始化.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-918.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:938",
+    "name": "165_938_06 — 创建食宠.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-938.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "165:958",
+    "name": "165_958_UI _ 食宠主页.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-165-958.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "168:2268",
+    "name": "168_2268_Motion _ Splash · 轻浮动.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-168-2268.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "199:2311",
+    "name": "199_2311_Decor _ 每日打卡.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-199-2311.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "199:2312",
+    "name": "199_2312_Decor _ 今日家具奖励.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-199-2312.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "199:2313",
+    "name": "199_2313_Decor _ 家具图鉴.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-199-2313.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "199:2314",
+    "name": "199_2314_Decor _ 冻结家具详情.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-199-2314.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "199:2315",
+    "name": "199_2315_Decor _ 伙伴之家装扮.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-199-2315.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "199:2316",
+    "name": "199_2316_Decor _ 保存成功.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-199-2316.webp",
+    "state": "Figma design; Godot differs"
+  },
+  {
+    "figma_node": "320:1003",
+    "name": "320_1003_Health 3.0 _ 今天的感受.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-320-1003.webp",
+    "state": "Figma only"
+  },
+  {
+    "figma_node": "320:1004",
+    "name": "320_1004_Health 3.0 _ 两人健康管理.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-320-1004.webp",
+    "state": "Figma only"
+  },
+  {
+    "figma_node": "320:1005",
+    "name": "320_1005_Health 3.0 _ 一起吃饭的偏好.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-320-1005.webp",
+    "state": "Figma only"
+  },
+  {
+    "figma_node": "320:1006",
+    "name": "320_1006_Health 3.0 _ 共同制定食谱.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-320-1006.webp",
+    "state": "Figma only"
+  },
+  {
+    "figma_node": "320:1007",
+    "name": "320_1007_Health 3.0 _ 确认共同计划.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-320-1007.webp",
+    "state": "Figma only"
+  },
+  {
+    "figma_node": "320:1008",
+    "name": "320_1008_Health 3.0 _ 搭子确认计划.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-320-1008.webp",
+    "state": "Figma only"
+  },
+  {
+    "figma_node": "320:1009",
+    "name": "320_1009_Health 3.0 _ 从历史制定计划.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-320-1009.webp",
+    "state": "Figma only"
+  },
+  {
+    "figma_node": "320:1010",
+    "name": "320_1010_Health 3.0 _ 三日计划草稿.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-320-1010.webp",
+    "state": "Figma only"
+  },
+  {
+    "figma_node": "320:1011",
+    "name": "320_1011_Health 3.0 _ 计划与执行.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-320-1011.webp",
+    "state": "Figma only"
+  },
+  {
+    "figma_node": "320:1012",
+    "name": "320_1012_Health 3.0 _ 一起准备食材.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-320-1012.webp",
+    "state": "Figma only"
+  },
+  {
+    "figma_node": "320:1013",
+    "name": "320_1013_Health 3.0 _ 记录还不够.png",
+    "width": 393,
+    "height": 852,
+    "path": "screenshots/ui/ui-320-1013.webp",
+    "state": "Figma only"
+  }
+]

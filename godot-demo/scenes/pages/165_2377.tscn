@@ -1,0 +1,206 @@
+[gd_scene load_steps=10 format=3]
+
+[ext_resource type="Script" path="res://scripts/surface.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/figma/ba5a9d3669c5f4fafcd3.svg" id="2"]
+[ext_resource type="Texture2D" path="res://assets/figma/2c72819139e614d3a319.png" id="3"]
+[ext_resource type="Script" path="res://scripts/otter_motion.gd" id="4"]
+[ext_resource type="Texture2D" path="res://assets/figma/083fde8f8077f318384c.png" id="5"]
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSansSC-VF.ttf" id="6"]
+
+[sub_resource type="StyleBoxEmpty" id="R1"]
+
+
+[sub_resource type="FontVariation" id="R2"]
+base_font = ExtResource("6")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R3"]
+base_font = ExtResource("6")
+variation_opentype = {2003265652: 400.0}
+[node name="State_Received_165_2377" type="Panel"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 345
+offset_bottom = 232
+metadata/figma_id = "165:2377"
+metadata/figma_name = "State=Received"
+metadata/figma_type = "COMPONENT"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 0.878431, "g": 0.937255, "b": 0.87451, "a": 1}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.984314, "g": 0.941176, "b": 0.862745, "a": 1}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Shared_flat_living_space_165_2378" type="TextureRect" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = -15
+offset_right = 345
+offset_bottom = 251
+metadata/figma_id = "165:2378"
+metadata/figma_name = "Shared / flat living space"
+metadata/figma_type = "FRAME"
+texture_filter = 4
+texture = ExtResource("2")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="双食宠_165_2385" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 16
+offset_right = 329
+offset_bottom = 144
+metadata/figma_id = "165:2385"
+metadata/figma_name = "双食宠"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Otter_Core_Pose_165_2386" type="Panel" parent="双食宠_165_2385"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 18.34
+offset_top = 0
+offset_right = 152.5
+offset_bottom = 134.16
+metadata/figma_id = "165:2386"
+metadata/figma_name = "Otter / Core Pose"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.78, "cornerRadius": 78, "topLeftRadius": 78, "topRightRadius": 78, "bottomLeftRadius": 78, "bottomRightRadius": 78}
+clip_contents = false
+
+[node name="OTTER_Default_I165_2386_165_2034" type="Panel" parent="双食宠_165_2385/Otter_Core_Pose_165_2386"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 134.16
+offset_bottom = 134.16
+metadata/figma_id = "I165:2386;165:2034"
+metadata/figma_name = "OTTER_Default"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.762273}
+clip_contents = false
+
+[node name="OTTER_Default_PNG_I165_2386_165_2034_98_1910" type="TextureRect" parent="双食宠_165_2385/Otter_Core_Pose_165_2386/OTTER_Default_I165_2386_165_2034"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4.57
+offset_top = 4.57
+offset_right = 129.58
+offset_bottom = 129.58
+metadata/figma_id = "I165:2386;165:2034;98:1910"
+metadata/figma_name = "OTTER_Default/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("3")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "Default"
+stretch_mode = 5
+
+[node name="Otter_Core_Pose_165_2387" type="Panel" parent="双食宠_165_2385"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 160.5
+offset_top = 0
+offset_right = 294.66
+offset_bottom = 134.16
+metadata/figma_id = "165:2387"
+metadata/figma_name = "Otter / Core Pose"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:1953", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false, "resetScrollPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.78, "cornerRadius": 78, "topLeftRadius": 78, "topRightRadius": 78, "bottomLeftRadius": 78, "bottomRightRadius": 78}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="双食宠_165_2385/Otter_Core_Pose_165_2387"]
+layout_mode = 0
+offset_right = 134.16
+offset_bottom = 134.16
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R1")
+theme_override_styles/hover = SubResource("R1")
+theme_override_styles/pressed = SubResource("R1")
+theme_override_styles/focus = SubResource("R1")
+metadata/source_id = "165:2387"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:1953", "navigation": "OVERLAY", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false, "resetScrollPosition": false}]
+
+[node name="OTTER_Eat_I165_2387_165_2038" type="Panel" parent="双食宠_165_2385/Otter_Core_Pose_165_2387"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 134.16
+offset_bottom = 134.16
+metadata/figma_id = "I165:2387;165:2038"
+metadata/figma_name = "OTTER_Eat"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 0.762273}
+clip_contents = false
+
+[node name="OTTER_Eat_PNG_I165_2387_165_2038_98_1925" type="TextureRect" parent="双食宠_165_2385/Otter_Core_Pose_165_2387/OTTER_Eat_I165_2387_165_2038"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 4.57
+offset_top = 4.57
+offset_right = 129.58
+offset_bottom = 129.58
+metadata/figma_id = "I165:2387;165:2038;98:1925"
+metadata/figma_name = "OTTER_Eat/PNG"
+metadata/figma_type = "RECTANGLE"
+texture_filter = 4
+texture = ExtResource("5")
+expand_mode = 1
+script = ExtResource("4")
+pose_name = "Eat"
+stretch_mode = 5
+
+[node name="两只食宠贴贴_心意收到啦_165_2388" type="Label" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 152
+offset_right = 329
+offset_bottom = 173
+metadata/figma_id = "165:2388"
+metadata/figma_name = "♡ 两只食宠贴贴 · 心意收到啦"
+metadata/figma_type = "TEXT"
+text = "♡  两只食宠贴贴 · 心意收到啦"
+theme_override_fonts/font = SubResource("R2")
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="共同成长_120_165_2389" type="Label" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 181
+offset_right = 329
+offset_bottom = 199
+metadata/figma_id = "165:2389"
+metadata/figma_name = "共同成长 120"
+metadata/figma_type = "TEXT"
+metadata/bindings = {"characters": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:870"}}
+text = "共同成长 120"
+theme_override_fonts/font = SubResource("R3")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true

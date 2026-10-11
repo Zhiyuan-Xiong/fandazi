@@ -1,0 +1,710 @@
+[gd_scene load_steps=25 format=3]
+
+[ext_resource type="Script" path="res://scripts/surface.gd" id="1"]
+[ext_resource type="FontFile" path="res://assets/fonts/NotoSansSC-VF.ttf" id="2"]
+
+[sub_resource type="FontVariation" id="R1"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R2"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R3"]
+
+
+[sub_resource type="FontVariation" id="R4"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R5"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R6"]
+
+
+[sub_resource type="FontVariation" id="R7"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R8"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="FontVariation" id="R9"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="FontVariation" id="R10"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R11"]
+
+
+[sub_resource type="FontVariation" id="R12"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R13"]
+
+
+[sub_resource type="FontVariation" id="R14"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="StyleBoxEmpty" id="R15"]
+
+
+[sub_resource type="FontVariation" id="R16"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 700.0}
+
+[sub_resource type="StyleBoxEmpty" id="R17"]
+
+
+[sub_resource type="FontVariation" id="R18"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R19"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+
+[sub_resource type="FontVariation" id="R20"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 400.0}
+
+[sub_resource type="StyleBoxEmpty" id="R21"]
+
+
+[sub_resource type="FontVariation" id="R22"]
+base_font = ExtResource("2")
+variation_opentype = {2003265652: 500.0}
+[node name="03_登录_Login_165_876" type="Panel"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "165:876"
+metadata/figma_name = "03 — 登录 Login"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 0.913725, "g": 0.941176, "b": 0.898039, "a": 1}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.984314, "g": 0.964706, "b": 0.913725, "a": 1}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1}
+clip_contents = true
+
+[node name="Safe_Area_165_877" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 393
+offset_bottom = 48
+metadata/figma_id = "165:877"
+metadata/figma_name = "Safe Area"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="9_41_165_878" type="Label" parent="Safe_Area_165_877"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 14
+offset_right = 74
+offset_bottom = 34
+metadata/figma_id = "165:878"
+metadata/figma_name = "9:41"
+metadata/figma_type = "TEXT"
+text = "9:41"
+theme_override_fonts/font = SubResource("R1")
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Layer_165_879" type="Label" parent="Safe_Area_165_877"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 332
+offset_top = 14
+offset_right = 370
+offset_bottom = 32
+metadata/figma_id = "165:879"
+metadata/figma_name = "● ▰"
+metadata/figma_type = "TEXT"
+text = "●  ▰"
+theme_override_fonts/font = SubResource("R2")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Top_Bar_165_880" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 48
+offset_right = 393
+offset_bottom = 104
+metadata/figma_id = "165:880"
+metadata/figma_name = "Top Bar"
+metadata/figma_type = "INSTANCE"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="Back_I165_880_28_79" type="Panel" parent="Top_Bar_165_880"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 2
+offset_right = 60
+offset_bottom = 54
+metadata/figma_id = "I165:880;28:79"
+metadata/figma_name = "Back"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Top_Bar_165_880/Back_I165_880_28_79"]
+layout_mode = 0
+offset_right = 44
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R3")
+theme_override_styles/hover = SubResource("R3")
+theme_override_styles/pressed = SubResource("R3")
+theme_override_styles/focus = SubResource("R3")
+metadata/source_id = "I165:880;28:79"
+metadata/click_actions = [{"type": "BACK"}]
+
+[node name="Layer_I165_880_28_79_165_1989" type="Label" parent="Top_Bar_165_880/Back_I165_880_28_79"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 6.0
+offset_top = 14.0
+offset_right = 38.0
+offset_bottom = 38.0
+metadata/figma_id = "I165:880;28:79;165:1989"
+metadata/figma_name = "×"
+metadata/figma_type = "TEXT"
+text = "‹"
+theme_override_fonts/font = SubResource("R4")
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="页面标题_I165_880_28_81" type="Label" parent="Top_Bar_165_880"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 174.5
+offset_top = 14.5
+offset_right = 210.5
+offset_bottom = 41.5
+metadata/figma_id = "I165:880;28:81"
+metadata/figma_name = "页面标题"
+metadata/figma_type = "TEXT"
+text = "登录"
+theme_override_fonts/font = SubResource("R5")
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Home_I165_880_28_82" type="Panel" parent="Top_Bar_165_880"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 325
+offset_top = 6
+offset_right = 377
+offset_bottom = 50
+metadata/figma_id = "I165:880;28:82"
+metadata/figma_name = "Home"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "NODE", "destinationId": "165:958", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Top_Bar_165_880/Home_I165_880_28_82"]
+layout_mode = 0
+offset_right = 52
+offset_bottom = 44
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R6")
+theme_override_styles/hover = SubResource("R6")
+theme_override_styles/pressed = SubResource("R6")
+theme_override_styles/focus = SubResource("R6")
+metadata/source_id = "I165:880;28:82"
+metadata/click_actions = [{"type": "NODE", "destinationId": "165:958", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]
+
+[node name="Layer_I165_880_28_82_165_1989" type="Label" parent="Top_Bar_165_880/Home_I165_880_28_82"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 6.0
+offset_top = 10.0
+offset_right = 46.0
+offset_bottom = 34.0
+metadata/figma_id = "I165:880;28:82;165:1989"
+metadata/figma_name = "×"
+metadata/figma_type = "TEXT"
+text = "首页"
+theme_override_fonts/font = SubResource("R7")
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Content_165_881" type="ScrollContainer" parent="."]
+layout_mode = 0
+mouse_filter = 1
+offset_left = 0
+offset_top = 104
+offset_right = 393
+offset_bottom = 750
+metadata/figma_id = "165:881"
+metadata/figma_name = "Content"
+metadata/figma_type = "FRAME"
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+
+[node name="ScrollContent" type="Control" parent="Content_165_881"]
+custom_minimum_size = Vector2(393, 646)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="很高兴见到你_165_882" type="Label" parent="Content_165_881/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 16
+offset_right = 369
+offset_bottom = 48
+metadata/figma_id = "165:882"
+metadata/figma_name = "很高兴见到你"
+metadata/figma_type = "TEXT"
+text = "很高兴见到你"
+theme_override_fonts/font = SubResource("R8")
+theme_override_font_sizes/font_size = 24
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="原型模拟登录_无需真实手机号或验证码_165_883" type="Label" parent="Content_165_881/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 60
+offset_right = 369
+offset_bottom = 78
+metadata/figma_id = "165:883"
+metadata/figma_name = "原型模拟登录，无需真实手机号或验证码。"
+metadata/figma_type = "TEXT"
+text = "原型模拟登录，无需真实手机号或验证码。"
+theme_override_fonts/font = SubResource("R9")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="登录_165_884" type="Label" parent="Content_165_881/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 90
+offset_right = 369
+offset_bottom = 117
+metadata/figma_id = "165:884"
+metadata/figma_name = "登录"
+metadata/figma_type = "TEXT"
+metadata/bindings = {"characters": {"type": "VARIABLE_ALIAS", "id": "VariableID:98:830"}}
+text = "登录"
+theme_override_fonts/font = SubResource("R10")
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="登录与注册_165_885" type="Panel" parent="Content_165_881/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 129
+offset_right = 369
+offset_bottom = 177
+metadata/figma_id = "165:885"
+metadata/figma_name = "登录与注册"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.968627, "g": 0.964706, "b": 0.933333}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Action_登录_165_886" type="Panel" parent="Content_165_881/ScrollContent/登录与注册_165_885"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 0
+offset_right = 168
+offset_bottom = 48
+metadata/figma_id = "165:886"
+metadata/figma_name = "Action / 登录"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:830", "variableValue": {"value": "登录", "type": "STRING", "resolvedType": "STRING"}}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.84, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_881/ScrollContent/登录与注册_165_885/Action_登录_165_886"]
+layout_mode = 0
+offset_right = 168
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R11")
+theme_override_styles/hover = SubResource("R11")
+theme_override_styles/pressed = SubResource("R11")
+theme_override_styles/focus = SubResource("R11")
+metadata/source_id = "165:886"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:830", "variableValue": {"value": "登录", "type": "STRING", "resolvedType": "STRING"}}]
+
+[node name="调整份量_I165_886_165_1984" type="Label" parent="Content_165_881/ScrollContent/登录与注册_165_885/Action_登录_165_886"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 152.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:886;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "登录"
+theme_override_fonts/font = SubResource("R12")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Action_注册_165_887" type="Panel" parent="Content_165_881/ScrollContent/登录与注册_165_885"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 176
+offset_top = 0
+offset_right = 344
+offset_bottom = 48
+metadata/figma_id = "165:887"
+metadata/figma_name = "Action / 注册"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:830", "variableValue": {"value": "注册", "type": "STRING", "resolvedType": "STRING"}}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.84, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_881/ScrollContent/登录与注册_165_885/Action_注册_165_887"]
+layout_mode = 0
+offset_right = 168
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R13")
+theme_override_styles/hover = SubResource("R13")
+theme_override_styles/pressed = SubResource("R13")
+theme_override_styles/focus = SubResource("R13")
+metadata/source_id = "165:887"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:830", "variableValue": {"value": "注册", "type": "STRING", "resolvedType": "STRING"}}]
+
+[node name="调整份量_I165_887_165_1984" type="Label" parent="Content_165_881/ScrollContent/登录与注册_165_885/Action_注册_165_887"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 152.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:887;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "注册"
+theme_override_fonts/font = SubResource("R14")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Action_微信登录_165_888" type="Panel" parent="Content_165_881/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 189
+offset_right = 369
+offset_bottom = 241
+metadata/figma_id = "165:888"
+metadata/figma_name = "Action / 微信登录"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:831", "variableValue": {"value": "微信", "type": "STRING", "resolvedType": "STRING"}}, {"type": "NODE", "destinationId": "165:897", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.196078, "g": 0.443137, "b": 0.345098}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.07}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.04, "g": 0.16, "b": 0.1, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokeWeight": 1, "cornerRadius": 26, "topLeftRadius": 26, "topRightRadius": 26, "bottomLeftRadius": 26, "bottomRightRadius": 26, "effects": [{"type": "DROP_SHADOW", "visible": true, "radius": 8, "boundVariables": {}, "color": {"r": 0.18, "g": 0.35, "b": 0.26, "a": 0.1}, "offset": {"x": 0, "y": 3}, "spread": 0, "blendMode": "NORMAL", "showShadowBehindNode": true}]}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_881/ScrollContent/Action_微信登录_165_888"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 52
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R15")
+theme_override_styles/hover = SubResource("R15")
+theme_override_styles/pressed = SubResource("R15")
+theme_override_styles/focus = SubResource("R15")
+metadata/source_id = "165:888"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:831", "variableValue": {"value": "微信", "type": "STRING", "resolvedType": "STRING"}}, {"type": "NODE", "destinationId": "165:897", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]
+
+[node name="确认这顿饭_I165_888_165_1979" type="Label" parent="Content_165_881/ScrollContent/Action_微信登录_165_888"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 14.5
+offset_right = 329.0
+offset_bottom = 37.5
+metadata/figma_id = "I165:888;165:1979"
+metadata/figma_name = "确认这顿饭"
+metadata/figma_type = "TEXT"
+text = "微信登录"
+theme_override_fonts/font = SubResource("R16")
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Action_手机号登录_165_889" type="Panel" parent="Content_165_881/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 253
+offset_right = 369
+offset_bottom = 301
+metadata/figma_id = "165:889"
+metadata/figma_name = "Action / 手机号登录"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "SET_VARIABLE", "variableId": "VariableID:98:831", "variableValue": {"value": "手机号", "type": "STRING", "resolvedType": "STRING"}}, {"type": "NODE", "destinationId": "165:897", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.84, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Content_165_881/ScrollContent/Action_手机号登录_165_889"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R17")
+theme_override_styles/hover = SubResource("R17")
+theme_override_styles/pressed = SubResource("R17")
+theme_override_styles/focus = SubResource("R17")
+metadata/source_id = "165:889"
+metadata/click_actions = [{"type": "SET_VARIABLE", "variableId": "VariableID:98:831", "variableValue": {"value": "手机号", "type": "STRING", "resolvedType": "STRING"}}, {"type": "NODE", "destinationId": "165:897", "navigation": "NAVIGATE", "transition": {"type": "DISSOLVE", "easing": {"type": "EASE_OUT"}, "duration": 0.18}, "resetVideoPosition": false}]
+
+[node name="调整份量_I165_889_165_1984" type="Label" parent="Content_165_881/ScrollContent/Action_手机号登录_165_889"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 329.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:889;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "手机号登录"
+theme_override_fonts/font = SubResource("R18")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="仅体验_不提交账号资料_165_890" type="Panel" parent="Content_165_881/ScrollContent"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 313
+offset_right = 369
+offset_bottom = 413
+metadata/figma_id = "165:890"
+metadata/figma_name = "仅体验，不提交账号资料"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 1, "g": 0.996078, "b": 0.976471}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="仅体验_不提交账号资料_165_891" type="Label" parent="Content_165_881/ScrollContent/仅体验_不提交账号资料_165_890"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 16
+offset_right = 329
+offset_bottom = 40
+metadata/figma_id = "165:891"
+metadata/figma_name = "仅体验，不提交账号资料"
+metadata/figma_type = "TEXT"
+text = "仅体验，不提交账号资料"
+theme_override_fonts/font = SubResource("R19")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="点击登录即进入功能介绍_不会访问微信或发送短信_165_892" type="Label" parent="Content_165_881/ScrollContent/仅体验_不提交账号资料_165_890"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16
+offset_top = 48
+offset_right = 329
+offset_bottom = 66
+metadata/figma_id = "165:892"
+metadata/figma_name = "点击登录即进入功能介绍；不会访问微信或发送短信。"
+metadata/figma_type = "TEXT"
+text = "点击登录即进入功能介绍；不会访问微信或发送短信。"
+theme_override_fonts/font = SubResource("R20")
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.407843, 0.47451, 0.423529, 1)
+horizontal_alignment = 0
+vertical_alignment = 0
+autowrap_mode = 3
+clip_text = true
+
+[node name="Actions_165_893" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 750
+offset_right = 393
+offset_bottom = 818
+metadata/figma_id = "165:893"
+metadata/figma_name = "Actions"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1}
+clip_contents = true
+
+[node name="Action_返回欢迎页_165_894" type="Panel" parent="Actions_165_893"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 24
+offset_top = 10
+offset_right = 369
+offset_bottom = 58
+metadata/figma_id = "165:894"
+metadata/figma_name = "Action / 返回欢迎页"
+metadata/figma_type = "INSTANCE"
+metadata/reactions = [{"trigger": {"type": "ON_CLICK"}, "actions": [{"type": "BACK"}]}]
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 0.84, "color": {"r": 1, "g": 1, "b": 1}}, {"type": "GRADIENT_LINEAR", "opacity": 1, "gradientStops": [{"color": {"r": 1, "g": 1, "b": 1, "a": 0.38}, "position": 0, "boundVariables": {}}, {"color": {"r": 0.38, "g": 0.52, "b": 0.42, "a": 0.06}, "position": 1, "boundVariables": {}}], "gradientTransform": [[0, 1, 0], [-1, 0, 1]]}], "strokes": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.870588, "g": 0.909804, "b": 0.862745}}], "strokeWeight": 1, "cornerRadius": 18, "topLeftRadius": 18, "topRightRadius": 18, "bottomLeftRadius": 18, "bottomRightRadius": 18}
+clip_contents = false
+
+[node name="HitTarget" type="Button" parent="Actions_165_893/Action_返回欢迎页_165_894"]
+layout_mode = 0
+offset_right = 345
+offset_bottom = 48
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+focus_mode = 2
+flat = true
+theme_override_styles/normal = SubResource("R21")
+theme_override_styles/hover = SubResource("R21")
+theme_override_styles/pressed = SubResource("R21")
+theme_override_styles/focus = SubResource("R21")
+metadata/source_id = "165:894"
+metadata/click_actions = [{"type": "BACK"}]
+
+[node name="调整份量_I165_894_165_1984" type="Label" parent="Actions_165_893/Action_返回欢迎页_165_894"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 329.0
+offset_bottom = 36.0
+metadata/figma_id = "I165:894;165:1984"
+metadata/figma_name = "调整份量"
+metadata/figma_type = "TEXT"
+text = "返回欢迎页"
+theme_override_fonts/font = SubResource("R22")
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.160784, 0.235294, 0.2, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="Home_Indicator_Area_165_895" type="Panel" parent="."]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 0
+offset_top = 818
+offset_right = 393
+offset_bottom = 852
+metadata/figma_id = "165:895"
+metadata/figma_name = "Home Indicator Area"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
+
+[node name="Home_Indicator_165_896" type="Panel" parent="Home_Indicator_Area_165_895"]
+layout_mode = 0
+mouse_filter = 2
+offset_left = 129.5
+offset_top = 14.5
+offset_right = 263.5
+offset_bottom = 19.5
+metadata/figma_id = "165:896"
+metadata/figma_name = "Home Indicator"
+metadata/figma_type = "FRAME"
+script = ExtResource("1")
+surface_data = {"fills": [{"type": "SOLID", "opacity": 1, "color": {"r": 0.160784, "g": 0.235294, "b": 0.2}}], "strokeWeight": 1, "cornerRadius": 16, "topLeftRadius": 16, "topRightRadius": 16, "bottomLeftRadius": 16, "bottomRightRadius": 16}
+clip_contents = true
